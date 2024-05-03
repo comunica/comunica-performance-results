@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1714760516759,
+  "lastUpdate": 1714761284315,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "WatDiv File": [
@@ -676,6 +676,635 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv - S7.4",
             "value": 0,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "6da900f0064970e25a04168caba8735cbeed8117",
+          "message": "Add WatDiv file performance benchmark to CI",
+          "timestamp": "2024-05-03T20:30:18+02:00",
+          "tree_id": "b7e0acaf83f4254612fcd08bbbe4ebe20854fe49",
+          "url": "https://github.com/comunica/comunica/commit/6da900f0064970e25a04168caba8735cbeed8117"
+        },
+        "date": 1714761284137,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Query - ALL",
+            "value": 151443,
+            "unit": "ms"
+          },
+          {
+            "name": "Query - C1.0",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C1.1",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C1.2",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C1.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C1.4",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C2.0",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C2.1",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C2.2",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C2.3",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C2.4",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C3.0",
+            "value": 30125,
+            "unit": "ms",
+            "extra": "Results: 30124; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C3.1",
+            "value": 30125,
+            "unit": "ms",
+            "extra": "Results: 30124; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C3.2",
+            "value": 30125,
+            "unit": "ms",
+            "extra": "Results: 30124; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C3.3",
+            "value": 30125,
+            "unit": "ms",
+            "extra": "Results: 30124; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - C3.4",
+            "value": 30125,
+            "unit": "ms",
+            "extra": "Results: 30124; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F1.0",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F1.1",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F1.2",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F1.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F1.4",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F2.0",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F2.1",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: 1; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F2.2",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F2.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F2.4",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F3.0",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F3.1",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F3.2",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F3.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F3.4",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F4.0",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F4.1",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F4.2",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: 4; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F4.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F4.4",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: 4; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F5.0",
+            "value": 48,
+            "unit": "ms",
+            "extra": "Results: 47; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F5.1",
+            "value": 39,
+            "unit": "ms",
+            "extra": "Results: 38; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F5.2",
+            "value": 56,
+            "unit": "ms",
+            "extra": "Results: 55; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F5.3",
+            "value": 56,
+            "unit": "ms",
+            "extra": "Results: 55; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - F5.4",
+            "value": 56,
+            "unit": "ms",
+            "extra": "Results: 55; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L1.0",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: 2; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L1.1",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: 5; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L1.2",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: 4; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L1.3",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L1.4",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L2.0",
+            "value": 27,
+            "unit": "ms",
+            "extra": "Results: 26; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L2.1",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: 2; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L2.2",
+            "value": 27,
+            "unit": "ms",
+            "extra": "Results: 26; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L2.3",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: 1; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L2.4",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L3.0",
+            "value": 21,
+            "unit": "ms",
+            "extra": "Results: 20; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L3.1",
+            "value": 21,
+            "unit": "ms",
+            "extra": "Results: 20; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L3.2",
+            "value": 41,
+            "unit": "ms",
+            "extra": "Results: 40; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L3.3",
+            "value": 24,
+            "unit": "ms",
+            "extra": "Results: 23; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L3.4",
+            "value": 41,
+            "unit": "ms",
+            "extra": "Results: 40; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L4.0",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: 7; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L4.1",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: 7; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L4.2",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L4.3",
+            "value": 9,
+            "unit": "ms",
+            "extra": "Results: 8; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L4.4",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L5.0",
+            "value": 24,
+            "unit": "ms",
+            "extra": "Results: 23; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L5.1",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: 2; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L5.2",
+            "value": 24,
+            "unit": "ms",
+            "extra": "Results: 23; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L5.3",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: 2; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - L5.4",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: 2; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S1.0",
+            "value": 25,
+            "unit": "ms",
+            "extra": "Results: 24; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S1.1",
+            "value": 17,
+            "unit": "ms",
+            "extra": "Results: 16; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S1.2",
+            "value": 17,
+            "unit": "ms",
+            "extra": "Results: 16; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S1.3",
+            "value": 13,
+            "unit": "ms",
+            "extra": "Results: 12; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S1.4",
+            "value": 25,
+            "unit": "ms",
+            "extra": "Results: 24; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S2.0",
+            "value": 24,
+            "unit": "ms",
+            "extra": "Results: 23; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S2.1",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: 4; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S2.2",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: 4; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S2.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S2.4",
+            "value": 24,
+            "unit": "ms",
+            "extra": "Results: 23; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S3.0",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S3.1",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S3.2",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S3.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S3.4",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S4.0",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S4.1",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S4.2",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S4.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S4.4",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S5.0",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S5.1",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S5.2",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S5.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S5.4",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S6.0",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: 2; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S6.1",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S6.2",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S6.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S6.4",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S7.0",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S7.1",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S7.2",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S7.3",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "Query - S7.4",
+            "value": 1,
             "unit": "ms",
             "extra": "Results: 0; Error: false; HTTP Requests: 0"
           }
