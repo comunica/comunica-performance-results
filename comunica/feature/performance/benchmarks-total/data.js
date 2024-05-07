@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715105075094,
+  "lastUpdate": 1715105975127,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "WatDiv File": [
@@ -86,6 +86,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 189430,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "ea97315e11c3ba52004d5b204e5e957e71360967",
+          "message": "Add WatDiv file performance benchmark to CI\n\nResults are reported on https://github.com/comunica/comunica-performance-results",
+          "timestamp": "2024-05-07T20:07:59+02:00",
+          "tree_id": "14936f772f0a3c51b614ca84f2893cc96ebbde03",
+          "url": "https://github.com/comunica/comunica/commit/ea97315e11c3ba52004d5b204e5e957e71360967"
+        },
+        "date": 1715105974942,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 193887,
             "unit": "ms"
           }
         ]
