@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715432229984,
+  "lastUpdate": 1715866576319,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -57,6 +57,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 8628,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5317b709824ebf44150fe95809a9f708cbe1e5b1",
+          "message": "Update to jbr v5 version in performance test\n\nCo-authored-by: surilindur <surilindur@users.noreply.github.com>",
+          "timestamp": "2024-05-16T15:23:44+02:00",
+          "tree_id": "e98b891956cbff1d67bfd8d049964b98423fba68",
+          "url": "https://github.com/comunica/comunica/commit/5317b709824ebf44150fe95809a9f708cbe1e5b1"
+        },
+        "date": 1715866575848,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 11500,
             "unit": "ms"
           }
         ]
