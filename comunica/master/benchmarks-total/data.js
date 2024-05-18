@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1715866576319,
+  "lastUpdate": 1716012156965,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -86,6 +86,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 11500,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "name": "Jesse Wright",
+            "username": "jeswr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "511d5cf29255b0d7d889378611e8183060c15ea5",
+          "message": "Use event-emitter-promisify package",
+          "timestamp": "2024-05-18T07:52:09+02:00",
+          "tree_id": "adea48bc77cc18d38a730854ffbaaf18c3078a1f",
+          "url": "https://github.com/comunica/comunica/commit/511d5cf29255b0d7d889378611e8183060c15ea5"
+        },
+        "date": 1716012156718,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7310,
             "unit": "ms"
           }
         ]
