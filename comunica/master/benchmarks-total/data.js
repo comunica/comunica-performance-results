@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716012156965,
+  "lastUpdate": 1716033629440,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -115,6 +115,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 7310,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "name": "Jesse Wright",
+            "username": "jeswr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "15f0aca1759cff91cec1b8680a1e9369cab6f6ba",
+          "message": "Cleanup stream operations (#1349)",
+          "timestamp": "2024-05-18T13:50:04+02:00",
+          "tree_id": "a5e9b1212ae639193fb593c0208dcfb46a12ece1",
+          "url": "https://github.com/comunica/comunica/commit/15f0aca1759cff91cec1b8680a1e9369cab6f6ba"
+        },
+        "date": 1716033628899,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 10390,
             "unit": "ms"
           }
         ]
