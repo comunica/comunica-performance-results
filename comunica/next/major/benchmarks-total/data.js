@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716093341430,
+  "lastUpdate": 1716094561307,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -28,6 +28,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 7784,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": false,
+          "id": "782b522c8d42fb03960bbc61ec3d41b193d3cc07",
+          "message": "Allow plugging in custom DataFactory through context, Closes #358",
+          "timestamp": "2024-05-19T06:45:26+02:00",
+          "tree_id": "deda8eedb4d46cf357f66d9f9550f5ccca6a9d3c",
+          "url": "https://github.com/comunica/comunica/commit/782b522c8d42fb03960bbc61ec3d41b193d3cc07"
+        },
+        "date": 1716094561095,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8276,
             "unit": "ms"
           }
         ]
