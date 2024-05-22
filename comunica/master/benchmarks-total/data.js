@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716033629440,
+  "lastUpdate": 1716383781725,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -144,6 +144,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 10390,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "name": "Jesse Wright",
+            "username": "jeswr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "18b3ff35f94f720fcc5a50313322d0740f65b848",
+          "message": "Maintain backpressure on internal actors\n\nRequired for #759",
+          "timestamp": "2024-05-22T15:05:10+02:00",
+          "tree_id": "c3295ad694208da0910ecd3ce9fd48ee6ef7d5f2",
+          "url": "https://github.com/comunica/comunica/commit/18b3ff35f94f720fcc5a50313322d0740f65b848"
+        },
+        "date": 1716383781201,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 10296,
             "unit": "ms"
           }
         ]
