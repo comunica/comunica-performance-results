@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716383781725,
+  "lastUpdate": 1716398954656,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -173,6 +173,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 10296,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "name": "Jesse Wright",
+            "username": "jeswr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d7538cb154284af91a5027f89772bb3cc09f6fa",
+          "message": "Maintain backpressure in result serializers\n\nCloses #759",
+          "timestamp": "2024-05-22T15:46:42+02:00",
+          "tree_id": "562d0b818f33841ffefe06e88b1cc7708cad8bc8",
+          "url": "https://github.com/comunica/comunica/commit/0d7538cb154284af91a5027f89772bb3cc09f6fa"
+        },
+        "date": 1716398954445,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 9119,
             "unit": "ms"
           }
         ]
