@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716398954656,
+  "lastUpdate": 1716467863523,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -202,6 +202,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 9119,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "cbfdc3135607c257f37d91a13a8bfb55b9c147d8",
+          "message": "Improve performance of hashing during hash joins",
+          "timestamp": "2024-05-23T14:20:50+02:00",
+          "tree_id": "51e67222d7ee19790efa1c1919ab373cead65679",
+          "url": "https://github.com/comunica/comunica/commit/cbfdc3135607c257f37d91a13a8bfb55b9c147d8"
+        },
+        "date": 1716467863027,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 9203,
             "unit": "ms"
           }
         ]
