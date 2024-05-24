@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716536159342,
+  "lastUpdate": 1716543333590,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -318,6 +318,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 9510,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "ae893cb62dc47c5fab4ea334526fa0a28af10581",
+          "message": "Fix performance regression of TPF queries\n\nRegression since c6ed42aa75c9be9622fd11a60d2d923f1f092c18",
+          "timestamp": "2024-05-24T11:21:55+02:00",
+          "tree_id": "0bfc0b1fb9b1bfb992afd247d36c69cabde50a1f",
+          "url": "https://github.com/comunica/comunica/commit/ae893cb62dc47c5fab4ea334526fa0a28af10581"
+        },
+        "date": 1716543333027,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6240,
             "unit": "ms"
           }
         ]
