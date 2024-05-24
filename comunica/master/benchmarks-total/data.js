@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716543333590,
+  "lastUpdate": 1716572461042,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -347,6 +347,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 6240,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "name": "Jesse Wright",
+            "username": "jeswr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d7ba1239d075da65f272045f0a8850bbc7b2a473",
+          "message": "Use cancel in wayback actor when available, Closes #1351",
+          "timestamp": "2024-05-24T19:32:07+02:00",
+          "tree_id": "0edfe90d2bfa29867884ab52b1a901890cf97fa3",
+          "url": "https://github.com/comunica/comunica/commit/d7ba1239d075da65f272045f0a8850bbc7b2a473"
+        },
+        "date": 1716572460731,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6784,
             "unit": "ms"
           }
         ]
