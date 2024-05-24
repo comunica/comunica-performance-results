@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716533061157,
+  "lastUpdate": 1716536159342,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -289,6 +289,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 8765,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "718d67ef3ccf19a0d5b839e90e47f88e1fd71e4f",
+          "message": "Don't log if no sources are pruned",
+          "timestamp": "2024-05-24T09:22:52+02:00",
+          "tree_id": "18db0d164520270764277c0b977aaddf49cdfa9a",
+          "url": "https://github.com/comunica/comunica/commit/718d67ef3ccf19a0d5b839e90e47f88e1fd71e4f"
+        },
+        "date": 1716536159145,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 9510,
             "unit": "ms"
           }
         ]
