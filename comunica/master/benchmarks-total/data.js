@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716475205448,
+  "lastUpdate": 1716533061157,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -260,6 +260,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 9549,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "edfad203c5674cccb9c5fe7362a254d5c68bb526",
+          "message": "Fix default result serializer always crashing",
+          "timestamp": "2024-05-24T08:31:43+02:00",
+          "tree_id": "01016758d8507692f9d9e3fbb1fbc89fdda07bd4",
+          "url": "https://github.com/comunica/comunica/commit/edfad203c5674cccb9c5fe7362a254d5c68bb526"
+        },
+        "date": 1716533060835,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8765,
             "unit": "ms"
           }
         ]
