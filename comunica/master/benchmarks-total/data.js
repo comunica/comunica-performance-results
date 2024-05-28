@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716572461042,
+  "lastUpdate": 1716907708130,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -376,6 +376,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 6784,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kasperzutterman1999@gmail.com",
+            "name": "Kasper Zutterman",
+            "username": "KasperZutterman"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae90a51a32464032820e035b81cbb0e382a777e0",
+          "message": "Bump GitHub Actions workflow versions",
+          "timestamp": "2024-05-28T14:57:30+02:00",
+          "tree_id": "3747dc8c4f047f75e87c61f597a49b0951369cec",
+          "url": "https://github.com/comunica/comunica/commit/ae90a51a32464032820e035b81cbb0e382a777e0"
+        },
+        "date": 1716907707929,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7265,
             "unit": "ms"
           }
         ]
