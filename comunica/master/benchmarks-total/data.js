@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716964879364,
+  "lastUpdate": 1716987811655,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -434,6 +434,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 7731,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "fd7ff7b0c3a52d5d906e9cf38be095f6d41c73a9",
+          "message": "Update GH workflow to new project boards",
+          "timestamp": "2024-05-29T14:52:15+02:00",
+          "tree_id": "3acb85cd0173b008b0e9a443d504821e47ef414d",
+          "url": "https://github.com/comunica/comunica/commit/fd7ff7b0c3a52d5d906e9cf38be095f6d41c73a9"
+        },
+        "date": 1716987810614,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8219,
             "unit": "ms"
           }
         ]
