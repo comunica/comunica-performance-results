@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1716907708130,
+  "lastUpdate": 1716964879364,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -405,6 +405,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-File",
             "value": 7265,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "name": "Jesse Wright",
+            "username": "jeswr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5d4c1c0d04fabc099ecaeb58b150edc433956c62",
+          "message": "Fix stats writer produces wrong totals\n\nCloses #1354",
+          "timestamp": "2024-05-29T08:31:34+02:00",
+          "tree_id": "e1484d2c86ee02602401562d3197201e3a990458",
+          "url": "https://github.com/comunica/comunica/commit/5d4c1c0d04fabc099ecaeb58b150edc433956c62"
+        },
+        "date": 1716964878876,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7731,
             "unit": "ms"
           }
         ]
