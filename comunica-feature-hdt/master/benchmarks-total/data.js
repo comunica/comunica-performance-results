@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717073846088,
+  "lastUpdate": 1717074890111,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -28,6 +28,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-HDT",
             "value": 6387,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "cd68a3e8d7719a0e2951b2d53ce579d5d6b8c8ea",
+          "message": "Fetch pregenerated watdiv datasets in CI",
+          "timestamp": "2024-05-30T15:08:11+02:00",
+          "tree_id": "cdf0e3772b2d10af98d9482d5f5ecb9c2d5334c9",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/cd68a3e8d7719a0e2951b2d53ce579d5d6b8c8ea"
+        },
+        "date": 1717074889902,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 6637,
             "unit": "ms"
           }
         ]
