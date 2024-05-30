@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717069641944,
+  "lastUpdate": 1717075053965,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks detailed results": [
@@ -522,6 +522,270 @@ window.BENCHMARK_DATA = {
             "value": 18,
             "unit": "ms",
             "extra": "Results: 2; Error: false; HTTP Requests: 82"
+          },
+          {
+            "name": "WatDiv-TPF - S7",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 4"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "cf3c751678cf78d23b5a5f2ac10b17560c41a28a",
+          "message": "Parallelize performance runs in CI",
+          "timestamp": "2024-05-30T15:00:55+02:00",
+          "tree_id": "e4e5eb885863f549788b2bb1b03722ffb77fc6cc",
+          "url": "https://github.com/comunica/comunica/commit/cf3c751678cf78d23b5a5f2ac10b17560c41a28a"
+        },
+        "date": 1717075053733,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File - C1",
+            "value": 277,
+            "unit": "ms",
+            "extra": "Results: 1; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - C2",
+            "value": 2619,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - C3",
+            "value": 3281,
+            "unit": "ms",
+            "extra": "Results: 41014; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - F1",
+            "value": 31,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - F2",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - F3",
+            "value": 13,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - F4",
+            "value": 42,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - F5",
+            "value": 216,
+            "unit": "ms",
+            "extra": "Results: 65; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - L1",
+            "value": 17,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - L2",
+            "value": 83,
+            "unit": "ms",
+            "extra": "Results: 22; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - L3",
+            "value": 9,
+            "unit": "ms",
+            "extra": "Results: 21; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - L4",
+            "value": 14,
+            "unit": "ms",
+            "extra": "Results: 5; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - L5",
+            "value": 85,
+            "unit": "ms",
+            "extra": "Results: 23; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - S1",
+            "value": 87,
+            "unit": "ms",
+            "extra": "Results: 13; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - S2",
+            "value": 33,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - S3",
+            "value": 47,
+            "unit": "ms",
+            "extra": "Results: 29; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - S4",
+            "value": 50,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - S5",
+            "value": 55,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - S6",
+            "value": 19,
+            "unit": "ms",
+            "extra": "Results: 2; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-File - S7",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-TPF - C1",
+            "value": 1882,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 1328"
+          },
+          {
+            "name": "WatDiv-TPF - C2",
+            "value": 5032,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 3060"
+          },
+          {
+            "name": "WatDiv-TPF - C3",
+            "value": 26838,
+            "unit": "ms",
+            "extra": "Results: 39389; Error: false; HTTP Requests: 19819"
+          },
+          {
+            "name": "WatDiv-TPF - F1",
+            "value": 69,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 41"
+          },
+          {
+            "name": "WatDiv-TPF - F2",
+            "value": 316,
+            "unit": "ms",
+            "extra": "Results: 1; Error: false; HTTP Requests: 491"
+          },
+          {
+            "name": "WatDiv-TPF - F3",
+            "value": 448,
+            "unit": "ms",
+            "extra": "Results: 6; Error: false; HTTP Requests: 315"
+          },
+          {
+            "name": "WatDiv-TPF - F4",
+            "value": 473,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 355"
+          },
+          {
+            "name": "WatDiv-TPF - F5",
+            "value": 550,
+            "unit": "ms",
+            "extra": "Results: 33; Error: false; HTTP Requests: 328"
+          },
+          {
+            "name": "WatDiv-TPF - L1",
+            "value": 99,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 87"
+          },
+          {
+            "name": "WatDiv-TPF - L2",
+            "value": 808,
+            "unit": "ms",
+            "extra": "Results: 19; Error: false; HTTP Requests: 528"
+          },
+          {
+            "name": "WatDiv-TPF - L3",
+            "value": 50,
+            "unit": "ms",
+            "extra": "Results: 56; Error: false; HTTP Requests: 31"
+          },
+          {
+            "name": "WatDiv-TPF - L4",
+            "value": 106,
+            "unit": "ms",
+            "extra": "Results: 5; Error: false; HTTP Requests: 72"
+          },
+          {
+            "name": "WatDiv-TPF - L5",
+            "value": 766,
+            "unit": "ms",
+            "extra": "Results: 8; Error: false; HTTP Requests: 104"
+          },
+          {
+            "name": "WatDiv-TPF - S1",
+            "value": 903,
+            "unit": "ms",
+            "extra": "Results: 11; Error: false; HTTP Requests: 811"
+          },
+          {
+            "name": "WatDiv-TPF - S2",
+            "value": 214,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 98"
+          },
+          {
+            "name": "WatDiv-TPF - S3",
+            "value": 492,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 390"
+          },
+          {
+            "name": "WatDiv-TPF - S4",
+            "value": 310,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 240"
+          },
+          {
+            "name": "WatDiv-TPF - S5",
+            "value": 584,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 471"
+          },
+          {
+            "name": "WatDiv-TPF - S6",
+            "value": 14,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 78"
           },
           {
             "name": "WatDiv-TPF - S7",
