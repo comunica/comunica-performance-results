@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717069643129,
+  "lastUpdate": 1717075054871,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -67,6 +67,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-TPF",
             "value": 35701,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "cf3c751678cf78d23b5a5f2ac10b17560c41a28a",
+          "message": "Parallelize performance runs in CI",
+          "timestamp": "2024-05-30T15:00:55+02:00",
+          "tree_id": "e4e5eb885863f549788b2bb1b03722ffb77fc6cc",
+          "url": "https://github.com/comunica/comunica/commit/cf3c751678cf78d23b5a5f2ac10b17560c41a28a"
+        },
+        "date": 1717075054665,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6990,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 39962,
             "unit": "ms"
           }
         ]
