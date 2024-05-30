@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717075054871,
+  "lastUpdate": 1717077380323,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -101,6 +101,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-TPF",
             "value": 39962,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "2878c5dfc95beab0c4bff051eba87156f5509842",
+          "message": "Add Node 22 to CI",
+          "timestamp": "2024-05-30T15:24:11+02:00",
+          "tree_id": "d0744d539ff50c1b0b118622e45106a0836a21dd",
+          "url": "https://github.com/comunica/comunica/commit/2878c5dfc95beab0c4bff051eba87156f5509842"
+        },
+        "date": 1717077379990,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8542,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 37155,
             "unit": "ms"
           }
         ]
