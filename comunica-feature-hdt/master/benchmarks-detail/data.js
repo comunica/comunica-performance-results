@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717073845144,
+  "lastUpdate": 1717074889195,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks detailed results": [
@@ -144,6 +144,150 @@ window.BENCHMARK_DATA = {
             "value": 3,
             "unit": "ms",
             "extra": "Results: 1; Error: false; HTTP Requests: 0"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "cd68a3e8d7719a0e2951b2d53ce579d5d6b8c8ea",
+          "message": "Fetch pregenerated watdiv datasets in CI",
+          "timestamp": "2024-05-30T15:08:11+02:00",
+          "tree_id": "cdf0e3772b2d10af98d9482d5f5ecb9c2d5334c9",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/cd68a3e8d7719a0e2951b2d53ce579d5d6b8c8ea"
+        },
+        "date": 1717074888975,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT - C1",
+            "value": 301,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - C2",
+            "value": 1249,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - C3",
+            "value": 4560,
+            "unit": "ms",
+            "extra": "Results: 54003; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - F1",
+            "value": 24,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - F2",
+            "value": 10,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - F3",
+            "value": 16,
+            "unit": "ms",
+            "extra": "Results: 1; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - F4",
+            "value": 52,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - F5",
+            "value": 73,
+            "unit": "ms",
+            "extra": "Results: 25; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - L1",
+            "value": 22,
+            "unit": "ms",
+            "extra": "Results: 1; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - L2",
+            "value": 21,
+            "unit": "ms",
+            "extra": "Results: 6; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - L3",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: 19; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - L4",
+            "value": 12,
+            "unit": "ms",
+            "extra": "Results: 7; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - L5",
+            "value": 18,
+            "unit": "ms",
+            "extra": "Results: 2; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S1",
+            "value": 59,
+            "unit": "ms",
+            "extra": "Results: 4; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S2",
+            "value": 16,
+            "unit": "ms",
+            "extra": "Results: 9; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S3",
+            "value": 69,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S4",
+            "value": 49,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S5",
+            "value": 63,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S6",
+            "value": 12,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S7",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
           }
         ]
       }
