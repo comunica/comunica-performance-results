@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717078927106,
+  "lastUpdate": 1717147852064,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -497,6 +497,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-TPF",
             "value": 36435,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "9c674bd7fa5557c4ff289664ea0f34abeba52da2",
+          "message": "Fix output spam when running HttpServiceSparqlEndpoint-test, Closes #1041",
+          "timestamp": "2024-05-31T11:14:36+02:00",
+          "tree_id": "ffb9a0ac9852d8ef90d96a86a00c54015f318a4f",
+          "url": "https://github.com/comunica/comunica/commit/9c674bd7fa5557c4ff289664ea0f34abeba52da2"
+        },
+        "date": 1717147851847,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7241,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35877,
             "unit": "ms"
           }
         ]
