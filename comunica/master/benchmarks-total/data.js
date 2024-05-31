@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717147852064,
+  "lastUpdate": 1717150803877,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -531,6 +531,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-TPF",
             "value": 35877,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "4f4f2b9aee5612ce370da649a9609cad489ee4a1",
+          "message": "Improve typedoc performance by skipping TS validation",
+          "timestamp": "2024-05-31T12:05:30+02:00",
+          "tree_id": "f7e7ffcd53dc670a2f200a6616355888d482e49a",
+          "url": "https://github.com/comunica/comunica/commit/4f4f2b9aee5612ce370da649a9609cad489ee4a1"
+        },
+        "date": 1717150803563,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7190,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 36338,
             "unit": "ms"
           }
         ]
