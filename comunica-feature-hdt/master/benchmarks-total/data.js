@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717318075420,
+  "lastUpdate": 1717593345237,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -86,6 +86,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-HDT",
             "value": 5069,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "50b7949c03cd2e24db878dc4499688dbcf4eb6eb",
+          "message": "Also run CI on Node 22",
+          "timestamp": "2024-06-05T15:09:28+02:00",
+          "tree_id": "3222fbdfc409387c097e60426ae0f11f592105b3",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/50b7949c03cd2e24db878dc4499688dbcf4eb6eb"
+        },
+        "date": 1717593344908,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 5066,
             "unit": "ms"
           }
         ]
