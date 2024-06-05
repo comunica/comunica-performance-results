@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717150803877,
+  "lastUpdate": 1717569907112,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -565,6 +565,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-TPF",
             "value": 36338,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "name": "Jesse Wright",
+            "username": "jeswr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8ffeff5e286c6ef7db7d163bd8ceee8c49f9f513",
+          "message": "Add OPT+ operator\n\nA monotonic alternative to the OPTIONAL operator.\r\n\r\nCloses #825",
+          "timestamp": "2024-06-05T08:31:00+02:00",
+          "tree_id": "a8ce11fa126dcb23ed105261ee786cfd01422619",
+          "url": "https://github.com/comunica/comunica/commit/8ffeff5e286c6ef7db7d163bd8ceee8c49f9f513"
+        },
+        "date": 1717569906893,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7682,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35121,
             "unit": "ms"
           }
         ]
