@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717569907112,
+  "lastUpdate": 1718110119355,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -599,6 +599,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-TPF",
             "value": 35121,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "0c84f9e33aaecc81e5b78c4c83f629b8cc1ff00d",
+          "message": "Emit timings and actual cardinalities in physical explain output",
+          "timestamp": "2024-06-11T14:32:58+02:00",
+          "tree_id": "b00e97e004a3bdc02d7115058ba7d5cdeb69fa30",
+          "url": "https://github.com/comunica/comunica/commit/0c84f9e33aaecc81e5b78c4c83f629b8cc1ff00d"
+        },
+        "date": 1718110118844,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7851,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35596,
             "unit": "ms"
           }
         ]
