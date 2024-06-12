@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718110119355,
+  "lastUpdate": 1718177939510,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -633,6 +633,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-TPF",
             "value": 35596,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "name": "Jesse Wright",
+            "username": "jeswr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3ebb38638cfdc52e3fec719987439651c3fd67fa",
+          "message": "Run CI on windows and mac\n\nCloses #798",
+          "timestamp": "2024-06-12T09:16:29+02:00",
+          "tree_id": "08902001235095598ef8c86102a5d5459f0eb2bf",
+          "url": "https://github.com/comunica/comunica/commit/3ebb38638cfdc52e3fec719987439651c3fd67fa"
+        },
+        "date": 1718177939153,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7537,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 34926,
             "unit": "ms"
           }
         ]
