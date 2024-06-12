@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718177939510,
+  "lastUpdate": 1718194623182,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -667,6 +667,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-TPF",
             "value": 34926,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c3dd70a424e175877fd883277e9d0191bc15bf62",
+          "message": "Add actors for bindings source attribution\n\nThis will produce results with a value for `_source` to indicate\r\nwhich datasources contributed to the result.\r\n\r\nThese actors are not enabled by default.",
+          "timestamp": "2024-06-12T13:47:39+02:00",
+          "tree_id": "b28dfe7f57c1514a246c9c97470fd8280c4e1ccc",
+          "url": "https://github.com/comunica/comunica/commit/c3dd70a424e175877fd883277e9d0191bc15bf62"
+        },
+        "date": 1718194622860,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8946,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 36491,
             "unit": "ms"
           }
         ]
