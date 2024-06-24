@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718896917466,
+  "lastUpdate": 1719208856272,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -789,6 +789,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-TPF",
             "value": 2424,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "2ee134963e9e7c263171fd9579b4d2ff26ea5279",
+          "message": "Update dependency typedoc to ^0.26.0",
+          "timestamp": "2024-06-24T01:44:11Z",
+          "tree_id": "194284801ffcd13eb3bfa422e1ab400da65c1a17",
+          "url": "https://github.com/comunica/comunica/commit/2ee134963e9e7c263171fd9579b4d2ff26ea5279"
+        },
+        "date": 1719208856109,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7618,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 38365,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1104,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2454,
             "unit": "ms"
           }
         ]
