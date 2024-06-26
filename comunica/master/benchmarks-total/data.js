@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719208856272,
+  "lastUpdate": 1719380774728,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -833,6 +833,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-TPF",
             "value": 2454,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "33571080+simonvbrae@users.noreply.github.com",
+            "name": "Simon Van Braeckel",
+            "username": "simonvbrae"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cb1bebd7eb194edc73ded2fb4460a20edb8db6ea",
+          "message": "Fixed the order of count operations influencing the result\n\nCloses #1312",
+          "timestamp": "2024-06-26T07:23:00+02:00",
+          "tree_id": "364d55a020644a2c5e6b9af9418b098548df50c9",
+          "url": "https://github.com/comunica/comunica/commit/cb1bebd7eb194edc73ded2fb4460a20edb8db6ea"
+        },
+        "date": 1719380774561,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7445,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 36890,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1057,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2420,
             "unit": "ms"
           }
         ]
