@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718735616408,
+  "lastUpdate": 1719489339175,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -183,6 +183,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 791,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8348d2e0c1fd91e1940b4e9fbac50d083a1ae1fb",
+          "message": "Update dependency typedoc to ^0.26.0",
+          "timestamp": "2024-06-26T02:59:06Z",
+          "tree_id": "bf2a6bf1be5e350149e95f139bf53a02b107c8c0",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/8348d2e0c1fd91e1940b4e9fbac50d083a1ae1fb"
+        },
+        "date": 1719489338996,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 5029,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 794,
             "unit": "ms"
           }
         ]
