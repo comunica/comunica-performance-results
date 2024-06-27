@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718735615262,
+  "lastUpdate": 1719489338196,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks detailed results": [
@@ -994,6 +994,222 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT - 10",
             "value": 52,
+            "unit": "ms",
+            "extra": "Results: 2.8; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 11",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: 10; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 12",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: 1120.2; Error: undefined; HTTP Requests: undefined"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8348d2e0c1fd91e1940b4e9fbac50d083a1ae1fb",
+          "message": "Update dependency typedoc to ^0.26.0",
+          "timestamp": "2024-06-26T02:59:06Z",
+          "tree_id": "bf2a6bf1be5e350149e95f139bf53a02b107c8c0",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/8348d2e0c1fd91e1940b4e9fbac50d083a1ae1fb"
+        },
+        "date": 1719489337993,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT - C1",
+            "value": 213,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - C2",
+            "value": 839,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - C3",
+            "value": 3447,
+            "unit": "ms",
+            "extra": "Results: 48802; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - F1",
+            "value": 15,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - F2",
+            "value": 48,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - F3",
+            "value": 37,
+            "unit": "ms",
+            "extra": "Results: 2; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - F4",
+            "value": 43,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - F5",
+            "value": 104,
+            "unit": "ms",
+            "extra": "Results: 32; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - L1",
+            "value": 17,
+            "unit": "ms",
+            "extra": "Results: 1; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - L2",
+            "value": 10,
+            "unit": "ms",
+            "extra": "Results: 3; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - L3",
+            "value": 9,
+            "unit": "ms",
+            "extra": "Results: 69; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - L4",
+            "value": 12,
+            "unit": "ms",
+            "extra": "Results: 6; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - L5",
+            "value": 11,
+            "unit": "ms",
+            "extra": "Results: 1; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S1",
+            "value": 39,
+            "unit": "ms",
+            "extra": "Results: 4; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S2",
+            "value": 13,
+            "unit": "ms",
+            "extra": "Results: 2; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S3",
+            "value": 51,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S4",
+            "value": 53,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S5",
+            "value": 60,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S6",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: 1; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "WatDiv-HDT - S7",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: 0; Error: false; HTTP Requests: 0"
+          },
+          {
+            "name": "BSBM-HDT - 1",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: 0.5; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 2",
+            "value": 99,
+            "unit": "ms",
+            "extra": "Results: 19.5; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 3",
+            "value": 11,
+            "unit": "ms",
+            "extra": "Results: 0.2; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 4",
+            "value": 14,
+            "unit": "ms",
+            "extra": "Results: 0; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 5",
+            "value": 516,
+            "unit": "ms",
+            "extra": "Results: 3.5; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 6",
+            "value": null,
+            "unit": "ms",
+            "extra": "Results: undefined; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 7",
+            "value": 41,
+            "unit": "ms",
+            "extra": "Results: 9.38; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 8",
+            "value": 41,
+            "unit": "ms",
+            "extra": "Results: 5.05; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 9",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: 629.48; Error: undefined; HTTP Requests: undefined"
+          },
+          {
+            "name": "BSBM-HDT - 10",
+            "value": 53,
             "unit": "ms",
             "extra": "Results: 2.8; Error: undefined; HTTP Requests: undefined"
           },
