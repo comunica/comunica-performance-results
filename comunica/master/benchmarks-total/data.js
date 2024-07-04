@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720010795803,
+  "lastUpdate": 1720093655363,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -926,6 +926,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 122331,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "5fa2663e240d1ca041d9898f0464111d6d46867c",
+          "message": "Fix empty media type not falling back to extension handling",
+          "timestamp": "2024-07-04T12:53:49+02:00",
+          "tree_id": "e6808d73ee18dc855a7dd60b5287080d73228135",
+          "url": "https://github.com/comunica/comunica/commit/5fa2663e240d1ca041d9898f0464111d6d46867c"
+        },
+        "date": 1720093655127,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7787,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35802,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1111,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2376,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 207065,
             "unit": "ms"
           }
         ]
