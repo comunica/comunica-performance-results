@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720102623963,
+  "lastUpdate": 1720156142465,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1024,6 +1024,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 143436,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "100aab2c2d011257887609a995a101e38c8355d9",
+          "message": "Fix undef sanity check for SPARQL endpoints sometimes going rogue\n\nWe can throw an error if an endpoint does not provide a binding for a\nvariable. This did not work correctly when the query had optionals or\ncould otherwise produce valid undefined values.\n\nCloses #1390",
+          "timestamp": "2024-07-05T06:40:36+02:00",
+          "tree_id": "3f9a0b22f6b4a908d8556b4023d3cc5aab43187e",
+          "url": "https://github.com/comunica/comunica/commit/100aab2c2d011257887609a995a101e38c8355d9"
+        },
+        "date": 1720156142300,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7447,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35503,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1095,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2513,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 116977,
             "unit": "ms"
           }
         ]
