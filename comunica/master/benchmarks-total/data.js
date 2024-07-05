@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720161312203,
+  "lastUpdate": 1720208039077,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1122,6 +1122,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 143589,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "33571080+simonvbrae@users.noreply.github.com",
+            "name": "Simon Van Braeckel",
+            "username": "simonvbrae"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0516bb0a82995e0af7043e4efdb0408a1ff650b0",
+          "message": "Add support for deduplication of results in construct queries\n\nCloses #1300",
+          "timestamp": "2024-07-05T21:05:22+02:00",
+          "tree_id": "82f3f403bdedcce68919f76e4045d5aea61f30b8",
+          "url": "https://github.com/comunica/comunica/commit/0516bb0a82995e0af7043e4efdb0408a1ff650b0"
+        },
+        "date": 1720208038605,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7830,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 36459,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1147,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2470,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 184497,
             "unit": "ms"
           }
         ]
