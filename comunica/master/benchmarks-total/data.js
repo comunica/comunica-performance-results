@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720535232887,
+  "lastUpdate": 1720538771977,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1465,6 +1465,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 171288,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "2543e868991fe5ff0de7abc7723e1a6976baae57",
+          "message": "Tweak default BindJoin.minMaxCardinalityRatio value for WatDiv-C1",
+          "timestamp": "2024-07-09T17:04:33+02:00",
+          "tree_id": "17922a9c9cd28c3ea47ccc7a1dee9d00b9116ce0",
+          "url": "https://github.com/comunica/comunica/commit/2543e868991fe5ff0de7abc7723e1a6976baae57"
+        },
+        "date": 1720538771786,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7890,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 34962,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1215,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2465,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 118799,
             "unit": "ms"
           }
         ]
