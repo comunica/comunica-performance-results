@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720515439911,
+  "lastUpdate": 1720518741081,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1269,6 +1269,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 142170,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "4c59ca39ff3527ad62e58f62e116712ea27ca24d",
+          "message": "Assign smallest stream as build side in Hash Join, #884",
+          "timestamp": "2024-07-09T11:24:05+02:00",
+          "tree_id": "4a4e0e7c9dd68557e99250f07349fb5859475fb0",
+          "url": "https://github.com/comunica/comunica/commit/4c59ca39ff3527ad62e58f62e116712ea27ca24d"
+        },
+        "date": 1720518740923,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7930,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 36701,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1220,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2504,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 211564,
             "unit": "ms"
           }
         ]
