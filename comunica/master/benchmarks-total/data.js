@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720208039077,
+  "lastUpdate": 1720509424229,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1171,6 +1171,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 184497,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "33571080+simonvbrae@users.noreply.github.com",
+            "name": "Simon Van Braeckel",
+            "username": "simonvbrae"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20e8f42316b117ef54ceb451ccb99d6e278df15f",
+          "message": "Fix initialBindings failing when done over projected variables\n\nChanges include:\r\n\r\n- Fixed an issue with `FILTER(false)` not filtering all results out:\r\n    - Changed the `FilterPushdown` optimizer to not push down `FILTER(false)` except if it is wrapped around another `FILTER`.\r\n- Handle projected variables that also appear in `InitialBindings`.\r\n    -  Make `MaterializeOperation` add a `VALUES` clause for these variables instead of replacing them with their values.\r\n- Fix '$' variables in `VALUES`\r\n    - Fix an issue where variables written with '$' instead of '?' within a `VALUES` clause weren't being parsed as variables.\r\n\r\nCloses #1298",
+          "timestamp": "2024-07-09T08:50:05+02:00",
+          "tree_id": "28348ff114884f43d06502f9ed8e73421e89ae32",
+          "url": "https://github.com/comunica/comunica/commit/20e8f42316b117ef54ceb451ccb99d6e278df15f"
+        },
+        "date": 1720509423947,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8103,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 36807,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1130,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2460,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 144581,
             "unit": "ms"
           }
         ]
