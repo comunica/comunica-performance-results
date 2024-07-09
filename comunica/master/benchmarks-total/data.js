@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720518741081,
+  "lastUpdate": 1720529080173,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1318,6 +1318,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 211564,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "cb8d276a779194b3f422f2b3b979342f9e7d7a55",
+          "message": "Use Bind Join only if smallest much smaller than largest\n\nThis introduces a heuristic where the smallest stream must be at least\n100 times smaller than the largest stream.\n\nThis allows other join algorithms to be preferred if they could lead to\na fewer number of intermediate results.\n\nCloses #548\nCloses #1196",
+          "timestamp": "2024-07-09T14:13:04+02:00",
+          "tree_id": "1d94bd2160883e33b425f65bbe7375f22621e2f4",
+          "url": "https://github.com/comunica/comunica/commit/cb8d276a779194b3f422f2b3b979342f9e7d7a55"
+        },
+        "date": 1720529079636,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8424,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 36561,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 704,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1974,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 212363,
             "unit": "ms"
           }
         ]
