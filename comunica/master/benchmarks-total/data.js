@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720509424229,
+  "lastUpdate": 1720515439911,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1220,6 +1220,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 144581,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "a93bddf45934cd2d7cfd4a29623023605f4ea8dc",
+          "message": "Force NLJ when join entries have no overlapping variables\n\nRequired for #884",
+          "timestamp": "2024-07-09T10:30:43+02:00",
+          "tree_id": "c9351faaa472fd3aeec5671a38f556dc68e33095",
+          "url": "https://github.com/comunica/comunica/commit/a93bddf45934cd2d7cfd4a29623023605f4ea8dc"
+        },
+        "date": 1720515439750,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7805,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 37580,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1217,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2542,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 142170,
             "unit": "ms"
           }
         ]
