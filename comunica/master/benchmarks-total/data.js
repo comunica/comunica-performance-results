@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720529080173,
+  "lastUpdate": 1720531166342,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1367,6 +1367,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 212363,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "a531e81378ad95414f0320066341c9d1c913cdd5",
+          "message": "Fix unnecessary join being created when binding over filter",
+          "timestamp": "2024-07-09T14:52:10+02:00",
+          "tree_id": "74085d7e80d64bc418e46863e31ad6cc209ff2bc",
+          "url": "https://github.com/comunica/comunica/commit/a531e81378ad95414f0320066341c9d1c913cdd5"
+        },
+        "date": 1720531165831,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7848,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 36002,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 694,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1911,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 119463,
             "unit": "ms"
           }
         ]
