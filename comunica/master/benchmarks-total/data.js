@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720592165260,
+  "lastUpdate": 1722512464410,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1563,6 +1563,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 121447,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "name": "Jesse Wright",
+            "username": "jeswr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f5a90bb26c07c6bc86f1fa8df469766e3313e281",
+          "message": "Migrate stream-to-string and streamify-string\n\nRequired for #930",
+          "timestamp": "2024-08-01T13:04:02+02:00",
+          "tree_id": "e2790b77b75b4b2e9c724a23e1171bcb88080d1c",
+          "url": "https://github.com/comunica/comunica/commit/f5a90bb26c07c6bc86f1fa8df469766e3313e281"
+        },
+        "date": 1722512464177,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7082,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 33687,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1108,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2550,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 210650,
             "unit": "ms"
           }
         ]
