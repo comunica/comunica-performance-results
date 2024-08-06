@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722953255987,
+  "lastUpdate": 1722954903917,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1808,6 +1808,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 122643,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "c7ca5ae597dbd5948e9b32ff5eb35ee820c48f81",
+          "message": "Fix optimizer incorrectly considering some optionals empty\n\nThis could occur when an optional was done over an empty join group,\nwhich produces an estimated 0 cardinality.\nThis zero cardinality incorrectly lead to the overall cardinality also\nbeing considered zero, which caused the empty-check optimizer to work\nwhen it shouldn't.\n\nCloses #1316",
+          "timestamp": "2024-08-06T15:51:41+02:00",
+          "tree_id": "fdf9fed5c4e56460a0b36211fbb17cbaa451c686",
+          "url": "https://github.com/comunica/comunica/commit/c7ca5ae597dbd5948e9b32ff5eb35ee820c48f81"
+        },
+        "date": 1722954903688,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7859,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35498,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1107,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2807,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 122047,
             "unit": "ms"
           }
         ]
