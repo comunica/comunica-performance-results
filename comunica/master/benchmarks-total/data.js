@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722938362097,
+  "lastUpdate": 1722953255987,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1759,6 +1759,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 120810,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "1b52ef2a22b87c0d9ce4f96bb14397fe09ae2482",
+          "message": "Remove projection variables missing warning",
+          "timestamp": "2024-08-06T13:59:01+02:00",
+          "tree_id": "27084eaa71a49017a68cd5e0d16b3e62f7c323e9",
+          "url": "https://github.com/comunica/comunica/commit/1b52ef2a22b87c0d9ce4f96bb14397fe09ae2482"
+        },
+        "date": 1722953255653,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7441,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 33920,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1242,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2456,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 122643,
             "unit": "ms"
           }
         ]
