@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722930803202,
+  "lastUpdate": 1722938362097,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1710,6 +1710,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 146616,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "03331d5536eb9b4b8271321128af54fcc19befb2",
+          "message": "Update dependency npm-check-updates to v17 (#1407)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2024-08-06T11:35:32+02:00",
+          "tree_id": "fc406400ee1d91531edb32be4b25bf95651f2749",
+          "url": "https://github.com/comunica/comunica/commit/03331d5536eb9b4b8271321128af54fcc19befb2"
+        },
+        "date": 1722938361927,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7747,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 37336,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1169,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2451,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 120810,
             "unit": "ms"
           }
         ]
