@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722928705826,
+  "lastUpdate": 1722930803202,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1661,6 +1661,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 207010,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "cc90f8f3849b5a0d80c9856700f892f6bdde01ad",
+          "message": "Fix undefined values from SPARQL endpoints being produced\n\nThis could occur with valid queries with OPTIONALS\n\nCloses #1403\nCloses #1391",
+          "timestamp": "2024-08-06T09:21:57+02:00",
+          "tree_id": "28fb3524c1275c686cf3c52e3e3d2d40e3df76f5",
+          "url": "https://github.com/comunica/comunica/commit/cc90f8f3849b5a0d80c9856700f892f6bdde01ad"
+        },
+        "date": 1722930802894,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 9193,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35104,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1139,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2468,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 146616,
             "unit": "ms"
           }
         ]
