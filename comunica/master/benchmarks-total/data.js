@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722512464410,
+  "lastUpdate": 1722928705826,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1612,6 +1612,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 210650,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "63333554+jeswr@users.noreply.github.com",
+            "name": "Jesse Wright",
+            "username": "jeswr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "67ff93f0d4f615624b96088c2bfa5250544c0f45",
+          "message": "Migrate parse-link-header to http-link-header\n\nRequired for ESM support #930",
+          "timestamp": "2024-08-06T08:48:11+02:00",
+          "tree_id": "a95650626624d9fb844a695bfe4797eb6a9ef48d",
+          "url": "https://github.com/comunica/comunica/commit/67ff93f0d4f615624b96088c2bfa5250544c0f45"
+        },
+        "date": 1722928705294,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7434,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 34619,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1111,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2610,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 207010,
             "unit": "ms"
           }
         ]
