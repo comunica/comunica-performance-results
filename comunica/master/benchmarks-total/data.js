@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722954903917,
+  "lastUpdate": 1723010316772,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1857,6 +1857,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 122047,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "f558377c3cefbd1606c51ede80440b862e7dda4f",
+          "message": "Bump to release version v3.2.1",
+          "timestamp": "2024-08-07T07:33:11+02:00",
+          "tree_id": "ecfc850ae83c3f4c97d77e9bb2e7c4776ef5bdb0",
+          "url": "https://github.com/comunica/comunica/commit/f558377c3cefbd1606c51ede80440b862e7dda4f"
+        },
+        "date": 1723010316171,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8394,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 34391,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1106,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2511,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 119079,
             "unit": "ms"
           }
         ]
