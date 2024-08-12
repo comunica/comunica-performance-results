@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723468728181,
+  "lastUpdate": 1723470874828,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -195,6 +195,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 146884,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "a68a8159081108f1700dea525aedf16668156e29",
+          "message": "Bump coveralls action in CI",
+          "timestamp": "2024-08-12T15:23:46+02:00",
+          "tree_id": "9a23b5c7416c4cea530b3bb21b1d3005480e072a",
+          "url": "https://github.com/comunica/comunica/commit/a68a8159081108f1700dea525aedf16668156e29"
+        },
+        "date": 1723470874313,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7727,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 38074,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1120,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2407,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 144592,
             "unit": "ms"
           }
         ]
