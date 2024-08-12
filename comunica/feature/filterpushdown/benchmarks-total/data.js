@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723127513944,
+  "lastUpdate": 1723462284882,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -48,6 +48,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 186462,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "7b52eaf4c2eef9a9f79f572fbcf17fdd079e9c21",
+          "message": "Merge nested filters into conjunctive after pushdown",
+          "timestamp": "2024-08-12T12:54:05+02:00",
+          "tree_id": "09bb6deb96662549a5fc9852ecb0f7c8c9ea612b",
+          "url": "https://github.com/comunica/comunica/commit/7b52eaf4c2eef9a9f79f572fbcf17fdd079e9c21"
+        },
+        "date": 1723462284272,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8421,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35329,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 2385,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 3837,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 123200,
             "unit": "ms"
           }
         ]
