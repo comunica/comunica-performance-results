@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723462284882,
+  "lastUpdate": 1723466433951,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -97,6 +97,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 123200,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "d4da37992850bf3eba3ea4f2b4259e94953a51f3",
+          "message": "Only enable filter pushdown if criteria are met\n\nThe criteria under which filter pushdown is enabled are as follows:\n\n- Always push down if aggressive mode is enabled\n- Push down if the filter is extremely selective\n- Push down if federated\n- Push down if single source accepts the query",
+          "timestamp": "2024-08-12T14:06:55+02:00",
+          "tree_id": "6c05b2a357666b44d66d454c1c356f24ad3b8943",
+          "url": "https://github.com/comunica/comunica/commit/d4da37992850bf3eba3ea4f2b4259e94953a51f3"
+        },
+        "date": 1723466433510,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7809,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35843,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1107,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2580,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 211711,
             "unit": "ms"
           }
         ]
