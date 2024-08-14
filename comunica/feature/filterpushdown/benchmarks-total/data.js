@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723470874828,
+  "lastUpdate": 1723630444253,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -244,6 +244,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 144592,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "d487c093054f72556b50ca167c3b4fb2bda9cb7a",
+          "message": "Push down simple equality filters into triple patterns",
+          "timestamp": "2024-08-14T11:43:39+02:00",
+          "tree_id": "4101e8e7df2ada38546e758c26569074e023407e",
+          "url": "https://github.com/comunica/comunica/commit/d487c093054f72556b50ca167c3b4fb2bda9cb7a"
+        },
+        "date": 1723630443939,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8428,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35237,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1063,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2577,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 120403,
             "unit": "ms"
           }
         ]
