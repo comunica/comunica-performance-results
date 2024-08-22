@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724097945758,
+  "lastUpdate": 1724330339298,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -353,6 +353,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 820,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c56d258b47ad9c7517e38d9c7df1c3c96efa2daf",
+          "message": "Update dependency @comunica/actor-optimize-query-operation-filter-pushdown to ^3.2.3",
+          "timestamp": "2024-08-22T11:03:34Z",
+          "tree_id": "1f267418b3513229da55abd3188cbf36363943e3",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/c56d258b47ad9c7517e38d9c7df1c3c96efa2daf"
+        },
+        "date": 1724330339128,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 5043,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 845,
             "unit": "ms"
           }
         ]
