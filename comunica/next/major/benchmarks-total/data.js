@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723014682827,
+  "lastUpdate": 1724396415015,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -164,6 +164,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 122081,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "be5498a936db66e9d3ff87f89d8b064a01ca494c",
+          "message": "Merge pull request #1417 from jitsedesmet/next/major\n\nMerge master into next/major",
+          "timestamp": "2024-08-23T08:29:22+02:00",
+          "tree_id": "31f990439e61eb5f29cd9e2b7fc2bd01c77b4cb3",
+          "url": "https://github.com/comunica/comunica/commit/be5498a936db66e9d3ff87f89d8b064a01ca494c"
+        },
+        "date": 1724396414695,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8129,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 34531,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1036,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2417,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 233048,
             "unit": "ms"
           }
         ]
