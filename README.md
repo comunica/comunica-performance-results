@@ -4,3 +4,4 @@ This repository contains continuous performance measurements for different bench
 
 * [Comunica](https://comunica.github.io/comunica-performance-results/comunica/master/benchmarks-total/) ([detailed](https://comunica.github.io/comunica-performance-results/comunica/master/benchmarks-detail/))
 * [Comunica HDT](https://comunica.github.io/comunica-performance-results/comunica-feature-hdt/master/benchmarks-total/) ([detailed](https://comunica.github.io/comunica-performance-results/comunica-feature-hdt/master/benchmarks-detail/))
+* [Comunica Link Traversal](https://comunica.github.io/comunica-performance-results/comunica-feature-link-traversal/master/benchmarks-total/) ([detailed](https://comunica.github.io/comunica-performance-results/comunica-feature-link-traversal/master/benchmarks-detail/))
