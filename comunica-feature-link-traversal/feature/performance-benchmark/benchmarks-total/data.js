@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724849920758,
+  "lastUpdate": 1724915740986,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -57,6 +57,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 3997,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "d3963acbefde53f06653ad16d2e1c62757e24803",
+          "message": "Add SolidBench performance benchmark to CI",
+          "timestamp": "2024-08-29T08:57:44+02:00",
+          "tree_id": "700f056bda86cca8749ac4c683b294070e2fca7c",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/d3963acbefde53f06653ad16d2e1c62757e24803"
+        },
+        "date": 1724915740769,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 7140,
             "unit": "ms"
           }
         ]
