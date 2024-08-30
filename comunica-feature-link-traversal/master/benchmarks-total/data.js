@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724924277591,
+  "lastUpdate": 1725002231814,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -115,6 +115,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 13844,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "74da89836c622cb0db5a9f34f83be861f901b10e",
+          "message": "Use patch semver range for config deps",
+          "timestamp": "2024-08-30T08:58:45+02:00",
+          "tree_id": "65b65d5e33f9ed62193537db32f5e9a2b7330259",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/74da89836c622cb0db5a9f34f83be861f901b10e"
+        },
+        "date": 1725002231226,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 14454,
             "unit": "ms"
           }
         ]
