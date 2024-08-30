@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724950069241,
+  "lastUpdate": 1725001677306,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -489,6 +489,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 881,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "75c89d6e08ce5e1c0f3642f2b7f0effc24cf8353",
+          "message": "Use patch semver range for config deps",
+          "timestamp": "2024-08-30T08:59:24+02:00",
+          "tree_id": "cbda6e6ee0f0b192ce7fdff5f76f4cc2e2f34b8f",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/75c89d6e08ce5e1c0f3642f2b7f0effc24cf8353"
+        },
+        "date": 1725001677074,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 4960,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 845,
             "unit": "ms"
           }
         ]
