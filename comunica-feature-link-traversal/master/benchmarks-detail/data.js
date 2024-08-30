@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724924276671,
+  "lastUpdate": 1725002230401,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks detailed results": [
@@ -280,6 +280,78 @@ window.BENCHMARK_DATA = {
             "value": 9333,
             "unit": "ms",
             "extra": "Results: [0,10,0,0,10]; Error: [true,false,true,true,false]; HTTP Requests: [,257,,,408]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "74da89836c622cb0db5a9f34f83be861f901b10e",
+          "message": "Use patch semver range for config deps",
+          "timestamp": "2024-08-30T08:58:45+02:00",
+          "tree_id": "65b65d5e33f9ed62193537db32f5e9a2b7330259",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/74da89836c622cb0db5a9f34f83be861f901b10e"
+        },
+        "date": 1725002229841,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench - interactive-discover-1",
+            "value": 668,
+            "unit": "ms",
+            "extra": "Results: [0,4,1,14,8]; Error: [true,false,false,false,false]; HTTP Requests: [,49,42,29,44]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-2",
+            "value": 651,
+            "unit": "ms",
+            "extra": "Results: [66,46,32,198,98]; Error: [false,false,false,false,false]; HTTP Requests: [50,49,42,29,44]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-3",
+            "value": 1467,
+            "unit": "ms",
+            "extra": "Results: [71,67,55,203,142]; Error: [false,false,false,false,false]; HTTP Requests: [176,177,126,235,195]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-4",
+            "value": 436,
+            "unit": "ms",
+            "extra": "Results: [5,3,3,3,7]; Error: [false,false,false,false,false]; HTTP Requests: [66,53,46,34,64]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-5",
+            "value": 309,
+            "unit": "ms",
+            "extra": "Results: [15,3,3,4,20]; Error: [false,false,false,false,false]; HTTP Requests: [50,49,42,29,44]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-6",
+            "value": 534,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,27]; Error: [true,false,false,true,false]; HTTP Requests: [,49,42,,44]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-7",
+            "value": 555,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,1]; Error: [true,false,false,true,false]; HTTP Requests: [,49,42,,44]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-8",
+            "value": 9834,
+            "unit": "ms",
+            "extra": "Results: [0,10,0,0,0]; Error: [true,false,true,true,true]; HTTP Requests: [,352,,,]"
           }
         ]
       }
