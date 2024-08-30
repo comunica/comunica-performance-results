@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724316037164,
+  "lastUpdate": 1725026283775,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2151,6 +2151,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 133980,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3165b9532ca38264ca66d4c8de592053e05e1e92",
+          "message": "Fix source attribution for QPF and SPARQL endpoints (#1420)\n\nDiscovered in #1396",
+          "timestamp": "2024-08-30T15:29:24+02:00",
+          "tree_id": "f6bdd239223df95bc1775bf1094ba38bd24f03b9",
+          "url": "https://github.com/comunica/comunica/commit/3165b9532ca38264ca66d4c8de592053e05e1e92"
+        },
+        "date": 1725026283592,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 8115,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 35173,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 1038,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2823,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 230854,
             "unit": "ms"
           }
         ]
