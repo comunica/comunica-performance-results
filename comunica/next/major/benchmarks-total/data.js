@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724396415015,
+  "lastUpdate": 1725451308646,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -213,6 +213,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 233048,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "80960e5befb58ab4b0290499af4f8400ec8f8b82",
+          "message": "Refactor Actor.test to not rely on Promise rejections\n\nPromise rejections rely on the creation of Error objects,\nwhich are expensive to create in large numbers due to stack trace\nbuilding.\nSince Comunica tends to invoke a huge number of test methods for an\naverage query exection, this can cause a large performance overhead.\n\nThis commit refactors test methods to asynchronously return a\nTestResult, which is a holder object that either contains a passed value\nor a failure message.",
+          "timestamp": "2024-09-04T13:34:40+02:00",
+          "tree_id": "b6f1b7eaa7bd16db0c1b4774ce978fcdd757c0b8",
+          "url": "https://github.com/comunica/comunica/commit/80960e5befb58ab4b0290499af4f8400ec8f8b82"
+        },
+        "date": 1725451308286,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6939,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 30809,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 667,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1840,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 159424,
             "unit": "ms"
           }
         ]
