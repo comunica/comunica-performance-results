@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725001677306,
+  "lastUpdate": 1725461193207,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -523,6 +523,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 845,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "1bdafeaba9999446f29a7087e7721d94c448e560",
+          "message": "Update Dockerfile to Node 22",
+          "timestamp": "2024-09-04T15:42:36+02:00",
+          "tree_id": "4b8269d97a9733917fc5c139271aa562dcfba61c",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/1bdafeaba9999446f29a7087e7721d94c448e560"
+        },
+        "date": 1725461192806,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 4283,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 770,
             "unit": "ms"
           }
         ]
