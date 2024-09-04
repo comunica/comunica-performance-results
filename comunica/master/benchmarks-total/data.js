@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725026283775,
+  "lastUpdate": 1725457247193,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2200,6 +2200,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 230854,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "d709d770a2c01301a2c84be4fa5bd9998fce02a5",
+          "message": "Update Dockerfiles to Node 22",
+          "timestamp": "2024-09-04T15:15:24+02:00",
+          "tree_id": "c8054d1f7d84f0f7d1d06399aa5f22cf403526d6",
+          "url": "https://github.com/comunica/comunica/commit/d709d770a2c01301a2c84be4fa5bd9998fce02a5"
+        },
+        "date": 1725457246941,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6925,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25174,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 938,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1976,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 131269,
             "unit": "ms"
           }
         ]
