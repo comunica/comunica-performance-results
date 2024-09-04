@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725002231814,
+  "lastUpdate": 1725458302231,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -144,6 +144,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 14454,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "991793a03b53beddce541e375d4ca8b4171990a2",
+          "message": "Update Dockerfiles to Node 22",
+          "timestamp": "2024-09-04T15:42:17+02:00",
+          "tree_id": "69fa5c10f044f63410de42e0eafb49ecfb072a60",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/991793a03b53beddce541e375d4ca8b4171990a2"
+        },
+        "date": 1725458302004,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 10710,
             "unit": "ms"
           }
         ]
