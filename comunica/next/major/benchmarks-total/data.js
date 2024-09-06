@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725457601979,
+  "lastUpdate": 1725632718911,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -409,6 +409,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 232812,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "4cb21fcc65d68fe0dc78bc7e3ddded7c9cdf85d8",
+          "message": "Improve error reporting when mediators fail\n\nAll buses now have an error message template, which will be used when\nreporting mediator failures.\n\nCloses #119",
+          "timestamp": "2024-09-06T15:53:09+02:00",
+          "tree_id": "f3e82635c1f6c9b6dbd5f030ded477a575eb080c",
+          "url": "https://github.com/comunica/comunica/commit/4cb21fcc65d68fe0dc78bc7e3ddded7c9cdf85d8"
+        },
+        "date": 1725632718675,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5311,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24015,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 607,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1503,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 229678,
             "unit": "ms"
           }
         ]
