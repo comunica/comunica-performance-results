@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725457247193,
+  "lastUpdate": 1725626598968,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2249,6 +2249,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 131269,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b8f69dbf37eee85063bc96e93c780c74e9955555",
+          "message": "Add statistics tracking\n\nOptional statistics can be added to the context.\r\nThese statistics can then be listened to externally.\r\n\r\nFor example, listening to all dereference events is enabled by this.",
+          "timestamp": "2024-09-06T14:05:49+02:00",
+          "tree_id": "64966b4a0d13e0bd1af03e34b8fdb543d5f9c2bf",
+          "url": "https://github.com/comunica/comunica/commit/b8f69dbf37eee85063bc96e93c780c74e9955555"
+        },
+        "date": 1725626598763,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6430,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26358,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 943,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1930,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 228630,
             "unit": "ms"
           }
         ]
