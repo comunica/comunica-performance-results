@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725969593300,
+  "lastUpdate": 1725978518218,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -97,6 +97,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 232192,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "6027c7eda4dad6b557875eb63c27a43906998fa4",
+          "message": "Add undef support to inner hash join actor\n\nThis generalizes the BindingsIndexUndef slightly due to the different\nbehaviour when handling disjoint domains compared to minus operation.",
+          "timestamp": "2024-09-10T16:04:38+02:00",
+          "tree_id": "3e347dbf2b81596839ce722b0bc1711fc8c20193",
+          "url": "https://github.com/comunica/comunica/commit/6027c7eda4dad6b557875eb63c27a43906998fa4"
+        },
+        "date": 1725978517902,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5896,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25041,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 612,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1463,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 130194,
             "unit": "ms"
           }
         ]
