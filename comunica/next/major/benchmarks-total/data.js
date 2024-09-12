@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726140350060,
+  "lastUpdate": 1726144883666,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -556,6 +556,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 230553,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "ce7844a26c55120ce858b606b8766013589c8de5",
+          "message": "Improve type inference in IActionContext, Closes #933",
+          "timestamp": "2024-09-12T14:17:07+02:00",
+          "tree_id": "00b5eae5263e34a4e520871d3c8e51b078ee502b",
+          "url": "https://github.com/comunica/comunica/commit/ce7844a26c55120ce858b606b8766013589c8de5"
+        },
+        "date": 1726144883461,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5405,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24306,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 546,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1517,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 132073,
             "unit": "ms"
           }
         ]
