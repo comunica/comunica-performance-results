@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725632718911,
+  "lastUpdate": 1726136902017,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -458,6 +458,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 229678,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": false,
+          "id": "ef33b2c28835f0ca7b0b34ce58aa6fe0baddc7df",
+          "message": "Fix union not setting canContainUndefs to true if child vars differ",
+          "timestamp": "2024-09-12T11:25:29+02:00",
+          "tree_id": "52b8a31d3655d946334ab54700a36f8da405fb9d",
+          "url": "https://github.com/comunica/comunica/commit/ef33b2c28835f0ca7b0b34ce58aa6fe0baddc7df"
+        },
+        "date": 1726136901690,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6424,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23572,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 546,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1468,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 229027,
             "unit": "ms"
           }
         ]
