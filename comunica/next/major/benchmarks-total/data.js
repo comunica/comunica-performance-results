@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726754223219,
+  "lastUpdate": 1726773806940,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -703,6 +703,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 133716,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "450b14e13660e61377b75361983619cc8aa9146c",
+          "message": "Remove Node 14 backwards-compat in stats writer",
+          "timestamp": "2024-09-19T20:57:44+02:00",
+          "tree_id": "cc2ee96087ca53c139e3e6686d0cf64f2d22ac5d",
+          "url": "https://github.com/comunica/comunica/commit/450b14e13660e61377b75361983619cc8aa9146c"
+        },
+        "date": 1726773806312,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5290,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24018,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 569,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1552,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 132752,
             "unit": "ms"
           }
         ]
