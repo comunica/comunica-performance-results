@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726761670818,
+  "lastUpdate": 1726770260427,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -97,6 +97,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 157751,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "81b290a75d42db67adc7e620c2f4058c874d3b8e",
+          "message": "Forward side data from test to run in actors\n\nThis allows expensive logic from test methods to be reused as input to\nrun methods.\n\nCloses #1006",
+          "timestamp": "2024-09-19T19:49:39+02:00",
+          "tree_id": "c996e49ef9c38239d745aaf281d6358f4683a774",
+          "url": "https://github.com/comunica/comunica/commit/81b290a75d42db67adc7e620c2f4058c874d3b8e"
+        },
+        "date": 1726770259885,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5662,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25641,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 629,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1637,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 151828,
             "unit": "ms"
           }
         ]
