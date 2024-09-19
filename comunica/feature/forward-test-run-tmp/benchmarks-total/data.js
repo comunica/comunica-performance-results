@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726770260427,
+  "lastUpdate": 1726771958258,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -146,6 +146,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 151828,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "2fa7295d77d3a36abc24e8730e29cf12e3cf7e36",
+          "message": "Use test side data in rdf-join bus\n\nThis reduces duplicate metadata calculations across test and run.",
+          "timestamp": "2024-09-19T20:29:00+02:00",
+          "tree_id": "0d191f3b9f33cb65ae95d3362881e38e8efa7db5",
+          "url": "https://github.com/comunica/comunica/commit/2fa7295d77d3a36abc24e8730e29cf12e3cf7e36"
+        },
+        "date": 1726771958024,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5671,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26558,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 585,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1529,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 130644,
             "unit": "ms"
           }
         ]
