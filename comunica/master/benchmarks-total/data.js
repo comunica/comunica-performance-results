@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725626598968,
+  "lastUpdate": 1726814849163,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2298,6 +2298,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 228630,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44063787+maartyman@users.noreply.github.com",
+            "name": "Maarten Vandenbrande",
+            "username": "maartyman"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "20daf1761b1ec4c82357909a45fa4f84e2754080",
+          "message": "Optimize Bindings merge logic\n\n* Bindings merge optimization\r\n\r\n* Optimized merge for native comunica Bindings\r\n\r\n* Changed ActorRdfJoin tests from .toEqual() to .equals()\r\n\r\n* Add specific tests for native comunica Bindings and RDF.Bindings\r\n\r\n* Add check to use largest Bindings as base\r\n\r\n* Changed bindings merge from  to",
+          "timestamp": "2024-09-20T08:23:33+02:00",
+          "tree_id": "44f9bec56dc5818573c4f5ae991fe65539a3a73f",
+          "url": "https://github.com/comunica/comunica/commit/20daf1761b1ec4c82357909a45fa4f84e2754080"
+        },
+        "date": 1726814848570,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 7051,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26224,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 830,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2064,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 156142,
             "unit": "ms"
           }
         ]
