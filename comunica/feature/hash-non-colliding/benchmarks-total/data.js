@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727093366112,
+  "lastUpdate": 1727095429849,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -97,6 +97,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 163232,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "331865c773882be7e061a690833fc841ece27339",
+          "message": "Remove SHA1 hash actor in favor of Murmur3\n\nThe latter is more efficient for non-cryptographic purposes.",
+          "timestamp": "2024-09-23T13:54:41+02:00",
+          "tree_id": "3f8e9ae38c70a938375fbb524eaf7ec58982242d",
+          "url": "https://github.com/comunica/comunica/commit/331865c773882be7e061a690833fc841ece27339"
+        },
+        "date": 1727095429619,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5325,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23260,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 564,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1769,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 232427,
             "unit": "ms"
           }
         ]
