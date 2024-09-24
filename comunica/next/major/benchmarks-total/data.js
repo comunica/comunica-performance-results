@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727182938739,
+  "lastUpdate": 1727186732401,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -948,6 +948,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 229687,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "fb08c9fc9951e683f5e96a8348bd27593e06d607",
+          "message": "Make doesShapeAcceptOperation recurse into operations\n\nPreviously, only shapes would be recursed, while only top-level\noperation types would be checked. This was fine for our current\nsupported sources, but different source types may require more precise\nhandling.\n\nRelated to #1425",
+          "timestamp": "2024-09-24T15:31:19+02:00",
+          "tree_id": "75cabe7d8b0937cd6287f3c6241010afe85658ee",
+          "url": "https://github.com/comunica/comunica/commit/fb08c9fc9951e683f5e96a8348bd27593e06d607"
+        },
+        "date": 1727186732206,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5126,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23445,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 539,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1579,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 205072,
             "unit": "ms"
           }
         ]
