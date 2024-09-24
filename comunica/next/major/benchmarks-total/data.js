@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727104790928,
+  "lastUpdate": 1727182938739,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -899,6 +899,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 132815,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "75c0890d3619d35fa59df216be8ef0f85e200ddb",
+          "message": "Bump asyncjoin with hash join performance improvement",
+          "timestamp": "2024-09-24T14:17:57+02:00",
+          "tree_id": "617690c95db686f9f74b466fd177a6f67ec82782",
+          "url": "https://github.com/comunica/comunica/commit/75c0890d3619d35fa59df216be8ef0f85e200ddb"
+        },
+        "date": 1727182938196,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6376,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23920,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 615,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1500,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 229687,
             "unit": "ms"
           }
         ]
