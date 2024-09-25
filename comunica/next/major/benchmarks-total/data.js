@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727186732401,
+  "lastUpdate": 1727243834231,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -997,6 +997,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 205072,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "ec415213bcee0584541e7fb890f7e9e9dc1e3c21",
+          "message": "Remove unnecessary ESLint exceptions or ignores",
+          "timestamp": "2024-09-25T07:33:17+02:00",
+          "tree_id": "dbb8d8f14907dd68d67abd9bb05615d072740c6b",
+          "url": "https://github.com/comunica/comunica/commit/ec415213bcee0584541e7fb890f7e9e9dc1e3c21"
+        },
+        "date": 1727243833998,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5620,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22975,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 570,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1497,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 131412,
             "unit": "ms"
           }
         ]
