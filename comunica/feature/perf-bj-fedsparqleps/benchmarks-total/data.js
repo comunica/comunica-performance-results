@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727192924327,
+  "lastUpdate": 1727365086326,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -48,6 +48,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 203480,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "8e1de4b81d88526d9580db27526923d215fc4982",
+          "message": "Add two federated SPARQL endpoint queries to benchmark-web\n\nThese test the effectiveness of multi-bind and multi-bind-source join\nactors.",
+          "timestamp": "2024-09-26T17:11:21+02:00",
+          "tree_id": "57b742c7f59478d07040e068898ba2f0d760c3cf",
+          "url": "https://github.com/comunica/comunica/commit/8e1de4b81d88526d9580db27526923d215fc4982"
+        },
+        "date": 1727365086087,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6014,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26080,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 830,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1909,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 150446,
             "unit": "ms"
           }
         ]
