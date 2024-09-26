@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726824755091,
+  "lastUpdate": 1727347049494,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2396,6 +2396,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 133183,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bryanelliott.tam@ugent.be",
+            "name": "constraintAutomaton",
+            "username": "constraintAutomaton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f05cfe0856099b9f6269a392d6701fc28678da37",
+          "message": "Fix wrong usage in README of actor-merge-bindings-context-union",
+          "timestamp": "2024-09-26T12:11:42+02:00",
+          "tree_id": "f4379e7a8b80bd05ba02295b588341a5c41bc927",
+          "url": "https://github.com/comunica/comunica/commit/f05cfe0856099b9f6269a392d6701fc28678da37"
+        },
+        "date": 1727347049092,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6824,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25251,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 925,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1952,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 157342,
             "unit": "ms"
           }
         ]
