@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727435383550,
+  "lastUpdate": 1727440920360,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1193,6 +1193,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 150091,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "18ea5aae3bb7454bc77ad395a9b1b13b557ef835",
+          "message": "Add missing types dependency to actor-rdf-join-inner-hash",
+          "timestamp": "2024-09-27T14:02:24+02:00",
+          "tree_id": "4be26708c8346224a3c81603012d98b348eb5ab9",
+          "url": "https://github.com/comunica/comunica/commit/18ea5aae3bb7454bc77ad395a9b1b13b557ef835"
+        },
+        "date": 1727440919770,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5686,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23110,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 603,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1569,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 169661,
             "unit": "ms"
           }
         ]
