@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727440920360,
+  "lastUpdate": 1727446921335,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1242,6 +1242,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 169661,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "3028bf225064e7ec4f35e10993ff2a924f7df48c",
+          "message": "Fix unequal sparqlalgebrajs versions being installed\n\nThis caused bundle size to increase.",
+          "timestamp": "2024-09-27T15:54:27+02:00",
+          "tree_id": "b5bf412081bf8339192a4c3c56efab8aa4fd73ad",
+          "url": "https://github.com/comunica/comunica/commit/3028bf225064e7ec4f35e10993ff2a924f7df48c"
+        },
+        "date": 1727446921073,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5673,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25889,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 548,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1509,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 145499,
             "unit": "ms"
           }
         ]
