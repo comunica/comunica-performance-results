@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727431191565,
+  "lastUpdate": 1727433277816,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1095,6 +1095,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 243638,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "efdcf01dd4c660d432837d9e63f7d9ecc9c60bfa",
+          "message": "Move monorepo utils to new utils-monorepo package",
+          "timestamp": "2024-09-27T12:02:07+02:00",
+          "tree_id": "bce35651d9856e34c7189d234be99b10e203d851",
+          "url": "https://github.com/comunica/comunica/commit/efdcf01dd4c660d432837d9e63f7d9ecc9c60bfa"
+        },
+        "date": 1727433277409,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5378,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23611,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 639,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1518,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 245281,
             "unit": "ms"
           }
         ]
