@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727433277816,
+  "lastUpdate": 1727435383550,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1144,6 +1144,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 245281,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "77462bfd2c9669221aec495104f933601c62b633",
+          "message": "Fix eslint warnings",
+          "timestamp": "2024-09-27T12:40:00+02:00",
+          "tree_id": "d2da59b4c333c3ddea25dedf17f278ff2f33923d",
+          "url": "https://github.com/comunica/comunica/commit/77462bfd2c9669221aec495104f933601c62b633"
+        },
+        "date": 1727435383291,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5424,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24937,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 539,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1468,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 150091,
             "unit": "ms"
           }
         ]
