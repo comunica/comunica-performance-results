@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727418204045,
+  "lastUpdate": 1727441431682,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2494,6 +2494,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 146225,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bryanelliott.tam@ugent.be",
+            "name": "constraintAutomaton",
+            "username": "constraintAutomaton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "519226845e627a6d7c746500dd898a6aaf8a1349",
+          "message": "Fix typo in QuerySourceSkolemized jsdoc",
+          "timestamp": "2024-09-27T14:25:58+02:00",
+          "tree_id": "0c96e6f81ce62b8a3cc805819ea0e65bec0ed8fa",
+          "url": "https://github.com/comunica/comunica/commit/519226845e627a6d7c746500dd898a6aaf8a1349"
+        },
+        "date": 1727441431302,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6287,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 27513,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 841,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2027,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 137196,
             "unit": "ms"
           }
         ]
