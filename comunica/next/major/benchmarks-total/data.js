@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727446921335,
+  "lastUpdate": 1727690372988,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1291,6 +1291,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 145499,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "smessie@users.noreply.github.com",
+            "name": "Ieben Smessaert",
+            "username": "smessie"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e1a7dfad8340d89e2491ad474528b217594e4b0",
+          "message": "Add default `Accept-Encoding` header with Brotli\n\nThis explicitly accepts Brotli encoding,\r\nwhile previously only gzip and deflate where enabled.",
+          "timestamp": "2024-09-30T11:26:19+02:00",
+          "tree_id": "f523f2b4ce959c58d115ae45780043a79a40d1d7",
+          "url": "https://github.com/comunica/comunica/commit/6e1a7dfad8340d89e2491ad474528b217594e4b0"
+        },
+        "date": 1727690372729,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5513,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25309,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 563,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1558,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 248949,
             "unit": "ms"
           }
         ]
