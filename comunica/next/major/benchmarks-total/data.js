@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727690372988,
+  "lastUpdate": 1727694588966,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1340,6 +1340,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 248949,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "37c8fe66b63c876324a58b0a428ebf08f0826087",
+          "message": "Rename util packages to 'util-' scope\n\n- data-factory -> utils-data-factory\n- bindings-factory -> utils-bindings-factory\n- jest -> utils-jest\n- metadata -> utils-metadata",
+          "timestamp": "2024-09-30T11:59:27+02:00",
+          "tree_id": "586f5795ab6660a89ec9182fe6c8620e284c189a",
+          "url": "https://github.com/comunica/comunica/commit/37c8fe66b63c876324a58b0a428ebf08f0826087"
+        },
+        "date": 1727694588415,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5739,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25842,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 548,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1506,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 139559,
             "unit": "ms"
           }
         ]
