@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727694588966,
+  "lastUpdate": 1727703174847,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1389,6 +1389,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 139559,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "79d0369a97cc1c700132c760fb90a6d79b9816bf",
+          "message": "Group all depcheck failures into one message at the end",
+          "timestamp": "2024-09-30T14:59:18+02:00",
+          "tree_id": "bab4fb6a5e4527d6ffd185913122993e394899ce",
+          "url": "https://github.com/comunica/comunica/commit/79d0369a97cc1c700132c760fb90a6d79b9816bf"
+        },
+        "date": 1727703174621,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5900,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24512,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 625,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1519,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 234517,
             "unit": "ms"
           }
         ]
