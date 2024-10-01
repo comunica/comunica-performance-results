@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727769159566,
+  "lastUpdate": 1727770064344,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1487,6 +1487,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 166582,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "6f664127493079a194c535e634f2c67ec4ff6ad2",
+          "message": "Optimize parallelization in CI",
+          "timestamp": "2024-10-01T09:54:44+02:00",
+          "tree_id": "14462fde1b8e1098feba29d4aceedffd9d0f61b5",
+          "url": "https://github.com/comunica/comunica/commit/6f664127493079a194c535e634f2c67ec4ff6ad2"
+        },
+        "date": 1727770064097,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6577,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22644,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 508,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1637,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 145034,
             "unit": "ms"
           }
         ]
