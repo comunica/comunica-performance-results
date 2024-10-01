@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727703174847,
+  "lastUpdate": 1727769159566,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1438,6 +1438,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 234517,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "986ad559fc8615b25f5a83193dadb03cd04029a7",
+          "message": "Fix Docker-based perf experiments always invalidating caches",
+          "timestamp": "2024-10-01T09:26:16+02:00",
+          "tree_id": "187357098db7e272419f5b7c0e59a1c8fb6a680d",
+          "url": "https://github.com/comunica/comunica/commit/986ad559fc8615b25f5a83193dadb03cd04029a7"
+        },
+        "date": 1727769159299,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5214,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22810,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 602,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1537,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 166582,
             "unit": "ms"
           }
         ]
