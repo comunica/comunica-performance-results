@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727771235176,
+  "lastUpdate": 1728021358289,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1585,6 +1585,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 169117,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d54bf29ea75019ae68d39953d7812ab05c3896b",
+          "message": "Merge pull request #1439 from jitsedesmet/feature/busify-expressions\n\nFeature/busify expressions",
+          "timestamp": "2024-10-04T07:42:59+02:00",
+          "tree_id": "a9ac0b59fa2c4ad8bcb537c37bb8fee81adaa83d",
+          "url": "https://github.com/comunica/comunica/commit/9d54bf29ea75019ae68d39953d7812ab05c3896b"
+        },
+        "date": 1728021358039,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5027,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24396,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 539,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1546,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 141475,
             "unit": "ms"
           }
         ]
