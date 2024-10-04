@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728021358289,
+  "lastUpdate": 1728039393503,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1634,6 +1634,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 141475,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "021e938b66639b8108786bab9cd5b4af62f702f2",
+          "message": "Do not create expressionEvaluator in expression-using actors tests\n\nThis slightly improves performance",
+          "timestamp": "2024-10-04T12:43:51+02:00",
+          "tree_id": "649c8b08676f740bd9c0245494fa6d0a8fb505cf",
+          "url": "https://github.com/comunica/comunica/commit/021e938b66639b8108786bab9cd5b4af62f702f2"
+        },
+        "date": 1728039393122,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5262,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24629,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 622,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1467,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 145674,
             "unit": "ms"
           }
         ]
