@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728039393503,
+  "lastUpdate": 1728295589202,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1683,6 +1683,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 145674,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "35fe59cf0c7a0a8d3e05d546342b68248b93de58",
+          "message": "Add fail-fast: false to test matrices",
+          "timestamp": "2024-10-07T11:53:53+02:00",
+          "tree_id": "8f855059d7404abc2f80b91254eafdf347d06449",
+          "url": "https://github.com/comunica/comunica/commit/35fe59cf0c7a0a8d3e05d546342b68248b93de58"
+        },
+        "date": 1728295588930,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4921,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24153,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 590,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1540,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 136821,
             "unit": "ms"
           }
         ]
