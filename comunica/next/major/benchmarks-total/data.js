@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728393207909,
+  "lastUpdate": 1728394664743,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1879,6 +1879,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 169191,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "maarten.vdbrande@gmail.com",
+            "name": "maartenvandenbrande",
+            "username": "maartyman"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "d06fa2d3e6caa241af7615cef61025bd1517bdd8",
+          "message": "Fix type and jsdoc of IBindingsContextMergeHandler",
+          "timestamp": "2024-10-08T15:17:09+02:00",
+          "tree_id": "f105298a347a159e852ee5dd035fa9e6563b8583",
+          "url": "https://github.com/comunica/comunica/commit/d06fa2d3e6caa241af7615cef61025bd1517bdd8"
+        },
+        "date": 1728394664117,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5966,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25152,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 545,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1547,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 215582,
             "unit": "ms"
           }
         ]
