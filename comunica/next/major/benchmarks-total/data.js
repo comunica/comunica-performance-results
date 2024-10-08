@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728295589202,
+  "lastUpdate": 1728370538472,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1732,6 +1732,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 136821,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d946aa8127de31e07a5a74ebd0b18fe61e1dbb2",
+          "message": "Adjust ignore patterns in jest.config.ts (#1444)\n\nCo-authored-by: Ruben Taelman <rubensworks@users.noreply.github.com>",
+          "timestamp": "2024-10-08T08:43:18+02:00",
+          "tree_id": "98f994f256151ccdf2bc24b430e990a1d7419d82",
+          "url": "https://github.com/comunica/comunica/commit/9d946aa8127de31e07a5a74ebd0b18fe61e1dbb2"
+        },
+        "date": 1728370538063,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5199,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23568,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 601,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1666,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 145614,
             "unit": "ms"
           }
         ]
