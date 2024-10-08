@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728370538472,
+  "lastUpdate": 1728383117562,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1781,6 +1781,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 145614,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "85bd4c5cf07dfc293ebbc3a1416b70e2db8bfc48",
+          "message": "Shorten package names of expression evaluator actors",
+          "timestamp": "2024-10-08T12:11:06+02:00",
+          "tree_id": "48c583633a9bb7794a709634826cbccef573e90b",
+          "url": "https://github.com/comunica/comunica/commit/85bd4c5cf07dfc293ebbc3a1416b70e2db8bfc48"
+        },
+        "date": 1728383117270,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5139,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24391,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 566,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1479,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 170273,
             "unit": "ms"
           }
         ]
