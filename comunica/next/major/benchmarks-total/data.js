@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728458609815,
+  "lastUpdate": 1728461548899,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1977,6 +1977,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 137832,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c2d2e45afa7b3b5a61cc7c2d02ee60da956a911e",
+          "message": "Add mediator tests for expression evaluation buses",
+          "timestamp": "2024-10-09T09:59:53+02:00",
+          "tree_id": "0d700a791318efca76ab0e9b0552460350788c41",
+          "url": "https://github.com/comunica/comunica/commit/c2d2e45afa7b3b5a61cc7c2d02ee60da956a911e"
+        },
+        "date": 1728461548527,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5067,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23961,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 539,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1465,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 149799,
             "unit": "ms"
           }
         ]
