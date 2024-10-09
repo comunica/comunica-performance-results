@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728394664743,
+  "lastUpdate": 1728458609815,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -1928,6 +1928,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 215582,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b37d7e008b77067f6c6249aadfc901baf42a6914",
+          "message": "Refactor HTTP fetch and retry logic\n\n**Migrated HTTP request retry logic into its own `ActorHttpRetry` actor**\r\n* This will enable retries to work on everything in the HTTP bus.\r\n* The new actor also handles HTTP status codes 429 and 503 with `Retry-After` header, and delays subsequent requests to the associated host by the time instructed by the server.\r\n* The retry logic with regards to server responses has also been adjusted, and the client now skips retries when the error code is in the 400 or 500 ranges (except those two exceptions mentioned earlier), because retrying a bad request or retrying against a failing server does not make any sense.\r\n\r\n**Simplified `ActorHttpFetch` considerably**\r\n* Now that the retry logic is elsewhere, this actor could be simplified a lot.\r\n* Moved the Inrupt Solid client workaround to only occur once in the main actor itself, instead of being duplicated in the init preprocessor.\r\n* Removed the `node-fetch` workaround in the init preprocessor, due to `node-fetch` not being used anymore.\r\n\r\n**Adjusted browser detection logic**\r\n* The current version of Comunica detects Deno as a browser, according to my hobby server nginx logs. This means that someone is running Comunica on Deno, after all, but it also means the current browser detection is not working.\r\n* Here, I have changed the code to check for the existence of `globalThis.window.document`, which should be unlikely to exist outside browsers. This new check is located in a static method of `ActorHttp` since it is used more than once.\r\n\r\n**Adjusted HTTP `User-Agent` header**\r\n* The header value in Node/Deno/others will now be of the form `Comunica/<major_ver>.0 (<operating_system>; <system_architecture>) <actor_name>/<actor_version> <runtime_user_agenr>`, for example `Comunica/3.0 (linux; x64) ActorHttpFetch/3.2.1 Node.js/22`.\r\n* This follows the example set by some browsers, bots and others, and better reflects the configuration of Comunica used.\r\n\r\n**Other small clean-up**\r\n* Removed `KeysHttp.retryOnServerError` as unused after the retry refactoring.\r\n* Removed `web-streams-ponyfill` as unneeded now that Node 18 is the minimum supported version.",
+          "timestamp": "2024-10-09T09:06:41+02:00",
+          "tree_id": "63bfde40a1da47cc2a48bb100a8b42268eef104b",
+          "url": "https://github.com/comunica/comunica/commit/b37d7e008b77067f6c6249aadfc901baf42a6914"
+        },
+        "date": 1728458609558,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5371,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24022,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 823,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1516,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 137832,
             "unit": "ms"
           }
         ]
