@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728461548899,
+  "lastUpdate": 1728567493613,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2026,6 +2026,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 149799,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "d919eb365189d9ce9de80e04db1712b57846f1f7",
+          "message": "Make config dep overridable in depcheck task",
+          "timestamp": "2024-10-10T15:25:42+02:00",
+          "tree_id": "00b2e0c9d1d38d32bd146d71db879fbc7d0def7b",
+          "url": "https://github.com/comunica/comunica/commit/d919eb365189d9ce9de80e04db1712b57846f1f7"
+        },
+        "date": 1728567493147,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5763,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25646,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 821,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1598,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 144074,
             "unit": "ms"
           }
         ]
