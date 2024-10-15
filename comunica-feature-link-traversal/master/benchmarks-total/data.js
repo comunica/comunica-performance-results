@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728984779184,
+  "lastUpdate": 1728987258134,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -231,6 +231,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 3153,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "c015058c388062c39f1c0f3a27e22bd19c55ed16",
+          "message": "Remove actor-rdf-join-inner-multi-empty from config",
+          "timestamp": "2024-10-15T11:55:28+02:00",
+          "tree_id": "b4b7a68c3f66b3eb137a90d48ddd8953a7427f15",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/c015058c388062c39f1c0f3a27e22bd19c55ed16"
+        },
+        "date": 1728987257843,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 11956,
             "unit": "ms"
           }
         ]
