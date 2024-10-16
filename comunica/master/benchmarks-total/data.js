@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729085057842,
+  "lastUpdate": 1729091969636,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2739,6 +2739,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 160133,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "765a69558b50d695836114509bfd2e5deb372d44",
+          "message": "Re-enable skipped expressions tests",
+          "timestamp": "2024-10-16T17:06:50+02:00",
+          "tree_id": "60c6687373b40cbe1cfc465929be540c70aac876",
+          "url": "https://github.com/comunica/comunica/commit/765a69558b50d695836114509bfd2e5deb372d44"
+        },
+        "date": 1729091969346,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5280,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23333,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 581,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1462,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 145052,
             "unit": "ms"
           }
         ]
