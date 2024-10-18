@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729091969636,
+  "lastUpdate": 1729243247945,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2788,6 +2788,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 145052,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "maarten.vdbrande@gmail.com",
+            "name": "maartenvandenbrande",
+            "username": "maartyman"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "6104e3b5c3c1171684e9e12e1443f717ca46619a",
+          "message": "Make the dummy field comment part of jsdoc",
+          "timestamp": "2024-10-18T11:08:17+02:00",
+          "tree_id": "cba72c2b93302dcc976df1b98b67094965c5e3c3",
+          "url": "https://github.com/comunica/comunica/commit/6104e3b5c3c1171684e9e12e1443f717ca46619a"
+        },
+        "date": 1729243247500,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 6091,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23427,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 510,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1521,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 144596,
             "unit": "ms"
           }
         ]
