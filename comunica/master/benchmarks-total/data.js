@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730122544024,
+  "lastUpdate": 1730188105131,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2886,6 +2886,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 190482,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "b19fe21e804944880290255204a898dd65a00112",
+          "message": "Update dependency uuid to v11",
+          "timestamp": "2024-10-29T08:35:01+01:00",
+          "tree_id": "851c43ab82cd998435cce1720b776c399997c412",
+          "url": "https://github.com/comunica/comunica/commit/b19fe21e804944880290255204a898dd65a00112"
+        },
+        "date": 1730188104790,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5114,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23061,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 556,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1500,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 158585,
             "unit": "ms"
           }
         ]
