@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730188105131,
+  "lastUpdate": 1730190744644,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2935,6 +2935,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 158585,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8ee33a080f3955f0d254282909b1bf4204bd653b",
+          "message": "Fix incorrect test method of ActorQuerySourceIdentifyHypermediaAnnotateSource",
+          "timestamp": "2024-10-29T09:18:52+01:00",
+          "tree_id": "c1da4c439e18b22c7f28e0ff8ea3c5afc00661a2",
+          "url": "https://github.com/comunica/comunica/commit/8ee33a080f3955f0d254282909b1bf4204bd653b"
+        },
+        "date": 1730190744289,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5283,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23083,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 604,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1516,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 171418,
             "unit": "ms"
           }
         ]
