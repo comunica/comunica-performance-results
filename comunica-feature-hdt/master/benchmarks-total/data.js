@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729108729426,
+  "lastUpdate": 1730175789812,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -659,6 +659,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 423,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "80e129898f8db5295bd5f1398eb68a251a60d4e9",
+          "message": "Update dependency @types/node to v22",
+          "timestamp": "2024-10-29T01:53:41Z",
+          "tree_id": "1a67e813f0c82840854cf3930650e3bfc6aa261d",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/80e129898f8db5295bd5f1398eb68a251a60d4e9"
+        },
+        "date": 1730175789354,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2986,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 416,
             "unit": "ms"
           }
         ]
