@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730175789812,
+  "lastUpdate": 1730778693574,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -693,6 +693,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 416,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db3bc2fa1f1a99273f1141c1412e20f1cbfe5b33",
+          "message": "Update dependency immutable to v5",
+          "timestamp": "2024-11-05T00:54:21Z",
+          "tree_id": "20df07d9f623c356b0e58b7ac2c091b500b56829",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/db3bc2fa1f1a99273f1141c1412e20f1cbfe5b33"
+        },
+        "date": 1730778692925,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2929,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 409,
             "unit": "ms"
           }
         ]
