@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731053044529,
+  "lastUpdate": 1731073645388,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3082,6 +3082,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 171093,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "7f2c7dbf5d957b0728af4065c2c6721c43e6aeae",
+          "message": "Merge branch 'feature/opt-resort-uncommon-vars'",
+          "timestamp": "2024-11-08T14:28:32+01:00",
+          "tree_id": "81393ef7439db206a31f6ae4e39c610a441c3b8d",
+          "url": "https://github.com/comunica/comunica/commit/7f2c7dbf5d957b0728af4065c2c6721c43e6aeae"
+        },
+        "date": 1731073645095,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4927,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23411,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 386,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1442,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 245724,
             "unit": "ms"
           }
         ]
