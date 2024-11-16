@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730174049640,
+  "lastUpdate": 1731760658359,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -347,6 +347,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 12838,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2d170e26821d6f242ac1aefd4b7a2e011c5c87ee",
+          "message": "Fix link metadata disappearing when priority=0 in pushed links (#152)\n\n* Fix metadata disappearing when priority = 0 for new links\r\n\r\n* Fix spelling mistake",
+          "timestamp": "2024-11-16T13:17:28+01:00",
+          "tree_id": "db0f75399b16675a206fa86d55e3692b2e0abe9f",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/2d170e26821d6f242ac1aefd4b7a2e011c5c87ee"
+        },
+        "date": 1731760657618,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 13038,
             "unit": "ms"
           }
         ]
