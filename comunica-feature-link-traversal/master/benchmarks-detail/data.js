@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730174048614,
+  "lastUpdate": 1731760656648,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks detailed results": [
@@ -856,6 +856,78 @@ window.BENCHMARK_DATA = {
             "value": 9626,
             "unit": "ms",
             "extra": "Results: [0,0,10,0,10]; Error: [true,true,false,true,false]; HTTP Requests: [,,458,,508]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2d170e26821d6f242ac1aefd4b7a2e011c5c87ee",
+          "message": "Fix link metadata disappearing when priority=0 in pushed links (#152)\n\n* Fix metadata disappearing when priority = 0 for new links\r\n\r\n* Fix spelling mistake",
+          "timestamp": "2024-11-16T13:17:28+01:00",
+          "tree_id": "db0f75399b16675a206fa86d55e3692b2e0abe9f",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/2d170e26821d6f242ac1aefd4b7a2e011c5c87ee"
+        },
+        "date": 1731760655748,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench - interactive-discover-1",
+            "value": 545,
+            "unit": "ms",
+            "extra": "Results: [0,4,1,14,8]; Error: [true,false,false,false,false]; HTTP Requests: [,49,42,29,44]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-2",
+            "value": 376,
+            "unit": "ms",
+            "extra": "Results: [66,46,32,198,98]; Error: [false,false,false,false,false]; HTTP Requests: [50,49,42,29,44]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-3",
+            "value": 1209,
+            "unit": "ms",
+            "extra": "Results: [71,67,55,203,142]; Error: [false,false,false,false,false]; HTTP Requests: [176,177,126,235,195]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-4",
+            "value": 383,
+            "unit": "ms",
+            "extra": "Results: [5,3,3,3,7]; Error: [false,false,false,false,false]; HTTP Requests: [66,53,46,34,64]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-5",
+            "value": 248,
+            "unit": "ms",
+            "extra": "Results: [15,3,3,4,20]; Error: [false,false,false,false,false]; HTTP Requests: [50,49,42,29,44]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-6",
+            "value": 492,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,27]; Error: [true,false,false,true,false]; HTTP Requests: [,49,42,,44]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-7",
+            "value": 414,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,1]; Error: [true,false,false,true,false]; HTTP Requests: [,49,42,,44]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-8",
+            "value": 9371,
+            "unit": "ms",
+            "extra": "Results: [0,10,0,0,10]; Error: [true,false,true,true,false]; HTTP Requests: [,432,,,418]"
           }
         ]
       }
