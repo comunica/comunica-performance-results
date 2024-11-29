@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731073645388,
+  "lastUpdate": 1732900683794,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3131,6 +3131,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 245724,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44063787+maartyman@users.noreply.github.com",
+            "name": "Maarten Vandenbrande",
+            "username": "maartyman"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "38d32842647a5288caeec7ab9ead907ff6871739",
+          "message": "Fix README of actor-query-operation-filter",
+          "timestamp": "2024-11-29T18:04:46+01:00",
+          "tree_id": "9a389d37868c4f95cd5a22fe699d389fb9f61d6e",
+          "url": "https://github.com/comunica/comunica/commit/38d32842647a5288caeec7ab9ead907ff6871739"
+        },
+        "date": 1732900683463,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4966,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23819,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 426,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1449,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 147842,
             "unit": "ms"
           }
         ]
