@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732900683794,
+  "lastUpdate": 1732902560491,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3180,6 +3180,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 147842,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b8c047fb021f068efc10e270a9b9a8a01b4a4fe",
+          "message": "Remove separate engine and package projects from Jest config",
+          "timestamp": "2024-11-29T18:37:41+01:00",
+          "tree_id": "962e661f233c6e92bf9e3c0fdc2c3b3b54931c7b",
+          "url": "https://github.com/comunica/comunica/commit/0b8c047fb021f068efc10e270a9b9a8a01b4a4fe"
+        },
+        "date": 1732902559981,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4945,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22310,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 407,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1373,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 146909,
             "unit": "ms"
           }
         ]
