@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732902560491,
+  "lastUpdate": 1733231147624,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3229,6 +3229,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 146909,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "45c3ee4d70f3141a3961a99eae62cb55ed76787b",
+          "message": "Update dependency @types/uuid to v10 (#1454)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2024-12-03T13:51:59+01:00",
+          "tree_id": "9057faf96d4d5054ef26e90a361dc2c2faa11f53",
+          "url": "https://github.com/comunica/comunica/commit/45c3ee4d70f3141a3961a99eae62cb55ed76787b"
+        },
+        "date": 1733231147267,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4793,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23463,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 443,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1361,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 168132,
             "unit": "ms"
           }
         ]
