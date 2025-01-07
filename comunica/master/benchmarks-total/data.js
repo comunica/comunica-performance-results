@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733249957904,
+  "lastUpdate": 1736258627593,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3327,6 +3327,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 241054,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "76f174d8fc7ccd275a367a2043cbe6ee1ecbce12",
+          "message": "Add support for x and q regex flags, Closes #1254",
+          "timestamp": "2025-01-07T14:50:37+01:00",
+          "tree_id": "4d69242d3e9ee8bd19d163a5583ddebf85602e7a",
+          "url": "https://github.com/comunica/comunica/commit/76f174d8fc7ccd275a367a2043cbe6ee1ecbce12"
+        },
+        "date": 1736258627266,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4997,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23587,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 478,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1470,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 159183,
             "unit": "ms"
           }
         ]
