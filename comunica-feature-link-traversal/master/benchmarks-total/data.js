@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734927146567,
+  "lastUpdate": 1736348222195,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -405,6 +405,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 3284,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c7a79931a37f5092350a63b88876cb5c92c475a1",
+          "message": "Simplify Jest configuration (#156)\n\n* Align Jest config with main Comunica repository\r\n\r\n* Increase default Jest timeout to 20s",
+          "timestamp": "2025-01-08T15:48:01+01:00",
+          "tree_id": "776e7bc598710647aa3f0c400c7142fa334de283",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/c7a79931a37f5092350a63b88876cb5c92c475a1"
+        },
+        "date": 1736348221726,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 11897,
             "unit": "ms"
           }
         ]
