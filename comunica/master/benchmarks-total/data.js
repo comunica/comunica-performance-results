@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736260553665,
+  "lastUpdate": 1736419731592,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3425,6 +3425,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 137614,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d03d62fd21d940a3387a8f9497d1951c2103011b",
+          "message": "Add bus to transform intermediary streams\n\nThis adds the `iterator-transform` bus that is invoked by\r\nnew query operation and join actors (disabled by default).\r\nThese allow all bindings and quads in the stream to be\r\nmodified or tracked.",
+          "timestamp": "2025-01-09T11:36:00+01:00",
+          "tree_id": "f6fe9dbf1a365046805bae83c05f6f8b9e0b18d4",
+          "url": "https://github.com/comunica/comunica/commit/d03d62fd21d940a3387a8f9497d1951c2103011b"
+        },
+        "date": 1736419731237,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5509,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 127,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 369,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 79,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 146833,
             "unit": "ms"
           }
         ]
