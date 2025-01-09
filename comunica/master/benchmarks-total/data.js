@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736419731592,
+  "lastUpdate": 1736421000389,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3474,6 +3474,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 146833,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "aa4b6596d71621e89d07bed616c12630c118c046",
+          "message": "Revert \"Update dependency htmlparser2 to v10 (#1472)\"\n\nIt broke TPF performance tests.\n\nThis reverts commit 22d63135de676e83745848ac78349a3647594fcd.",
+          "timestamp": "2025-01-09T11:57:20+01:00",
+          "tree_id": "e8475e91374eaa88ce38fc1d69dcbff4113a36b0",
+          "url": "https://github.com/comunica/comunica/commit/aa4b6596d71621e89d07bed616c12630c118c046"
+        },
+        "date": 1736421000038,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5206,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 149,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 420,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 84,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 148510,
             "unit": "ms"
           }
         ]
