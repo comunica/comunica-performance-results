@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737007425094,
+  "lastUpdate": 1737447608381,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3621,6 +3621,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 146268,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f088b57d67d3bf104f5ff81d965050886ab74c8",
+          "message": "Fix query stopping when a triple pattern has estimated cardinality zero",
+          "timestamp": "2025-01-21T09:07:20+01:00",
+          "tree_id": "59ee78b4c90fdeb6c818aabc298101722e43a8a0",
+          "url": "https://github.com/comunica/comunica/commit/0f088b57d67d3bf104f5ff81d965050886ab74c8"
+        },
+        "date": 1737447607583,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5297,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 113,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 448,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 96,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 149178,
             "unit": "ms"
           }
         ]
