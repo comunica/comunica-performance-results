@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736428688760,
+  "lastUpdate": 1737631906878,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -97,6 +97,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 146609,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "a36c7268e05cc1997cc9223cbd5e375699021e46",
+          "message": "Update function tests to triple term syntax",
+          "timestamp": "2025-01-23T09:26:35+01:00",
+          "tree_id": "f19b43314a0fbc6dbd528480615cb000315265cc",
+          "url": "https://github.com/comunica/comunica/commit/a36c7268e05cc1997cc9223cbd5e375699021e46"
+        },
+        "date": 1737631906447,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5000,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 112,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 482,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 81,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 160444,
             "unit": "ms"
           }
         ]
