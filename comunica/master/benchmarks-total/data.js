@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737447608381,
+  "lastUpdate": 1738074211322,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3670,6 +3670,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 149178,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "c2fafd403e2f4bfe0e0ae62abec335b196b1e920",
+          "message": "Fix sd:defaultGraph parsing with QPF endpoints",
+          "timestamp": "2025-01-28T15:05:44+01:00",
+          "tree_id": "9650880ee12069876da6e05eee3af3138cdf2cde",
+          "url": "https://github.com/comunica/comunica/commit/c2fafd403e2f4bfe0e0ae62abec335b196b1e920"
+        },
+        "date": 1738074210477,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5822,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25855,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 444,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1342,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 223225,
             "unit": "ms"
           }
         ]
