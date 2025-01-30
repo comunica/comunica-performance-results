@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737631906878,
+  "lastUpdate": 1738235938004,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -146,6 +146,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 160444,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "e026c0842230d72299412e543ee6ebcd8e9f4212",
+          "message": "Bump sparqlalgebrajs to fix failing SPARQL 1.2 spec tests",
+          "timestamp": "2025-01-30T11:25:41+01:00",
+          "tree_id": "9a73f308d6c090e8c5476290674198dd53de9bd5",
+          "url": "https://github.com/comunica/comunica/commit/e026c0842230d72299412e543ee6ebcd8e9f4212"
+        },
+        "date": 1738235937180,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5142,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 118,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 394,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 74,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 149358,
             "unit": "ms"
           }
         ]
