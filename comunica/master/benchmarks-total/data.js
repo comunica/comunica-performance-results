@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738074211322,
+  "lastUpdate": 1738656100636,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3719,6 +3719,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 223225,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44063787+maartyman@users.noreply.github.com",
+            "name": "Maarten Vandenbrande",
+            "username": "maartyman"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "748f4d46fab3843210c2b03f025fc4ed2d3dbce4",
+          "message": "Fix floating point error for very low cardinalities\n\nThese could cause very small bindings streams to be considered empty,\r\nwhich produced incorrect query plans.",
+          "timestamp": "2025-02-04T08:42:16+01:00",
+          "tree_id": "82303fa88e31ae7d8748ebf9288c0827cd5d7a46",
+          "url": "https://github.com/comunica/comunica/commit/748f4d46fab3843210c2b03f025fc4ed2d3dbce4"
+        },
+        "date": 1738656099755,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5987,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25417,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 432,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1490,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 249057,
             "unit": "ms"
           }
         ]
