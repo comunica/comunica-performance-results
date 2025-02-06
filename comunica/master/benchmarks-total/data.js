@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738656100636,
+  "lastUpdate": 1738851758647,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3768,6 +3768,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 249057,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cff635fa110bb6af02b8e3d51d85b0c316bd4cb1",
+          "message": "Update README.md of actor-query-source-identify-hypermedia-annotate-source (#1499)\n\n* Update readme to reflect limitations of the hypermedia-annotate-source actor\r\n\r\n* Update packages/actor-query-source-identify-hypermedia-annotate-source/README.md\r\n\r\n---------\r\n\r\nCo-authored-by: Ruben Taelman <rubensworks@users.noreply.github.com>",
+          "timestamp": "2025-02-06T15:09:50+01:00",
+          "tree_id": "76e78c1d071c20b118711f3c90003812619f3b12",
+          "url": "https://github.com/comunica/comunica/commit/cff635fa110bb6af02b8e3d51d85b0c316bd4cb1"
+        },
+        "date": 1738851758154,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5846,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23303,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 401,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1371,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 152497,
             "unit": "ms"
           }
         ]
