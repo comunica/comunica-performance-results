@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738851758647,
+  "lastUpdate": 1739275845128,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3817,6 +3817,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 152497,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3bd4e0a3a6d7c607a594331bf3abfcb8a8f4cdd6",
+          "message": "Fix link traversal with multiple sources not always working\n\nCloses #1498",
+          "timestamp": "2025-02-11T12:52:23+01:00",
+          "tree_id": "31e19f01f890244c88d5a54da505c31342884cd9",
+          "url": "https://github.com/comunica/comunica/commit/3bd4e0a3a6d7c607a594331bf3abfcb8a8f4cdd6"
+        },
+        "date": 1739275844398,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5881,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23514,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 418,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1404,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 234091,
             "unit": "ms"
           }
         ]
