@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739368640100,
+  "lastUpdate": 1739391308840,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -897,6 +897,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 272,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a231afd0a756504e235cfd700960cd4d847094d",
+          "message": "Update dependency jest-rdf to v2 (#5)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2025-02-12T20:04:41Z",
+          "tree_id": "3d08a050e342c814fa9e7d3849e2bc446e336bcd",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/1a231afd0a756504e235cfd700960cd4d847094d"
+        },
+        "date": 1739391308093,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2304,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 258,
             "unit": "ms"
           }
         ]
