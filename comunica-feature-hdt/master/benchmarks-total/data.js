@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739367455966,
+  "lastUpdate": 1739368640100,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -863,6 +863,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 259,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "constraintAutomaton@protonmail.com",
+            "name": "constraintAutomaton",
+            "username": "constraintAutomaton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c7ef0532c31debd5fd4496b70b0fa8aa6aa6dbda",
+          "message": "Fix missing myEngine declaration added in the Javascript example",
+          "timestamp": "2025-02-12T14:49:18+01:00",
+          "tree_id": "05b2c7c0c2501afa46f97eb4240198fce5e80523",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/c7ef0532c31debd5fd4496b70b0fa8aa6aa6dbda"
+        },
+        "date": 1739368639718,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2442,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 272,
             "unit": "ms"
           }
         ]
