@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739276974777,
+  "lastUpdate": 1739455755193,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3915,6 +3915,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 169526,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "513e55a61639902de3c0dceda0c3c4c29cb617bd",
+          "message": "Avoid creation of intermediary triple objects for in-memory stores\n\nThis slightly improves overall performance.",
+          "timestamp": "2025-02-13T14:55:08+01:00",
+          "tree_id": "2001807ea9884ebc832200417fa7d888a3216fa7",
+          "url": "https://github.com/comunica/comunica/commit/513e55a61639902de3c0dceda0c3c4c29cb617bd"
+        },
+        "date": 1739455754430,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5433,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26250,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 335,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1459,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 168572,
             "unit": "ms"
           }
         ]
