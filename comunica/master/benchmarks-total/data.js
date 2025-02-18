@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739873645904,
+  "lastUpdate": 1739882339851,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4013,6 +4013,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 147684,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "dd0708bbc5c67e5567f778dd1e35ccdc43ef16b8",
+          "message": "Add dep actor-rdf-metadata-extract-void to query-sparql",
+          "timestamp": "2025-02-18T13:18:23+01:00",
+          "tree_id": "9a9dbbd5e21229e5f9ad3cdec927dfb52bdc8574",
+          "url": "https://github.com/comunica/comunica/commit/dd0708bbc5c67e5567f778dd1e35ccdc43ef16b8"
+        },
+        "date": 1739882339367,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4721,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 101481,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 353,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 4673,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 236943,
             "unit": "ms"
           }
         ]
