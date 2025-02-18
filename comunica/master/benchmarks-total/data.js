@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739455755193,
+  "lastUpdate": 1739873645904,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -3964,6 +3964,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 168572,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2e259e739b6664a932bd3f5020509730b4d600e8",
+          "message": "Add VoID metadata extract actor and cardinality estimation for SPARQL sources\n\nCloses #1308",
+          "timestamp": "2025-02-18T11:00:53+01:00",
+          "tree_id": "28499d50a22c7e29573c6c2d779dc1d053160398",
+          "url": "https://github.com/comunica/comunica/commit/2e259e739b6664a932bd3f5020509730b4d600e8"
+        },
+        "date": 1739873645524,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5116,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23459,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 344,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1467,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 147684,
             "unit": "ms"
           }
         ]
