@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740051518861,
+  "lastUpdate": 1740058622683,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4209,6 +4209,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 138632,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "1e89df54431a6343845db1bf12b1c1ac26b0d93e",
+          "message": "Fix broken Dockerfile for query-sparql",
+          "timestamp": "2025-02-20T14:16:13+01:00",
+          "tree_id": "843581cffda0ebe57fbb2b72f747712fed606fe4",
+          "url": "https://github.com/comunica/comunica/commit/1e89df54431a6343845db1bf12b1c1ac26b0d93e"
+        },
+        "date": 1740058622274,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4707,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25081,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 382,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1442,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 156023,
             "unit": "ms"
           }
         ]
