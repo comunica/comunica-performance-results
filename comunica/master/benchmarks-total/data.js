@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740038374462,
+  "lastUpdate": 1740051518861,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4160,6 +4160,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 147780,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "8f58dd45a3ba72b72aa030242faebd6bb46fd370",
+          "message": "Add workaround for DBPedia SPARQL HTTP status 405 with Retry-After",
+          "timestamp": "2025-02-20T12:25:20+01:00",
+          "tree_id": "0e8834d8138e561096e0f16e941e7ba5a0b2bf73",
+          "url": "https://github.com/comunica/comunica/commit/8f58dd45a3ba72b72aa030242faebd6bb46fd370"
+        },
+        "date": 1740051518432,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5945,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24377,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 347,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1368,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 138632,
             "unit": "ms"
           }
         ]
