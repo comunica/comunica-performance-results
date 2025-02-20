@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739884445285,
+  "lastUpdate": 1740038374462,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4111,6 +4111,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 156982,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "caf4d2b87535a4081a627e09db4d55dd4e0a5cb8",
+          "message": "Update dependency rdf-stores to v2 (#1503)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2025-02-20T08:46:44+01:00",
+          "tree_id": "6bdfe68c3218130adda056ff52f9720a2952d8bc",
+          "url": "https://github.com/comunica/comunica/commit/caf4d2b87535a4081a627e09db4d55dd4e0a5cb8"
+        },
+        "date": 1740038374081,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4676,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23337,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 341,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1504,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 147780,
             "unit": "ms"
           }
         ]
