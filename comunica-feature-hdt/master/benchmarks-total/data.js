@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740035480215,
+  "lastUpdate": 1740047698078,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -965,6 +965,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 259,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "286c0d80403a2bba730b62ecb4e6ca3b0218ef76",
+          "message": "Update dependency rdf-quad to v2 (#7)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2025-02-20T10:25:45Z",
+          "tree_id": "00fce8c7af1f7c32cb5d1b20dd6c818395136849",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/286c0d80403a2bba730b62ecb4e6ca3b0218ef76"
+        },
+        "date": 1740047697707,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2463,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 252,
             "unit": "ms"
           }
         ]
