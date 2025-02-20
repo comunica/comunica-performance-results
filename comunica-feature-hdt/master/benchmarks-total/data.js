@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739391308840,
+  "lastUpdate": 1740035480215,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -931,6 +931,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 258,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "17824a2193e53b61281f58e94fff8feab67ad4cb",
+          "message": "Update dependency streamify-array to v2",
+          "timestamp": "2025-02-20T01:56:00Z",
+          "tree_id": "ddd7bc9137d228bc98905d0a255d8e7dc84b6681",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/17824a2193e53b61281f58e94fff8feab67ad4cb"
+        },
+        "date": 1740035479337,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2303,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 259,
             "unit": "ms"
           }
         ]
