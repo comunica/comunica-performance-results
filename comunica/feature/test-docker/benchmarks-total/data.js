@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740389329084,
+  "lastUpdate": 1740390784428,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -244,6 +244,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 140526,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "a65e569ca8295264134467774ff9dfa1add47abc",
+          "message": "Add Docker test to CI",
+          "timestamp": "2025-02-24T10:40:33+01:00",
+          "tree_id": "a76bd3c246617cb0cdff243762321a598bb1d9b4",
+          "url": "https://github.com/comunica/comunica/commit/a65e569ca8295264134467774ff9dfa1add47abc"
+        },
+        "date": 1740390783465,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5295,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23401,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 333,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1382,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 144394,
             "unit": "ms"
           }
         ]
