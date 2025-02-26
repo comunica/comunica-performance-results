@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740394307546,
+  "lastUpdate": 1740562760356,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4307,6 +4307,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 141936,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "44063787+maartyman@users.noreply.github.com",
+            "name": "Maarten Vandenbrande",
+            "username": "maartyman"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c3d01e521a3c221ee41b8e147d4a97dcdad12e5d",
+          "message": "Fix config example in orderby README",
+          "timestamp": "2025-02-26T10:25:25+01:00",
+          "tree_id": "b4902863a031f7e3c1ccfbea48e32e7e0ab22655",
+          "url": "https://github.com/comunica/comunica/commit/c3d01e521a3c221ee41b8e147d4a97dcdad12e5d"
+        },
+        "date": 1740562759822,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4697,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 27596,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 349,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1398,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 172349,
             "unit": "ms"
           }
         ]
