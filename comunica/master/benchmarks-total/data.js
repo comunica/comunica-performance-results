@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740747788758,
+  "lastUpdate": 1740750586078,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4454,6 +4454,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 143156,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "e38c1797e0137e3efe196be478bb22d6e2dcd5b2",
+          "message": "Fix web perf benchmark not using query-sparql engine",
+          "timestamp": "2025-02-28T14:34:16+01:00",
+          "tree_id": "1aadba0bbc643adc49f9d0c4a0681487f56327f3",
+          "url": "https://github.com/comunica/comunica/commit/e38c1797e0137e3efe196be478bb22d6e2dcd5b2"
+        },
+        "date": 1740750585302,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5361,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23752,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 357,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1372,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 163224,
             "unit": "ms"
           }
         ]
