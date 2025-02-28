@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740562760356,
+  "lastUpdate": 1740730048950,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4356,6 +4356,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 172349,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "659ee704124dd4b1debfd5cfce900bd0eb087de8",
+          "message": "Include VoID actor in default config\n\nThis reverts commit 6942a4b3bae81930018b1c2b8c4aa22fbe6d713b.",
+          "timestamp": "2025-02-28T08:53:46+01:00",
+          "tree_id": "54968427160492b6faeced331768db90242676de",
+          "url": "https://github.com/comunica/comunica/commit/659ee704124dd4b1debfd5cfce900bd0eb087de8"
+        },
+        "date": 1740730048538,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4644,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23421,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 343,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1385,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 107051,
             "unit": "ms"
           }
         ]
