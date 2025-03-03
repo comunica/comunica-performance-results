@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740047698078,
+  "lastUpdate": 1740982908963,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -999,6 +999,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 252,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1ee348c351b76b3fac8165ab3569db049a028ce2",
+          "message": "Update dependency babel-loader to v10",
+          "timestamp": "2025-03-03T03:01:01Z",
+          "tree_id": "aeb61a57c9037383507fa5a098a9c179443d8c08",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/1ee348c351b76b3fac8165ab3569db049a028ce2"
+        },
+        "date": 1740982908509,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2392,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 257,
             "unit": "ms"
           }
         ]
