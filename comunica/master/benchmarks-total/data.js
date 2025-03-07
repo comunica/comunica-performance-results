@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741091235244,
+  "lastUpdate": 1741332822819,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4552,6 +4552,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 159962,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c2772816b281c40cd59cee080aa11814dc24e79e",
+          "message": "Avoid printing all metadata in join logging (#1509)",
+          "timestamp": "2025-03-07T08:14:46+01:00",
+          "tree_id": "bd1e376e186e636b1571b3046756456493a3e321",
+          "url": "https://github.com/comunica/comunica/commit/c2772816b281c40cd59cee080aa11814dc24e79e"
+        },
+        "date": 1741332822053,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4749,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23648,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 585,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1344,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 214918,
             "unit": "ms"
           }
         ]
