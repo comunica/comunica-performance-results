@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741358542765,
+  "lastUpdate": 1741362302917,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -97,6 +97,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 232889,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "7d7b37dfcc701b671ed924b1f8ff675031342df0",
+          "message": "Add HTTP rate limit actor",
+          "timestamp": "2025-03-07T15:44:20+01:00",
+          "tree_id": "0a271426aaa33c45b9b1c995aaa5c5c62251fed4",
+          "url": "https://github.com/comunica/comunica/commit/7d7b37dfcc701b671ed924b1f8ff675031342df0"
+        },
+        "date": 1741362301971,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4577,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24691,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 436,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1426,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 161684,
             "unit": "ms"
           }
         ]
