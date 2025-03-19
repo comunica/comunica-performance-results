@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742191779993,
+  "lastUpdate": 1742396301046,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4650,6 +4650,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 133394,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "karelklima@gmail.com",
+            "name": "Karel Klíma",
+            "username": "karelklima"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "932eb93f068bd8a7cf4f65f32cf5199d991f31f8",
+          "message": "Add distinctConstruct key to IQueryContextCommon",
+          "timestamp": "2025-03-19T15:35:15+01:00",
+          "tree_id": "1719ddb98fd403a9a1e08f33f54fe798d2a2eb91",
+          "url": "https://github.com/comunica/comunica/commit/932eb93f068bd8a7cf4f65f32cf5199d991f31f8"
+        },
+        "date": 1742396300533,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4478,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24605,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 361,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1372,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 211155,
             "unit": "ms"
           }
         ]
