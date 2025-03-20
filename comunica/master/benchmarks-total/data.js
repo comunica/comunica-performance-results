@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742396301046,
+  "lastUpdate": 1742465972629,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4699,6 +4699,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 211155,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "691e9f3adfe86b03e9a4cad449b155f4ee7ddc48",
+          "message": "Fix Coveralls result key in CI to avoid false duplicates (#1513)",
+          "timestamp": "2025-03-19T15:53:59+01:00",
+          "tree_id": "d711349d7eb930096ade245347abc8223937bf2a",
+          "url": "https://github.com/comunica/comunica/commit/691e9f3adfe86b03e9a4cad449b155f4ee7ddc48"
+        },
+        "date": 1742465971880,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5039,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24981,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 332,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1457,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 141989,
             "unit": "ms"
           }
         ]
