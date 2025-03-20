@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736348222195,
+  "lastUpdate": 1742468587183,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -434,6 +434,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 11897,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "be8d8c362a75d1e88cbac08f36bcb512a8a96255",
+          "message": "Add discovery tracking of extracted seed URIs from query (#169)",
+          "timestamp": "2025-03-20T11:43:31+01:00",
+          "tree_id": "699aa0c34ceb139de010405c94c4239507bed2e8",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/be8d8c362a75d1e88cbac08f36bcb512a8a96255"
+        },
+        "date": 1742468586639,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 10372,
             "unit": "ms"
           }
         ]
