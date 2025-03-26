@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742465972629,
+  "lastUpdate": 1742978692938,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4748,6 +4748,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 141989,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3f6be97a2dc865bda623b8ffd9d6340041bbedf3",
+          "message": "Remove Jest maxWorkers as redundant (#1518)",
+          "timestamp": "2025-03-26T09:25:53+01:00",
+          "tree_id": "36f6ddcf08f61a19cf50550550cc3b631d1cf379",
+          "url": "https://github.com/comunica/comunica/commit/3f6be97a2dc865bda623b8ffd9d6340041bbedf3"
+        },
+        "date": 1742978692138,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4673,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24679,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 335,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1503,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 203329,
             "unit": "ms"
           }
         ]
