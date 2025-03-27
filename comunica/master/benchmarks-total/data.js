@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742978692938,
+  "lastUpdate": 1743062275953,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4797,6 +4797,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 203329,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3668bd3a59c31231c4970ca7a3f2b1684f143ca7",
+          "message": "Reduce logging verbosity in http limit actor (#1521)",
+          "timestamp": "2025-03-27T08:40:26+01:00",
+          "tree_id": "49e0a050e51c10057667fa5839d050c4f82609d6",
+          "url": "https://github.com/comunica/comunica/commit/3668bd3a59c31231c4970ca7a3f2b1684f143ca7"
+        },
+        "date": 1743062275397,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5017,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23442,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 324,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1431,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 162545,
             "unit": "ms"
           }
         ]
