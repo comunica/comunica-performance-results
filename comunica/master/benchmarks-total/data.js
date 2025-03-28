@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743062275953,
+  "lastUpdate": 1743167143649,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4846,6 +4846,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 162545,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "b3aa99882ff34809c2d7a24b575bc1764474a39d",
+          "message": "Fix queries with complex property paths not terminating\n\nCloses #1470",
+          "timestamp": "2025-03-28T13:48:21+01:00",
+          "tree_id": "adfc445c81f7f157a68ac251329dc55172e97c39",
+          "url": "https://github.com/comunica/comunica/commit/b3aa99882ff34809c2d7a24b575bc1764474a39d"
+        },
+        "date": 1743167142948,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5149,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25282,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 353,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1434,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 178303,
             "unit": "ms"
           }
         ]
