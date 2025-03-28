@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743167143649,
+  "lastUpdate": 1743174828869,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4895,6 +4895,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 178303,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "0227f236be392992c77e872201623257e6080f60",
+          "message": "Fix regressions of initialBindings with BIND clauses\n\nCloses #1433",
+          "timestamp": "2025-03-28T15:53:22+01:00",
+          "tree_id": "8bef1b21bb9f88e62cb1be7f45d76cc9cb2e9443",
+          "url": "https://github.com/comunica/comunica/commit/0227f236be392992c77e872201623257e6080f60"
+        },
+        "date": 1743174828347,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4793,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24622,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 659,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1433,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 212467,
             "unit": "ms"
           }
         ]
