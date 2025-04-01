@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742468585373,
+  "lastUpdate": 1743516055029,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks detailed results": [
@@ -1144,6 +1144,78 @@ window.BENCHMARK_DATA = {
             "value": 7359,
             "unit": "ms",
             "extra": "Results: [10,0,0,0,10]; Error: [false,true,true,true,false]; HTTP Requests: [473,,,,319]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffb4ec0ee3c5760d8726e01cfee7bddafb61d516",
+          "message": "Remove blocking hash join from config (#170)\n\nThe hash join is a blocking join operator; this will halt query execution until all URIs have been dereferenced.",
+          "timestamp": "2025-04-01T15:37:58+02:00",
+          "tree_id": "710aa9d8c8c686956f11d1baa71b58c5f8bd9d20",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/ffb4ec0ee3c5760d8726e01cfee7bddafb61d516"
+        },
+        "date": 1743516054182,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench - interactive-discover-1",
+            "value": 392,
+            "unit": "ms",
+            "extra": "Results: [6,4,1,14,8]; Error: [false,false,false,false,false]; HTTP Requests: [51,50,43,30,45]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-2",
+            "value": 435,
+            "unit": "ms",
+            "extra": "Results: [66,46,32,198,98]; Error: [false,false,false,false,false]; HTTP Requests: [51,50,43,30,45]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-3",
+            "value": 949,
+            "unit": "ms",
+            "extra": "Results: [71,67,55,203,142]; Error: [false,false,false,false,false]; HTTP Requests: [177,178,127,236,196]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-4",
+            "value": 327,
+            "unit": "ms",
+            "extra": "Results: [5,3,3,3,7]; Error: [false,false,false,false,false]; HTTP Requests: [67,54,47,35,65]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-5",
+            "value": 216,
+            "unit": "ms",
+            "extra": "Results: [15,3,3,4,20]; Error: [false,false,false,false,false]; HTTP Requests: [51,50,43,30,45]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-6",
+            "value": 463,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,27]; Error: [true,false,false,true,false]; HTTP Requests: [,50,43,,45]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-7",
+            "value": 435,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,1]; Error: [true,false,false,true,false]; HTTP Requests: [,50,43,,45]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-8",
+            "value": 9592,
+            "unit": "ms",
+            "extra": "Results: [0,10,0,0,0]; Error: [true,false,true,true,true]; HTTP Requests: [,513,,,]"
           }
         ]
       }
