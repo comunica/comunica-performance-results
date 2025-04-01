@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743174828869,
+  "lastUpdate": 1743515206165,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4944,6 +4944,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 212467,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7308bc03fc93b90d9dd517cab31baf7f1ebb7472",
+          "message": "Enable local cardinality estimation for `ASK` and `UNION` using VoID metadata (#1527)\n\n* Enable cardinality estimation of ASK operations\n\n* Enable cardinality estimation of UNION operations",
+          "timestamp": "2025-04-01T15:31:30+02:00",
+          "tree_id": "b40f8799c94b1d108c2939e43c719c6c29aea6d0",
+          "url": "https://github.com/comunica/comunica/commit/7308bc03fc93b90d9dd517cab31baf7f1ebb7472"
+        },
+        "date": 1743515205715,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5071,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23710,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 344,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1402,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 113374,
             "unit": "ms"
           }
         ]
