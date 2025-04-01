@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742468587183,
+  "lastUpdate": 1743516056796,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -463,6 +463,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 10372,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffb4ec0ee3c5760d8726e01cfee7bddafb61d516",
+          "message": "Remove blocking hash join from config (#170)\n\nThe hash join is a blocking join operator; this will halt query execution until all URIs have been dereferenced.",
+          "timestamp": "2025-04-01T15:37:58+02:00",
+          "tree_id": "710aa9d8c8c686956f11d1baa71b58c5f8bd9d20",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/ffb4ec0ee3c5760d8726e01cfee7bddafb61d516"
+        },
+        "date": 1743516055962,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 12809,
             "unit": "ms"
           }
         ]
