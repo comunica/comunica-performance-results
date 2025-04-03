@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743515206165,
+  "lastUpdate": 1743668957706,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -4993,6 +4993,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 113374,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "cdae8eed46848e6c84eba5d5e2b7144abce444fc",
+          "message": "Fix bad plans sometimes being chosen due to requestTime in files\n\nIn some rare cases, bad plans could be picked due to the requestTime of\nfile sources sometimes being set to the original HTTP fetch time of that\nfile. These times should never be taken into account, since the fetch\nhas already happened, and indexing of that file is done at this point,\nso future calls to the file store will be free in terms of requestTime.",
+          "timestamp": "2025-04-03T09:54:06+02:00",
+          "tree_id": "3620045fa25f7cbff7b179c62fad9d8222306f00",
+          "url": "https://github.com/comunica/comunica/commit/cdae8eed46848e6c84eba5d5e2b7144abce444fc"
+        },
+        "date": 1743668956889,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4969,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23353,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 346,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1406,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 159585,
             "unit": "ms"
           }
         ]
