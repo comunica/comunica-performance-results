@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743668957706,
+  "lastUpdate": 1744121893327,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5042,6 +5042,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 159585,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "c5529ac2e01addeb1b1a5afbdbf9e29983ce1a93",
+          "message": "Skip unnecessary SPARQL SD requests for a single source\n\nCloses #1532",
+          "timestamp": "2025-04-08T16:01:48+02:00",
+          "tree_id": "66195ffce794efd1a413daba12ffe3586972b28d",
+          "url": "https://github.com/comunica/comunica/commit/c5529ac2e01addeb1b1a5afbdbf9e29983ce1a93"
+        },
+        "date": 1744121892668,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5044,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24447,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 347,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1414,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 139482,
             "unit": "ms"
           }
         ]
