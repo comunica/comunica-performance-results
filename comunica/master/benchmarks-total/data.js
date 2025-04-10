@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744121893327,
+  "lastUpdate": 1744283105960,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5091,6 +5091,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 139482,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bryanelliott.tam@ugent.be",
+            "name": "Bryan-Elliott Tam",
+            "username": "constraintAutomaton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1054e2ca2db1a5aebd06f1160a05ac1b94e30ba",
+          "message": "Update to rdf-streaming-store v2",
+          "timestamp": "2025-04-10T12:47:11+02:00",
+          "tree_id": "01a981a5f529e68ee65adcef245fb8556d138a0b",
+          "url": "https://github.com/comunica/comunica/commit/c1054e2ca2db1a5aebd06f1160a05ac1b94e30ba"
+        },
+        "date": 1744283105351,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5548,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23414,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 407,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1505,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 131249,
             "unit": "ms"
           }
         ]
