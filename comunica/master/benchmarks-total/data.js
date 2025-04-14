@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744630786075,
+  "lastUpdate": 1744640749742,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5189,6 +5189,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 231862,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "0896da0b533d964bde480e1d5511efc20c8b8e72",
+          "message": "Use cache in actions/setup-node in GitHub CI",
+          "timestamp": "2025-04-14T16:09:42+02:00",
+          "tree_id": "ed201023c06b99cccd2640a983336c904e896102",
+          "url": "https://github.com/comunica/comunica/commit/0896da0b533d964bde480e1d5511efc20c8b8e72"
+        },
+        "date": 1744640749231,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4613,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25120,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 370,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1365,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 162344,
             "unit": "ms"
           }
         ]
