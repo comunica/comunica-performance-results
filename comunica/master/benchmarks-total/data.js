@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744640749742,
+  "lastUpdate": 1744887460261,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5238,6 +5238,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 162344,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49316983+ecrum19@users.noreply.github.com",
+            "name": "Elias Crum",
+            "username": "ecrum19"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "278774283d3eabddbc6374acdcd5677ccc8fd465",
+          "message": "Fix incorrect id of actor-query-source-hypermedia-identify-sparql\n\n* added forceSourceType parameter to ReadMe and updated config paths for actor-query-source-identify-hypermedia-sparql\n\n* Update packages/actor-query-source-identify-hypermedia-sparql/README.md\n\n---------\n\nCo-authored-by: Ruben Taelman <rubensworks@users.noreply.github.com>",
+          "timestamp": "2025-04-17T12:43:13+02:00",
+          "tree_id": "b60c510805194d46d221133aeb9b1cbffd5891e0",
+          "url": "https://github.com/comunica/comunica/commit/278774283d3eabddbc6374acdcd5677ccc8fd465"
+        },
+        "date": 1744887459714,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5077,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23281,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 343,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1460,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 159649,
             "unit": "ms"
           }
         ]
