@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744887460261,
+  "lastUpdate": 1745586586363,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5287,6 +5287,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 159649,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "e1c41f5c29b60e40e7756da3bdc42e24819af470",
+          "message": "Fix variable names in ActorOptimizeQueryOperationPruneEmptySourceOperations",
+          "timestamp": "2025-04-25T14:50:51+02:00",
+          "tree_id": "56d19dbca930538125a79c3204202836e2825d66",
+          "url": "https://github.com/comunica/comunica/commit/e1c41f5c29b60e40e7756da3bdc42e24819af470"
+        },
+        "date": 1745586585679,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4877,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25297,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 386,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1453,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 231970,
             "unit": "ms"
           }
         ]
