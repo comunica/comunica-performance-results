@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745912098464,
+  "lastUpdate": 1746784941197,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5385,6 +5385,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 157023,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mila.frerichs@gmail.com",
+            "name": "Mila Frerichs",
+            "username": "milafrerichs"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e6f67b1fc798bffc9f6f9050f32c3dbcad7cd5dc",
+          "message": "Add Identity based distinct actor, Closes #52",
+          "timestamp": "2025-05-09T11:28:09+02:00",
+          "tree_id": "36450535d914a4d62462d85d726dc608da43a63f",
+          "url": "https://github.com/comunica/comunica/commit/e6f67b1fc798bffc9f6f9050f32c3dbcad7cd5dc"
+        },
+        "date": 1746784940357,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4718,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23966,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 361,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1405,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 236146,
             "unit": "ms"
           }
         ]
