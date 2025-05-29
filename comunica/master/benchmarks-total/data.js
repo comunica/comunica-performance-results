@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746784941197,
+  "lastUpdate": 1748530846025,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5434,6 +5434,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 236146,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c64be854f9d5e9835b74d637622f8bbc7ab94c50",
+          "message": "Move primary Webpack config back to actor-init-query",
+          "timestamp": "2025-05-29T16:41:18+02:00",
+          "tree_id": "0fe7a45e096326c2c3dfdb960caf6bb2da98a560",
+          "url": "https://github.com/comunica/comunica/commit/c64be854f9d5e9835b74d637622f8bbc7ab94c50"
+        },
+        "date": 1748530845316,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4771,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23406,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 394,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1356,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 175289,
             "unit": "ms"
           }
         ]
