@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748949185657,
+  "lastUpdate": 1748952557398,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5532,6 +5532,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 152978,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d88aaab19003fb92baa870a0bf25545e8f9da01",
+          "message": "Run CI jobs in highest or lowest supported Node versions",
+          "timestamp": "2025-06-03T13:48:33+02:00",
+          "tree_id": "850f767ef0ae603546cefc7a9aab83c3dc1d9cf1",
+          "url": "https://github.com/comunica/comunica/commit/7d88aaab19003fb92baa870a0bf25545e8f9da01"
+        },
+        "date": 1748952556668,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4137,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25516,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 330,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1477,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 204046,
             "unit": "ms"
           }
         ]
