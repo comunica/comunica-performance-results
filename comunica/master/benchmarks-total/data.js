@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748530846025,
+  "lastUpdate": 1748949185657,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5483,6 +5483,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 175289,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b858f0ff9c348db49cb8a416ddf9eb9f5007b659",
+          "message": "Revert Webpack config files to JavaScript\n\nThis fixes build issues on older Node versions.",
+          "timestamp": "2025-06-03T12:58:04+02:00",
+          "tree_id": "8cf9db529e0b154662ced451d92a9de312b9fe46",
+          "url": "https://github.com/comunica/comunica/commit/b858f0ff9c348db49cb8a416ddf9eb9f5007b659"
+        },
+        "date": 1748949184853,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5320,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24319,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 340,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1427,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 152978,
             "unit": "ms"
           }
         ]
