@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748952557398,
+  "lastUpdate": 1749117881345,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5581,6 +5581,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 204046,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "4285a4bc3badb13f127738578e0468314c40608f",
+          "message": "Fix preflight metadata not getting propagated\n\nThis could cause queries over non-existing SPARQL service descriptions\nto halt without error events being emitted.\n\nCloses #1558",
+          "timestamp": "2025-06-05T11:45:56+02:00",
+          "tree_id": "f28e968eaea13f5484818c4262fec86b87521c28",
+          "url": "https://github.com/comunica/comunica/commit/4285a4bc3badb13f127738578e0468314c40608f"
+        },
+        "date": 1749117880106,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4176,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25206,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 360,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1554,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 196694,
             "unit": "ms"
           }
         ]
