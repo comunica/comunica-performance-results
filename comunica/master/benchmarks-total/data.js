@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749131857172,
+  "lastUpdate": 1749138441159,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5728,6 +5728,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 204185,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "becfa1afbf19ddfaceb23c5806ff163b6e2e3ab1",
+          "message": "Increase max bundle size",
+          "timestamp": "2025-06-05T17:25:49+02:00",
+          "tree_id": "2dc7273ee306214edcf6200e44d07cce92a851fa",
+          "url": "https://github.com/comunica/comunica/commit/becfa1afbf19ddfaceb23c5806ff163b6e2e3ab1"
+        },
+        "date": 1749138440442,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 3970,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24905,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 331,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1469,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 244710,
             "unit": "ms"
           }
         ]
