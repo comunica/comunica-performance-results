@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749117881345,
+  "lastUpdate": 1749125368258,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5630,6 +5630,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 196694,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "be40294fb139d5b6b84fe5f5ea3b29e31580b4d7",
+          "message": "Fix unionDefaultGraph not working on RDFJS sources, Closes #1565",
+          "timestamp": "2025-06-05T13:46:23+02:00",
+          "tree_id": "a0fbedefc2e381f8a21ed7740e30993ea1fd113e",
+          "url": "https://github.com/comunica/comunica/commit/be40294fb139d5b6b84fe5f5ea3b29e31580b4d7"
+        },
+        "date": 1749125367649,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4121,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25657,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 327,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1482,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 192528,
             "unit": "ms"
           }
         ]
