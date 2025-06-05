@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749125368258,
+  "lastUpdate": 1749131857172,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5679,6 +5679,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 192528,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "0f4c905facacb97f3e15ddc4e2f95a29d981a866",
+          "message": "Fix property paths not selecting all list elements, Closes #1562",
+          "timestamp": "2025-06-05T15:19:40+02:00",
+          "tree_id": "a3bc1f6f77e0419a64921c008ace4e7fb80a4644",
+          "url": "https://github.com/comunica/comunica/commit/0f4c905facacb97f3e15ddc4e2f95a29d981a866"
+        },
+        "date": 1749131856285,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4453,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26771,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 341,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1460,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 204185,
             "unit": "ms"
           }
         ]
