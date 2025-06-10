@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749191003346,
+  "lastUpdate": 1749565937779,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5826,6 +5826,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 163843,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1b3012d518535a8416eda49666f6ecee7d695d00",
+          "message": "Improve README badges style\n\n* Lock CI badge to master branch\n\n* Remove style definitions from Gitter badges\n\n* Fix badge indentations",
+          "timestamp": "2025-06-10T16:11:51+02:00",
+          "tree_id": "8da8b9462ab92ee090f2f3c6684935b0f2104e28",
+          "url": "https://github.com/comunica/comunica/commit/1b3012d518535a8416eda49666f6ecee7d695d00"
+        },
+        "date": 1749565937073,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4489,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25400,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 336,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1469,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 150439,
             "unit": "ms"
           }
         ]
