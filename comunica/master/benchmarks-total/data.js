@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749565937779,
+  "lastUpdate": 1750160193484,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -5875,6 +5875,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 150439,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "82b5a080bef2dbcbcd2abd41592c010201743f7a",
+          "message": "Optimize property path iterators with sync mappings",
+          "timestamp": "2025-06-17T13:15:36+02:00",
+          "tree_id": "3bd72bd260a129bd07dc08ad455ceb44738166e5",
+          "url": "https://github.com/comunica/comunica/commit/82b5a080bef2dbcbcd2abd41592c010201743f7a"
+        },
+        "date": 1750160192831,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4119,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24126,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 347,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1462,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 191281,
             "unit": "ms"
           }
         ]
