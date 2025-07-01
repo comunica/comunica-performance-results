@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751312214717,
+  "lastUpdate": 1751348768125,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6022,6 +6022,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 134340,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "fe4f4169709a323bdae0c8444947e3bf0ecf91b8",
+          "message": "Increase yarn install timeout in GitHub CI",
+          "timestamp": "2025-07-01T07:30:06+02:00",
+          "tree_id": "fdce3738cbe3e8631275793a77b41ce2cb0eff03",
+          "url": "https://github.com/comunica/comunica/commit/fe4f4169709a323bdae0c8444947e3bf0ecf91b8"
+        },
+        "date": 1751348767193,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4066,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24883,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 346,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1547,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 162331,
             "unit": "ms"
           }
         ]
