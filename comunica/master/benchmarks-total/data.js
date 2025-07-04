@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751348768125,
+  "lastUpdate": 1751630868966,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6071,6 +6071,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 162331,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "24962de0ce971a002896e19a99767013d6d930a7",
+          "message": "Avoid cartesian products in actor-rdf-join-inner-multi-smallest\n\nThis improves performance when bind-join is not or can not be used.",
+          "timestamp": "2025-07-04T13:49:01+02:00",
+          "tree_id": "8fbcbf75e870d20bf8e5ca73b6e0ea27190aed3d",
+          "url": "https://github.com/comunica/comunica/commit/24962de0ce971a002896e19a99767013d6d930a7"
+        },
+        "date": 1751630867868,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4095,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25575,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 326,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1445,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 195193,
             "unit": "ms"
           }
         ]
