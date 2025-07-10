@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751630868966,
+  "lastUpdate": 1752156845645,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6120,6 +6120,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 195193,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "161894387+noahvsb@users.noreply.github.com",
+            "name": "noahvsb",
+            "username": "noahvsb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c1d626779a8a91900d8907788875db1aee3948c6",
+          "message": "Accept RDF/JS datasets as sources\n\nCloses #1307",
+          "timestamp": "2025-07-10T15:57:12+02:00",
+          "tree_id": "247dcd7a75c0a8ede822537fbfaa77b1b31f7ac1",
+          "url": "https://github.com/comunica/comunica/commit/c1d626779a8a91900d8907788875db1aee3948c6"
+        },
+        "date": 1752156844330,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4150,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25313,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 328,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1484,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 160556,
             "unit": "ms"
           }
         ]
