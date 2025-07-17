@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752651332706,
+  "lastUpdate": 1752744467766,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6218,6 +6218,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 151070,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "161894387+noahvsb@users.noreply.github.com",
+            "name": "noahvsb",
+            "username": "noahvsb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "66532fd2bbb2f22493b8388cc578a6ed7dba9a50",
+          "message": "Send short SPARQL endpoint requests as GET\n\nBy default, if the total URL length is below 600 characters, GET requests will be sent instead of POST.\n\nCloses #1551",
+          "timestamp": "2025-07-17T10:35:50+02:00",
+          "tree_id": "7c7afd05eebd6b23c53d49d3f9213aaf1c8788fa",
+          "url": "https://github.com/comunica/comunica/commit/66532fd2bbb2f22493b8388cc578a6ed7dba9a50"
+        },
+        "date": 1752744467004,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4070,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25109,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 297,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1447,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 191218,
             "unit": "ms"
           }
         ]
