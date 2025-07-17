@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752748879449,
+  "lastUpdate": 1752754224056,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -97,6 +97,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 158878,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "9d23aa6457a1f28363ce8f4c801b785595d26dd6",
+          "message": "Optimize OPTIONALs with expressions applying to only left or right",
+          "timestamp": "2025-07-17T13:49:51+02:00",
+          "tree_id": "065e2c0272928738d95e5090d368d376e1c6f01d",
+          "url": "https://github.com/comunica/comunica/commit/9d23aa6457a1f28363ce8f4c801b785595d26dd6"
+        },
+        "date": 1752754223047,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4227,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25365,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 331,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1515,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 179072,
             "unit": "ms"
           }
         ]
