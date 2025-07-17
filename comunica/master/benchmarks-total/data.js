@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752755654620,
+  "lastUpdate": 1752759069731,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6365,6 +6365,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 167423,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "3b27df7a8115b31b33b92ddc70e4c90617e2631b",
+          "message": "Fix random unit test failure in QuerySourceSparql, Closes #1583",
+          "timestamp": "2025-07-17T15:08:27+02:00",
+          "tree_id": "1b0e2196334e8e02508bc0420cd64cb619511a7b",
+          "url": "https://github.com/comunica/comunica/commit/3b27df7a8115b31b33b92ddc70e4c90617e2631b"
+        },
+        "date": 1752759068904,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4270,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 27091,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 335,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1473,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 189874,
             "unit": "ms"
           }
         ]
