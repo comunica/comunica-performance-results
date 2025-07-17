@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752736962408,
+  "lastUpdate": 1752748879449,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -48,6 +48,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 197524,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "6050c078ccae6ba16968dd087ab60e2b90ab2e54",
+          "message": "Fix wrong handling of FILTER in OPTIONAL\n\nCloses #1576",
+          "timestamp": "2025-07-17T12:26:06+02:00",
+          "tree_id": "5ef035a67fd89ec703d8c346f049e8dfe0acc88a",
+          "url": "https://github.com/comunica/comunica/commit/6050c078ccae6ba16968dd087ab60e2b90ab2e54"
+        },
+        "date": 1752748878689,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4328,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25608,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 336,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1483,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 158878,
             "unit": "ms"
           }
         ]
