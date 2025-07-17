@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752744467766,
+  "lastUpdate": 1752747143323,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6267,6 +6267,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 191218,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "161894387+noahvsb@users.noreply.github.com",
+            "name": "noahvsb",
+            "username": "noahvsb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "51c6569bdc9e72b5bd923fea3a081e0a85386d9a",
+          "message": "List and detect extension functions in service descriptions\n\nRequire for #1515",
+          "timestamp": "2025-07-17T11:38:35+02:00",
+          "tree_id": "b87a8609e68e7e4892e8063790f33974501a9bd1",
+          "url": "https://github.com/comunica/comunica/commit/51c6569bdc9e72b5bd923fea3a081e0a85386d9a"
+        },
+        "date": 1752747142219,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4130,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25021,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 312,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1496,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 178737,
             "unit": "ms"
           }
         ]
