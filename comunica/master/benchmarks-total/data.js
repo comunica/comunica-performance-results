@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752826866235,
+  "lastUpdate": 1752829795677,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6463,6 +6463,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 202169,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "184894894a299188f201e623b474ec5e834a6960",
+          "message": "Update to immutable v5",
+          "timestamp": "2025-07-18T10:25:08+02:00",
+          "tree_id": "722d4fb3dfee3b83f27dd53c6ec3718e8b1d614b",
+          "url": "https://github.com/comunica/comunica/commit/184894894a299188f201e623b474ec5e834a6960"
+        },
+        "date": 1752829795000,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4175,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25327,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 332,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1541,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 185385,
             "unit": "ms"
           }
         ]
