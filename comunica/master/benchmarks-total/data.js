@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752831240389,
+  "lastUpdate": 1756460699373,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6561,6 +6561,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 152163,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cce7ecbb45187ce3632f2f65cb26d790b28e7bfc",
+          "message": "Temporarily use macOS 14 in CI workflow\n\nWorkaround for failing Coveralls action https://github.com/coverallsapp/homebrew-coveralls/issues/65",
+          "timestamp": "2025-08-29T11:30:38+02:00",
+          "tree_id": "18ce427e46cfee3e7de8c8984c02a9cf2df26aa7",
+          "url": "https://github.com/comunica/comunica/commit/cce7ecbb45187ce3632f2f65cb26d790b28e7bfc"
+        },
+        "date": 1756460698645,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4287,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23355,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 323,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1443,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 148937,
             "unit": "ms"
           }
         ]
