@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756460699373,
+  "lastUpdate": 1756880246171,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6610,6 +6610,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 148937,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "621e90ec4440f4ca623e00aaa940d7f5b4b68dce",
+          "message": "Update actions/download-artifact action to v5 (#1604)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2025-09-03T08:02:26+02:00",
+          "tree_id": "3e207cb8593142430b412a46d2c2b778525db9c5",
+          "url": "https://github.com/comunica/comunica/commit/621e90ec4440f4ca623e00aaa940d7f5b4b68dce"
+        },
+        "date": 1756880244836,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4084,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22693,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 361,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1394,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 137947,
             "unit": "ms"
           }
         ]
