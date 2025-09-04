@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756962766452,
+  "lastUpdate": 1756978817170,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6708,6 +6708,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 138302,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "161894387+noahvsb@users.noreply.github.com",
+            "name": "noahvsb",
+            "username": "noahvsb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffd96bdedea8ff40c589136bfa92b44bb106e3a9",
+          "message": "Add automatic type casting for xs:untypedAtomic\n\nCloses #1253",
+          "timestamp": "2025-09-04T11:20:51+02:00",
+          "tree_id": "d5cd9aff53f99025addccdc8e0913893310e2601",
+          "url": "https://github.com/comunica/comunica/commit/ffd96bdedea8ff40c589136bfa92b44bb106e3a9"
+        },
+        "date": 1756978816169,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4211,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22826,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 330,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1394,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 221835,
             "unit": "ms"
           }
         ]
