@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757369473164,
+  "lastUpdate": 1757375883572,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -1271,6 +1271,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 264,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2a714e27d982b1fb539dc4f1a1fa79b8199f3642",
+          "message": "Update actions/setup-node action to v5 (#20)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2025-09-08T23:48:03Z",
+          "tree_id": "a71125b0fbcd2387c07e7c9580ef3fba128ea785",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/2a714e27d982b1fb539dc4f1a1fa79b8199f3642"
+        },
+        "date": 1757375882958,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2342,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 272,
             "unit": "ms"
           }
         ]
