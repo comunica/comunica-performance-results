@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757403173644,
+  "lastUpdate": 1757412513008,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -1407,6 +1407,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 276,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c9496cfb69e90984790bdf2e09b7ce1ed031da63",
+          "message": "Update github/issue-labeler action to v3",
+          "timestamp": "2025-09-09T07:24:44Z",
+          "tree_id": "d41ac1a9c223ceb5faf671931df0ec40ceb6e93e",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/c9496cfb69e90984790bdf2e09b7ce1ed031da63"
+        },
+        "date": 1757412512146,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2357,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 272,
             "unit": "ms"
           }
         ]
