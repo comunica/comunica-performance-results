@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757386224706,
+  "lastUpdate": 1757395798674,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -1339,6 +1339,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 261,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f0bae1a95db0b661ee9a850bc08b245c3bb583da",
+          "message": "Update dependency ubuntu to v24",
+          "timestamp": "2025-09-09T02:41:51Z",
+          "tree_id": "02890999ecf0355be3e61be92339614f2d79399c",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/f0bae1a95db0b661ee9a850bc08b245c3bb583da"
+        },
+        "date": 1757395798082,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2374,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 280,
             "unit": "ms"
           }
         ]
