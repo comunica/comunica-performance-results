@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757410160951,
+  "lastUpdate": 1757864855431,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6806,6 +6806,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 178659,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "c9d116d23ce856fff6e059061caafac266456e6a",
+          "message": "Bump sparql-benchmark-runner to fix CI",
+          "timestamp": "2025-09-12T14:40:40+02:00",
+          "tree_id": "d1e5decc995936ec7588660e40c20acd00acb098",
+          "url": "https://github.com/comunica/comunica/commit/c9d116d23ce856fff6e059061caafac266456e6a"
+        },
+        "date": 1757864854444,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4742,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23425,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 348,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1408,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 198600,
             "unit": "ms"
           }
         ]
