@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757864855431,
+  "lastUpdate": 1757941767516,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6855,6 +6855,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 198600,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "161894387+noahvsb@users.noreply.github.com",
+            "name": "noahvsb",
+            "username": "noahvsb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f9a196f83170081f51a01d329e3ee67e3a1698e",
+          "message": "Check if parsed query is update when emitting VoID",
+          "timestamp": "2025-09-15T14:55:47+02:00",
+          "tree_id": "f7422cd279e3107217b352eeb7e17ec537b602e7",
+          "url": "https://github.com/comunica/comunica/commit/5f9a196f83170081f51a01d329e3ee67e3a1698e"
+        },
+        "date": 1757941766678,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4195,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24601,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 331,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1350,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 120299,
             "unit": "ms"
           }
         ]
