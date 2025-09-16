@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757941767516,
+  "lastUpdate": 1758029803998,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6904,6 +6904,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 120299,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "e1248f3edc2a59cd9f36ba4c854cee805b9e6d42",
+          "message": "Fix distinctConstruct not working when over a single SPARQL endpoint\n\nThis was because we push down all queries to single SPARQL endpoints.\nBut since 1.1 endpoints do not support DISTINCT over CONSTRUCT, we must\nnot do this.\n\nThis was solved by adding a negation part to the selector shape of\nSPARQL endpoints.\n\nCloses #1609",
+          "timestamp": "2025-09-16T15:23:26+02:00",
+          "tree_id": "eef4c2acfed53acda776dc7b9d70e85f4bf8755b",
+          "url": "https://github.com/comunica/comunica/commit/e1248f3edc2a59cd9f36ba4c854cee805b9e6d42"
+        },
+        "date": 1758029802938,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4079,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23779,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 324,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1408,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 115130,
             "unit": "ms"
           }
         ]
