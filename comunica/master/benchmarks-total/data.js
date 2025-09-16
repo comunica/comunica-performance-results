@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758029803998,
+  "lastUpdate": 1758031180315,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -6953,6 +6953,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 115130,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bryanelliott.tam@ugent.be",
+            "name": "Bryan-Elliott Tam",
+            "username": "constraintAutomaton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c4cb33a896700f01105fb739a7f080508feaa404",
+          "message": "Skip ActorIteratorTransformRecordIntermediateResults if context entry is missing\n\nPreviously, it would crash the whole engine.",
+          "timestamp": "2025-09-16T15:47:24+02:00",
+          "tree_id": "40b9767405e7e823d7ded71a28a58705df1763c2",
+          "url": "https://github.com/comunica/comunica/commit/c4cb33a896700f01105fb739a7f080508feaa404"
+        },
+        "date": 1758031179438,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4417,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22850,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 326,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1482,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 116077,
             "unit": "ms"
           }
         ]
