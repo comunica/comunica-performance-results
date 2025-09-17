@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758031180315,
+  "lastUpdate": 1758090875920,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7002,6 +7002,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 116077,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "161894387+noahvsb@users.noreply.github.com",
+            "name": "noahvsb",
+            "username": "noahvsb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8ba5eb9901c3a3c4cf71792bf1a929bab935eddb",
+          "message": "Use correct datatypes when emitting VoID descriptions",
+          "timestamp": "2025-09-17T08:16:10+02:00",
+          "tree_id": "2b805b92d7b3ef78418fe79da6c1d101320ea96f",
+          "url": "https://github.com/comunica/comunica/commit/8ba5eb9901c3a3c4cf71792bf1a929bab935eddb"
+        },
+        "date": 1758090875211,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4212,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23074,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 317,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1364,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 196641,
             "unit": "ms"
           }
         ]
