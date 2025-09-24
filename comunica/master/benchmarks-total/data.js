@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758112434516,
+  "lastUpdate": 1758702681166,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7100,6 +7100,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 116034,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f10b56ccaed67345778aba2881115265b60b137f",
+          "message": "Update macOS version to macos-latest in CI workflow\n\nNow that coverallsapp/homebrew-coveralls#65 is fixed.",
+          "timestamp": "2025-09-24T10:14:47+02:00",
+          "tree_id": "0cec4d6ac57de5065e907051e9044eaeece7ed08",
+          "url": "https://github.com/comunica/comunica/commit/f10b56ccaed67345778aba2881115265b60b137f"
+        },
+        "date": 1758702680419,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 3973,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23238,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 344,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1380,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 118594,
             "unit": "ms"
           }
         ]
