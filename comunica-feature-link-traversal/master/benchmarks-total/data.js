@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743516056796,
+  "lastUpdate": 1758714904305,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -492,6 +492,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 12809,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "acc117c1396d9ecc171fc1e82e035e2d9bd5eaf7",
+          "message": "Update Comunica monorepo packages to ^4.4.0 (#177)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2025-09-24T13:28:08+02:00",
+          "tree_id": "dbda39d374d4328eab60d1ce1540bedbff45f11b",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/acc117c1396d9ecc171fc1e82e035e2d9bd5eaf7"
+        },
+        "date": 1758714903529,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 11025,
             "unit": "ms"
           }
         ]
