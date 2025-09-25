@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758702681166,
+  "lastUpdate": 1758808008864,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7149,6 +7149,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 118594,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "fbbf7d03bef75c451e38ab6731464ff8570cc117",
+          "message": "Add option to always push down extension functions\n\nBecause by default, only extension functions that are explicitly\nreported in the SPARQL SD of the source will be pushed down, and others\nwill be executd locally.\n\nThis can be achieved with the extensionFunctionsAlwaysPushdown context\noption or CLI flag.",
+          "timestamp": "2025-09-25T15:31:45+02:00",
+          "tree_id": "2ae879419992b2b46318cfab5c250bd2e4526396",
+          "url": "https://github.com/comunica/comunica/commit/fbbf7d03bef75c451e38ab6731464ff8570cc117"
+        },
+        "date": 1758808007793,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4458,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24004,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 308,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1379,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 125070,
             "unit": "ms"
           }
         ]
