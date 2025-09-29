@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759138501123,
+  "lastUpdate": 1759144351252,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7394,6 +7394,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 195227,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "61841193+RubenEschauzier@users.noreply.github.com",
+            "name": "RubenEschauzier",
+            "username": "RubenEschauzier"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2582af3942ac23b862ecb6920de570173b397220",
+          "message": "Fix LIMIT not terminating link traversal (#1634)",
+          "timestamp": "2025-09-29T12:53:02+02:00",
+          "tree_id": "4c25b829099fc78eda5d0f268e5cdeb5ba5b2a34",
+          "url": "https://github.com/comunica/comunica/commit/2582af3942ac23b862ecb6920de570173b397220"
+        },
+        "date": 1759144349867,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4114,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22377,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 321,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1348,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 190437,
             "unit": "ms"
           }
         ]
