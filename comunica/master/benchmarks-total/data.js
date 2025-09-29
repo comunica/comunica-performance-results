@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759144351252,
+  "lastUpdate": 1759153651865,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7443,6 +7443,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 190437,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "692ea5411a6cc361b272b2d7ab7f1bf017da8935",
+          "message": "Update to Jest v30",
+          "timestamp": "2025-09-29T15:30:13+02:00",
+          "tree_id": "4b7b807429e91eb1337a8a67ba3f5e8a83777dbf",
+          "url": "https://github.com/comunica/comunica/commit/692ea5411a6cc361b272b2d7ab7f1bf017da8935"
+        },
+        "date": 1759153651145,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4458,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23665,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 319,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1320,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 133018,
             "unit": "ms"
           }
         ]
