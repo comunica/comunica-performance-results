@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759209324820,
+  "lastUpdate": 1759728372231,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -1509,6 +1509,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 278,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c06485d1a72ead69a606a6d4a2f3234d755d1c45",
+          "message": "Update peter-evans/commit-comment action to v4",
+          "timestamp": "2025-10-06T01:40:32Z",
+          "tree_id": "9059288799e4b7814bdc52fcc7faa65183a5f50a",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/c06485d1a72ead69a606a6d4a2f3234d755d1c45"
+        },
+        "date": 1759728371532,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2498,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 265,
             "unit": "ms"
           }
         ]
