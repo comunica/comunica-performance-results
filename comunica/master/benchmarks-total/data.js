@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759224900168,
+  "lastUpdate": 1759727209204,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7541,6 +7541,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 135191,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f7c7095a4bf67ab9f931484eab8af00cb8591910",
+          "message": "Update peter-evans/commit-comment action to v4",
+          "timestamp": "2025-10-06T02:15:20Z",
+          "tree_id": "d0318adfb88bbeaeb088533b8b2d9e604a6d0c4b",
+          "url": "https://github.com/comunica/comunica/commit/f7c7095a4bf67ab9f931484eab8af00cb8591910"
+        },
+        "date": 1759727208342,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4139,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21837,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 340,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1322,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 115631,
             "unit": "ms"
           }
         ]
