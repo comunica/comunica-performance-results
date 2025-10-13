@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738235936075,
+  "lastUpdate": 1760338669524,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks detailed results": [
@@ -2280,6 +2280,414 @@ window.BENCHMARK_DATA = {
             "value": 3520,
             "unit": "ms",
             "extra": "Results: [91]; Error: [false]; HTTP Requests: [49]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "aebd5a95c1efa1c90ee10e7913c27b5af893ba74",
+          "message": "Temporarily disable requirements for performance tests in CI",
+          "timestamp": "2025-10-13T08:54:17+02:00",
+          "tree_id": "f686da600b7da15583357cd5cde6d4b4fc4d477c",
+          "url": "https://github.com/comunica/comunica/commit/aebd5a95c1efa1c90ee10e7913c27b5af893ba74"
+        },
+        "date": 1760338668780,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File - C1",
+            "value": 188,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - C2",
+            "value": 2196,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - C3",
+            "value": 1916,
+            "unit": "ms",
+            "extra": "Results: [48802,48802,48802,48802,48802]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - F1",
+            "value": 13,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - F2",
+            "value": 34,
+            "unit": "ms",
+            "extra": "Results: [0,0,1,1,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - F3",
+            "value": 63,
+            "unit": "ms",
+            "extra": "Results: [2,2,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - F4",
+            "value": 28,
+            "unit": "ms",
+            "extra": "Results: [0,0,12,12,12]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - F5",
+            "value": 77,
+            "unit": "ms",
+            "extra": "Results: [32,32,40,56,22]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - L1",
+            "value": 12,
+            "unit": "ms",
+            "extra": "Results: [1,5,5,1,5]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - L2",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [3,3,3,40,3]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - L3",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: [69,33,12,12,69]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - L4",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [6,7,6,6,6]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - L5",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [1,4,4,22,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S1",
+            "value": 23,
+            "unit": "ms",
+            "extra": "Results: [4,0,7,4,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S2",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [2,1,1,2,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S3",
+            "value": 22,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S4",
+            "value": 23,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S5",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S6",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [1,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S7",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-TPF - C1",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - C2",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - C3",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - F1",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - F2",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - F3",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - F4",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - F5",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - L1",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - L2",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - L3",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - L4",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - L5",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - S1",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - S2",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - S3",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - S4",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - S5",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - S6",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "WatDiv-TPF - S7",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [1,1,1,1,1]"
+          },
+          {
+            "name": "BSBM-File - 1",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [0.5]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 2",
+            "value": 22,
+            "unit": "ms",
+            "extra": "Results: [19.5]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 3",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: [0.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 4",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 5",
+            "value": 231,
+            "unit": "ms",
+            "extra": "Results: [3.5]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 6",
+            "value": 0,
+            "unit": "ms",
+            "extra": "Results: [undefined]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 7",
+            "value": 44,
+            "unit": "ms",
+            "extra": "Results: [9.38]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 8",
+            "value": 31,
+            "unit": "ms",
+            "extra": "Results: [5.05]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 9",
+            "value": 23,
+            "unit": "ms",
+            "extra": "Results: [629.48]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 10",
+            "value": 30,
+            "unit": "ms",
+            "extra": "Results: [2.8]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 11",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [10]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 12",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [1120.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 1",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 2",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 3",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 4",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 5",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 6",
+            "value": 0,
+            "unit": "ms",
+            "extra": "Results: [undefined]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 7",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 8",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 9",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 10",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 11",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 12",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           }
         ]
       }
