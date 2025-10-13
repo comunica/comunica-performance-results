@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738235938004,
+  "lastUpdate": 1760338671265,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -195,6 +195,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 149358,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "aebd5a95c1efa1c90ee10e7913c27b5af893ba74",
+          "message": "Temporarily disable requirements for performance tests in CI",
+          "timestamp": "2025-10-13T08:54:17+02:00",
+          "tree_id": "f686da600b7da15583357cd5cde6d4b4fc4d477c",
+          "url": "https://github.com/comunica/comunica/commit/aebd5a95c1efa1c90ee10e7913c27b5af893ba74"
+        },
+        "date": 1760338670409,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4627,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 115,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 409,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 67,
             "unit": "ms"
           }
         ]
