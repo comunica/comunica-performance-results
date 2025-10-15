@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759727209204,
+  "lastUpdate": 1760509919462,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7590,6 +7590,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 115631,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b9da4c21bfc92c914dfbfc7ec4560dcd23f9c98",
+          "message": "Update actions/setup-node action to v6",
+          "timestamp": "2025-10-15T04:37:40Z",
+          "tree_id": "db271f157e3ed8f20eaacb0be3885a4f7c468e70",
+          "url": "https://github.com/comunica/comunica/commit/9b9da4c21bfc92c914dfbfc7ec4560dcd23f9c98"
+        },
+        "date": 1760509918524,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4024,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22244,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 341,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1291,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 118325,
             "unit": "ms"
           }
         ]
