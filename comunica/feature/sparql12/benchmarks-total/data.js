@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760525525029,
+  "lastUpdate": 1760526009944,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -283,6 +283,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-TPF",
             "value": 66,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "32c3917fafeda7feb877abb3253e4deeba2d961f",
+          "message": "Force-install n3 V2 beta for RDF 1.2 parsing support",
+          "timestamp": "2025-10-15T12:54:32+02:00",
+          "tree_id": "123e41ee268f8da9fdb8cb792fa64260f816bf00",
+          "url": "https://github.com/comunica/comunica/commit/32c3917fafeda7feb877abb3253e4deeba2d961f"
+        },
+        "date": 1760526008771,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5585,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 107,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 405,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 68,
             "unit": "ms"
           }
         ]
