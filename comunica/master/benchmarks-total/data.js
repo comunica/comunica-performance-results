@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760509919462,
+  "lastUpdate": 1760536525364,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7639,6 +7639,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 118325,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "7e215eea862e317bc8f56aa1cced97f9afd6e9a1",
+          "message": "Fix outer GRAPH ?g being considered in MINUS variable disjointness\n\nSince our algebraic graph translation is not really part of the spec,\nthere is a MINUS edge case we need to consider with GRAPH ?g.\nIf left and right of MINUS have disjoint variables,\nthe whole left solution sequence must be kept.\nIf GRAPH is defined outside of an operator (e.g. MINUS),\nthen the spec says that evaluation of the operators\nmust be done as union over the evaluation of that operator\nwithin each graph separately,\nand that the variable of ?g must only be bound\n**after** that evaluation.\nAs such, MINUS will not be aware of this variable ?g,\nand the disjoint case will apply.\nThis is fixed by adding metadata to the operation so that engines\ncan special-case this.\n\nSee https://github.com/w3c/rdf-tests/pull/228\nhttps://github.com/joachimvh/SPARQLAlgebra.js/pull/128",
+          "timestamp": "2025-10-15T15:23:34+02:00",
+          "tree_id": "f0ecb11b9d7d7a2901904db668dd579556ef317e",
+          "url": "https://github.com/comunica/comunica/commit/7e215eea862e317bc8f56aa1cced97f9afd6e9a1"
+        },
+        "date": 1760536524516,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4265,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22675,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 341,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1385,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 137185,
             "unit": "ms"
           }
         ]
