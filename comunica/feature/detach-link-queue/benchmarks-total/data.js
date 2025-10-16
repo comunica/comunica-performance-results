@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760594527397,
+  "lastUpdate": 1760605982188,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -97,6 +97,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 117895,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "b2ef233775fecc55ab880ae0de20e53c7a02a6ff",
+          "message": "Destroy non-smallest streams in bind join\n\nWe used to only close them, but not destroy.\nThis caused issues with non-termination for some link traversal queries.",
+          "timestamp": "2025-10-16T10:56:24+02:00",
+          "tree_id": "9916b6079a7dd96b8010418982b265b44ac57432",
+          "url": "https://github.com/comunica/comunica/commit/b2ef233775fecc55ab880ae0de20e53c7a02a6ff"
+        },
+        "date": 1760605981413,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4203,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22969,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 335,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1370,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 161484,
             "unit": "ms"
           }
         ]
