@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760605982188,
+  "lastUpdate": 1760623382467,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -146,6 +146,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 161484,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "096be0f2b63c1262ef41f3d2867ad50f5e47c654",
+          "message": "Support HTTP abort signals via httpAbortSignal context entry",
+          "timestamp": "2025-10-16T15:09:25+02:00",
+          "tree_id": "3eb14b5cb3a257a4a44d836733296a5b6e5a3d37",
+          "url": "https://github.com/comunica/comunica/commit/096be0f2b63c1262ef41f3d2867ad50f5e47c654"
+        },
+        "date": 1760623381306,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4097,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22032,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 334,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1457,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 131589,
             "unit": "ms"
           }
         ]
