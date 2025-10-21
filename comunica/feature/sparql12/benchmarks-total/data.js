@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761039615304,
+  "lastUpdate": 1761054880619,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -459,6 +459,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-TPF",
             "value": 1408,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "ddc3249eca1dd8b53b71e23dab012909c66a6dcf",
+          "message": "Set default Node version to 20 in CI",
+          "timestamp": "2025-10-21T15:38:27+02:00",
+          "tree_id": "7d1209b9fa1d660979b4699d391f113151695b49",
+          "url": "https://github.com/comunica/comunica/commit/ddc3249eca1dd8b53b71e23dab012909c66a6dcf"
+        },
+        "date": 1761054879535,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4622,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21790,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 375,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1350,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 161318,
             "unit": "ms"
           }
         ]
