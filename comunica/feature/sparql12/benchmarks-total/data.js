@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760613914942,
+  "lastUpdate": 1761039615304,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -415,6 +415,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-TPF",
             "value": 1383,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db7fb393b8ee89c9e52f8ab1137306e243cb8bba",
+          "message": "Migrate to traqula's extensible algebra (#1614)",
+          "timestamp": "2025-10-21T11:28:48+02:00",
+          "tree_id": "8112c277158d368f2d6e6568859bef1e85ae6a3e",
+          "url": "https://github.com/comunica/comunica/commit/db7fb393b8ee89c9e52f8ab1137306e243cb8bba"
+        },
+        "date": 1761039614481,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5411,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23655,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 383,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1408,
             "unit": "ms"
           }
         ]
