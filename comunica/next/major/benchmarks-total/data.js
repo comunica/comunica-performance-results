@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728567493613,
+  "lastUpdate": 1761131802815,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2075,6 +2075,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 144074,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "7ca7eac55f6f841eeb9b174b5ff6b468e6bcc914",
+          "message": "Merge branch 'feature/detach-link-queue' into next/major",
+          "timestamp": "2025-10-22T12:56:28+02:00",
+          "tree_id": "64fce5baa1fffe8800d4456c5b247e1416b60974",
+          "url": "https://github.com/comunica/comunica/commit/7ca7eac55f6f841eeb9b174b5ff6b468e6bcc914"
+        },
+        "date": 1761131801861,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4521,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22663,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 407,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1354,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 181097,
             "unit": "ms"
           }
         ]
