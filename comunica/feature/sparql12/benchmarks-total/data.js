@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761055155208,
+  "lastUpdate": 1761111359878,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -557,6 +557,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 161318,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "3f7f5f3e02477e93a42a6bb51ada77f11dd49c7e",
+          "message": "Fix invalid rdfjs-lite webpack config",
+          "timestamp": "2025-10-22T06:17:36+02:00",
+          "tree_id": "69f8ea09ede919058c05fe2ace6ce008fec34bf4",
+          "url": "https://github.com/comunica/comunica/commit/3f7f5f3e02477e93a42a6bb51ada77f11dd49c7e"
+        },
+        "date": 1761111359086,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4807,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22414,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 383,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1310,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 165094,
             "unit": "ms"
           }
         ]
