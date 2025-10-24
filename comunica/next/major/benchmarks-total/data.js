@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761225875590,
+  "lastUpdate": 1761306827001,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2173,6 +2173,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 135081,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "46e782cf0e7f6015eb24ecf30cae507af5be57ca",
+          "message": "Also error on unsupported versions as media type parameters on SPARQL endpoints",
+          "timestamp": "2025-10-24T13:38:08+02:00",
+          "tree_id": "926220829a4205f7e3d3910c48d848c86f917c6e",
+          "url": "https://github.com/comunica/comunica/commit/46e782cf0e7f6015eb24ecf30cae507af5be57ca"
+        },
+        "date": 1761306825954,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4830,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23058,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 388,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1452,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 146640,
             "unit": "ms"
           }
         ]
