@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761306827001,
+  "lastUpdate": 1762166327877,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2222,6 +2222,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 146640,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "543a819bc8910925ffc40ee84b111a455534abf6",
+          "message": "Merge remote-tracking branch 'origin/master' into next/major",
+          "timestamp": "2025-11-03T18:51:12+09:00",
+          "tree_id": "738bf668e27f1e07dc582818990d7caf09cc95ff",
+          "url": "https://github.com/comunica/comunica/commit/543a819bc8910925ffc40ee84b111a455534abf6"
+        },
+        "date": 1762166327035,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4605,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22972,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 368,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1343,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 133987,
             "unit": "ms"
           }
         ]
