@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760536525364,
+  "lastUpdate": 1762165869743,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7688,6 +7688,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 137185,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "be6764a8016fa8528b1f367f15fa763666e5fa4c",
+          "message": "Fix linter issue",
+          "timestamp": "2025-11-03T18:49:44+09:00",
+          "tree_id": "b5a82691e74007dd735078c5c04d1e0791d66a8c",
+          "url": "https://github.com/comunica/comunica/commit/be6764a8016fa8528b1f367f15fa763666e5fa4c"
+        },
+        "date": 1762165868924,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4086,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22213,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 348,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1351,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 115909,
             "unit": "ms"
           }
         ]
