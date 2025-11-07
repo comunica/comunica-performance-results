@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762247470049,
+  "lastUpdate": 1762551634351,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2418,6 +2418,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 121322,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5d5bb2506acb822e58fe063a02d59cd67af6a2c6",
+          "message": "Extend jsdocs of algebra utils",
+          "timestamp": "2025-11-08T06:25:34+09:00",
+          "tree_id": "dd931e9d7e7dcdc18b71f0fafd18e5caec712616",
+          "url": "https://github.com/comunica/comunica/commit/5d5bb2506acb822e58fe063a02d59cd67af6a2c6"
+        },
+        "date": 1762551633138,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5051,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23497,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 397,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1537,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 116607,
             "unit": "ms"
           }
         ]
