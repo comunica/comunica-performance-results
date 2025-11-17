@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761544206423,
+  "lastUpdate": 1763355928270,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -1611,6 +1611,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 268,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "745c3e6dea3504319a0a176deafc8b37c349b2c3",
+          "message": "Update dependency rdf-test-suite-ldf to v2",
+          "timestamp": "2025-11-17T02:48:55Z",
+          "tree_id": "c23c8a658fa4a0a0373dcd42b4f11af24e6b5425",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/745c3e6dea3504319a0a176deafc8b37c349b2c3"
+        },
+        "date": 1763355927103,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2427,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 262,
             "unit": "ms"
           }
         ]
