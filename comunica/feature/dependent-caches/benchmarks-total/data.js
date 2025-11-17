@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763379007382,
+  "lastUpdate": 1763386046443,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -195,6 +195,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 117085,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "bf9c521a579548cfaf2fdeda79b3d089fe91eaa9",
+          "message": "Cache JSON-LD context in HTTP-dependent cache\n\nCloses #1635",
+          "timestamp": "2025-11-17T14:14:54+01:00",
+          "tree_id": "155ee188b8ad9246ce4ad1ade3f9930db21c48b8",
+          "url": "https://github.com/comunica/comunica/commit/bf9c521a579548cfaf2fdeda79b3d089fe91eaa9"
+        },
+        "date": 1763386045636,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4877,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26347,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 396,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1599,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 118940,
             "unit": "ms"
           }
         ]
