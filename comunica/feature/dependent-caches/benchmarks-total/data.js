@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763376579278,
+  "lastUpdate": 1763379007382,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -146,6 +146,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 201150,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "9dad2ce34a50936e1ae278e6e5723de75d0f6a1b",
+          "message": "Make caches depend on HTTP cache semantics\n\nThis exposes a cache policy on HTTP bus responses, and buses that rely\non it. While query sources and destinations were already being cached,\nthey were cached indefinitely. With this change, they now properly take\ninto account HTTP caching semantics, and become invalidated once the\nunderlying HTTP response becomes invalid.\n\nCurrently, this has one minor limitation.\nWe're not sending re-validation requests. So if the server sends a 304,\nwe will perform a new request and re-index the source. But if an\nHTTP-level cache is active, the actual HTTP request will not be sent, so\nonly local re-indexing will happen, which is negligible in most cases.\n\nPartially closes #166",
+          "timestamp": "2025-11-17T12:17:13+01:00",
+          "tree_id": "38bc735629a499d9061fed392fb9fad007363e46",
+          "url": "https://github.com/comunica/comunica/commit/9dad2ce34a50936e1ae278e6e5723de75d0f6a1b"
+        },
+        "date": 1763379006506,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4753,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26105,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 450,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1613,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 117085,
             "unit": "ms"
           }
         ]
