@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762200578427,
+  "lastUpdate": 1763357122752,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7786,6 +7786,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 159137,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9506c4ae9ba2ea62d918492e8813c5bfedf9c363",
+          "message": "Update dependency rdf-test-suite-ldf to v2",
+          "timestamp": "2025-11-17T01:07:29Z",
+          "tree_id": "dc3cad01df0b09eb09f708f9edb21324f7e03563",
+          "url": "https://github.com/comunica/comunica/commit/9506c4ae9ba2ea62d918492e8813c5bfedf9c363"
+        },
+        "date": 1763357121856,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4138,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25984,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 330,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1369,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 194860,
             "unit": "ms"
           }
         ]
