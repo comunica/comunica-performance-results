@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763386046443,
+  "lastUpdate": 1763449154230,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -244,6 +244,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 118940,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "d2c7e46d02ab2eb7577d9b6e18b4be344c04ed22",
+          "message": "Add in-memory HTTP caching\n\nWhen the `httpCache` context flag is set to true, HTTP requests will be\nset and retrieved from an in-memory cache. This cache fully adheres to\nthe HTTP caching semantics. The cache size can be configured through\nconfig parameters on the HTTP fetch actor.\n\nCloses #166",
+          "timestamp": "2025-11-18T07:45:17+01:00",
+          "tree_id": "bd067d3fa648a8f8e86114dbb1e679b20c78d271",
+          "url": "https://github.com/comunica/comunica/commit/d2c7e46d02ab2eb7577d9b6e18b4be344c04ed22"
+        },
+        "date": 1763449153457,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4808,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24145,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 413,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1517,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 124164,
             "unit": "ms"
           }
         ]
