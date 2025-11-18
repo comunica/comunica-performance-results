@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763357122752,
+  "lastUpdate": 1763472745007,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -7835,6 +7835,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 194860,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "45cb52fd2a66d3e36fecc7bdaa8c374ea9a2e8a2",
+          "message": "Fix FragmentSelectorShape not matching on top-level disjunctions\n\nCloses #1645",
+          "timestamp": "2025-11-18T14:16:49+01:00",
+          "tree_id": "781ba6771c643226bd01f9dae593b64a19cc2da8",
+          "url": "https://github.com/comunica/comunica/commit/45cb52fd2a66d3e36fecc7bdaa8c374ea9a2e8a2"
+        },
+        "date": 1763472744217,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4178,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24039,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 330,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1405,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 133213,
             "unit": "ms"
           }
         ]
