@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763450582287,
+  "lastUpdate": 1763549995995,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2516,6 +2516,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 136466,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "ecb7144390d072442ee8e3f2735b331497bfcd57",
+          "message": "Rewrite SERVICE clauses as query operation with annotated source\n\nThis allows for more optimizations to take place if explicit\nSERVICE clauses are mentioned in the query, such as the Multi Bind Join\nSource join actor, as well as several optimize actors.\n\nCloses #1537",
+          "timestamp": "2025-11-19T11:44:30+01:00",
+          "tree_id": "536b580a629e168da5713b89ccdaabef7713637b",
+          "url": "https://github.com/comunica/comunica/commit/ecb7144390d072442ee8e3f2735b331497bfcd57"
+        },
+        "date": 1763549994853,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5124,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23601,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 421,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1448,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 120430,
             "unit": "ms"
           }
         ]
