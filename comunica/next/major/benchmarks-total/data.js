@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763549995995,
+  "lastUpdate": 1763560829907,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2565,6 +2565,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 120430,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "cead31cdaef01ec797578488a7f8ae11b3954bfb",
+          "message": "Add explain mode that outputs a query after optimization\n\nThis is useful if you want to see the SPARQL query after optimization,\nincluding SERVICE clauses after source selection.\n\nThis explain mode is available via '--explain query'.",
+          "timestamp": "2025-11-19T14:43:53+01:00",
+          "tree_id": "64d67afa676cf29d2449d5b702dda852a018b474",
+          "url": "https://github.com/comunica/comunica/commit/cead31cdaef01ec797578488a7f8ae11b3954bfb"
+        },
+        "date": 1763560828528,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5273,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24983,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 413,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1537,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 119775,
             "unit": "ms"
           }
         ]
