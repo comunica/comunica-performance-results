@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763560829907,
+  "lastUpdate": 1763624057012,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2614,6 +2614,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 119775,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "2d88b82b158b3d561041a32bb354c21477c9cd36",
+          "message": "Move query serialization to a new dedicated bus",
+          "timestamp": "2025-11-20T08:16:28+01:00",
+          "tree_id": "b5d494d2c8f20c014594d9ae0f2d46a993859f77",
+          "url": "https://github.com/comunica/comunica/commit/2d88b82b158b3d561041a32bb354c21477c9cd36"
+        },
+        "date": 1763624056035,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5098,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24420,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 389,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1436,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 176719,
             "unit": "ms"
           }
         ]
