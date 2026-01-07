@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763624057012,
+  "lastUpdate": 1767791260023,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -2663,6 +2663,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 176719,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "863b02906cdfb84a6c08b3e4b507df4997bfcc07",
+          "message": "Update to Traqula v1",
+          "timestamp": "2026-01-07T13:50:51+01:00",
+          "tree_id": "49350d775735ae5f04508cbf7cd1e8cc34951d1e",
+          "url": "https://github.com/comunica/comunica/commit/863b02906cdfb84a6c08b3e4b507df4997bfcc07"
+        },
+        "date": 1767791259231,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5209,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24236,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 415,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1470,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 137761,
             "unit": "ms"
           }
         ]
