@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758714904305,
+  "lastUpdate": 1767869959285,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -521,6 +521,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 11025,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "957ca9b089c529ae1067c8d455353f53b6d15ca4",
+          "message": "Reduce parallelization of browser and system tests",
+          "timestamp": "2026-01-08T11:50:27+01:00",
+          "tree_id": "0e2952f85bfa88ac8c9343199c5fbcf93493b4fc",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/957ca9b089c529ae1067c8d455353f53b6d15ca4"
+        },
+        "date": 1767869958012,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5807,
             "unit": "ms"
           }
         ]
