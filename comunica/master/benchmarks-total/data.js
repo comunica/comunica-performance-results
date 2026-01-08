@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767857253498,
+  "lastUpdate": 1767869856582,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8129,6 +8129,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 164944,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d972878d64e8f6ebc7abfb3144bde7ea5f822ec",
+          "message": "Update dependency webpack-bundle-analyzer to v5",
+          "timestamp": "2026-01-08T07:07:39Z",
+          "tree_id": "1411d4088d2d7b822070cc7dd3b7d19514a2423d",
+          "url": "https://github.com/comunica/comunica/commit/1d972878d64e8f6ebc7abfb3144bde7ea5f822ec"
+        },
+        "date": 1767869855713,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5180,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25718,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 678,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1581,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 185736,
             "unit": "ms"
           }
         ]
