@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767871056264,
+  "lastUpdate": 1767882329763,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -579,6 +579,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5458,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "667e3cd8da3c75482955fb9d04f50b12d5694a50",
+          "message": "Update dependency @comunica/actor-init-query to ^5.0.1 (#178)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-01-08T15:05:53+01:00",
+          "tree_id": "e2eb3558829a09515e928f8a26017eba113f24cb",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/667e3cd8da3c75482955fb9d04f50b12d5694a50"
+        },
+        "date": 1767882328761,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5121,
             "unit": "ms"
           }
         ]
