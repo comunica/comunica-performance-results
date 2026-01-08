@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765865654518,
+  "lastUpdate": 1767855017466,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8031,6 +8031,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 187064,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "35caf3005cab45d56f85b8a613b3c6ad5a0885cf",
+          "message": "Mention SPARQL 1.2 in README and package.json's",
+          "timestamp": "2026-01-08T07:27:52+01:00",
+          "tree_id": "f116ee31c0cec66ecbbc4c24b6e326b7960519a2",
+          "url": "https://github.com/comunica/comunica/commit/35caf3005cab45d56f85b8a613b3c6ad5a0885cf"
+        },
+        "date": 1767855016258,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5170,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24705,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 463,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1476,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 196646,
             "unit": "ms"
           }
         ]
