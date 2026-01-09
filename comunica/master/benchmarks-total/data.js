@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767869856582,
+  "lastUpdate": 1767951388593,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8178,6 +8178,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 185736,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "a24269ac6a58ef704a3d56c7986505bf97a74deb",
+          "message": "Ignore lerna.json in eslint",
+          "timestamp": "2026-01-09T10:18:29+01:00",
+          "tree_id": "03911c39beedf91e35d551d90bf9c4ff105000ed",
+          "url": "https://github.com/comunica/comunica/commit/a24269ac6a58ef704a3d56c7986505bf97a74deb"
+        },
+        "date": 1767951387477,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5139,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26307,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 399,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1535,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 198222,
             "unit": "ms"
           }
         ]
