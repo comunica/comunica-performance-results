@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767954581895,
+  "lastUpdate": 1767964637717,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -666,6 +666,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5279,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b8437bc0c41728476d53fc193c588915776f3f3b",
+          "message": "Update dependency typedoc to ^0.28.0 (#183)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-01-09T12:59:58Z",
+          "tree_id": "d1628bc5e43c8ea88a5b3edb297bf77298eadf1b",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/b8437bc0c41728476d53fc193c588915776f3f3b"
+        },
+        "date": 1767964636337,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5836,
             "unit": "ms"
           }
         ]
