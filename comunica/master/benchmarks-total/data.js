@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767951388593,
+  "lastUpdate": 1767963076736,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8227,6 +8227,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 198222,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "34cca6fe5891ef492805eaae71434d02f4b373e4",
+          "message": "Bump shaclc dependencies to reduce bundle size",
+          "timestamp": "2026-01-09T13:34:51+01:00",
+          "tree_id": "0a11631f18cee6393a2ba347ea246585c847b65e",
+          "url": "https://github.com/comunica/comunica/commit/34cca6fe5891ef492805eaae71434d02f4b373e4"
+        },
+        "date": 1767963075652,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4960,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24455,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 397,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1605,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 169216,
             "unit": "ms"
           }
         ]
