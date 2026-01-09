@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767933449571,
+  "lastUpdate": 1767954581895,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -637,6 +637,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 6496,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e983fc44c100c992fc2d55c5c46d0804c3e4a5d8",
+          "message": "Update github/issue-labeler action to v2.6",
+          "timestamp": "2026-01-09T04:26:54Z",
+          "tree_id": "48591d533c3741d1a64878fe0c0472ff81882041",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/e983fc44c100c992fc2d55c5c46d0804c3e4a5d8"
+        },
+        "date": 1767954580510,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5279,
             "unit": "ms"
           }
         ]
