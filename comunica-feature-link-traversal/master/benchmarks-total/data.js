@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767964637717,
+  "lastUpdate": 1768209267781,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -695,6 +695,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5836,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "3190d87dde2394daf3efbb40703a39ca1fcb1d04",
+          "message": "Update @comunica/web-client-generator to 4.0.1",
+          "timestamp": "2026-01-12T10:02:05+01:00",
+          "tree_id": "aae9a0e8ea92a7b6525a4e32939b184c74167863",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/3190d87dde2394daf3efbb40703a39ca1fcb1d04"
+        },
+        "date": 1768209266815,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5597,
             "unit": "ms"
           }
         ]
