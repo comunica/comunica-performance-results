@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768282305357,
+  "lastUpdate": 1768306297616,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -782,6 +782,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5516,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6eab0171599d0589e506d03fd0d93f1ab7a9d4a4",
+          "message": "Update actions/upload-pages-artifact action to v4 (#186)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-01-13T12:00:25Z",
+          "tree_id": "98f24ca4ede20b1fc8dd8dcaac25d98ef1d4e02f",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/6eab0171599d0589e506d03fd0d93f1ab7a9d4a4"
+        },
+        "date": 1768306296588,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5510,
             "unit": "ms"
           }
         ]
