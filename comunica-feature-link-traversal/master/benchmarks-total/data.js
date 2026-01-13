@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768229322163,
+  "lastUpdate": 1768282305357,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -753,6 +753,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5463,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d84bf0c505e7f3e64794c3fb903bd9839692ee7",
+          "message": "Update dependency babel-loader to v10",
+          "timestamp": "2026-01-13T02:06:31Z",
+          "tree_id": "66f65b222b4b4518d7c7e3acf13ce9a52d955665",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/7d84bf0c505e7f3e64794c3fb903bd9839692ee7"
+        },
+        "date": 1768282304544,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5516,
             "unit": "ms"
           }
         ]
