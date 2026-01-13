@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768306297616,
+  "lastUpdate": 1768311842060,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -811,6 +811,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5510,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "8d8366eebebdc4ff73a3ee5eb001e1680d0a342c",
+          "message": "Update to modernized depcheck task",
+          "timestamp": "2026-01-13T13:28:29+01:00",
+          "tree_id": "2f420ff0d08586bbdbf39241c6a71fb449826168",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/8d8366eebebdc4ff73a3ee5eb001e1680d0a342c"
+        },
+        "date": 1768311841066,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5229,
             "unit": "ms"
           }
         ]
