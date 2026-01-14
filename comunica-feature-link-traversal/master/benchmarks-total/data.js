@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768326328263,
+  "lastUpdate": 1768356535827,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -869,6 +869,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5551,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "10f89b140a07eb68079916c25ce75f7dda81cec5",
+          "message": "Update dependency lerna to v9",
+          "timestamp": "2026-01-13T22:00:08Z",
+          "tree_id": "76dae76c1637f89c08e50a4426bdc81b4e288363",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/10f89b140a07eb68079916c25ce75f7dda81cec5"
+        },
+        "date": 1768356534675,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 6486,
             "unit": "ms"
           }
         ]
