@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768560366278,
+  "lastUpdate": 1768561757564,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8472,6 +8472,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 201657,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "11581c1735f16001c4c3dcb6e265573108e05dde",
+          "message": "Fix missing engines support in retry-publish.sh",
+          "timestamp": "2026-01-16T11:56:12+01:00",
+          "tree_id": "03748170062f1e3e82f15647aa0f177ccc6ddc02",
+          "url": "https://github.com/comunica/comunica/commit/11581c1735f16001c4c3dcb6e265573108e05dde"
+        },
+        "date": 1768561756175,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4899,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23662,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 405,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1666,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 119114,
             "unit": "ms"
           }
         ]
