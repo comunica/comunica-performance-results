@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768366551242,
+  "lastUpdate": 1768999111223,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -927,6 +927,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5533,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "e99007837d7250bd40d9e28a2fb6a5504c25183e",
+          "message": "Update web clients to include alternative engines links",
+          "timestamp": "2026-01-21T13:26:05+01:00",
+          "tree_id": "9517bf15852b13007b4224b6ce63f7d9b5793902",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/e99007837d7250bd40d9e28a2fb6a5504c25183e"
+        },
+        "date": 1768999110204,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5995,
             "unit": "ms"
           }
         ]
