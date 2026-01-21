@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768947740931,
+  "lastUpdate": 1769000141264,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -1849,6 +1849,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 267,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fe7b2d688c6ba697b33add425806bab42a346001",
+          "message": "Update dependency @comunica/actor-query-source-identify-hypermedia-sparql to ^5.1.2",
+          "timestamp": "2026-01-21T09:33:26Z",
+          "tree_id": "24752f244ad2543e89bc3a1fde467ddc73130b7a",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/fe7b2d688c6ba697b33add425806bab42a346001"
+        },
+        "date": 1769000140425,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2835,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 287,
             "unit": "ms"
           }
         ]
