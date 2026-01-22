@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769018640826,
+  "lastUpdate": 1769056798175,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -985,6 +985,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5051,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "12fb36f675bfd95c0e7f232ef36e49e4c40c428f",
+          "message": "Update peter-evans/commit-comment action to v4",
+          "timestamp": "2026-01-22T02:06:31Z",
+          "tree_id": "950f60f65b67cd5587787c5052214f29ef912da2",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/12fb36f675bfd95c0e7f232ef36e49e4c40c428f"
+        },
+        "date": 1769056797086,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5793,
             "unit": "ms"
           }
         ]
