@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768926462432,
+  "lastUpdate": 1769700038798,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8570,6 +8570,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 141125,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "1acdfc1f89e5ccd07db88a765f78d1db6336187e",
+          "message": "Fix missing autoStart: false in QuerySourceHypermedia, #1655",
+          "timestamp": "2026-01-29T14:57:39Z",
+          "tree_id": "a2b2759f0d95d4c6d85d3b98e37127a7c0340e87",
+          "url": "https://github.com/comunica/comunica/commit/1acdfc1f89e5ccd07db88a765f78d1db6336187e"
+        },
+        "date": 1769700037735,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5217,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24131,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 399,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1460,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 209258,
             "unit": "ms"
           }
         ]
