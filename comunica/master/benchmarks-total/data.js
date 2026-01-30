@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769774496669,
+  "lastUpdate": 1769799672795,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8668,6 +8668,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 120434,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "255404549+voidten@users.noreply.github.com",
+            "name": "voidten",
+            "username": "voidten"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1b8aea70c20e01c18e171fab92679cc8f16a3b35",
+          "message": "Detect SPARQL endpoints via HTTP Server header heuristics (#1653)\n\nCloses #1538",
+          "timestamp": "2026-01-30T18:46:47Z",
+          "tree_id": "980ce5f0cbbc1fb668adffd1f97f8ecb27940fb8",
+          "url": "https://github.com/comunica/comunica/commit/1b8aea70c20e01c18e171fab92679cc8f16a3b35"
+        },
+        "date": 1769799671654,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4756,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24795,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 401,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1467,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 138234,
             "unit": "ms"
           }
         ]
