@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769799672795,
+  "lastUpdate": 1770120547944,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8717,6 +8717,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 138234,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "4713f85162db9c70420d01a877062d17ebab8f1d",
+          "message": "Fix GROUP_CONCAT incorrectly returning language tags\n\nRelated to w3c/rdf-tests#280\n\nThis reverts part of 0cf0bee",
+          "timestamp": "2026-02-03T12:44:50+01:00",
+          "tree_id": "36169bc098b3e676ce778c60786ec0d306bc038d",
+          "url": "https://github.com/comunica/comunica/commit/4713f85162db9c70420d01a877062d17ebab8f1d"
+        },
+        "date": 1770120546294,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4733,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23881,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 441,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1492,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 119732,
             "unit": "ms"
           }
         ]
