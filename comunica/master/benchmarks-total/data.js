@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770120547944,
+  "lastUpdate": 1770290933732,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8766,6 +8766,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 119732,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e4713a1135fe9ed3adade2e5ad4763b85169ddcc",
+          "message": "Update nginx Docker tag to v1.29.4 (#1650)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-02-05T12:11:41+01:00",
+          "tree_id": "a40ab56bc84795aed88af9b02b970639bcc26184",
+          "url": "https://github.com/comunica/comunica/commit/e4713a1135fe9ed3adade2e5ad4763b85169ddcc"
+        },
+        "date": 1770290932744,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4839,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23597,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 394,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1476,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 182293,
             "unit": "ms"
           }
         ]
