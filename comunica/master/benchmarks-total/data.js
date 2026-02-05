@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770290933732,
+  "lastUpdate": 1770297628377,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8815,6 +8815,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 182293,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "930f532ca2e3f98a37b8ae0928ea55c6338ee9f1",
+          "message": "Remove incorrect filter pushdown within the left side of a leftjoin (#1662)",
+          "timestamp": "2026-02-05T14:03:01+01:00",
+          "tree_id": "cfe4d8f2c779717318b381185ea19eb254f8845f",
+          "url": "https://github.com/comunica/comunica/commit/930f532ca2e3f98a37b8ae0928ea55c6338ee9f1"
+        },
+        "date": 1770297627142,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5380,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25027,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 420,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1532,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 165692,
             "unit": "ms"
           }
         ]
