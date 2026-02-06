@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770297628377,
+  "lastUpdate": 1770360791715,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8864,6 +8864,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 165692,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4c44856eb5b5be72a3136289c3f909aa28dd6e7f",
+          "message": "Add linter rule to enforce `autoStart: false` for AsyncIterators\n\nCloses #1656",
+          "timestamp": "2026-02-06T07:36:56+01:00",
+          "tree_id": "ed16c77a0fd5190d0ecc706c34d5c45bbe5d7451",
+          "url": "https://github.com/comunica/comunica/commit/4c44856eb5b5be72a3136289c3f909aa28dd6e7f"
+        },
+        "date": 1770360789949,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5266,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23468,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 389,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1489,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 162723,
             "unit": "ms"
           }
         ]
