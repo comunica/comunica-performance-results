@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770360791715,
+  "lastUpdate": 1770364577777,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8913,6 +8913,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 162723,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83d3fbf528efe7ceac5c75ef7e6b609a03fdf4cf",
+          "message": "Add interactive HTML view with YASGUI to comunica-sparql-http (#1664)\n\nCloses #1654",
+          "timestamp": "2026-02-06T08:37:36+01:00",
+          "tree_id": "fa7072b1593a6f114b1d6d934cb4daa7280710e5",
+          "url": "https://github.com/comunica/comunica/commit/83d3fbf528efe7ceac5c75ef7e6b609a03fdf4cf"
+        },
+        "date": 1770364576781,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5334,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22961,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 640,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1535,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 171101,
             "unit": "ms"
           }
         ]
