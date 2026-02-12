@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770364577777,
+  "lastUpdate": 1770902188676,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -8962,6 +8962,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 171101,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f56648ff3d8efe0418dc5b0bf81779d4bb472a6b",
+          "message": "Add Comunica MCP engine to README\n\nAdded Comunica MCP to the list of engines for AI interaction.",
+          "timestamp": "2026-02-12T13:57:51+01:00",
+          "tree_id": "7361fce0e7bf0d91cd1e940bc11164f13c6a499e",
+          "url": "https://github.com/comunica/comunica/commit/f56648ff3d8efe0418dc5b0bf81779d4bb472a6b"
+        },
+        "date": 1770902187461,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5306,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26246,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 392,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2084,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 201687,
             "unit": "ms"
           }
         ]
