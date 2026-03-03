@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772171144933,
+  "lastUpdate": 1772532881712,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9060,6 +9060,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 207208,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ddb8d13a13d4973274107d94f07084fe335d674a",
+          "message": "Throw error on invalid TRIPLE invocations, Closes #1675",
+          "timestamp": "2026-03-03T10:56:41+01:00",
+          "tree_id": "a053744c925838c4670c7b2209d38840369b3da5",
+          "url": "https://github.com/comunica/comunica/commit/ddb8d13a13d4973274107d94f07084fe335d674a"
+        },
+        "date": 1772532880797,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4895,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26423,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 369,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1734,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 191347,
             "unit": "ms"
           }
         ]
