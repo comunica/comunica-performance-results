@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772806170308,
+  "lastUpdate": 1773625724577,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9158,6 +9158,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 201073,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5ced1077fd34e1702178bffe4beff1ad471f4eb4",
+          "message": "Update dependency webpack-cli to v7",
+          "timestamp": "2026-03-16T00:45:59Z",
+          "tree_id": "61c6289a78b63829807f6f9640e1aa4e3d421c96",
+          "url": "https://github.com/comunica/comunica/commit/5ced1077fd34e1702178bffe4beff1ad471f4eb4"
+        },
+        "date": 1773625723109,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4391,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26630,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 384,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1539,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 129067,
             "unit": "ms"
           }
         ]
