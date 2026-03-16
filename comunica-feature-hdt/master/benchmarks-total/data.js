@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773266543550,
+  "lastUpdate": 1773636349532,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -1917,6 +1917,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 279,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c06a8a96cc4f7442c6fed3b1fdfb7be157e20ed0",
+          "message": "Update dependency webpack-cli to v7",
+          "timestamp": "2026-03-16T01:19:27Z",
+          "tree_id": "4c79cb471ef9239f86d77a4bc3824b455d904ccf",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/c06a8a96cc4f7442c6fed3b1fdfb7be157e20ed0"
+        },
+        "date": 1773636348313,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2838,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 274,
             "unit": "ms"
           }
         ]
