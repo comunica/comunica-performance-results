@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773381441858,
+  "lastUpdate": 1773639144994,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1043,6 +1043,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5241,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "66bddd3a1093ccfcd0fce10d8ba4397230667419",
+          "message": "Update dependency webpack-cli to v7",
+          "timestamp": "2026-03-16T01:53:56Z",
+          "tree_id": "1e7a48cc6a3a5e2a45a6faae450f92774e191fa3",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/66bddd3a1093ccfcd0fce10d8ba4397230667419"
+        },
+        "date": 1773639143706,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 6070,
             "unit": "ms"
           }
         ]
