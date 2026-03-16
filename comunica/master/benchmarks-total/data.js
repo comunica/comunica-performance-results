@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773625724577,
+  "lastUpdate": 1773658132083,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9207,6 +9207,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 129067,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bryanelliott.tam@ugent.be",
+            "name": "Bryan-Elliott Tam",
+            "username": "constraintAutomaton"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b71e01523914763d7267ec5af796abe9c9e00c85",
+          "message": "Fix incorrect name of utils-algebra in README (#1678)",
+          "timestamp": "2026-03-16T11:34:02+01:00",
+          "tree_id": "3d2be8d1f9dce869965498eae49b799107794b27",
+          "url": "https://github.com/comunica/comunica/commit/b71e01523914763d7267ec5af796abe9c9e00c85"
+        },
+        "date": 1773658130958,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4572,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25131,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 429,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1476,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 124846,
             "unit": "ms"
           }
         ]
