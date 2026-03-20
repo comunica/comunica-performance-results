@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774017770307,
+  "lastUpdate": 1774022235314,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9305,6 +9305,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 191120,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "255404549+voidten@users.noreply.github.com",
+            "name": "voidten",
+            "username": "voidten"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3601a2e52b64a84ed3bf889ad378bfc4e71d336a",
+          "message": "Replace Karma browser tests with Playwright (#1677)\n\nCloses #1524",
+          "timestamp": "2026-03-20T16:38:07+01:00",
+          "tree_id": "f45b5652db8a60481add452aa06e6090721148fd",
+          "url": "https://github.com/comunica/comunica/commit/3601a2e52b64a84ed3bf889ad378bfc4e71d336a"
+        },
+        "date": 1774022234141,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4576,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24731,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 414,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1525,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 190612,
             "unit": "ms"
           }
         ]
