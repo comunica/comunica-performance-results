@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773658132083,
+  "lastUpdate": 1774017770307,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9256,6 +9256,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 124846,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "255404549+voidten@users.noreply.github.com",
+            "name": "voidten",
+            "username": "voidten"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "572557d7e675a553f2068ef1b930589148bab4a8",
+          "message": "Retry response body streams on mid-read failures (#1667)\n\nThis can be enabled using the new context options `httpRetryBodyCount`,\n`httpRetryBodyDelayFallback`, `httpRetryBodyAllowUnsafe`, and `httpRetryBodyMaxBytes`.\n\nCloses #1520",
+          "timestamp": "2026-03-20T15:23:32+01:00",
+          "tree_id": "18833d3b957f7306ea9ecda9d6c64e18ee700549",
+          "url": "https://github.com/comunica/comunica/commit/572557d7e675a553f2068ef1b930589148bab4a8"
+        },
+        "date": 1774017768638,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4538,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25484,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 408,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1565,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 191120,
             "unit": "ms"
           }
         ]
