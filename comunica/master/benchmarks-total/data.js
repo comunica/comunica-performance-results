@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774022235314,
+  "lastUpdate": 1774232297886,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9354,6 +9354,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 190612,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "da124802283f81d246131c6c2c6f2d0213c37986",
+          "message": "Update nick-fields/retry action to v4",
+          "timestamp": "2026-03-23T00:53:03Z",
+          "tree_id": "c7abaeffa1b4f74dc5820d396eb1d16e5da3b26a",
+          "url": "https://github.com/comunica/comunica/commit/da124802283f81d246131c6c2c6f2d0213c37986"
+        },
+        "date": 1774232296708,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4428,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24170,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 419,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1491,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 127034,
             "unit": "ms"
           }
         ]
