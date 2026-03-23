@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773639144994,
+  "lastUpdate": 1774240774614,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1072,6 +1072,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 6070,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d960bc38bbbd708279ad7bc1e34be81dc867d96a",
+          "message": "Update nick-fields/retry action to v4",
+          "timestamp": "2026-03-23T02:07:15Z",
+          "tree_id": "0c3aa4598772cc17fa5c946471ffc1eca7f7c22a",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/d960bc38bbbd708279ad7bc1e34be81dc867d96a"
+        },
+        "date": 1774240773140,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 6723,
             "unit": "ms"
           }
         ]
