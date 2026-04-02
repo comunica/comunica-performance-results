@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774505522167,
+  "lastUpdate": 1775127649775,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9452,6 +9452,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 204541,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae507edc746a6d3a641a758118913de4da8f4700",
+          "message": "Add publiccode.yml, Closes #1685",
+          "timestamp": "2026-04-02T12:45:57+02:00",
+          "tree_id": "763d705b0a00baed6e365f2eb0ad4af2f06343f6",
+          "url": "https://github.com/comunica/comunica/commit/ae507edc746a6d3a641a758118913de4da8f4700"
+        },
+        "date": 1775127648612,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5214,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25924,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 374,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1538,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 132026,
             "unit": "ms"
           }
         ]
