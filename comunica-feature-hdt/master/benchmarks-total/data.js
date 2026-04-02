@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773636349532,
+  "lastUpdate": 1775093844180,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -1951,6 +1951,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 274,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "634e4b52ed98b5528dce1c6f6e49c2ac3b9c7a03",
+          "message": "Update dependency npm-check-updates to v20",
+          "timestamp": "2026-04-01T22:49:25Z",
+          "tree_id": "36a0c5207a35531e7cce2c3e72e758434dcdcb7f",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/634e4b52ed98b5528dce1c6f6e49c2ac3b9c7a03"
+        },
+        "date": 1775093842785,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2712,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 285,
             "unit": "ms"
           }
         ]
