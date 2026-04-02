@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775093844180,
+  "lastUpdate": 1775105007929,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -1985,6 +1985,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 285,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "43b498f8d033dd351e0f0f1586f379dabd40fd38",
+          "message": "Update actions/download-artifact action to v8 (#28)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-04-02T04:33:15Z",
+          "tree_id": "135df58d50419f27f33a449e032c4ad6652630e2",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/43b498f8d033dd351e0f0f1586f379dabd40fd38"
+        },
+        "date": 1775105006699,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2552,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 272,
             "unit": "ms"
           }
         ]
