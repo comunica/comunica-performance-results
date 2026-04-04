@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775127649775,
+  "lastUpdate": 1775309870977,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9501,6 +9501,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 132026,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e53c66e9ffe2d15ce202752d68ccd139fde54442",
+          "message": "Fix issues in publiccode.yml\n\nUpdated organisation structure and removed input/output types.",
+          "timestamp": "2026-04-04T15:15:27+02:00",
+          "tree_id": "5d1dc245995c2d1daca2b0384eaa066555ef3f52",
+          "url": "https://github.com/comunica/comunica/commit/e53c66e9ffe2d15ce202752d68ccd139fde54442"
+        },
+        "date": 1775309869791,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4383,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23368,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 367,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1545,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 145921,
             "unit": "ms"
           }
         ]
