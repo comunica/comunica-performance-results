@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776070586703,
+  "lastUpdate": 1776088450120,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9599,6 +9599,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 130685,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "98ff832e051ae6379114a772eca86a5481ec9ada",
+          "message": "Add compositefile query source and group-file-sources optimizer (#1681)\n\nConcretely, a new 'compositefile' source type accepts an array of file sources,\nwhich are grouped together in a single index during query processing.\nAs a result, federated queries that contain many file sources are optimized in this manner.",
+          "timestamp": "2026-04-13T15:27:48+02:00",
+          "tree_id": "25713796c7020501da9733b3a256b059a972200d",
+          "url": "https://github.com/comunica/comunica/commit/98ff832e051ae6379114a772eca86a5481ec9ada"
+        },
+        "date": 1776088448719,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5086,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23981,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 393,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1505,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 161477,
             "unit": "ms"
           }
         ]
