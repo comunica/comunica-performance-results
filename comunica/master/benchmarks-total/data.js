@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776088450120,
+  "lastUpdate": 1776104473187,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9648,6 +9648,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 161477,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac42128456f16557ca28d9bc8e9ca7b4742b6bfd",
+          "message": "Update softprops/action-gh-release action to v3",
+          "timestamp": "2026-04-13T13:28:51Z",
+          "tree_id": "927c46f241d9f8610260297bd5fee347d5c86463",
+          "url": "https://github.com/comunica/comunica/commit/ac42128456f16557ca28d9bc8e9ca7b4742b6bfd"
+        },
+        "date": 1776104472050,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5149,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25786,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 379,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1536,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 126832,
             "unit": "ms"
           }
         ]
