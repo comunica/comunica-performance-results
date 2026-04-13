@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775309870977,
+  "lastUpdate": 1776070586703,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9550,6 +9550,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 145921,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "921a47d32f6ed4e021b905d07785b40aacf74e00",
+          "message": "Fix language direction handling in argument compatible string functions (#1694)\n\nTraqula did not handle the language direction information in SPARQL1.2 well. This has been fixed in Traqula through a recent patch. That patch caused Comunica's spec tests to fail (they passed \"accidentally\" before). This PR ensures Comunica passes the spec test by fixing the string compatibility check.",
+          "timestamp": "2026-04-13T10:41:35+02:00",
+          "tree_id": "9d228abbe029333b44801f4dde4c3cd409dc5480",
+          "url": "https://github.com/comunica/comunica/commit/921a47d32f6ed4e021b905d07785b40aacf74e00"
+        },
+        "date": 1776070585513,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5292,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22519,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 400,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1567,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 130685,
             "unit": "ms"
           }
         ]
