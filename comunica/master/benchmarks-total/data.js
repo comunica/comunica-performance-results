@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776104473187,
+  "lastUpdate": 1776149388632,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9697,6 +9697,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 126832,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "32dcc1e9dc411f6238141060f9e668fc47b61367",
+          "message": "Fix nested FILTER NOT EXISTS not materializing outer bindings (#1695)\n\nCloses #1691",
+          "timestamp": "2026-04-14T08:12:18+02:00",
+          "tree_id": "5d171930752b5c47d99438c09cf1aafd5be6a6e1",
+          "url": "https://github.com/comunica/comunica/commit/32dcc1e9dc411f6238141060f9e668fc47b61367"
+        },
+        "date": 1776149387168,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4410,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22927,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 367,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1624,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 208973,
             "unit": "ms"
           }
         ]
