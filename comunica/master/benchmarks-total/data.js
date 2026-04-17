@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776186344966,
+  "lastUpdate": 1776398179072,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -9893,6 +9893,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 131465,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53a80032d79d0e29bd71751121ab3160bb707554",
+          "message": "Update dependency npm-check-updates to v21",
+          "timestamp": "2026-04-16T23:04:26Z",
+          "tree_id": "62560b97f96e5b202f565f63b1c9b5078572d9da",
+          "url": "https://github.com/comunica/comunica/commit/53a80032d79d0e29bd71751121ab3160bb707554"
+        },
+        "date": 1776398177750,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4916,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22130,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 380,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1597,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 174145,
             "unit": "ms"
           }
         ]
