@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776705032251,
+  "lastUpdate": 1776726237640,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -2053,6 +2053,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 288,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "05c91b0e7696b6faa3d6e043fd5d3c296ab0a9b7",
+          "message": "Update dependency npm-check-updates to v21 (#31)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-04-20T22:53:26Z",
+          "tree_id": "c2826debd9bfeae8beff9e3e2ea43fc3de2bfee5",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/05c91b0e7696b6faa3d6e043fd5d3c296ab0a9b7"
+        },
+        "date": 1776726236071,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2804,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 257,
             "unit": "ms"
           }
         ]
