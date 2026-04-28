@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777361713070,
+  "lastUpdate": 1777388432724,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10089,6 +10089,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 193848,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7213f274972388b33127980aca373b9b912413b9",
+          "message": "Update dependency bignumber.js to v11 (#1698)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-04-28T16:43:18+02:00",
+          "tree_id": "d4931ba5a4dd17530c5e5e68868cb81a9624cecd",
+          "url": "https://github.com/comunica/comunica/commit/7213f274972388b33127980aca373b9b912413b9"
+        },
+        "date": 1777388431261,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4498,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21947,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 359,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1537,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 152239,
             "unit": "ms"
           }
         ]
