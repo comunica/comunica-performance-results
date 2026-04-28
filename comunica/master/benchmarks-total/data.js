@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777256567344,
+  "lastUpdate": 1777361713070,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10040,6 +10040,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 146046,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aef95bc0adffa5dc500ce0eb5e5fd38d8fe5de1e",
+          "message": "Fix prototype pollution vulnerability in Actor constructor (#1704)\n\nCloses #1683",
+          "timestamp": "2026-04-28T09:15:36+02:00",
+          "tree_id": "e99b13759f96a3ba207132b3c5c49a060ebae267",
+          "url": "https://github.com/comunica/comunica/commit/aef95bc0adffa5dc500ce0eb5e5fd38d8fe5de1e"
+        },
+        "date": 1777361711947,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4663,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22422,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 417,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1506,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 193848,
             "unit": "ms"
           }
         ]
