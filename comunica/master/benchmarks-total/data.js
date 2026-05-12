@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777956886934,
+  "lastUpdate": 1778601030715,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10236,6 +10236,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 127165,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "91d763c425da4ea3e00b6f019fd570c5e72f2b39",
+          "message": "Add SPARQL 1.2 service-description compatibility while preserving SPARQL 1.1 behavior (#1709)",
+          "timestamp": "2026-05-12T16:51:49+02:00",
+          "tree_id": "6d059a3152b30b6b8daed41992902ba5935be2fe",
+          "url": "https://github.com/comunica/comunica/commit/91d763c425da4ea3e00b6f019fd570c5e72f2b39"
+        },
+        "date": 1778601029142,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4480,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24683,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 395,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1666,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 147792,
             "unit": "ms"
           }
         ]
