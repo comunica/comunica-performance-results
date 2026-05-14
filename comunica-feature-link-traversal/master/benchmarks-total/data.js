@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774240774614,
+  "lastUpdate": 1778774699103,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1101,6 +1101,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 6723,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "a2447a434fa2ded84dcf4858ae8046a5cddbad69",
+          "message": "Update CI to Node 26",
+          "timestamp": "2026-05-14T17:25:06+02:00",
+          "tree_id": "7ce73d0b352796b162395a88ce1a00e1b1c413d6",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/a2447a434fa2ded84dcf4858ae8046a5cddbad69"
+        },
+        "date": 1778774697425,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 6392,
             "unit": "ms"
           }
         ]
