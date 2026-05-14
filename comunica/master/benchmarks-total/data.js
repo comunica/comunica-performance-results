@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778778926340,
+  "lastUpdate": 1778783493734,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10334,6 +10334,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 99679,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8f96db5ad2e650c9d7a71028ad0404306e395d3c",
+          "message": "Increase Logger and HTTP retry body test coverage (#1711)",
+          "timestamp": "2026-05-14T20:10:24+02:00",
+          "tree_id": "31f56499eb249a4773158a105e3f0395a75cd13d",
+          "url": "https://github.com/comunica/comunica/commit/8f96db5ad2e650c9d7a71028ad0404306e395d3c"
+        },
+        "date": 1778783491925,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 3789,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 18259,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 370,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1494,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 168631,
             "unit": "ms"
           }
         ]
