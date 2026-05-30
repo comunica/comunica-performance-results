@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779818785252,
+  "lastUpdate": 1780140558659,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10432,6 +10432,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 144749,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a444852f0e008dac5ba2565b79497b4297523746",
+          "message": "Fix markdown link syntax for TestResult in core README",
+          "timestamp": "2026-05-30T13:13:44+02:00",
+          "tree_id": "7f0279c5549d3673a02e747523eb635d2a55a25e",
+          "url": "https://github.com/comunica/comunica/commit/a444852f0e008dac5ba2565b79497b4297523746"
+        },
+        "date": 1780140557460,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4737,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22538,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 340,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1500,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 146777,
             "unit": "ms"
           }
         ]
