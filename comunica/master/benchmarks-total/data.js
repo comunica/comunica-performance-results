@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781534778733,
+  "lastUpdate": 1781839823616,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10530,6 +10530,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 124917,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5d54730d874ba0ca67621317f17898b157907a4",
+          "message": "Update actions/checkout action to v7",
+          "timestamp": "2026-06-19T00:03:55Z",
+          "tree_id": "6adb10a2285bf134d07e44ea8d38ca16716e5403",
+          "url": "https://github.com/comunica/comunica/commit/b5d54730d874ba0ca67621317f17898b157907a4"
+        },
+        "date": 1781839822307,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5040,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23383,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 542,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1721,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 74415,
             "unit": "ms"
           }
         ]
