@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782409233554,
+  "lastUpdate": 1782411647348,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10726,6 +10726,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 156686,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8102ad7e951a30bd899a88c854264a677f7580c7",
+          "message": "Update dependency undici to v8 (#1690)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-25T20:04:09+02:00",
+          "tree_id": "4ff695f9d37c7623efd5d45d8ee926cf5992ca86",
+          "url": "https://github.com/comunica/comunica/commit/8102ad7e951a30bd899a88c854264a677f7580c7"
+        },
+        "date": 1782411645744,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4685,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26116,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 348,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1578,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 112368,
             "unit": "ms"
           }
         ]
