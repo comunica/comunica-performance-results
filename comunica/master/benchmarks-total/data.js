@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782411647348,
+  "lastUpdate": 1782461456968,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10775,6 +10775,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 112368,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "255404549+voidten@users.noreply.github.com",
+            "name": "voidten",
+            "username": "voidten"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99e20ce1f3ca57e4554dce1cba51dabd99344fd3",
+          "message": "Align CSV serialization with spec and enable spec tests (#1721)\n\nRelated to #721",
+          "timestamp": "2026-06-26T09:50:16+02:00",
+          "tree_id": "fa11fab105a0f97f987e8d43c05bebfb26cafe77",
+          "url": "https://github.com/comunica/comunica/commit/99e20ce1f3ca57e4554dce1cba51dabd99344fd3"
+        },
+        "date": 1782461455577,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5236,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22868,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 328,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1765,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 110787,
             "unit": "ms"
           }
         ]
