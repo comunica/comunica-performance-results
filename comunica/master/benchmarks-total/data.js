@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782461456968,
+  "lastUpdate": 1783085227115,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10824,6 +10824,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 110787,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "smessie@users.noreply.github.com",
+            "name": "Ieben Smessaert",
+            "username": "smessie"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d55a644f63978d7bc65d56e6176babb3c57adfb3",
+          "message": "Add Vite-based browser tests to CI (#1723)",
+          "timestamp": "2026-07-03T14:50:15+02:00",
+          "tree_id": "35ff5e6d915d7c20243dd8c30437810575c80b66",
+          "url": "https://github.com/comunica/comunica/commit/d55a644f63978d7bc65d56e6176babb3c57adfb3"
+        },
+        "date": 1783085225535,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4792,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22893,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 325,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1626,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 96342,
             "unit": "ms"
           }
         ]
