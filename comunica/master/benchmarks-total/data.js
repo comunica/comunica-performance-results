@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783085227115,
+  "lastUpdate": 1783325995917,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10873,6 +10873,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 96342,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dfdc44ed92401551143a0165dad96878e06cfcd5",
+          "message": "Update dependency vite-plugin-node-polyfills to ^0.28.0 (#1728)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-06T08:04:26Z",
+          "tree_id": "8fde718ca6b43d6f48508ebbc382cc805d29108d",
+          "url": "https://github.com/comunica/comunica/commit/dfdc44ed92401551143a0165dad96878e06cfcd5"
+        },
+        "date": 1783325994634,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4623,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22143,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 329,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1614,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 104675,
             "unit": "ms"
           }
         ]
