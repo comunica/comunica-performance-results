@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783325995917,
+  "lastUpdate": 1783502180333,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -10922,6 +10922,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 104675,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9c7ab45a9a07b8d5483dd50b501c328d50429b0f",
+          "message": "Export expression evaluation helpers from utils-jest package\n\nThis moves the monorepo-internal helpers to the utils-jest package,\nso that they can also be used outside of this monorepo.",
+          "timestamp": "2026-07-08T11:00:53+02:00",
+          "tree_id": "481de93704d789a1a591e73c05f7376307aa4d91",
+          "url": "https://github.com/comunica/comunica/commit/9c7ab45a9a07b8d5483dd50b501c328d50429b0f"
+        },
+        "date": 1783502178436,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4770,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24135,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 335,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1638,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 94285,
             "unit": "ms"
           }
         ]
