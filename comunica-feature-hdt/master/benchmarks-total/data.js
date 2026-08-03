@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785289429975,
+  "lastUpdate": 1785737346238,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -2495,6 +2495,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 226,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "2fac9552b59d592a3d9d926447a6811f123fcf4d",
+          "message": "Update dependency lerna to v10",
+          "timestamp": "2026-08-03T02:56:01Z",
+          "tree_id": "1edb4ab16a9d1bc2f429fcd1894d6a5470c9e339",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/2fac9552b59d592a3d9d926447a6811f123fcf4d"
+        },
+        "date": 1785737344347,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2730,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 212,
             "unit": "ms"
           }
         ]
