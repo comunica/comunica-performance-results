@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785300428687,
+  "lastUpdate": 1786639955360,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11069,6 +11069,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 186097,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "deb2cea2fd3dfc10dbe6a1bdb5d49a62d8332332",
+          "message": "Fix DISTINCT optimization ignoring constants in patterns\n\nCloses #1733",
+          "timestamp": "2026-08-13T18:30:21+02:00",
+          "tree_id": "3882a8bdd584ed09ce85ef88b199858b70372d08",
+          "url": "https://github.com/comunica/comunica/commit/deb2cea2fd3dfc10dbe6a1bdb5d49a62d8332332"
+        },
+        "date": 1786639953163,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5091,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24171,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 344,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1647,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 192067,
             "unit": "ms"
           }
         ]
