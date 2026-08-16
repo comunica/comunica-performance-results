@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785737346238,
+  "lastUpdate": 1786906663493,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -2529,6 +2529,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 212,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "80a8584692a48c14cb8cbacb5cd9161a56e01431",
+          "message": "Fix tab indentation in issue labeler configuration (#34)\n\nThe 'Label new issues' workflow failed with\n'YAMLException: tab characters must not be used in indentation (4:1)'\nbecause .github/labeler.yml indented most of its list entries with tabs.\nReplaced them with spaces so the configuration parses.\n\n\nClaude-Session: https://claude.ai/code/session_01RZ5vFaGiETNme3ipRJ9Ubx\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+          "timestamp": "2026-08-16T20:43:51+02:00",
+          "tree_id": "0070d650caedd20a1c902a260855b8ba1d36e9af",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/80a8584692a48c14cb8cbacb5cd9161a56e01431"
+        },
+        "date": 1786906662044,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2710,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 284,
             "unit": "ms"
           }
         ]
