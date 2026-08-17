@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778774699103,
+  "lastUpdate": 1786957778464,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1130,6 +1130,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 6392,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "15ed97c745e435cbf1a1ff6223555a70b8867312",
+          "message": "Add --ignore-engines flag to browser tests in CI",
+          "timestamp": "2026-08-17T09:42:44+02:00",
+          "tree_id": "bbc6f8228dbad30f97ed1ae025b131339ae3b635",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/15ed97c745e435cbf1a1ff6223555a70b8867312"
+        },
+        "date": 1786957776054,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 6449,
             "unit": "ms"
           }
         ]
