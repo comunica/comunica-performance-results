@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786963589087,
+  "lastUpdate": 1786973623192,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11167,6 +11167,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 154497,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "161894387+noahvsb@users.noreply.github.com",
+            "name": "Noah Van Steenbrugge",
+            "username": "noahvsb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b53f898af3c1c35d413d9570f5e1012514187e2",
+          "message": "Fix the failing sort spec tests by passing checkOrder to test suite runner (#1739)\n\nPart of #1736",
+          "timestamp": "2026-08-17T14:46:40+02:00",
+          "tree_id": "5b3fd8c65aa9974d8d681577c942379f2c422e93",
+          "url": "https://github.com/comunica/comunica/commit/3b53f898af3c1c35d413d9570f5e1012514187e2"
+        },
+        "date": 1786973621369,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4788,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24939,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 302,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1590,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 166278,
             "unit": "ms"
           }
         ]
