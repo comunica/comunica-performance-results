@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786962204314,
+  "lastUpdate": 1786985817038,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1188,6 +1188,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 5465,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1e5387b8ff45a07473c56b6545265047d8c41669",
+          "message": "Update actions/cache action to v6 (#198)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-17T15:27:20Z",
+          "tree_id": "6f41f57c312584172b2f318d0f9f0de1e690fd43",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/1e5387b8ff45a07473c56b6545265047d8c41669"
+        },
+        "date": 1786985815034,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5349,
             "unit": "ms"
           }
         ]
