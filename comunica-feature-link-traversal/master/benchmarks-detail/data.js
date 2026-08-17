@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786957774298,
+  "lastUpdate": 1786962200682,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks detailed results": [
@@ -2872,6 +2872,78 @@ window.BENCHMARK_DATA = {
             "value": 1862,
             "unit": "ms",
             "extra": "Results: [10,10,10,10,10]; Error: [false,false,false,false,false]; HTTP Requests: [34,32,63,67,42]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f97dd6b01edefe19c2451c1e8d3db6dbc66ae8dc",
+          "message": "Fix Web clients CI build failing on TypeScript type-stripping (#200)\n\nWebpack >=5.108 auto-enables its built-in TypeScript type-stripping\nsupport whenever Node.js supports it and no loader is registered for\n.ts files. This makes .ts outrank .js during module resolution, so\npackage imports resolved to the raw lib/*.ts sources instead of the\ncompiled lib/*.js output, breaking the build on TypeScript syntax\n(parameter properties, angle-bracket type assertions) that the\nstrip-only mode doesn't support.\n\nPass a custom webpack config that disables this experiment so\nresolution keeps preferring the compiled .js output as before.\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+          "timestamp": "2026-08-17T12:07:55+02:00",
+          "tree_id": "ee75ca5f995e2343863877c9be2a7a173c128d90",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/f97dd6b01edefe19c2451c1e8d3db6dbc66ae8dc"
+        },
+        "date": 1786962198721,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench - interactive-discover-1",
+            "value": 443,
+            "unit": "ms",
+            "extra": "Results: [6,4,1,14,8]; Error: [false,false,false,false,false]; HTTP Requests: [53,52,45,32,47]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-2",
+            "value": 571,
+            "unit": "ms",
+            "extra": "Results: [66,46,32,198,98]; Error: [false,false,false,false,false]; HTTP Requests: [53,52,45,32,47]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-3",
+            "value": 1115,
+            "unit": "ms",
+            "extra": "Results: [71,67,55,203,142]; Error: [false,false,false,false,false]; HTTP Requests: [179,180,129,238,198]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-4",
+            "value": 474,
+            "unit": "ms",
+            "extra": "Results: [5,3,3,3,7]; Error: [false,false,false,false,false]; HTTP Requests: [69,56,49,37,67]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-5",
+            "value": 255,
+            "unit": "ms",
+            "extra": "Results: [15,3,3,4,20]; Error: [false,false,false,false,false]; HTTP Requests: [53,52,45,32,47]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-6",
+            "value": 615,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,27]; Error: [true,false,false,true,false]; HTTP Requests: [,52,45,,47]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-7",
+            "value": 488,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,1]; Error: [true,false,false,true,false]; HTTP Requests: [,52,45,,47]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-8",
+            "value": 1504,
+            "unit": "ms",
+            "extra": "Results: [10,10,10,10,10]; Error: [false,false,false,false,false]; HTTP Requests: [31,32,63,69,42]"
           }
         ]
       }
