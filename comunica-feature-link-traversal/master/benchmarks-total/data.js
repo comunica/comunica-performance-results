@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786957778464,
+  "lastUpdate": 1786962204314,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1159,6 +1159,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 6449,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f97dd6b01edefe19c2451c1e8d3db6dbc66ae8dc",
+          "message": "Fix Web clients CI build failing on TypeScript type-stripping (#200)\n\nWebpack >=5.108 auto-enables its built-in TypeScript type-stripping\nsupport whenever Node.js supports it and no loader is registered for\n.ts files. This makes .ts outrank .js during module resolution, so\npackage imports resolved to the raw lib/*.ts sources instead of the\ncompiled lib/*.js output, breaking the build on TypeScript syntax\n(parameter properties, angle-bracket type assertions) that the\nstrip-only mode doesn't support.\n\nPass a custom webpack config that disables this experiment so\nresolution keeps preferring the compiled .js output as before.\n\nCo-authored-by: Claude <noreply@anthropic.com>",
+          "timestamp": "2026-08-17T12:07:55+02:00",
+          "tree_id": "ee75ca5f995e2343863877c9be2a7a173c128d90",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/f97dd6b01edefe19c2451c1e8d3db6dbc66ae8dc"
+        },
+        "date": 1786962202386,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 5465,
             "unit": "ms"
           }
         ]
