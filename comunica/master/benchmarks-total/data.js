@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786639955360,
+  "lastUpdate": 1786963589087,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11118,6 +11118,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 192067,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "161894387+noahvsb@users.noreply.github.com",
+            "name": "Noah Van Steenbrugge",
+            "username": "noahvsb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c92ed10ff02956215f31c8af7d8831e32ab2845d",
+          "message": "Update rdf-test-suite to v2.3.0 and unskip 3 types of spec tests (#1745)\n\nPart of #1736",
+          "timestamp": "2026-08-17T12:27:58+02:00",
+          "tree_id": "0d5eedd92d0b0cbd31b8650d8900ce72ecc94fe5",
+          "url": "https://github.com/comunica/comunica/commit/c92ed10ff02956215f31c8af7d8831e32ab2845d"
+        },
+        "date": 1786963587525,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 3828,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23125,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 344,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1803,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 154497,
             "unit": "ms"
           }
         ]
