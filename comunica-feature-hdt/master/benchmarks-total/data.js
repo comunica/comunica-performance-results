@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786906663493,
+  "lastUpdate": 1787139615980,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -2563,6 +2563,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 284,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0826ece3a649c3782110957e822104c826c8ba0f",
+          "message": "Update dependency cross-env to v10 (#18)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-19T13:21:42+02:00",
+          "tree_id": "72b8b478d5d5bf6de5f0aadd8a0f7f3ec6c339bf",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/0826ece3a649c3782110957e822104c826c8ba0f"
+        },
+        "date": 1787139614456,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2513,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 283,
             "unit": "ms"
           }
         ]
