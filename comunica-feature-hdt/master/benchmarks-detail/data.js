@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787139612839,
+  "lastUpdate": 1787141442141,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks detailed results": [
@@ -16342,6 +16342,222 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT - 12",
             "value": 5,
+            "unit": "ms",
+            "extra": "Results: [1120.2]; Error: []; HTTP Requests: []"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "6e5972bfa417d5e0f8e7ba40f90b8e4b0c1188d8",
+          "message": "Update babel monorepo to v8\n\nBumps @babel/core and @babel/preset-env to ^8.0.0. Babel 8 ships its own\nTypeScript types, which conflict with the stale @types/babel__core\npackage that babel-jest transitively pulls in. Restrict the auto-included\ntype packages to node and jest in tsconfig.json (matching the setup in\nthe main comunica monorepo) so that stale package is no longer\ntype-checked. Babel is only used through babel-loader (which supports\n@babel/core v8 as of v10.1.0) for the browser bundle; the JSON5 .babelrc\nconfig still loads correctly under Babel 8.\n\nCloses #32\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01SiiefjZ6V3HAKAMwekMtPB",
+          "timestamp": "2026-08-19T13:54:12+02:00",
+          "tree_id": "1b5b92caf6a5a6174d1a13c93cd6cb080718656f",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/6e5972bfa417d5e0f8e7ba40f90b8e4b0c1188d8"
+        },
+        "date": 1787141439859,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT - C1",
+            "value": 90,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - C2",
+            "value": 402,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - C3",
+            "value": 1414,
+            "unit": "ms",
+            "extra": "Results: [48802,48802,48802,48802,48802]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - F1",
+            "value": 12,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - F2",
+            "value": 21,
+            "unit": "ms",
+            "extra": "Results: [0,0,1,1,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - F3",
+            "value": 17,
+            "unit": "ms",
+            "extra": "Results: [2,2,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - F4",
+            "value": 21,
+            "unit": "ms",
+            "extra": "Results: [0,0,12,12,12]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - F5",
+            "value": 51,
+            "unit": "ms",
+            "extra": "Results: [32,32,40,56,22]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - L1",
+            "value": 9,
+            "unit": "ms",
+            "extra": "Results: [1,5,5,1,5]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - L2",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [3,3,3,40,3]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - L3",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [69,33,12,12,69]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - L4",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [6,7,6,6,6]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - L5",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [1,4,4,22,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S1",
+            "value": 18,
+            "unit": "ms",
+            "extra": "Results: [4,0,7,4,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S2",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: [2,1,1,2,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S3",
+            "value": 21,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S4",
+            "value": 21,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S5",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S6",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [1,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S7",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "BSBM-HDT - 1",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [0.5]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 2",
+            "value": 10,
+            "unit": "ms",
+            "extra": "Results: [19.5]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 3",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 4",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 5",
+            "value": 117,
+            "unit": "ms",
+            "extra": "Results: [3.5]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 6",
+            "value": 0,
+            "unit": "ms",
+            "extra": "Results: [undefined]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 7",
+            "value": 21,
+            "unit": "ms",
+            "extra": "Results: [9.38]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 8",
+            "value": 18,
+            "unit": "ms",
+            "extra": "Results: [5.05]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 9",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: [629.48]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 10",
+            "value": 18,
+            "unit": "ms",
+            "extra": "Results: [2.8]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 11",
+            "value": 1,
+            "unit": "ms",
+            "extra": "Results: [10]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 12",
+            "value": 3,
             "unit": "ms",
             "extra": "Results: [1120.2]; Error: []; HTTP Requests: []"
           }
