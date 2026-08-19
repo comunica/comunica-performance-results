@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787139615980,
+  "lastUpdate": 1787141449778,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -2597,6 +2597,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 283,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "6e5972bfa417d5e0f8e7ba40f90b8e4b0c1188d8",
+          "message": "Update babel monorepo to v8\n\nBumps @babel/core and @babel/preset-env to ^8.0.0. Babel 8 ships its own\nTypeScript types, which conflict with the stale @types/babel__core\npackage that babel-jest transitively pulls in. Restrict the auto-included\ntype packages to node and jest in tsconfig.json (matching the setup in\nthe main comunica monorepo) so that stale package is no longer\ntype-checked. Babel is only used through babel-loader (which supports\n@babel/core v8 as of v10.1.0) for the browser bundle; the JSON5 .babelrc\nconfig still loads correctly under Babel 8.\n\nCloses #32\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01SiiefjZ6V3HAKAMwekMtPB",
+          "timestamp": "2026-08-19T13:54:12+02:00",
+          "tree_id": "1b5b92caf6a5a6174d1a13c93cd6cb080718656f",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/6e5972bfa417d5e0f8e7ba40f90b8e4b0c1188d8"
+        },
+        "date": 1787141447684,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2139,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 202,
             "unit": "ms"
           }
         ]
