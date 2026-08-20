@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787237644652,
+  "lastUpdate": 1787242758534,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11314,6 +11314,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 91335,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jitse@reedonk8.be",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "00e5e76eaee3aee70aea9ea9e0213636d4962def",
+          "message": "Replace dangling sparqlalgebrajs imports with utils/algebra",
+          "timestamp": "2026-08-20T17:59:08+02:00",
+          "tree_id": "372c3be6ceed73fc9914716033b055ae770a9270",
+          "url": "https://github.com/comunica/comunica/commit/00e5e76eaee3aee70aea9ea9e0213636d4962def"
+        },
+        "date": 1787242755757,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4918,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25480,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 339,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1226,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 89007,
             "unit": "ms"
           }
         ]
