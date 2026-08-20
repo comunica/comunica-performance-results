@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787233100756,
+  "lastUpdate": 1787237644652,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11265,6 +11265,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 148535,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba078e41c74fca6061791c3e57cd17abedab66eb",
+          "message": "Forbid deep imports into package internals via no-restricted-imports (#1748)",
+          "timestamp": "2026-08-20T16:09:51+02:00",
+          "tree_id": "d40e89384c5c11b6a4de8db368f5b77189da4cbe",
+          "url": "https://github.com/comunica/comunica/commit/ba078e41c74fca6061791c3e57cd17abedab66eb"
+        },
+        "date": 1787237642848,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4991,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24781,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 312,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1258,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 91335,
             "unit": "ms"
           }
         ]
