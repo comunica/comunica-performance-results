@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786973623192,
+  "lastUpdate": 1787233100756,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11216,6 +11216,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 166278,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d8c074bb953b8bf5dc9e276c835b1c2c7544ad45",
+          "message": "Detect and correct TPF metadata with an invalid protocol (#1744)\n\nOccasionally, it happens that TPF servers are hosted on the https protocol, while the base URL is set to http.\nThis leads to things like the metadata graph using the http protocol,\nwhich makes Comunica unable to understand the TPF controls.\n\nSince this is a common case, we detect these http/https mixups, handle them, and emit a warning.\n\nCloses #1686",
+          "timestamp": "2026-08-20T15:01:31+02:00",
+          "tree_id": "6f0f9417f8f6a29b3330b5097a64bdb356fa8511",
+          "url": "https://github.com/comunica/comunica/commit/d8c074bb953b8bf5dc9e276c835b1c2c7544ad45"
+        },
+        "date": 1787233098616,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4815,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23330,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 327,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1704,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 148535,
             "unit": "ms"
           }
         ]
