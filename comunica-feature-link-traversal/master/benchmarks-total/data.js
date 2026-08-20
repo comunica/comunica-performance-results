@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787206772597,
+  "lastUpdate": 1787234923797,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1333,6 +1333,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 4646,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "0e3174830513106b184853c6d5e5613997dd4ed5",
+          "message": "Restore experiment config behavior after jbr v6 migration\n\n* Keep solidbench-server base IRIs in the fragmenter config: jbr only\n  rewrites localhost to solidbench-server in out-queries, so fragmented\n  data must be generated with the target hostname directly\n* Drop the tagclass blank-node transformer that SolidBench 2.x added to\n  its template, as it is not part of this experiment's pipeline\n* Restore the query timeouts of the pre-generated combinations, which\n  had deliberately diverged from the template\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_012zYnAsDU7nU3PboyVjrtyU",
+          "timestamp": "2026-08-20T15:47:22+02:00",
+          "tree_id": "c70c5d94eab4fbcd1db2e68225283295c4d8a7c6",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/0e3174830513106b184853c6d5e5613997dd4ed5"
+        },
+        "date": 1787234921292,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 7423,
             "unit": "ms"
           }
         ]
