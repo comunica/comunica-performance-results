@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787206769321,
+  "lastUpdate": 1787234919389,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks detailed results": [
@@ -3304,6 +3304,78 @@ window.BENCHMARK_DATA = {
             "value": 1435,
             "unit": "ms",
             "extra": "Results: [10,10,10,10,10]; Error: [false,false,false,false,false]; HTTP Requests: [31,30,61,66,43]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "0e3174830513106b184853c6d5e5613997dd4ed5",
+          "message": "Restore experiment config behavior after jbr v6 migration\n\n* Keep solidbench-server base IRIs in the fragmenter config: jbr only\n  rewrites localhost to solidbench-server in out-queries, so fragmented\n  data must be generated with the target hostname directly\n* Drop the tagclass blank-node transformer that SolidBench 2.x added to\n  its template, as it is not part of this experiment's pipeline\n* Restore the query timeouts of the pre-generated combinations, which\n  had deliberately diverged from the template\n\nCo-Authored-By: Claude Fable 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_012zYnAsDU7nU3PboyVjrtyU",
+          "timestamp": "2026-08-20T15:47:22+02:00",
+          "tree_id": "c70c5d94eab4fbcd1db2e68225283295c4d8a7c6",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/0e3174830513106b184853c6d5e5613997dd4ed5"
+        },
+        "date": 1787234916833,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench - interactive-discover-1",
+            "value": 510,
+            "unit": "ms",
+            "extra": "Results: [6,4,1,14,8]; Error: [false,false,false,false,false]; HTTP Requests: [103,101,87,61,91]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-2",
+            "value": 615,
+            "unit": "ms",
+            "extra": "Results: [66,46,32,198,98]; Error: [false,false,false,false,false]; HTTP Requests: [103,101,87,61,91]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-3",
+            "value": 1854,
+            "unit": "ms",
+            "extra": "Results: [71,67,55,203,142]; Error: [false,false,false,false,false]; HTTP Requests: [355,357,255,473,393]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-4",
+            "value": 546,
+            "unit": "ms",
+            "extra": "Results: [5,3,3,3,7]; Error: [false,false,false,false,false]; HTTP Requests: [135,109,95,71,131]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-5",
+            "value": 466,
+            "unit": "ms",
+            "extra": "Results: [15,3,3,4,20]; Error: [false,false,false,false,false]; HTTP Requests: [103,101,87,61,91]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-6",
+            "value": 652,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,27]; Error: [true,false,false,true,false]; HTTP Requests: [,101,87,,91]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-7",
+            "value": 631,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,1]; Error: [true,false,false,true,false]; HTTP Requests: [,101,87,,91]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-8",
+            "value": 2149,
+            "unit": "ms",
+            "extra": "Results: [10,10,10,10,10]; Error: [false,false,false,false,false]; HTTP Requests: [41,34,44,74,52]"
           }
         ]
       }
