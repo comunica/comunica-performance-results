@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787120536810,
+  "lastUpdate": 1787206076332,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks detailed results": [
@@ -3160,6 +3160,78 @@ window.BENCHMARK_DATA = {
             "value": 1705,
             "unit": "ms",
             "extra": "Results: [10,10,10,10,10]; Error: [false,false,false,false,false]; HTTP Requests: [35,32,63,65,42]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "c0fd0e55ecd4885eaae24b141481fafc4d586c4e",
+          "message": "Update actions/setup-node action to v7",
+          "timestamp": "2026-08-19T23:13:36Z",
+          "tree_id": "49286bc4b2971c999b0d9445499753be59b0e2de",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/c0fd0e55ecd4885eaae24b141481fafc4d586c4e"
+        },
+        "date": 1787206074456,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench - interactive-discover-1",
+            "value": 464,
+            "unit": "ms",
+            "extra": "Results: [6,4,1,14,8]; Error: [false,false,false,false,false]; HTTP Requests: [53,52,45,32,47]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-2",
+            "value": 587,
+            "unit": "ms",
+            "extra": "Results: [66,46,32,198,98]; Error: [false,false,false,false,false]; HTTP Requests: [53,52,45,32,47]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-3",
+            "value": 1053,
+            "unit": "ms",
+            "extra": "Results: [71,67,55,203,142]; Error: [false,false,false,false,false]; HTTP Requests: [179,180,129,238,198]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-4",
+            "value": 446,
+            "unit": "ms",
+            "extra": "Results: [5,3,3,3,7]; Error: [false,false,false,false,false]; HTTP Requests: [69,56,49,37,67]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-5",
+            "value": 252,
+            "unit": "ms",
+            "extra": "Results: [15,3,3,4,20]; Error: [false,false,false,false,false]; HTTP Requests: [53,52,45,32,47]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-6",
+            "value": 470,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,27]; Error: [true,false,false,true,false]; HTTP Requests: [,52,45,,47]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-7",
+            "value": 478,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,1]; Error: [true,false,false,true,false]; HTTP Requests: [,52,45,,47]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-8",
+            "value": 1945,
+            "unit": "ms",
+            "extra": "Results: [10,10,10,10,10]; Error: [false,false,false,false,false]; HTTP Requests: [32,30,59,66,43]"
           }
         ]
       }
