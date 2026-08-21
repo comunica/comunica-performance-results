@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787294597181,
+  "lastUpdate": 1787306642774,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1391,6 +1391,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 8730,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "285900b7a393360e36f755853d507bc5689375c3",
+          "message": "Don't run Docker on Node 18 anymore",
+          "timestamp": "2026-08-21T11:44:17+02:00",
+          "tree_id": "0bd6c1a395f408215e94920ef40223ab3ed704c4",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/285900b7a393360e36f755853d507bc5689375c3"
+        },
+        "date": 1787306641127,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 8252,
             "unit": "ms"
           }
         ]
