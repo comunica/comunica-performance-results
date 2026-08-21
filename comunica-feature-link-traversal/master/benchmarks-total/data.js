@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787234923797,
+  "lastUpdate": 1787294597181,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1362,6 +1362,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 7423,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "88cbac881a47c681d13bb2f1bdcece091f0c0617",
+          "message": "Update dependency npm-check-updates to v23",
+          "timestamp": "2026-08-21T08:30:55+02:00",
+          "tree_id": "c2933c15082b0dfe4dbf9238b4896ba49e0ad3dc",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/88cbac881a47c681d13bb2f1bdcece091f0c0617"
+        },
+        "date": 1787294595185,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 8730,
             "unit": "ms"
           }
         ]
