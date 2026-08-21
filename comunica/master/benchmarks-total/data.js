@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787242758534,
+  "lastUpdate": 1787326682726,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11363,6 +11363,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 89007,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "5dc45baf535ea6c34443f79b6ca85ee7316fafb0",
+          "message": "Update nginx Docker tag to v1.31.4",
+          "timestamp": "2026-08-21T17:21:40+02:00",
+          "tree_id": "61b43b1829869834afb4c8ff986fa8000e6b2571",
+          "url": "https://github.com/comunica/comunica/commit/5dc45baf535ea6c34443f79b6ca85ee7316fafb0"
+        },
+        "date": 1787326679835,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4798,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24454,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 326,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1546,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 76647,
             "unit": "ms"
           }
         ]
