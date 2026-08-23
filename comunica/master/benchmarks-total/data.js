@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787328135357,
+  "lastUpdate": 1787487989826,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11461,6 +11461,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 144251,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "balhoff@gmail.com",
+            "name": "Jim Balhoff",
+            "username": "balhoff"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "77a549162cba7a3f3a813c5996eae8ec7aa92a3e",
+          "message": "Swap definitions of VOID_DISTINCT_OBJECTS and VOID_DISTINCT_SUBJECTS",
+          "timestamp": "2026-08-23T13:52:29+02:00",
+          "tree_id": "59babaa0ef7200857d079bf13df6350589ca2c8b",
+          "url": "https://github.com/comunica/comunica/commit/77a549162cba7a3f3a813c5996eae8ec7aa92a3e"
+        },
+        "date": 1787487988195,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5128,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25235,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 288,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1576,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 112023,
             "unit": "ms"
           }
         ]
