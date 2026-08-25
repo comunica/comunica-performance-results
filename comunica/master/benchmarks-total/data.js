@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787487989826,
+  "lastUpdate": 1787667444989,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11510,6 +11510,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 112023,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "161894387+noahvsb@users.noreply.github.com",
+            "name": "Noah Van Steenbrugge",
+            "username": "noahvsb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "81f95766a224a45ba08461a308f8f5c148cd69f3",
+          "message": "Restrict bind joins on LeftJoin and Minus (#1747)\n\nBindJoin-based LeftJoins will now not be used anymore when its bound variables\nclash with the variables within inner LeftJoin or Minus.\n\nThis fixes spec test `nested-opt-1`.\n\nRequired for #1736",
+          "timestamp": "2026-08-25T15:56:02+02:00",
+          "tree_id": "5dfccdcefaa7d5afc8c089cb900271bf78fd8faf",
+          "url": "https://github.com/comunica/comunica/commit/81f95766a224a45ba08461a308f8f5c148cd69f3"
+        },
+        "date": 1787667442817,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5339,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23685,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 331,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1547,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 205863,
             "unit": "ms"
           }
         ]
