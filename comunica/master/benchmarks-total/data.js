@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787667444989,
+  "lastUpdate": 1787753913987,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11559,6 +11559,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 205863,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "60dabd3f4894740a6ea5acad7e3d3dbbce0f381d",
+          "message": "Fix ActorQueryOperationTyped bus indexing by passing operationName in args (#1752)",
+          "timestamp": "2026-08-26T15:59:23+02:00",
+          "tree_id": "f6a3497457b841e3542aa106af3c76067db1b7b8",
+          "url": "https://github.com/comunica/comunica/commit/60dabd3f4894740a6ea5acad7e3d3dbbce0f381d"
+        },
+        "date": 1787753912749,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4369,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24384,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 331,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1508,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 94362,
             "unit": "ms"
           }
         ]
