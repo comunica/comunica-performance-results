@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787478944733,
+  "lastUpdate": 1787750564706,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -391,6 +391,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 131831,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "committer": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "distinct": true,
+          "id": "0e0555f263e1fac11f2b5558afd846b61317a059",
+          "message": "Simplify operationName args construction and trim comment\n\nApply review suggestion: inline the args object into the super() call\ninstead of using an intermediate typed constant, and shorten the\nexplanatory comment.\n\nA cast is needed because `operationName` is not a declared property of\n`IActorQueryOperationArgs`, so TypeScript's excess property check rejects\nthe bare object literal. The emitted JavaScript is unchanged.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NGYidruWD2uPGrYsbbkWrY",
+          "timestamp": "2026-08-26T12:54:44Z",
+          "tree_id": "12d8deebdb9f99e81491ce841a4da20120da9a4e",
+          "url": "https://github.com/comunica/comunica/commit/0e0555f263e1fac11f2b5558afd846b61317a059"
+        },
+        "date": 1787750563271,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4202,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25499,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 522,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1483,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 73688,
             "unit": "ms"
           }
         ]
