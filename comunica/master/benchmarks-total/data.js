@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787839774302,
+  "lastUpdate": 1787846837464,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11706,6 +11706,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 209077,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "eb9399765cb3b0759b42817ad40146f2d824733e",
+          "message": "Update to rdf-stores with performance improvements",
+          "timestamp": "2026-08-27T17:47:58+02:00",
+          "tree_id": "06d78b7bca25252d8032453e57d7275b26a08e95",
+          "url": "https://github.com/comunica/comunica/commit/eb9399765cb3b0759b42817ad40146f2d824733e"
+        },
+        "date": 1787846834676,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4841,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 20168,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 322,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1652,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 131962,
             "unit": "ms"
           }
         ]
