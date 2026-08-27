@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787753913987,
+  "lastUpdate": 1787835780095,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11608,6 +11608,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 94362,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "59a0a5c8503b272f839dd66efea14c247f487f26",
+          "message": "Enable agentic triage and stale workflows (#1758)",
+          "timestamp": "2026-08-27T14:39:36+02:00",
+          "tree_id": "6f6b67f8bfec65b847969b9b8c0a5ba599061d8e",
+          "url": "https://github.com/comunica/comunica/commit/59a0a5c8503b272f839dd66efea14c247f487f26"
+        },
+        "date": 1787835778340,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4538,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25026,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 311,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1717,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 148208,
             "unit": "ms"
           }
         ]
