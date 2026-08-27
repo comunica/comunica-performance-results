@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787835780095,
+  "lastUpdate": 1787839774302,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11657,6 +11657,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 148208,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "38bbca45dc0b9d831031312f53f561ad4c105e3f",
+          "message": "Fix deskolemization for destinations wrapped in a source object (#1761)\n\nCloses #985",
+          "timestamp": "2026-08-27T15:20:15+02:00",
+          "tree_id": "467ba4b4365908d683c4e420fde60f32d7a4735a",
+          "url": "https://github.com/comunica/comunica/commit/38bbca45dc0b9d831031312f53f561ad4c105e3f"
+        },
+        "date": 1787839772839,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4029,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21815,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 312,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1482,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 209077,
             "unit": "ms"
           }
         ]
