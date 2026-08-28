@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787922368783,
+  "lastUpdate": 1787924671372,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11902,6 +11902,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 175966,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90da970884a46d9b2c1e911c5c95b6a2917cbef8",
+          "message": "Only inject VALUES clauses in filters that use the bound variables (#1762)\n\nWhen materializing an operation with (initial) bindings, a VALUES clause\nfor every bound variable was joined into every FILTER operation, even\ninto sub-operations that never refer to those variables.\n\nThis is semantically harmless, but it needlessly bloats the queries that\nare sent to SPARQL endpoints, and can significantly degrade their query\nplans. For example, Apache Jena stops pushing bound variables into a\nUNION branch once that branch contains a VALUES join.\n\nThe bound variables are now only injected into filters that actually\ncontain them, since they are joined in at the operations that do refer\nto them, and at the projection of the query.\n\nCloses #1759",
+          "timestamp": "2026-08-28T15:17:50+02:00",
+          "tree_id": "3cd7a481b2b903f929c8727196f778946aabbd26",
+          "url": "https://github.com/comunica/comunica/commit/90da970884a46d9b2c1e911c5c95b6a2917cbef8"
+        },
+        "date": 1787924669819,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4455,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 18414,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 286,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 2017,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 125528,
             "unit": "ms"
           }
         ]
