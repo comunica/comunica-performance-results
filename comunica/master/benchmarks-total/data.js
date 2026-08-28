@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787924671372,
+  "lastUpdate": 1787933592154,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11951,6 +11951,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 125528,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e61e0ca68eec7daaf1dd1085eb4eee1232ba98c6",
+          "message": "Update github/gh-aw-actions action to v0.87.5",
+          "timestamp": "2026-08-28T13:19:06Z",
+          "tree_id": "1be53d1dc906d5c7f8faa334be27f10d78941c47",
+          "url": "https://github.com/comunica/comunica/commit/e61e0ca68eec7daaf1dd1085eb4eee1232ba98c6"
+        },
+        "date": 1787933589287,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4196,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 27447,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 303,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1588,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 136821,
             "unit": "ms"
           }
         ]
