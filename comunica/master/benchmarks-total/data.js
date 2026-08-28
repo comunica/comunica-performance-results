@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787901004017,
+  "lastUpdate": 1787922368783,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11853,6 +11853,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 129593,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "161894387+noahvsb@users.noreply.github.com",
+            "name": "Noah Van Steenbrugge",
+            "username": "noahvsb"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d7b39738da89bc6b5aa467b458d598e138741e97",
+          "message": "Don't bind-join on FILTER that aren't direct children of OPTIONAL (#1756)\n\nRequired for #1736",
+          "timestamp": "2026-08-28T14:42:15+02:00",
+          "tree_id": "288ed9b7b91d00399bcdfe69e4dc22248ef7bbc1",
+          "url": "https://github.com/comunica/comunica/commit/d7b39738da89bc6b5aa467b458d598e138741e97"
+        },
+        "date": 1787922366996,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4381,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24056,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 324,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1465,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 175966,
             "unit": "ms"
           }
         ]
