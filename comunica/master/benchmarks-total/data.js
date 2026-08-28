@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787897482869,
+  "lastUpdate": 1787901004017,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -11804,6 +11804,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 98563,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0b80c169dc472bea2c9cec1c7f3fabc51d72914",
+          "message": "Pin an explicit model for the agentic workflows (#1767)\n\nFixes #1765",
+          "timestamp": "2026-08-28T08:54:42+02:00",
+          "tree_id": "fc6e141f8e5307e4150bcdd40f926b2f88e21746",
+          "url": "https://github.com/comunica/comunica/commit/d0b80c169dc472bea2c9cec1c7f3fabc51d72914"
+        },
+        "date": 1787901002473,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4368,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22091,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 298,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1537,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 129593,
             "unit": "ms"
           }
         ]
