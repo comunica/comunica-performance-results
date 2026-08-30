@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787933592154,
+  "lastUpdate": 1788098222342,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12000,6 +12000,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 136821,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e2a491de92ffd9270cf05f4ad6aafec608339d3f",
+          "message": "Recompile agentic workflow lock files with gh-aw v0.87.5, #1770 (#1771)",
+          "timestamp": "2026-08-30T15:33:00+02:00",
+          "tree_id": "c8ab224bced92ddc9ac6c667b90a468f364558b5",
+          "url": "https://github.com/comunica/comunica/commit/e2a491de92ffd9270cf05f4ad6aafec608339d3f"
+        },
+        "date": 1788098221020,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 3119,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23012,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 248,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1540,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 123390,
             "unit": "ms"
           }
         ]
