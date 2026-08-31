@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788098222342,
+  "lastUpdate": 1788165985389,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12049,6 +12049,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 123390,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "98c633be61055c54e081c70db0022e73dee18296",
+          "message": "Pin a concrete model for the agentic workflows, #1775 (#1776)",
+          "timestamp": "2026-08-31T10:26:00+02:00",
+          "tree_id": "08d355925ae142ad83a0a4a1d2afa6130bc74fb5",
+          "url": "https://github.com/comunica/comunica/commit/98c633be61055c54e081c70db0022e73dee18296"
+        },
+        "date": 1788165983768,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4287,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22421,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 302,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1674,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 178076,
             "unit": "ms"
           }
         ]
