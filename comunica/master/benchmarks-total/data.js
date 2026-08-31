@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788168847495,
+  "lastUpdate": 1788175156252,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12147,6 +12147,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 191447,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eda005ea6a1926dccbbfb0b7080f7d116ab71c0a",
+          "message": "Fix the FROM (NAMED) dataset spec tests of SPARQL 1.0 (#1769)\n\nCloses #1768\n\nPart of #1736",
+          "timestamp": "2026-08-31T12:57:12+02:00",
+          "tree_id": "163aabf9fdcc377a32ba80da5f23dd0180ef3441",
+          "url": "https://github.com/comunica/comunica/commit/eda005ea6a1926dccbbfb0b7080f7d116ab71c0a"
+        },
+        "date": 1788175154587,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4446,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22456,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 297,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1605,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 184448,
             "unit": "ms"
           }
         ]
