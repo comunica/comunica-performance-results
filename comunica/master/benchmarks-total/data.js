@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788165985389,
+  "lastUpdate": 1788168847495,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12098,6 +12098,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 178076,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c517279878407e341d4c4296deec3500c11a5870",
+          "message": "Emit an error when a SPARQL endpoint drops the response body (#1777)\n\nThis was caused by a bug in fetch-sparql-endpoint, which was fixed in 7.1.2.\n\nCloses #1773",
+          "timestamp": "2026-08-31T11:11:25+02:00",
+          "tree_id": "fb669d3032bb6604851ac47476cfda00a510613b",
+          "url": "https://github.com/comunica/comunica/commit/c517279878407e341d4c4296deec3500c11a5870"
+        },
+        "date": 1788168845762,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4517,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25424,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 425,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1533,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 191447,
             "unit": "ms"
           }
         ]
