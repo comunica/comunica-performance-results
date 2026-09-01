@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788254206728,
+  "lastUpdate": 1788266816153,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12245,6 +12245,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 159574,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fab17488fc5946e0b5f5f97fcc269a94d0c505cf",
+          "message": "Support the HTTP QUERY method (RFC 10008) (#1778)\n\nIf endpoints expose the `Accept-Query: application/sparql-query`,\nthen Comunica will send requests using the QUERY method.\n\nFurthermore, the Comunica endpoint also has support for QUERY requests.",
+          "timestamp": "2026-09-01T13:59:27+02:00",
+          "tree_id": "286c0754dfdd8986dfad07c71ec3111b546b451d",
+          "url": "https://github.com/comunica/comunica/commit/fab17488fc5946e0b5f5f97fcc269a94d0c505cf"
+        },
+        "date": 1788266814825,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4458,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22276,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 305,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1164,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 188188,
             "unit": "ms"
           }
         ]
