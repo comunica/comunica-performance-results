@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788266816153,
+  "lastUpdate": 1788272958222,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12294,6 +12294,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 188188,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "a92c46a3d8b714f400c5bd02cbd12dd7ff757537",
+          "message": "Update to rdf-stores 2.5.0 with matchBindings performance improvements",
+          "timestamp": "2026-09-01T15:31:31+02:00",
+          "tree_id": "72eac39ebad3219cdac3f176aa52c0080759219a",
+          "url": "https://github.com/comunica/comunica/commit/a92c46a3d8b714f400c5bd02cbd12dd7ff757537"
+        },
+        "date": 1788272955834,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 5250,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22147,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 290,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1638,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 127897,
             "unit": "ms"
           }
         ]
