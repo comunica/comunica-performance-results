@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788175156252,
+  "lastUpdate": 1788254206728,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12196,6 +12196,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 184448,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "b096ff08a4364a3685fe3e5294d00285f63d15b2",
+          "message": "Update github/issue-labeler action to v3.5",
+          "timestamp": "2026-09-01T02:32:17Z",
+          "tree_id": "9408f73cf193d1221cb8b94c13a60d8ed9fdd6ac",
+          "url": "https://github.com/comunica/comunica/commit/b096ff08a4364a3685fe3e5294d00285f63d15b2"
+        },
+        "date": 1788254204981,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 3437,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 17988,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 526,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1425,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 159574,
             "unit": "ms"
           }
         ]
