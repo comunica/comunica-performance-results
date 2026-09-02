@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788222966640,
+  "lastUpdate": 1788320416333,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1449,6 +1449,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 8118,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "8862ab311d9aa5dede29f0fac815a400f7a97d08",
+          "message": "Update dependency @shexjs/parser to v1.0.0-alpha.30",
+          "timestamp": "2026-09-01T23:08:22Z",
+          "tree_id": "5aa80d4782797ec5c880b892c9a0e62f27d88322",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/8862ab311d9aa5dede29f0fac815a400f7a97d08"
+        },
+        "date": 1788320414134,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 8828,
             "unit": "ms"
           }
         ]
