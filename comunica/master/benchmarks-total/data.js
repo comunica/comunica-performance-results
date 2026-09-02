@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788272958222,
+  "lastUpdate": 1788335033256,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12343,6 +12343,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 127897,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8806f5e828e779416810404e11d700e1e94747d2",
+          "message": "Add regression tests for describes nested under FROM and slices (#1783)\n\nFollow-up to #1782. That fix also unblocked DESCRIBE queries with a\nLIMIT/OFFSET but no FROM, since the parser translates those into\nslice(describe(...)) as well. Nothing covered that case, and nothing\ncovered the fixed queries end to end.",
+          "timestamp": "2026-09-02T09:20:36+02:00",
+          "tree_id": "533e7d5f8dc6dbc7d86a920306683bc2ab916e62",
+          "url": "https://github.com/comunica/comunica/commit/8806f5e828e779416810404e11d700e1e94747d2"
+        },
+        "date": 1788335031356,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4152,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25490,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 322,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1529,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 121030,
             "unit": "ms"
           }
         ]
