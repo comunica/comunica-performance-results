@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788432606041,
+  "lastUpdate": 1788452829137,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12441,6 +12441,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 206201,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "208197707+redreye@users.noreply.github.com",
+            "name": "redreye",
+            "username": "redreye"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d35ac0a813ef06da1341cdda15ee8fe0cee62ea",
+          "message": "Resolve relative IRIs in endpoint requests against the endpoint baseIRI (#1786)",
+          "timestamp": "2026-09-03T18:05:14+02:00",
+          "tree_id": "b38dce562b639ae1c4d1092b6dd46b99486970b8",
+          "url": "https://github.com/comunica/comunica/commit/7d35ac0a813ef06da1341cdda15ee8fe0cee62ea"
+        },
+        "date": 1788452826183,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4060,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24382,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 319,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1407,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 125110,
             "unit": "ms"
           }
         ]
