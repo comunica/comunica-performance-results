@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788335033256,
+  "lastUpdate": 1788432606041,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12392,6 +12392,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 121030,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "208197707+redreye@users.noreply.github.com",
+            "name": "redreye",
+            "username": "redreye"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "31de14ee6a031572a8ebdb37064bd5d7a7640cd9",
+          "message": "Fix the SPARQL endpoint hanging on updates with a WHERE clause (#1785)",
+          "timestamp": "2026-09-03T12:24:21+02:00",
+          "tree_id": "8db80f22f0cd560fe2056ced2fa574033ee6ea79",
+          "url": "https://github.com/comunica/comunica/commit/31de14ee6a031572a8ebdb37064bd5d7a7640cd9"
+        },
+        "date": 1788432604064,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4065,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24284,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 330,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1447,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 206201,
             "unit": "ms"
           }
         ]
