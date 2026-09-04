@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788511332832,
+  "lastUpdate": 1788537595384,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12539,6 +12539,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 122368,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "255404549+voidten@users.noreply.github.com",
+            "name": "voidten",
+            "username": "voidten"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "193a87451ae0396bf5d393d22603ada267cc36b1",
+          "message": "Run the SPARQL 1.1 Protocol spec tests (#1790)\n\nRequired for #721",
+          "timestamp": "2026-09-04T17:38:43+02:00",
+          "tree_id": "07b5f9a8c7f70779b0f37dd2268653be1f40c908",
+          "url": "https://github.com/comunica/comunica/commit/193a87451ae0396bf5d393d22603ada267cc36b1"
+        },
+        "date": 1788537593748,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4204,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25929,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 315,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1185,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 150066,
             "unit": "ms"
           }
         ]
