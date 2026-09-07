@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788782839365,
+  "lastUpdate": 1788785117530,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12686,6 +12686,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 125821,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e3ea57f9b306e0a53781ded332a1c26804415261",
+          "message": "Bill agentic workflow inference to COPILOT_GITHUB_TOKEN, #1791 (#1793)",
+          "timestamp": "2026-09-07T14:15:20+02:00",
+          "tree_id": "d6b2df3eb543084e539112f86f096a27566257c2",
+          "url": "https://github.com/comunica/comunica/commit/e3ea57f9b306e0a53781ded332a1c26804415261"
+        },
+        "date": 1788785115673,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4361,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23803,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 298,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1250,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 212844,
             "unit": "ms"
           }
         ]
