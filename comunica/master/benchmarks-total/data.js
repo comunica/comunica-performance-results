@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788785117530,
+  "lastUpdate": 1788789660550,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12735,6 +12735,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 212844,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "fdaf691dc03925fe66c09edbdf0214ef4a205449",
+          "message": "Bump asyncjoin to 1.2.5 to improve performance\n\n764ce28a8bf296c67c5046fe8a1e6214f842af36 lead to a small performance\nregression on small-scale benchmarks. This fixes that regression.",
+          "timestamp": "2026-09-07T15:34:26+02:00",
+          "tree_id": "03607654df0d5a1fce30c06150e632b90cd3134b",
+          "url": "https://github.com/comunica/comunica/commit/fdaf691dc03925fe66c09edbdf0214ef4a205449"
+        },
+        "date": 1788789658870,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4246,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24922,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 305,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1445,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 129264,
             "unit": "ms"
           }
         ]
