@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788780351953,
+  "lastUpdate": 1788782839365,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12637,6 +12637,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 195683,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "764ce28a8bf296c67c5046fe8a1e6214f842af36",
+          "message": "Cap join cardinality estimates using the entries' shared variables (#1792)\n\nThis improves accuracy of cardinality estimates, which leads to better query plans.\nFor example, for WatDiv, S5 is 5x faster and S2 is 2x faster.\nMany other queries also see a small speedup.\nNo known queries slow down due to this.",
+          "timestamp": "2026-09-07T13:36:09+02:00",
+          "tree_id": "148e06744c4b43c3e398983322babab18e7675b2",
+          "url": "https://github.com/comunica/comunica/commit/764ce28a8bf296c67c5046fe8a1e6214f842af36"
+        },
+        "date": 1788782837238,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4253,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25920,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 303,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1316,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 125821,
             "unit": "ms"
           }
         ]
