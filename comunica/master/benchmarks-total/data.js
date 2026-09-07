@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788537595384,
+  "lastUpdate": 1788780351953,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12588,6 +12588,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 150066,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "208197707+redreye@users.noreply.github.com",
+            "name": "redreye",
+            "username": "redreye"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "399cfc864dc26fe9fb7f252bd0203c0318b7b41b",
+          "message": "Parse SPARQL endpoint request bodies with async/await",
+          "timestamp": "2026-09-07T13:01:24+02:00",
+          "tree_id": "b6e66e2680db15c2796889e6c4ed57c4eca21f19",
+          "url": "https://github.com/comunica/comunica/commit/399cfc864dc26fe9fb7f252bd0203c0318b7b41b"
+        },
+        "date": 1788780350130,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 4356,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22572,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 290,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1682,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 195683,
             "unit": "ms"
           }
         ]
