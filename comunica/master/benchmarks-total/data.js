@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788789660550,
+  "lastUpdate": 1788807563354,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12784,6 +12784,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 129264,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a36cfef159324081ce0d27f8bbc87a76ce2c5d2e",
+          "message": "Improve accuracy of costs in multi-smallest actor (#1797)\n\nThis does not influence the performance of small benchmarks,\nbut for large benchmarks with slower queries such as WatDiv 10M,\nthis makes the whole benchmark run 2x faster.",
+          "timestamp": "2026-09-07T20:20:19+02:00",
+          "tree_id": "d5c7858f6a9455c9083ed1e3007dc97d12995e6f",
+          "url": "https://github.com/comunica/comunica/commit/a36cfef159324081ce0d27f8bbc87a76ce2c5d2e"
+        },
+        "date": 1788807561203,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 3993,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21758,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 286,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1274,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 150737,
             "unit": "ms"
           }
         ]
