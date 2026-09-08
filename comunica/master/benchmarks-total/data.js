@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788871988111,
+  "lastUpdate": 1788877977933,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12882,6 +12882,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 101217,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "19f2cba88faa8e593b5c078cddb4eaaed0adb8ac",
+          "message": "Do not cache sources that could not be dereferenced (#1763)\n\nCloses comunica/comunica-feature-solid#43",
+          "timestamp": "2026-09-08T16:03:47+02:00",
+          "tree_id": "c6a3fe80e66a6b8814a1409257d5e90cf718f93c",
+          "url": "https://github.com/comunica/comunica/commit/19f2cba88faa8e593b5c078cddb4eaaed0adb8ac"
+        },
+        "date": 1788877976013,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2348,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 16953,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 280,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1124,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 201653,
             "unit": "ms"
           }
         ]
