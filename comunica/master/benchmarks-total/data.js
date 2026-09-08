@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788807563354,
+  "lastUpdate": 1788871988111,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12833,6 +12833,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 150737,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "95f2d4907a5e503cbb5a7e402024966caaa3628c",
+          "message": "Improve accuracy of costs in multi-bind actor (#1798)\n\nThis makes it so that the scale of costs are aligned with other join actors,\nand that the cost of binding itself is also included.\n\nWatDiv on local files runs 50%-70% faster in total, while remote sources are untouched.",
+          "timestamp": "2026-09-08T14:26:00+02:00",
+          "tree_id": "f8b00bb2e6adb519a7e550feb6573f7feba35488",
+          "url": "https://github.com/comunica/comunica/commit/95f2d4907a5e503cbb5a7e402024966caaa3628c"
+        },
+        "date": 1788871985974,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2241,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22103,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 275,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1300,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 101217,
             "unit": "ms"
           }
         ]
