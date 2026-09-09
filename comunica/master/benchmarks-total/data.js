@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788951526451,
+  "lastUpdate": 1788956274346,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12980,6 +12980,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 134078,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7616661f00b7d5aaa3d6b618e0dcc247b753b8e4",
+          "message": "Throw when deleting quads with blank nodes via SPARQL Update patches (#1799)\n\nCloses comunica/comunica-feature-solid#68",
+          "timestamp": "2026-09-09T13:48:43+02:00",
+          "tree_id": "9f51e04da1e97c16c1857b6dee956bf61d33d930",
+          "url": "https://github.com/comunica/comunica/commit/7616661f00b7d5aaa3d6b618e0dcc247b753b8e4"
+        },
+        "date": 1788956272364,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2108,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23953,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 195,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1513,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 212563,
             "unit": "ms"
           }
         ]
