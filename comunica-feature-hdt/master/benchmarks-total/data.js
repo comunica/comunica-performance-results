@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788260304508,
+  "lastUpdate": 1788956853501,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -2660,6 +2660,40 @@ window.BENCHMARK_DATA = {
           {
             "name": "WatDiv-HDT",
             "value": 2511,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 209,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3c013d621d4e8096a58ac4f5b4cfb96d932b0772",
+          "message": "Read HDT documents in growing pages instead of buffer-sized chunks (#36)\n\nThe default pageSize is 8192 bindings.\nThis makes WatDiv-10 about 1.5x faster.",
+          "timestamp": "2026-09-09T14:02:10+02:00",
+          "tree_id": "f6732e38b5dd1782d675767e06ec129bef572c33",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/3c013d621d4e8096a58ac4f5b4cfb96d932b0772"
+        },
+        "date": 1788956851747,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2723,
             "unit": "ms"
           },
           {
