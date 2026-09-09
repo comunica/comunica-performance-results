@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788877977933,
+  "lastUpdate": 1788951526451,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -12931,6 +12931,55 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 201653,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "1f5e31e308694b20c4622d305f413d7917e6d644",
+          "message": "Report no cardinality when a source has none, instead of an estimated zero\n\n`ActorRdfMetadataExtractHydraCount` resolved with `{ type: 'estimate', value: 0 }` when the\ndereferenced document contained no count predicate, contradicting its own comment, which says it\nassumes infinity. That value is wrong twice over: it claims a count that was never found, and\nbecause accumulating an estimate with anything yields an estimate, it makes every cardinality\naccumulated on top of it an estimate as well.\n\nAny file without a hydra count is such a document, so on that path the estimate spread to\neverything. `QuerySourceRdfJs` reports an exact cardinality per pattern, but accumulating it onto\nthe source produced an estimate:\n\n  acc={estimate,0} + app={exact,11030} -> {estimate,11030}\n\nInstrumented on WatDiv, 62,760 zero cardinalities reached the join operation and not one of them\nwas exact. `ActorQueryOperationJoin` only returns an empty result without mediating the join when\na cardinality is an exact zero, so that short-circuit never fired once, and 3,994 joins per C3\nexecution were mediated in full only to be handed back an empty stream by\n`ActorRdfJoinMultiEmpty`.\n\nThe extractor now reports no cardinality at all in that case, and\n`ActorRdfMetadataAccumulateCardinality` treats a missing accumulated cardinality as the same value\n`initialize` produces, which is the identity of its summation. Accumulation then preserves\nexactness, and the existing short-circuit works as intended: rdf-join mediations on C3 fall from\n4,527 to 533, and `ActorRdfJoinMultiEmpty` is selected 0 times instead of 3,994.\n\nNothing is relaxed by this: the emptiness test still requires an exact cardinality, so a source\nthat reports an estimated zero because it has not seen all of its data yet, such as one that is\nstill discovering links, is unaffected.\n\nMeasured on the `performance/` benchmarks on top of the preceding commit, each variant normalised\nagainst the two master runs of its own cycle, with the variant order rotated between cycles:\n\n  benchmark-watdiv-file  -11.5% incremental (per cycle -11.44%, -18.37%, -10.07%, -6.21%,\n                         sd 5.07pp), -48.54% cumulative (n=4, sd 1.69pp,\n                         95% CI [-50.19%, -46.89%]); master noise n=8, sd 1.20pp, +/-0.83%.\n                         The incremental is quoted to one digit because its spread is wide,\n                         although all four cycles agree on the direction.\n  benchmark-bsbm-file    -7.52% cumulative against -7.74% for the preceding commit alone, so no\n                         measurable effect of its own. BSBM's joins rarely contain an empty entry,\n                         leaving little for the short-circuit to do. Medians over 8 cycles pooled\n                         from two campaigns, since BSBM is bimodal in this environment.\n  benchmark-watdiv-tpf   No effect, and none is possible: TPF fragments carry hydra counts, so the\n                         changed branch never runs. -0.21% (n=3, sd 1.49pp) against master noise\n                         of sd 0.9pp, with query plans bit-identical to master (`httpRequests`\n                         129,318 on every run, 0 of 100 queries differing).\n\nCorrectness: 244,585 results and identical per-query hashes on all 16 benchmark-watdiv-file and\nall 12 benchmark-watdiv-tpf runs, identical per-query result counts on all 32 benchmark-bsbm-file\nruns, and 0 errors or timeouts throughout.\n\nCo-Authored-By: Claude Opus 5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_016R9BxgU89DzMMi7eJ9y7NJ",
+          "timestamp": "2026-09-09T12:33:08+02:00",
+          "tree_id": "0a6e92fe681366ee129fe7fe434c0af14393037d",
+          "url": "https://github.com/comunica/comunica/commit/1f5e31e308694b20c4622d305f413d7917e6d644"
+        },
+        "date": 1788951524720,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2328,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22188,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 265,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1229,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 134078,
             "unit": "ms"
           }
         ]
