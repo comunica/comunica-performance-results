@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789055876042,
+  "lastUpdate": 1789057521906,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -2743,6 +2743,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT-10k",
             "value": 1476,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ae43f04c7433ab4fc9bb001ca6563edc46bab704",
+          "message": "Do not cancel sibling CI matrix jobs on the first failure (#40)",
+          "timestamp": "2026-09-10T17:58:29+02:00",
+          "tree_id": "811eaa637aa15270c9ae0102f12264113aeb52db",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/ae43f04c7433ab4fc9bb001ca6563edc46bab704"
+        },
+        "date": 1789057519782,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2684,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-HDT-100",
+            "value": 25472,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 157,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT-10k",
+            "value": 1362,
             "unit": "ms"
           }
         ]
