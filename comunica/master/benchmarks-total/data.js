@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788977766434,
+  "lastUpdate": 1789054839083,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13078,6 +13078,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 166114,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7a43c0e008487b6eb3f50c20d1a856fe2c8dd7f5",
+          "message": "Add a BSBM benchmark at 10 000 products (#1801)",
+          "timestamp": "2026-09-10T15:35:10+02:00",
+          "tree_id": "8f14ab7fc8605c13b2e16fd22ebb10394dc5a536",
+          "url": "https://github.com/comunica/comunica/commit/7a43c0e008487b6eb3f50c20d1a856fe2c8dd7f5"
+        },
+        "date": 1789054837331,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2250,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25931,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 261,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1672,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1287,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 175034,
             "unit": "ms"
           }
         ]
