@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789058991861,
+  "lastUpdate": 1789060705630,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13186,6 +13186,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 106983,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4d6870ea7e8a9c2aca4907e640bf14ca2a8c60ce",
+          "message": "Optimize comparison of IRIs, blank nodes, and different term types (#1806)\n\nThis comparator optimization is important for our upcoming\nsort-merge join actor, which heavily makes use of this.",
+          "timestamp": "2026-09-10T18:54:04+02:00",
+          "tree_id": "6ecd8dded2972a41d308f28c95b6dbfb6d569237",
+          "url": "https://github.com/comunica/comunica/commit/4d6870ea7e8a9c2aca4907e640bf14ca2a8c60ce"
+        },
+        "date": 1789060703932,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1495,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23633,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 185,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1859,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1545,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 128489,
             "unit": "ms"
           }
         ]
