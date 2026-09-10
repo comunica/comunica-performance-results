@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789054839083,
+  "lastUpdate": 1789058991861,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13132,6 +13132,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 175034,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a4cc8c448e40d7e5a384ed64e145aad80c3ceac7",
+          "message": "Estimate join cardinality from distinct values where sources know them (#1805)\n\nThis is done using the number of distinct values per variable, which can\nnow be retrieved from RdfJsQuerySource (possibly also other sources in\nthe future).\nFor example, BSBM query 5 becomes 2x faster.",
+          "timestamp": "2026-09-10T18:26:53+02:00",
+          "tree_id": "6c35453bca9072be4eb770e847f00b4b805b05fb",
+          "url": "https://github.com/comunica/comunica/commit/a4cc8c448e40d7e5a384ed64e145aad80c3ceac7"
+        },
+        "date": 1789058989769,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2146,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21864,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 181,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1448,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1549,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 106983,
             "unit": "ms"
           }
         ]
