@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788956853501,
+  "lastUpdate": 1789055876042,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -2699,6 +2699,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT",
             "value": 209,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "72bc77b0b76bedf723b4395d5892e531ac3a32f1",
+          "message": "Add a BSBM HDT benchmark at 10 000 products (#38)",
+          "timestamp": "2026-09-10T15:57:18+02:00",
+          "tree_id": "bf442479ed8ac495f354758dd03a92692bd23c11",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/72bc77b0b76bedf723b4395d5892e531ac3a32f1"
+        },
+        "date": 1789055874093,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2680,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-HDT-100",
+            "value": 22465,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 291,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT-10k",
+            "value": 1476,
             "unit": "ms"
           }
         ]
