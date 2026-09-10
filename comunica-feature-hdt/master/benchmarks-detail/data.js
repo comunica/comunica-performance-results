@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788956849797,
+  "lastUpdate": 1789055872261,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks detailed results": [
@@ -16992,6 +16992,414 @@ window.BENCHMARK_DATA = {
             "value": 3,
             "unit": "ms",
             "extra": "Results: [1120.2]; Error: []; HTTP Requests: []"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "72bc77b0b76bedf723b4395d5892e531ac3a32f1",
+          "message": "Add a BSBM HDT benchmark at 10 000 products (#38)",
+          "timestamp": "2026-09-10T15:57:18+02:00",
+          "tree_id": "bf442479ed8ac495f354758dd03a92692bd23c11",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/72bc77b0b76bedf723b4395d5892e531ac3a32f1"
+        },
+        "date": 1789055870302,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT - C1",
+            "value": 117,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - C2",
+            "value": 524,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - C3",
+            "value": 1781,
+            "unit": "ms",
+            "extra": "Results: [48802,48802,48802,48802,48802]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - F1",
+            "value": 12,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - F2",
+            "value": 26,
+            "unit": "ms",
+            "extra": "Results: [0,0,1,1,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - F3",
+            "value": 18,
+            "unit": "ms",
+            "extra": "Results: [2,2,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - F4",
+            "value": 24,
+            "unit": "ms",
+            "extra": "Results: [0,0,12,12,12]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - F5",
+            "value": 62,
+            "unit": "ms",
+            "extra": "Results: [32,32,40,56,22]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - L1",
+            "value": 10,
+            "unit": "ms",
+            "extra": "Results: [1,5,5,1,5]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - L2",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [3,3,3,40,3]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - L3",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [69,33,12,12,69]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - L4",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [6,7,6,6,6]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - L5",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [1,4,4,22,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S1",
+            "value": 22,
+            "unit": "ms",
+            "extra": "Results: [4,0,7,4,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S2",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [2,1,1,2,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S3",
+            "value": 26,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S4",
+            "value": 26,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S5",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S6",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [1,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT - S7",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - C1",
+            "value": 1136,
+            "unit": "ms",
+            "extra": "Results: [11,11,11,11,11]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - C2",
+            "value": 3994,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - C3",
+            "value": 14962,
+            "unit": "ms",
+            "extra": "Results: [425591,425591,425591,425591,425591]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - F1",
+            "value": 119,
+            "unit": "ms",
+            "extra": "Results: [0,3,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - F2",
+            "value": 192,
+            "unit": "ms",
+            "extra": "Results: [5,7,14,14,12]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - F3",
+            "value": 150,
+            "unit": "ms",
+            "extra": "Results: [1,31,1,23,23]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - F4",
+            "value": 186,
+            "unit": "ms",
+            "extra": "Results: [41,51,51,30,3]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - F5",
+            "value": 57,
+            "unit": "ms",
+            "extra": "Results: [35,58,37,41,35]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - L1",
+            "value": 9,
+            "unit": "ms",
+            "extra": "Results: [0,7,5,4,5]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - L2",
+            "value": 16,
+            "unit": "ms",
+            "extra": "Results: [17,60,16,12,16]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - L3",
+            "value": 6,
+            "unit": "ms",
+            "extra": "Results: [5,57,33,43,57]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - L4",
+            "value": 18,
+            "unit": "ms",
+            "extra": "Results: [68,43,62,78,43]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - L5",
+            "value": 39,
+            "unit": "ms",
+            "extra": "Results: [17,88,88,139,267]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - S1",
+            "value": 36,
+            "unit": "ms",
+            "extra": "Results: [10,0,13,10,7]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - S2",
+            "value": 49,
+            "unit": "ms",
+            "extra": "Results: [29,127,12,16,12]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - S3",
+            "value": 197,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - S4",
+            "value": 187,
+            "unit": "ms",
+            "extra": "Results: [0,0,1,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - S5",
+            "value": 1096,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - S6",
+            "value": 14,
+            "unit": "ms",
+            "extra": "Results: [10,1,4,3,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-HDT-100 - S7",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [0,2,0,1,2]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "BSBM-HDT - 1",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [0.5]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 2",
+            "value": 16,
+            "unit": "ms",
+            "extra": "Results: [19.5]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 3",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [0.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 4",
+            "value": 8,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 5",
+            "value": 165,
+            "unit": "ms",
+            "extra": "Results: [3.5]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 6",
+            "value": 0,
+            "unit": "ms",
+            "extra": "Results: [undefined]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 7",
+            "value": 29,
+            "unit": "ms",
+            "extra": "Results: [9.38]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 8",
+            "value": 27,
+            "unit": "ms",
+            "extra": "Results: [5.05]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 9",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [629.48]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 10",
+            "value": 26,
+            "unit": "ms",
+            "extra": "Results: [2.8]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 11",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [10]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT - 12",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [1120.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 1",
+            "value": 7,
+            "unit": "ms",
+            "extra": "Results: [1.3]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 2",
+            "value": 16,
+            "unit": "ms",
+            "extra": "Results: [21]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 3",
+            "value": 14,
+            "unit": "ms",
+            "extra": "Results: [0.8]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 4",
+            "value": 15,
+            "unit": "ms",
+            "extra": "Results: [0.9]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 5",
+            "value": 1339,
+            "unit": "ms",
+            "extra": "Results: [4.85]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 6",
+            "value": 0,
+            "unit": "ms",
+            "extra": "Results: [undefined]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 7",
+            "value": 37,
+            "unit": "ms",
+            "extra": "Results: [15.28]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 8",
+            "value": 19,
+            "unit": "ms",
+            "extra": "Results: [3.95]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 9",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [630.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 10",
+            "value": 20,
+            "unit": "ms",
+            "extra": "Results: [2.05]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 11",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [10]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-HDT-10k - 12",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [1142]; Error: []; HTTP Requests: []"
           }
         ]
       }
