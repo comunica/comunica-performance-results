@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789126999238,
+  "lastUpdate": 1789136482889,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13348,6 +13348,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 121461,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "88ed6e9be952475d580f462907505afbcca10543",
+          "message": "Support SERVICE SILENT and nested SERVICE clauses (#1779)\n\nRequired for #721",
+          "timestamp": "2026-09-11T15:26:13+02:00",
+          "tree_id": "8922f5bf351575100cd5f6cb7f9862958d35b5a1",
+          "url": "https://github.com/comunica/comunica/commit/88ed6e9be952475d580f462907505afbcca10543"
+        },
+        "date": 1789136480935,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1216,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25525,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 119,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1982,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1689,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 101024,
             "unit": "ms"
           }
         ]
