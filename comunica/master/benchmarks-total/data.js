@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789060705630,
+  "lastUpdate": 1789117696371,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13240,6 +13240,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 128489,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "45a10ad46133f85523c06ec810a11cde62545e6b",
+          "message": "Remove GitHub agentic workflows",
+          "timestamp": "2026-09-11T10:41:43+02:00",
+          "tree_id": "808522dc44caa6fa10f3aa502f03847ad65bc636",
+          "url": "https://github.com/comunica/comunica/commit/45a10ad46133f85523c06ec810a11cde62545e6b"
+        },
+        "date": 1789117694248,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2234,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22370,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 183,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1564,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1185,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 186661,
             "unit": "ms"
           }
         ]
