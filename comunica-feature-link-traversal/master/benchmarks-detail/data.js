@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789131871022,
+  "lastUpdate": 1789158108960,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks detailed results": [
@@ -3736,6 +3736,78 @@ window.BENCHMARK_DATA = {
             "value": 2441,
             "unit": "ms",
             "extra": "Results: [10,10,10,10,10]; Error: [false,false,false,false,false]; HTTP Requests: [41,34,77,74,46]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c18d0d597c354e510ea5092a49db38e7e757af07",
+          "message": "Update dependency @shexjs/parser to v1.0.0-alpha.31 (#208)\n\nCo-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>",
+          "timestamp": "2026-09-11T20:12:30Z",
+          "tree_id": "f996405398df49dc821b113d14cbc3d55db82e4d",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/c18d0d597c354e510ea5092a49db38e7e757af07"
+        },
+        "date": 1789158106769,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench - interactive-discover-1",
+            "value": 353,
+            "unit": "ms",
+            "extra": "Results: [6,4,1,14,8]; Error: [false,false,false,false,false]; HTTP Requests: [103,101,87,61,91]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-2",
+            "value": 620,
+            "unit": "ms",
+            "extra": "Results: [66,46,32,198,98]; Error: [false,false,false,false,false]; HTTP Requests: [103,101,87,61,91]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-3",
+            "value": 1088,
+            "unit": "ms",
+            "extra": "Results: [71,67,55,203,142]; Error: [false,false,false,false,false]; HTTP Requests: [355,357,255,473,393]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-4",
+            "value": 548,
+            "unit": "ms",
+            "extra": "Results: [5,3,3,3,7]; Error: [false,false,false,false,false]; HTTP Requests: [135,109,95,71,131]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-5",
+            "value": 277,
+            "unit": "ms",
+            "extra": "Results: [15,3,3,4,20]; Error: [false,false,false,false,false]; HTTP Requests: [103,101,87,61,91]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-6",
+            "value": 416,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,27]; Error: [true,false,false,true,false]; HTTP Requests: [,101,87,,91]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-7",
+            "value": 585,
+            "unit": "ms",
+            "extra": "Results: [0,1,1,0,1]; Error: [true,false,false,true,false]; HTTP Requests: [,101,87,,91]"
+          },
+          {
+            "name": "SolidBench - interactive-discover-8",
+            "value": 2161,
+            "unit": "ms",
+            "extra": "Results: [10,10,10,10,10]; Error: [false,false,false,false,false]; HTTP Requests: [41,40,77,74,53]"
           }
         ]
       }
