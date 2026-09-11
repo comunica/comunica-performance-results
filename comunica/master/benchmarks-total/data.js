@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789117696371,
+  "lastUpdate": 1789126999238,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13294,6 +13294,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 186661,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16085353+surilindur@users.noreply.github.com",
+            "name": "surilindur",
+            "username": "surilindur"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1f504900fb6fdeefc4e2beeeb79205900cd8fab2",
+          "message": "Improve `xsd:string` function and numeric literal representations (#1787)\n\nThis follows the XPath string cast specification and XSD datatype lexical forms more precisely.",
+          "timestamp": "2026-09-11T13:18:21+02:00",
+          "tree_id": "43a6e25e3a285aa52b5fcab61ef5a4074cd911c9",
+          "url": "https://github.com/comunica/comunica/commit/1f504900fb6fdeefc4e2beeeb79205900cd8fab2"
+        },
+        "date": 1789126996412,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2219,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23263,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 181,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1835,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1540,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 121461,
             "unit": "ms"
           }
         ]
