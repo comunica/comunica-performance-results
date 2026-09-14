@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789136482889,
+  "lastUpdate": 1789375630069,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13402,6 +13402,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 101024,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5c72c408c930543f54f1b4850c2f36f5c529c8b6",
+          "message": "Support variables as the target of SERVICE clauses (#1815)\n\nCloses #1384",
+          "timestamp": "2026-09-14T10:19:33+02:00",
+          "tree_id": "305158311928c3cfbcdb4ff67cdc66dfc48533da",
+          "url": "https://github.com/comunica/comunica/commit/5c72c408c930543f54f1b4850c2f36f5c529c8b6"
+        },
+        "date": 1789375627974,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1843,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 18177,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 163,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1781,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1531,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 190173,
             "unit": "ms"
           }
         ]
