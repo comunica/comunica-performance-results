@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789375630069,
+  "lastUpdate": 1789379864525,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13456,6 +13456,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 190173,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d25c4a3a00582b608a35b505f44c078b5ae4013d",
+          "message": "Throttle npm publishing to avoid registry rate limiting (#1816)",
+          "timestamp": "2026-09-14T11:36:49+02:00",
+          "tree_id": "1d0689e06d0adf2edb1a401c457b41f1e3ac14cb",
+          "url": "https://github.com/comunica/comunica/commit/d25c4a3a00582b608a35b505f44c078b5ae4013d"
+        },
+        "date": 1789379862292,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2175,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 29822,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 170,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1928,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1507,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 138359,
             "unit": "ms"
           }
         ]
