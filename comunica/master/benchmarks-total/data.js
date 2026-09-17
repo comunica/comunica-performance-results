@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789379864525,
+  "lastUpdate": 1789655263793,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13510,6 +13510,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 138359,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b92f99f8dcab7d398f0a6b778c96b03d8cbe8d63",
+          "message": "Fix local files sometimes having a non-zero request time (#1821)\n\nThis could sometimes cause slower hash joins being selected.",
+          "timestamp": "2026-09-17T15:59:28+02:00",
+          "tree_id": "098d2d7fe1364845ea26d104e25c5e146a201487",
+          "url": "https://github.com/comunica/comunica/commit/b92f99f8dcab7d398f0a6b778c96b03d8cbe8d63"
+        },
+        "date": 1789655262566,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2251,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22638,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 172,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1462,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1476,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 195517,
             "unit": "ms"
           }
         ]
