@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789655263793,
+  "lastUpdate": 1789734686914,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13564,6 +13564,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 195517,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "208197707+redreye@users.noreply.github.com",
+            "name": "redreye",
+            "username": "redreye"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f1dc28e588646468fae6c0eec96f629c994f2d81",
+          "message": "Fix metadata of SERVICE clauses not being kept when materializing bindings (#1822)",
+          "timestamp": "2026-09-18T14:04:12+02:00",
+          "tree_id": "d16ea8b74772d24a2f86a7082d915f60675e7de6",
+          "url": "https://github.com/comunica/comunica/commit/f1dc28e588646468fae6c0eec96f629c994f2d81"
+        },
+        "date": 1789734685710,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2273,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23456,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 167,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1097,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1337,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 190674,
             "unit": "ms"
           }
         ]
