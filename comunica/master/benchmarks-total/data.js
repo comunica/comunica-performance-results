@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790258421507,
+  "lastUpdate": 1790268541991,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13834,6 +13834,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 172058,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a6c9386835642b1d3eacb99bcc2d7f8faa10d0dc",
+          "message": "Make physical query plans complete and deterministic (#1781)\n\nThe previous physical query plan output was not always correct.\nThis fixes that by rewriting how its built up.\n\nThe output is also less verbose.\nThe more verbose variant that includes timings and cardinality metadata\nhas been moved to a new explain mode `'physical-stats'`.",
+          "timestamp": "2026-09-24T17:05:59+02:00",
+          "tree_id": "4c2b15db3f25574b12dae67d3ac619577e5eafe1",
+          "url": "https://github.com/comunica/comunica/commit/a6c9386835642b1d3eacb99bcc2d7f8faa10d0dc"
+        },
+        "date": 1790268540848,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1682,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22560,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 168,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1579,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1119,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 138454,
             "unit": "ms"
           }
         ]
