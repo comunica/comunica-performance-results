@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789734686914,
+  "lastUpdate": 1790243821537,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13618,6 +13618,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 190674,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f18a005adac3a317f55d877f88a2a7fca7ceee7",
+          "message": "Add a standalone SPARQL expression evaluation engine (#1814)\n\nThis adds a dedicated `@comunica/expressions-sparql` package\nthat enables evaluating SPARQL expressions, aggregates and term ordering\nwithout setting up a query engine.\n\nCloses #1809",
+          "timestamp": "2026-09-24T11:17:08+02:00",
+          "tree_id": "7626c1496b0e2fa15c8cc076dc0ae9e34dadd476",
+          "url": "https://github.com/comunica/comunica/commit/5f18a005adac3a317f55d877f88a2a7fca7ceee7"
+        },
+        "date": 1790243820508,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1977,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 18896,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 286,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1885,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1447,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 190162,
             "unit": "ms"
           }
         ]
