@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790246281511,
+  "lastUpdate": 1790249485550,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13726,6 +13726,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 134385,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0002a56d9df67453b48aed4dd7d554b36379bae7",
+          "message": "Add alternative source-based FROM/FROM NAMED actor (#1824)\n\nWhen enabling `dereferenceFromNamed`, `FROM` and `FROM NAMED`\nwill lead to these target URLs being dereferenced and considered as sources.\n\n`dereferenceFromNamedConflictMode` allows the user to configure how\nnamed graphs in `FROM NAMED` targets should be handled.\nWhether to error (default), rewrite it into the FROM NAMED graph, or keep it as-is.\n\nCloses #198\n\n---------\n\nCo-authored-by: noahvsb <noahvansteenbrugge@gmail.com>\nCo-authored-by: Bavop <bavop.paepens@gmail.com>\nCo-authored-by: Bavop <54897286+Bavop@users.noreply.github.com>\nCo-authored-by: Claude <noreply@anthropic.com>",
+          "timestamp": "2026-09-24T12:48:19+02:00",
+          "tree_id": "549aa73cbe2fd0c98d0f5b0f3d51ac313b44f55d",
+          "url": "https://github.com/comunica/comunica/commit/0002a56d9df67453b48aed4dd7d554b36379bae7"
+        },
+        "date": 1790249484346,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2034,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23360,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 180,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1713,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1424,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 191353,
             "unit": "ms"
           }
         ]
