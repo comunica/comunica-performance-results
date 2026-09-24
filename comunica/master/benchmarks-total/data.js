@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790243821537,
+  "lastUpdate": 1790246281511,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13672,6 +13672,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 190162,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3e51aadf5657065fb8bd15900afca0e9e6d57305",
+          "message": "Make the config backwards-compat test read the monorepo configs (#1818)\n\nFollow-up to #1817.\nThe configtest job did not catch the sort-limit-pushdown regression, which is fixed by this change.",
+          "timestamp": "2026-09-24T12:15:20+02:00",
+          "tree_id": "8ed1c9369dcfd591e83b7dd1d5d0387ce1cc18c8",
+          "url": "https://github.com/comunica/comunica/commit/3e51aadf5657065fb8bd15900afca0e9e6d57305"
+        },
+        "date": 1790246280147,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2085,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22684,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 165,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1671,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1430,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 134385,
             "unit": "ms"
           }
         ]
