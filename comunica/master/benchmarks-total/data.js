@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790268541991,
+  "lastUpdate": 1790278162393,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13888,6 +13888,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 138454,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a5316fa9e54959ea3dd7c837b7f449e896a66b6",
+          "message": "Scope cached query sources by their context properties (#1825)\n\nWhen a query source has a context annotation, this can lead\nto differences in how the query source is dereferenced and\ncan therefore lead to different quads. For example, when things\nsuch as authentication are enabled. This change makes it so\nthat these properties are properly scoped from each other.",
+          "timestamp": "2026-09-24T20:47:13+02:00",
+          "tree_id": "9aa3ff9f21b21d8cb80328fc6e2243cf81456026",
+          "url": "https://github.com/comunica/comunica/commit/8a5316fa9e54959ea3dd7c837b7f449e896a66b6"
+        },
+        "date": 1790278161204,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2248,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 16788,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 188,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1301,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1501,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 212147,
             "unit": "ms"
           }
         ]
