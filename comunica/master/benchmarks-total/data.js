@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790249485550,
+  "lastUpdate": 1790258421507,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13780,6 +13780,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 191353,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5ef25e2e65d49b75e236e9900b5b7be9c1e17d80",
+          "message": "Bump rdf-data-factory to lowercase language tags (#1826)",
+          "timestamp": "2026-09-24T15:20:33+02:00",
+          "tree_id": "d85ffe2e29c7481e407b0eb9a87134b804cb7d58",
+          "url": "https://github.com/comunica/comunica/commit/5ef25e2e65d49b75e236e9900b5b7be9c1e17d80"
+        },
+        "date": 1790258420153,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2112,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24282,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 180,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1767,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1451,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 172058,
             "unit": "ms"
           }
         ]
