@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790278162393,
+  "lastUpdate": 1790317154288,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13942,6 +13942,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 212147,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2311e9bf9754bdd478be8250bd9edb4739da2c3f",
+          "message": "Explain parse failures of documents without a media type (#1833)",
+          "timestamp": "2026-09-25T07:45:15+02:00",
+          "tree_id": "94884bf2ff816d81eeee7b6e9b24ca7df2fb1034",
+          "url": "https://github.com/comunica/comunica/commit/2311e9bf9754bdd478be8250bd9edb4739da2c3f"
+        },
+        "date": 1790317153245,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1980,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23325,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 146,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1337,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1492,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 167654,
             "unit": "ms"
           }
         ]
