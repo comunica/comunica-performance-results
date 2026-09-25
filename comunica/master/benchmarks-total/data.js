@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790317154288,
+  "lastUpdate": 1790329503139,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -13996,6 +13996,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 167654,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "678b78b44cac40bf05bed404c457d87e6549ce28",
+          "message": "Bump Traqula to resolve relative IRIs according to RFC 3986 (#1841)",
+          "timestamp": "2026-09-25T11:19:57+02:00",
+          "tree_id": "4c9ebaca09dae008b49d98fdbcbe4b0c366226d1",
+          "url": "https://github.com/comunica/comunica/commit/678b78b44cac40bf05bed404c457d87e6549ce28"
+        },
+        "date": 1790329502148,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1639,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21082,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 172,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1686,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1148,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 148302,
             "unit": "ms"
           }
         ]
