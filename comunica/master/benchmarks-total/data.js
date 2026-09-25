@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790331439542,
+  "lastUpdate": 1790347908348,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14104,6 +14104,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 130543,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e8497fc5bcf8c98f95701f05976ae8f0554bfd35",
+          "message": "Support left join expressions on optionals that can not be bound (#1835)\n\nA left join with a filter expression could only be executed by the bind\njoin, which can not bind into operations such as GROUP BY subqueries.\nSuch queries failed with \"none of the configured actors were able to\nhandle the join type optional\". The nested loop optional join now\nevaluates the expression itself for exactly those cases.",
+          "timestamp": "2026-09-25T16:22:52+02:00",
+          "tree_id": "cfc5c4cbfcef96047802868d1f197bf6ea1270ea",
+          "url": "https://github.com/comunica/comunica/commit/e8497fc5bcf8c98f95701f05976ae8f0554bfd35"
+        },
+        "date": 1790347907197,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1824,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22295,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 173,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1780,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1732,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 209726,
             "unit": "ms"
           }
         ]
