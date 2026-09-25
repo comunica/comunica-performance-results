@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790329503139,
+  "lastUpdate": 1790331439542,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14050,6 +14050,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 148302,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8bf350c91e3cfe9b6217c6bd7dc178e3d60be221",
+          "message": "Fix seconds and sign of dateTime subtraction results (#1834)\n\nelapsedDuration returned the seconds component in milliseconds, so\n2012-07-20T20:24:21.582Z - 2012-07-18T10:01:00Z became P2DT10H23M21582S.\nNegative differences also produced mixed-sign components.",
+          "timestamp": "2026-09-25T11:54:10+02:00",
+          "tree_id": "c4661dcb5e6cba1dc23f7c116ea8c584e8f899c0",
+          "url": "https://github.com/comunica/comunica/commit/8bf350c91e3cfe9b6217c6bd7dc178e3d60be221"
+        },
+        "date": 1790331438427,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1860,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21342,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 128,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1773,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1442,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 130543,
             "unit": "ms"
           }
         ]
