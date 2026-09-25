@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790361430593,
+  "lastUpdate": 1790368600315,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -171,6 +171,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 134602,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "committer": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "distinct": true,
+          "id": "31fadbd3ee75e5830c8a5ed57442836e2615f250",
+          "message": "Fetch the LDBC SNB assets from the master branch\n\ncomunica/comunica-performance-assets#2 was merged.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01Pox1b5Mbsur3vCP1Rzf3t2",
+          "timestamp": "2026-09-25T18:44:32Z",
+          "tree_id": "79d4c31e14e9aebf764feda1bed20f9da242dc1c",
+          "url": "https://github.com/comunica/comunica/commit/31fadbd3ee75e5830c8a5ed57442836e2615f250"
+        },
+        "date": 1790368599233,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1908,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23256,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 133,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1185,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1502,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 82276,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 133882,
             "unit": "ms"
           }
         ]
