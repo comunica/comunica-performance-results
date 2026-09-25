@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790347908348,
+  "lastUpdate": 1790352365228,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14158,6 +14158,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 209726,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "340c39de9380efe9d20593b9a8328e66c93b0b41",
+          "message": "Add CI check for actor README descriptions (#1844)",
+          "timestamp": "2026-09-25T17:13:22+02:00",
+          "tree_id": "41aa575acd7fd5cdf5db936d1196c0c7a0141532",
+          "url": "https://github.com/comunica/comunica/commit/340c39de9380efe9d20593b9a8328e66c93b0b41"
+        },
+        "date": 1790352364238,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2241,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23128,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 129,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1512,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1431,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 159013,
             "unit": "ms"
           }
         ]
