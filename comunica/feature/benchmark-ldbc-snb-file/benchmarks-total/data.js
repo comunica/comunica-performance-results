@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790358164370,
+  "lastUpdate": 1790361430593,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -112,6 +112,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 188512,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "committer": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "distinct": true,
+          "id": "f83a269d7f89cb4203fd060e431b78e6c6565c68",
+          "message": "Raise the heap limit of the LDBC SNB benchmark endpoint\n\nThe endpoint worker needs up to about 7.7 GiB for SF0.1, which exceeds\nNode's default heap limit on the CI runners, so heavy queries crashed\nthe worker with an out-of-memory error. Cluster workers inherit the\nflag from the primary process.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01Pox1b5Mbsur3vCP1Rzf3t2",
+          "timestamp": "2026-09-25T18:01:45Z",
+          "tree_id": "d420e958f25f7a20b9aa7ff782769aed900d0a76",
+          "url": "https://github.com/comunica/comunica/commit/f83a269d7f89cb4203fd060e431b78e6c6565c68"
+        },
+        "date": 1790361429569,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1684,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22620,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 111,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1666,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1474,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 66675,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 134602,
             "unit": "ms"
           }
         ]
