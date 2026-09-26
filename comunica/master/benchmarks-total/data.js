@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790396596615,
+  "lastUpdate": 1790413075403,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14271,6 +14271,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 207567,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "26008c9bc9c2017426cf83745c1628adb8b528d6",
+          "message": "Fix internal algebra operations being sent to SPARQL endpoints (#1845)\n\nQueries such as\n`SELECT ?s WHERE { SERVICE <http://example.org/distinct/sparql> { SELECT DISTINCT ?s WHERE { ?s <ex:p> ?o } } }`\nor `SELECT * WHERE { ?s <ex:p>* ?o }` over multiple SPARQL endpoints failed with\n`Unknown Operation type distinctterms` or `Unknown Operation type nodes`,\nbecause Comunica tried to serialize its own non-SPARQL operations for the endpoint.",
+          "timestamp": "2026-09-26T08:48:45+02:00",
+          "tree_id": "7927bde6e6ab1d0c3c51ce02feeb1d177ad083a4",
+          "url": "https://github.com/comunica/comunica/commit/26008c9bc9c2017426cf83745c1628adb8b528d6"
+        },
+        "date": 1790413074327,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1405,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22789,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 171,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1399,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1455,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 86728,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 188761,
             "unit": "ms"
           }
         ]
