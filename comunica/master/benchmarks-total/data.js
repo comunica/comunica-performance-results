@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790352365228,
+  "lastUpdate": 1790396596615,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14212,6 +14212,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 159013,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "805184940563eb3ad614ffad896fbdc99c200e2b",
+          "message": "Add LDBC SNB file performance benchmark to CI (#1842)",
+          "timestamp": "2026-09-26T05:53:56+02:00",
+          "tree_id": "79d4c31e14e9aebf764feda1bed20f9da242dc1c",
+          "url": "https://github.com/comunica/comunica/commit/805184940563eb3ad614ffad896fbdc99c200e2b"
+        },
+        "date": 1790396595685,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1864,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 15823,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 185,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1881,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1486,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 67751,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 207567,
             "unit": "ms"
           }
         ]
