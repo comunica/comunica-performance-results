@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790413075403,
+  "lastUpdate": 1790436825029,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14330,6 +14330,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 188761,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9d61a8d667bc12e9a8d773bb6d4b487817b1e878",
+          "message": "Report failed queries on the detailed performance dashboard (#1850)",
+          "timestamp": "2026-09-26T15:27:31+02:00",
+          "tree_id": "537f6916bbc28f56935d73b8d578271b73afb4eb",
+          "url": "https://github.com/comunica/comunica/commit/9d61a8d667bc12e9a8d773bb6d4b487817b1e878"
+        },
+        "date": 1790436823850,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1573,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22488,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 174,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1365,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1171,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 58227,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 132889,
             "unit": "ms"
           }
         ]
