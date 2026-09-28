@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790593742668,
+  "lastUpdate": 1790597722160,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14566,6 +14566,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 155155,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "111004be81e47e1ecf9c1eb6d19dd1bfe33894cb",
+          "message": "Update sparql-benchmark-runner to v5.1.1 (#1861)\n\nThis fixes multi-line error messages breaking the benchmark results CSV,\nwhich caused invalid entries on the performance dashboard.",
+          "timestamp": "2026-09-28T13:41:54+02:00",
+          "tree_id": "5b5df9ac8235b12b8183f4091aebef7f6b4b6904",
+          "url": "https://github.com/comunica/comunica/commit/111004be81e47e1ecf9c1eb6d19dd1bfe33894cb"
+        },
+        "date": 1790597720658,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1938,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23908,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 101,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1475,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1493,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 103729,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 175810,
             "unit": "ms"
           }
         ]
