@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790582014647,
+  "lastUpdate": 1790592366848,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14448,6 +14448,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 133613,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7116fda0452643f203eeab09f691281a09f3fe31",
+          "message": "Correct SPARQL service descriptions that expose local endpoints (#1856)\n\nSome SPARQL endpoints behind a reverse proxy expose an internal address\nas sd:endpoint, such as https://0.0.0.0:8080/x-query for LINDAS.\nSuch endpoints are unreachable, so the requested URL is used instead\nwhen the source itself is not local, and a warning is emitted.",
+          "timestamp": "2026-09-28T11:55:04+02:00",
+          "tree_id": "1e4a632a7f1a9d91338960cea1dd57c3682c9a7d",
+          "url": "https://github.com/comunica/comunica/commit/7116fda0452643f203eeab09f691281a09f3fe31"
+        },
+        "date": 1790592365862,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2148,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23196,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 177,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1660,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1467,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 69525,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 154157,
             "unit": "ms"
           }
         ]
