@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790592366848,
+  "lastUpdate": 1790593742668,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14507,6 +14507,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 154157,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "61bf3009e51115841b1f6474223cc7bf2fa83f0a",
+          "message": "Use https for all harvard benchmark sources (#1859)",
+          "timestamp": "2026-09-28T12:54:06+02:00",
+          "tree_id": "de6678262e1163a2e984cf6f4716af19cba54578",
+          "url": "https://github.com/comunica/comunica/commit/61bf3009e51115841b1f6474223cc7bf2fa83f0a"
+        },
+        "date": 1790593741608,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1809,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22867,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 167,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1508,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1246,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 105778,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 155155,
             "unit": "ms"
           }
         ]
