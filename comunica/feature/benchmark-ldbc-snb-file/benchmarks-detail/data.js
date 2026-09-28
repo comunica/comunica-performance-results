@@ -638,12 +638,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -1422,12 +1416,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -2210,12 +2198,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -2994,12 +2976,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",

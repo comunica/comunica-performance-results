@@ -100658,240 +100658,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - <!DOCTYPE html>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <html lang=\"en\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <meta charset=\"utf-8\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <title>Wikimedia Error</title>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <style>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - * { margin: 0",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - body { background: #fff",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ color: #333]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - .content { margin: 7% auto 0",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ max-width: 640px]; HTTP Requests: [ }]"
-          },
-          {
-            "name": "Web - .footer { clear: both",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ border-top: 1px solid #e5e5e5]; HTTP Requests: [ text-align: center]"
-          },
-          {
-            "name": "Web - img { margin: 0 2em 2em 0",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - a img { border: 0",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - h1 { margin-top: 1em",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - .content-text { flex: 1",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - p { margin: 0.7em 0 1em 0",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - a { color: #0645ad",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - a:hover { text-decoration: underline",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - code { font-family: sans-serif",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - summary { font-weight: bold",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - details[open] { background: #970302",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - .text-muted { color: #777",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - @media (prefers-color-scheme: dark) {",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   a { color: #9e9eff",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   body { background: transparent",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   .footer { border-top: 1px solid #444",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   #logo { filter: invert(1) hue-rotate(180deg)",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   .text-muted { color: #888",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - }",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - </style>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <meta name=\"color-scheme\" content=\"light dark\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <div class=\"content\" role=\"main\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <a href=\"https://www.wikimedia.org\"><img id=\"logo\" src=\"https://www.wikimedia.org/static/images/wmf-logo.png\" srcset=\"https://www.wikimedia.org/static/images/wmf-logo-2x.png 2x\" alt=\"Wikimedia\" width=\"135\" height=\"101\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - </a>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <div class=\"content-text\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <h1>Error</h1>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [,0]; Error: [,]; HTTP Requests: [,]"
-          },
-          {
-            "name": "Web - <p>Too many requests (1059162)</p>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - </div>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [,,]; Error: [,,]; HTTP Requests: [,,]"
-          },
-          {
-            "name": "Web - <div class=\"footer\"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class=\"text-muted\"><code>Request served via cp4037 cp4037, Varnish XID 233867314<br>Upstream caches: cp4037 int<br>Error: 429, Too many requests (1059162) at Fri, 06 Mar 2026 14:08:19 GMT<br><details><summary>Sensitive client information</summary>IP address: 172.184.209.147</details></code></p>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - </html>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - other/bruce-willis-pp-cartesian",
             "value": 1259,
             "unit": "ms",
@@ -101478,240 +101244,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <!DOCTYPE html>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <html lang=\"en\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <meta charset=\"utf-8\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <title>Wikimedia Error</title>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <style>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - * { margin: 0",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - body { background: #fff",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ color: #333]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - .content { margin: 7% auto 0",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ max-width: 640px]; HTTP Requests: [ }]"
-          },
-          {
-            "name": "Web - .footer { clear: both",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ border-top: 1px solid #e5e5e5]; HTTP Requests: [ text-align: center]"
-          },
-          {
-            "name": "Web - img { margin: 0 2em 2em 0",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - a img { border: 0",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - h1 { margin-top: 1em",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - .content-text { flex: 1",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - p { margin: 0.7em 0 1em 0",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - a { color: #0645ad",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - a:hover { text-decoration: underline",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - code { font-family: sans-serif",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - summary { font-weight: bold",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - details[open] { background: #970302",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - .text-muted { color: #777",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - @media (prefers-color-scheme: dark) {",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   a { color: #9e9eff",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   body { background: transparent",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   .footer { border-top: 1px solid #444",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [ }]; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   #logo { filter: invert(1) hue-rotate(180deg)",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   .text-muted { color: #888",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - }",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - </style>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <meta name=\"color-scheme\" content=\"light dark\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <div class=\"content\" role=\"main\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <a href=\"https://www.wikimedia.org\"><img id=\"logo\" src=\"https://www.wikimedia.org/static/images/wmf-logo.png\" srcset=\"https://www.wikimedia.org/static/images/wmf-logo-2x.png 2x\" alt=\"Wikimedia\" width=\"135\" height=\"101\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - </a>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <div class=\"content-text\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <h1>Error</h1>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [,0]; Error: [,]; HTTP Requests: [,]"
-          },
-          {
-            "name": "Web - <p>Too many requests (1059162)</p>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - </div>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [,,]; Error: [,,]; HTTP Requests: [,,]"
-          },
-          {
-            "name": "Web - <div class=\"footer\"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class=\"text-muted\"><code>Request served via cp1114 cp1114, Varnish XID 6757504<br>Upstream caches: cp1114 int<br>Error: 429, Too many requests (1059162) at Mon, 16 Mar 2026 01:47:42 GMT<br><details><summary>Sensitive client information</summary>IP address: 4.236.159.147</details></code></p>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - </html>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - other/bruce-willis-pp-cartesian",
@@ -134642,54 +134174,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - <html>\r",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <head><title>502 Bad Gateway</title></head>\r",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <body>\r",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <center><h1>502 Bad Gateway</h1></center>\r",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <hr><center>nginx/1.22.1</center>\r",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - </body>\r",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - </html>\r",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - other/bruce-willis-pp-cartesian",
             "value": 578,
             "unit": "ms",
@@ -135866,66 +135350,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML//EN\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <html>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   <head>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -     <title>Error HTTP/1.1 503 Service Unavailable</title>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   </head>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   <body>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -     <h3>Error HTTP/1.1 503 Service Unavailable</h3><pre>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - License has expired    URI  = '/!sparql/'",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   </pre></body></html>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - other/bruce-willis-pp-cartesian",
             "value": 588,
             "unit": "ms",
@@ -136512,66 +135936,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML//EN\">",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - <html>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   <head>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -     <title>Error HTTP/1.1 503 Service Unavailable</title>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   </head>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   <body>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -     <h3>Error HTTP/1.1 503 Service Unavailable</h3><pre>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - License has expired    URI  = '/!sparql/'",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -   </pre></body></html>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - other/bruce-willis-pp-cartesian",
@@ -140684,12 +140048,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -141276,12 +140634,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -141878,12 +141230,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -142476,12 +141822,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -143078,12 +142418,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -143676,12 +143010,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -144278,12 +143606,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -144876,12 +144198,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -145478,12 +144794,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -146076,12 +145386,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -146678,12 +145982,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -147276,12 +146574,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -147884,12 +147176,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -148488,12 +147774,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -149168,12 +148448,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -149844,12 +149118,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -150524,12 +149792,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -151200,12 +150462,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -151880,12 +151136,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -152556,12 +151806,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0,0]; Error: [,]; HTTP Requests: [,]"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -153236,12 +152480,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -153912,12 +153150,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -154592,12 +153824,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -155268,12 +154494,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -155948,12 +155168,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0,0]; Error: [,]; HTTP Requests: [,]"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -156624,12 +155838,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -157304,12 +156512,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -157980,12 +157182,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -158660,12 +157856,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -159336,12 +158526,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0,0]; Error: [,]; HTTP Requests: [,]"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -160016,12 +159200,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -160692,12 +159870,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -161372,12 +160544,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -162050,12 +161216,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -162726,12 +161886,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -163514,12 +162668,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
             "value": 0,
             "unit": "ms",
@@ -164298,12 +163446,6 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "ms",
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - heterogeneous/wikidata-dbpedia-cats",
@@ -165098,12 +164240,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: [100]; Error: [false]; HTTP Requests: [346]"
           },
           {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
-          },
-          {
             "name": "Web - other/bruce-willis-pp-cartesian",
             "value": 612,
             "unit": "ms",
@@ -165888,12 +165024,6 @@ window.BENCHMARK_DATA = {
             "value": 6233,
             "unit": "ms",
             "extra": "Results: [100]; Error: [false]; HTTP Requests: [345.3333333333333]"
-          },
-          {
-            "name": "Web - ",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: [0]; Error: []; HTTP Requests: []"
           },
           {
             "name": "Web - other/bruce-willis-pp-cartesian",
@@ -167508,42 +166638,6 @@ window.BENCHMARK_DATA = {
             "value": 4043,
             "unit": "ms",
             "extra": "Results: [11]; Error: [false]; HTTP Requests: [19]"
-          },
-          {
-            "name": "Web - <html>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -     <head>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - \t<title>Web Site Under Maintenance</title>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -     </head>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -     <body>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - \t<div><img src=\"data:image/gif",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [\"/>\n\t    <div style=\"font-weight: bold]; HTTP Requests: []"
           },
           {
             "name": "Web - other/ruben-knows-zero-or-more",

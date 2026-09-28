@@ -560,42 +560,6 @@ window.BENCHMARK_DATA = {
             "extra": "Results: []; Error: [true]; HTTP Requests: []"
           },
           {
-            "name": "Web - <html>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -     <head>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - \t<title>Web Site Under Maintenance</title>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -     </head>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web -     <body>",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: []; HTTP Requests: []"
-          },
-          {
-            "name": "Web - \t<div><img src=\"data:image/gif",
-            "value": 0,
-            "unit": "ms",
-            "extra": "Results: []; Error: [\"/>\n\t    <div style=\"font-weight: bold]; HTTP Requests: []"
-          },
-          {
             "name": "Web - other/ruben-knows-zero-or-more",
             "value": 0,
             "unit": "ms",
