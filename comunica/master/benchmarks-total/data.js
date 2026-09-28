@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790436825029,
+  "lastUpdate": 1790582014647,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14389,6 +14389,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 132889,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b57f0d0ed64e3afabd521b12c0bf28b82a374d36",
+          "message": "Cluster nested joins in the join-connected optimizer (#1847)\n\nThe optimizer stopped at the outermost join, so joins nested under other operations were never clustered.\n\nThis significantly improves performance on complex queries such as LDBC SNB IC7.",
+          "timestamp": "2026-09-28T09:02:41+02:00",
+          "tree_id": "d80682e15839b0b7383e43be9a944d1b20185498",
+          "url": "https://github.com/comunica/comunica/commit/b57f0d0ed64e3afabd521b12c0bf28b82a374d36"
+        },
+        "date": 1790582013718,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1823,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22071,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 163,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1818,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1434,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 57356,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 133613,
             "unit": "ms"
           }
         ]
