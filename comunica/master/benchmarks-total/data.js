@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790597722160,
+  "lastUpdate": 1791379984580,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14625,6 +14625,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 175810,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6bb507369fc3212750bf01c212f9dc922e66238d",
+          "message": "Skip spec tests of subqueries inside GRAPH until #1643 is fixed (#1869)\n\nThe SPARQL 1.1 spec tests sq15 and sq16 (subquery15 and subquery16) were\nadded in https://github.com/w3c/rdf-tests/pull/377. They fail because\nORDER BY/OFFSET/LIMIT of a subquery inside GRAPH ?g is applied once over\nall graphs instead of per named graph, which is a known bug:\nhttps://github.com/comunica/comunica/issues/1643",
+          "timestamp": "2026-10-07T14:47:36+02:00",
+          "tree_id": "db850a9b29c84039e5bea629d6ee3fea218b90b2",
+          "url": "https://github.com/comunica/comunica/commit/6bb507369fc3212750bf01c212f9dc922e66238d"
+        },
+        "date": 1791379983623,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2093,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 18839,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 168,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1793,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1559,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 97379,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 148176,
             "unit": "ms"
           }
         ]
