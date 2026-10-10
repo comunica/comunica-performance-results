@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791645983156,
+  "lastUpdate": 1791654245814,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14743,6 +14743,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 156628,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3bc9cf916e8ee40a740bc2eca7067abf60747b9f",
+          "message": "Skip spec tests of trailing VALUES with GROUP BY until Traqula supports them (#1874)",
+          "timestamp": "2026-10-10T19:09:26+02:00",
+          "tree_id": "274e5f9ee40f7faa0268ed4d1fe902be8786aba1",
+          "url": "https://github.com/comunica/comunica/commit/3bc9cf916e8ee40a740bc2eca7067abf60747b9f"
+        },
+        "date": 1791654244814,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 998,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23178,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 167,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1522,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1553,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 106518,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 186635,
             "unit": "ms"
           }
         ]
