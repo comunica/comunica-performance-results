@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791379984580,
+  "lastUpdate": 1791645983156,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14684,6 +14684,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 148176,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "208197707+redreye@users.noreply.github.com",
+            "name": "redreye",
+            "username": "redreye"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5447db06c42354a61030557ff5f1ccb8e617e139",
+          "message": "Add updateQuads to write quad streams to a destination (#1872)\n\nRequired for #1867",
+          "timestamp": "2026-10-10T17:08:27+02:00",
+          "tree_id": "7bd8a00b7db1e7b11e599e1e2cdafdf6d8c7c175",
+          "url": "https://github.com/comunica/comunica/commit/5447db06c42354a61030557ff5f1ccb8e617e139"
+        },
+        "date": 1791645982179,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1894,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 12205,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 162,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1654,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1493,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 106332,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 156628,
             "unit": "ms"
           }
         ]
