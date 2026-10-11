@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791710820938,
+  "lastUpdate": 1791718050599,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14979,6 +14979,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 141433,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5548675b6bcf65c157456ba446b8f584795fb2dc",
+          "message": "Rate limit only on 429 and 503 and swap limit and rate limit wrapping order (#1877)\n\nPreviously, any failing response except 404 marked a host as rate-limited\nfor the lifetime of the engine, so a single 500 or 400 caused by the request\nitself serialized all later requests to that host. Now only 429, 503 and\nnetwork errors count as overload.\n\nAlso, the rate limit actor wrapped the retry actor, so it measured a whole retry\nsequence, including Retry-After waits, as a single request. This inflated\nthe request interval far beyond the server's response time. Now each retry\nattempt is spaced out individually.",
+          "timestamp": "2026-10-11T12:29:59+02:00",
+          "tree_id": "4a2a2160e6f7018b48f35d23d719b885935979a4",
+          "url": "https://github.com/comunica/comunica/commit/5548675b6bcf65c157456ba446b8f584795fb2dc"
+        },
+        "date": 1791718049648,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1539,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24645,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 171,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1685,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1470,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 112506,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 147836,
             "unit": "ms"
           }
         ]
