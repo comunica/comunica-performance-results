@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791654245814,
+  "lastUpdate": 1791704928328,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14802,6 +14802,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 186635,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "84d0e0ff69994c56d8f1153bd4018092d27d0f4d",
+          "message": "Increase allowed bundle size of query-sparql-rdfjs-lite (#1876)",
+          "timestamp": "2026-10-11T09:19:21+02:00",
+          "tree_id": "e965d268a9ef40d7023517519a503c5a54f7a177",
+          "url": "https://github.com/comunica/comunica/commit/84d0e0ff69994c56d8f1153bd4018092d27d0f4d"
+        },
+        "date": 1791704927375,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1326,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 18967,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 169,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1721,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1103,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 66077,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 195579,
             "unit": "ms"
           }
         ]
