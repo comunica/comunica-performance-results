@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791704928328,
+  "lastUpdate": 1791706999266,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14861,6 +14861,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 195579,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3374f77f2a535c46ffede23951d7e619d9ecbefd",
+          "message": "Keep metadata of FILTERs when materializing bindings (#1864)\n\nWhen materializing bindings into a FILTER, a new FILTER was created\nwithout the original metadata. This dropped source annotations of\nFILTERs that were assigned to a source, which made bind-joins over them\nfail with \"requires an operation with source annotation\".",
+          "timestamp": "2026-10-11T09:58:01+02:00",
+          "tree_id": "edec2827c416e9f96e3d76cc98c4165a4cb5d418",
+          "url": "https://github.com/comunica/comunica/commit/3374f77f2a535c46ffede23951d7e619d9ecbefd"
+        },
+        "date": 1791706998462,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1009,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22077,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 130,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1851,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1445,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 61134,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 198495,
             "unit": "ms"
           }
         ]
