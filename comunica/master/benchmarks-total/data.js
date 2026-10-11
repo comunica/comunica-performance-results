@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791718050599,
+  "lastUpdate": 1791724542509,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15038,6 +15038,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 147836,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9fec824ad7137d85f534c4ed86aad1ab23aab67a",
+          "message": "Abort SPARQL count queries that exceed the count timeout (#1879)\n\nThis avoids process hangs after query completion.",
+          "timestamp": "2026-10-11T14:43:55+02:00",
+          "tree_id": "13d7ed7b61dac066c8329b058ba28d7705c494ce",
+          "url": "https://github.com/comunica/comunica/commit/9fec824ad7137d85f534c4ed86aad1ab23aab67a"
+        },
+        "date": 1791724541350,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2205,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21374,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 175,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1320,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 971,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 112551,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 143219,
             "unit": "ms"
           }
         ]
