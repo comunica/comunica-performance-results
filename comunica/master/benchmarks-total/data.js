@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791706999266,
+  "lastUpdate": 1791710820938,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -14920,6 +14920,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 198495,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0cbc2fd4179d5add46f4eb1986474e5e8b80d96e",
+          "message": "Don't rate-limit hosts because of client-side timeouts (#1865)\n\nWhen a request timed out or was aborted by the client, such as the\n3 second timeout on SPARQL service descriptions, the host was marked as\nrate-limited, with the timeout as failed request duration. This spaced\nout all later requests to that host by multiple seconds, for example\nfor Wikidata, whose service description is slow.\n\nTimeouts from the fetch actor now have the TimeoutError name, and these\nand aborts are ignored by the rate limiter.",
+          "timestamp": "2026-10-11T11:06:07+02:00",
+          "tree_id": "73a03d4e5dcd44d59eab1a018adb8d006d06386a",
+          "url": "https://github.com/comunica/comunica/commit/0cbc2fd4179d5add46f4eb1986474e5e8b80d96e"
+        },
+        "date": 1791710819871,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1487,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23882,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 180,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1632,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1491,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 84472,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 141433,
             "unit": "ms"
           }
         ]
