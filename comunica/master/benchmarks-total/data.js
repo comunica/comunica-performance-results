@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791899765732,
+  "lastUpdate": 1791910434207,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15215,6 +15215,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 231923,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7659fd6b8bade010327ad21a2fbaeb8a344864c5",
+          "message": "Retry HTTP requests that fail without a response (#1887)\n\nSince the HTTP retry logic moved into ActorHttpRetry, httpRetryCount only\nretried based on response status codes, so connection errors were never\nretried anymore. This commit restores that.",
+          "timestamp": "2026-10-13T16:23:24+02:00",
+          "tree_id": "732ec0a179bcd90ffb124f97325ffb706c49ac69",
+          "url": "https://github.com/comunica/comunica/commit/7659fd6b8bade010327ad21a2fbaeb8a344864c5"
+        },
+        "date": 1791910433207,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1583,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 18093,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 187,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1242,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1461,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 89020,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 64515,
             "unit": "ms"
           }
         ]
