@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791724542509,
+  "lastUpdate": 1791896363311,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15097,6 +15097,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 143219,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "380e018e60a542d9a8ba38e3981b538b19439e42",
+          "message": "Support credentials in source URLs via the API and for SERVICE targets (#1884)\n\nCredentials in source URLs were only extracted by the CLI, so sources such as\nhttp://user:pass@example.org/ passed via the JS API or in SERVICE targets did not work.\n\nAdditionally, SERVICE targets without credentials, where these targets are mentioned\nin the list of query sources with credentials, will lead to these SERVICE clauses to be\nevaluated by taking into account the credentials. This avoids the need of having to\ninclude credentials within SERVICE targets within the query itself.\n\nCloses #1883",
+          "timestamp": "2026-10-13T13:46:04+02:00",
+          "tree_id": "9a491b16d1a8ad7bf255bc58170568580eb28c9f",
+          "url": "https://github.com/comunica/comunica/commit/380e018e60a542d9a8ba38e3981b538b19439e42"
+        },
+        "date": 1791896362263,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1933,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 16878,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 161,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1808,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1172,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 65991,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 165344,
             "unit": "ms"
           }
         ]
