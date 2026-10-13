@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791896363311,
+  "lastUpdate": 1791899765732,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15156,6 +15156,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 165344,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "smessie@users.noreply.github.com",
+            "name": "Ieben Smessaert",
+            "username": "smessie"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "64b93958c5d002b65d3a18bbbb4c1009dd265577",
+          "message": "Remove Node.js polyfill plugin from browser build (#1724)\n\nThe browser build previously required the vite-plugin-node-polyfills\nplugin to work around dependencies that assumed a Node.js environment.\nThose dependencies have since been fixed upstream and released, so the\nplugin is no longer needed:\n\n- readable-stream@^4.8.0 routes internal process imports through a shim\n  that unwraps ESM-style process polyfills\n- http-link-header@^1.1.4 guards its Buffer global access\n- graphql@^17 (via graphql-to-sparql@^6.1.0) guards its process access\n\nDrop the nodePolyfills() plugin and the vite-plugin-node-polyfills\ndependency from the Vite config, and bump graphql-to-sparql to ^6.1.0.\n\nThe guarded process shim in the browser entrypoint is kept as a fallback\nfor bundlers that do not polyfill process, and is annotated for removal\nin the next major.",
+          "timestamp": "2026-10-13T15:22:26+02:00",
+          "tree_id": "e402970ac8323e93f838f08fc4be57882e01b61f",
+          "url": "https://github.com/comunica/comunica/commit/64b93958c5d002b65d3a18bbbb4c1009dd265577"
+        },
+        "date": 1791899764566,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1764,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21859,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 172,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1425,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1118,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 67761,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 231923,
             "unit": "ms"
           }
         ]
