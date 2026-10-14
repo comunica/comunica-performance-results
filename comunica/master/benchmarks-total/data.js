@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791910434207,
+  "lastUpdate": 1791965669396,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15274,6 +15274,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 64515,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ffe6745c6aa27fba52237750fd798697bbb1c595",
+          "message": "Fix empty operation pruning for FILTER, BIND, MINUS, COUNT and paths (#1868)\n\nOver multiple sources, patterns are pruned if no source produces results for them.\nThis could lead to empty unions or empty alts.\nThis caused problems with some types of operations:\n\n- a FILTER or BIND with a (NOT) EXISTS over such a pattern,\n- a MINUS with it on the right-hand side,\n- an aggregate without GROUP BY, such as a COUNT, which yields 0,\n- a zero-or-more or zero-or-one path over it, which has zero-length results.\n\nPruning now propagates upwards, and can be handled differently\nbased on operation type.",
+          "timestamp": "2026-10-14T09:55:29+02:00",
+          "tree_id": "b7cf465f8545c413bd8c6ddc738cc00b693afda8",
+          "url": "https://github.com/comunica/comunica/commit/ffe6745c6aa27fba52237750fd798697bbb1c595"
+        },
+        "date": 1791965668480,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1675,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22776,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 115,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1304,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1447,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 105866,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 151059,
             "unit": "ms"
           }
         ]
