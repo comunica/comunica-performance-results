@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1791965669396,
+  "lastUpdate": 1792084333117,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15333,6 +15333,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 151059,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5e55fa9eefe3ecd1c9edf66a6b49de5c622df527",
+          "message": "Add rdfVariant context option for symmetric and generalized RDF (#1886)\n\nThe TRIPLE function now validates its arguments according to the\nconfigured RDF variant: 'rdf' (default) only allows IRIs and blank\nnodes as subject, 'symmetricRDF' also allows literals and triple terms\nas subject, and 'generalizedRDF' allows any term in any position.",
+          "timestamp": "2026-10-15T18:55:22+02:00",
+          "tree_id": "bfdd852ed81bebf3213e18f5c295b730a476af09",
+          "url": "https://github.com/comunica/comunica/commit/5e55fa9eefe3ecd1c9edf66a6b49de5c622df527"
+        },
+        "date": 1792084331669,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2142,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 20886,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 154,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1875,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1489,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 97256,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 145584,
             "unit": "ms"
           }
         ]
