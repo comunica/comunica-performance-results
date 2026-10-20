@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792084333117,
+  "lastUpdate": 1792499282439,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15392,6 +15392,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 145584,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9cf997d476db5c9f632b551ec3dff3f3c4670d8d",
+          "message": "Fix datetime milliseconds accuracy for very small dates (#1892)\n\n\n---------\n\nCo-authored-by: vera-rubin <322284620+vera-rubin@users.noreply.github.com>",
+          "timestamp": "2026-10-20T14:12:14+02:00",
+          "tree_id": "d3215a54f51561e7813ce8e1a3d47d9086df25f0",
+          "url": "https://github.com/comunica/comunica/commit/9cf997d476db5c9f632b551ec3dff3f3c4670d8d"
+        },
+        "date": 1792499281494,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1994,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23920,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 182,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1470,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1503,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 103093,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 188213,
             "unit": "ms"
           }
         ]
