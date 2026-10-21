@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792577380651,
+  "lastUpdate": 1792582623730,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15510,6 +15510,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 168953,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "fcd6e1d2ff5de254fdbe60340ce21d33a43a0d98",
+          "message": "Fix (NOT) EXISTS being evaluated by the wrong source (#1852)\n\nA FILTER or OPTIONAL with a (NOT) EXISTS was moved into the source of its\ninput, even when the operations within the EXISTS belonged to other sources\nor to none. For example,\n`SELECT ?s WHERE { SERVICE <http://example.org/sparql> { ?s <ex:p> ?o } FILTER EXISTS { ?s <ex:q> ?x } }`\nevaluated the EXISTS over the endpoint's data instead of over the sources in\nthe context. Over two SPARQL endpoints without any `<ex:q>`,\n`ASK { ?s <ex:p> ?o FILTER NOT EXISTS { ?s <ex:q> ?x } }` failed with\n`Cannot read properties of undefined (reading 'loc')`, because the empty\nunion that pruning left within the NOT EXISTS was sent to an endpoint.\n\nThe group sources actor only looked at the inputs of an operation when\nmoving source annotations upwards. It now also groups the inputs of the\noperation's (NOT) EXISTS expressions, and only moves the operation into a\nsource if these are annotated with that same source.",
+          "timestamp": "2026-10-21T13:02:47+02:00",
+          "tree_id": "ad2fdc06f3207d46966ba53915d05ef784271b24",
+          "url": "https://github.com/comunica/comunica/commit/fcd6e1d2ff5de254fdbe60340ce21d33a43a0d98"
+        },
+        "date": 1792582622703,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 1699,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 15560,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 138,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1498,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1459,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 94438,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 195554,
             "unit": "ms"
           }
         ]
