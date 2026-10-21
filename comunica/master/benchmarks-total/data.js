@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792499282439,
+  "lastUpdate": 1792577380651,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15451,6 +15451,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 188213,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jitse@reedonk8.be",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "6209a842fd03536d1d4890c768839df86fd34263",
+          "message": "Update Playwright to 1.64.1 to support Ubuntu 26.04 runners\n\nThe ubuntu-latest GitHub runner moved to Ubuntu 26.04, on which\nPlaywright 1.58.2 cannot install its browsers, failing the browser tests.\nUbuntu 26.04 is supported since Playwright 1.61.",
+          "timestamp": "2026-10-21T11:52:37+02:00",
+          "tree_id": "54ff1773f193d2e6191fe28975e0f2d6e4f99811",
+          "url": "https://github.com/comunica/comunica/commit/6209a842fd03536d1d4890c768839df86fd34263"
+        },
+        "date": 1792577379357,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2205,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23937,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 178,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1830,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1682,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 72851,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 168953,
             "unit": "ms"
           }
         ]
