@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790439983528,
+  "lastUpdate": 1792566521754,
   "repoUrl": "https://github.com/comunica/comunica-feature-link-traversal",
   "entries": {
     "Benchmarks total results": [
@@ -1594,6 +1594,35 @@ window.BENCHMARK_DATA = {
           {
             "name": "SolidBench",
             "value": 9139,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "a658061cfe3123ea0a6f1cc6e92f556798bac8a3",
+          "message": "Update dependency ubuntu to v26",
+          "timestamp": "2026-10-21T01:21:24Z",
+          "tree_id": "2547206b08da4ca9196c8d24b9d0e25de0274456",
+          "url": "https://github.com/comunica/comunica-feature-link-traversal/commit/a658061cfe3123ea0a6f1cc6e92f556798bac8a3"
+        },
+        "date": 1792566520764,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "SolidBench",
+            "value": 9277,
             "unit": "ms"
           }
         ]
