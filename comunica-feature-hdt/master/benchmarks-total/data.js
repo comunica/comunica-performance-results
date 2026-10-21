@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1790441619329,
+  "lastUpdate": 1792546341549,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -2919,6 +2919,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT-10k",
             "value": 1335,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "0c1b58e701508b136b09ed642212c1db76914f7f",
+          "message": "Update dependency ubuntu to v26",
+          "timestamp": "2026-10-21T00:12:24Z",
+          "tree_id": "d8d9cee4aadf8725ee96aa94204734824d66d615",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/0c1b58e701508b136b09ed642212c1db76914f7f"
+        },
+        "date": 1792546340598,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2006,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-HDT-100",
+            "value": 24808,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 259,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT-10k",
+            "value": 1279,
             "unit": "ms"
           }
         ]
