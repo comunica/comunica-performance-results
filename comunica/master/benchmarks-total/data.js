@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792582623730,
+  "lastUpdate": 1792691800877,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15569,6 +15569,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 195554,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1f2da4f6405fe0e7ac45728b33f7952685112c95",
+          "message": "Temporarily skip failing SPARQL 1.2 syntax spec tests (#1898)",
+          "timestamp": "2026-10-22T19:02:03+02:00",
+          "tree_id": "ddeabe1188ca2e5e0ffddddec6f911340696cd5d",
+          "url": "https://github.com/comunica/comunica/commit/1f2da4f6405fe0e7ac45728b33f7952685112c95"
+        },
+        "date": 1792691799695,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2244,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22689,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 131,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1427,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1458,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 86645,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 239227,
             "unit": "ms"
           }
         ]
