@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792858265842,
+  "lastUpdate": 1792868142846,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15805,6 +15805,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 214231,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b3d6d0277bc478ef1393029dabcfa2b70b4b0d29",
+          "message": "Fix beforeActors not being respected in an indexed bus (#1904)",
+          "timestamp": "2026-10-24T20:13:37+02:00",
+          "tree_id": "5ed2a526e5e8feb4030034f7981956f873f56b0f",
+          "url": "https://github.com/comunica/comunica/commit/b3d6d0277bc478ef1393029dabcfa2b70b4b0d29"
+        },
+        "date": 1792868141847,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 547,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23659,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 97,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 419,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1103,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 59226,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 228353,
             "unit": "ms"
           }
         ]
