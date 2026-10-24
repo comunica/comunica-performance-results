@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792691800877,
+  "lastUpdate": 1792833826089,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15628,6 +15628,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 239227,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83fc2cebb19627d86b9dab94d11f64abbc9eb1fb",
+          "message": "Delegate seeking and term orders of sources (#1838)\n\nThis is necessary for merge joins to exploit source orders.",
+          "timestamp": "2026-10-24T10:53:55+02:00",
+          "tree_id": "a12a975e0294a7af03a6aca9df553c07092b0f64",
+          "url": "https://github.com/comunica/comunica/commit/83fc2cebb19627d86b9dab94d11f64abbc9eb1fb"
+        },
+        "date": 1792833824992,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 2241,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23696,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 170,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 1792,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1227,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 108914,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 200924,
             "unit": "ms"
           }
         ]
