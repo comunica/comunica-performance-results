@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792842127329,
+  "lastUpdate": 1792858265842,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15746,6 +15746,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 150364,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b38952ebc9cf03d14a8d695f98cea7e14aa96da9",
+          "message": "Add a multi-way merge join actor over 3+ entries sorted on shared variables (#1840)\n\nIn contrast to the binary merge join actor, this one can merge 3+ streams in a single pass.\nIt remains a separate actor, since the binary variant is less complex, so will be more efficient\nwhen just two entries need to be merged.",
+          "timestamp": "2026-10-24T17:23:57+02:00",
+          "tree_id": "057f3afa1d3f12b1df2c032888d8fc29d54ac2d7",
+          "url": "https://github.com/comunica/comunica/commit/b38952ebc9cf03d14a8d695f98cea7e14aa96da9"
+        },
+        "date": 1792858264799,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 558,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 20956,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 142,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 411,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1559,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 90106,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 214231,
             "unit": "ms"
           }
         ]
