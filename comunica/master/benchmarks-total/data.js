@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792833826089,
+  "lastUpdate": 1792842127329,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15687,6 +15687,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 200924,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7d024e821ed7b27bfd146053f669e7e86452ac35",
+          "message": "Load files into an ordered store (#1839)\n\nThis enables the faster merge join to be used over file sources.",
+          "timestamp": "2026-10-24T12:53:09+02:00",
+          "tree_id": "5c62961f557949deb483bee7c8936de77dc6f9e7",
+          "url": "https://github.com/comunica/comunica/commit/7d024e821ed7b27bfd146053f669e7e86452ac35"
+        },
+        "date": 1792842126308,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 361,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24135,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 102,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 521,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1130,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 84104,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 150364,
             "unit": "ms"
           }
         ]
