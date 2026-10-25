@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792868142846,
+  "lastUpdate": 1792909417820,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15864,6 +15864,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 228353,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "94142a506d193bdfc8a33b23ecd46e58125c0c6b",
+          "message": "Exclude type checking and mock engine factory in jest (#1905)\n\nThis significantly speeds up test runs, as this could otherwise cause CI issues.",
+          "timestamp": "2026-10-25T07:10:01+01:00",
+          "tree_id": "871bab09fa446604f3ab884f4ef74942ab15e3ce",
+          "url": "https://github.com/comunica/comunica/commit/94142a506d193bdfc8a33b23ecd46e58125c0c6b"
+        },
+        "date": 1792909417011,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 421,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23779,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 129,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 364,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1018,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 60136,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 151742,
             "unit": "ms"
           }
         ]
