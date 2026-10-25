@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792909417820,
+  "lastUpdate": 1792959729536,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15923,6 +15923,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 151742,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c5a6b0caae8d86bd47d1dd5e4d02b218e7b07891",
+          "message": "Add order-preserving union actor (#1888)\n\nWhen a union actor is marked as having potentially useful join orders\nby a new optimize actor, the order-preserving union actor is used over\nthe default one.\n\nFor example, this makes the LDBC SNB IC2 query run 5x faster.",
+          "timestamp": "2026-10-25T21:07:50+01:00",
+          "tree_id": "86923dc0fcd993db662d31b9183604c5547cbae2",
+          "url": "https://github.com/comunica/comunica/commit/c5a6b0caae8d86bd47d1dd5e4d02b218e7b07891"
+        },
+        "date": 1792959728500,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 431,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21601,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 101,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 429,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1572,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 93659,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 150297,
             "unit": "ms"
           }
         ]
