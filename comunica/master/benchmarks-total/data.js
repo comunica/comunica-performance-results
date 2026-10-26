@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792992445877,
+  "lastUpdate": 1792997023427,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16041,6 +16041,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 185256,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b461dd76e71afd6a15762cae089e76b27c739d0",
+          "message": "Update asyncjoin to 2.0.0 with SMI-optimized hash join (#1909)",
+          "timestamp": "2026-10-26T07:29:50+01:00",
+          "tree_id": "8a229061f759cae2dc85e54ff77883c50f2db869",
+          "url": "https://github.com/comunica/comunica/commit/8b461dd76e71afd6a15762cae089e76b27c739d0"
+        },
+        "date": 1792997022056,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 436,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24271,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 132,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 279,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 968,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 87599,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 146815,
             "unit": "ms"
           }
         ]
