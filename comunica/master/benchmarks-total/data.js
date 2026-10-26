@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792959729536,
+  "lastUpdate": 1792992445877,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -15982,6 +15982,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 150297,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5fa029cc0227c01878cc11e075d3d3131b6f8e84",
+          "message": "Fix murmur hashing not always returning SMIs (#1908)\n\nThis also uses a Set instead of Map in the hash-based DISTINCT actor.",
+          "timestamp": "2026-10-26T06:10:43+01:00",
+          "tree_id": "42e9df780ee255c8a8c2fe4b5e0d6730103534da",
+          "url": "https://github.com/comunica/comunica/commit/5fa029cc0227c01878cc11e075d3d3131b6f8e84"
+        },
+        "date": 1792992444985,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 584,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21620,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 114,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 248,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1518,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 82064,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 185256,
             "unit": "ms"
           }
         ]
