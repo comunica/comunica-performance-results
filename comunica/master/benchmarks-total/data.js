@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792997023427,
+  "lastUpdate": 1793013214683,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16100,6 +16100,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 146815,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9b43a2cf9d69ba04a2d751e53fb99ab29227ece6",
+          "message": "Fix extension function pushdown not sending the original query to endpoints (#1901)\n\nCloses #1899",
+          "timestamp": "2026-10-26T11:57:55+01:00",
+          "tree_id": "9967e8b4462fa56fb5ef6dc7477cbcf4ddee4cd0",
+          "url": "https://github.com/comunica/comunica/commit/9b43a2cf9d69ba04a2d751e53fb99ab29227ece6"
+        },
+        "date": 1793013213748,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 580,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26504,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 78,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 384,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1450,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 47161,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 189333,
             "unit": "ms"
           }
         ]
