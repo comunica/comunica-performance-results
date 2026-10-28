@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1792546341549,
+  "lastUpdate": 1793163259135,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -2963,6 +2963,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT-10k",
             "value": 1279,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "6a33fed4558ef1b3eaab25d8e33ad26b8bc42b8a",
+          "message": "Update Node.js to v26",
+          "timestamp": "2026-10-28T03:32:11Z",
+          "tree_id": "13f857e175bd33c389f91f0a4cbf1ec0f65807cd",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/6a33fed4558ef1b3eaab25d8e33ad26b8bc42b8a"
+        },
+        "date": 1793163258023,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 2294,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-HDT-100",
+            "value": 24806,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 271,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT-10k",
+            "value": 816,
             "unit": "ms"
           }
         ]
