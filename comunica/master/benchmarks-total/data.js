@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793013214683,
+  "lastUpdate": 1793286394656,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16159,6 +16159,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 189333,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ca810e7d013992b34683ff67b09d6233b6f27aa3",
+          "message": "Fix aggregates without GROUP BY reporting zero cardinality on empty input (#1916)\n\nAn aggregate without GROUP BY always produces exactly one solution, but over\nan empty pattern it advertised an exact cardinality of 0.",
+          "timestamp": "2026-10-29T15:31:28+01:00",
+          "tree_id": "e17c11362ae19d71522f56a7fc2158aa3827ee68",
+          "url": "https://github.com/comunica/comunica/commit/ca810e7d013992b34683ff67b09d6233b6f27aa3"
+        },
+        "date": 1793286393325,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 510,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25284,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 107,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 404,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1478,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 66031,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 149129,
             "unit": "ms"
           }
         ]
