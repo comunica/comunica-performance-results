@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793286394656,
+  "lastUpdate": 1793345639887,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16218,6 +16218,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 149129,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b8290880e041a2927b1641e8e24314792d5913c",
+          "message": "Raise the rdfjs-lite bundle size limit to 1.235 MB (#1918)",
+          "timestamp": "2026-10-30T07:35:30+01:00",
+          "tree_id": "9cd7a3890be714799acd4fdaba585ccc55fa7e7f",
+          "url": "https://github.com/comunica/comunica/commit/0b8290880e041a2927b1641e8e24314792d5913c"
+        },
+        "date": 1793345638899,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 300,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24321,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 33,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 131,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1565,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 25250,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 189428,
             "unit": "ms"
           }
         ]
