@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793345639887,
+  "lastUpdate": 1793356853689,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16277,6 +16277,65 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 189428,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3d9a8837c2fe3f72325b500a0e2e8ed4f4f56477",
+          "message": "Let index nested-loop joins propagate the term orders (#1919)\n\nThis allows them to be used within larger merge joins.",
+          "timestamp": "2026-10-30T11:10:45+01:00",
+          "tree_id": "d9eb5474b04955edfdb082ecf7d9cda3078bf6e1",
+          "url": "https://github.com/comunica/comunica/commit/3d9a8837c2fe3f72325b500a0e2e8ed4f4f56477"
+        },
+        "date": 1793356852732,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 265,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24492,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 58,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 148,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1450,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 26808,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 146847,
             "unit": "ms"
           }
         ]
