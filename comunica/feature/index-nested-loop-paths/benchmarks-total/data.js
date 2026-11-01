@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793374335865,
+  "lastUpdate": 1793530316567,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -58,6 +58,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 144616,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "committer": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "distinct": true,
+          "id": "08c85a81711274b0c71ba6aebf5ec49abf8e9a51",
+          "message": "Look up arbitrary length paths in index nested loop joins\n\nPaths over a single (inverse) predicate are walked synchronously from\ntheir bound subject or object, instead of being evaluated unbound and\njoined afterwards, which for ZeroOrMore paths enumerates every node.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_012cgUi7SRsskNRaXEatKfnw",
+          "timestamp": "2026-11-01T10:00:33Z",
+          "tree_id": "f11ccc22fc0d2290fffdc31bdac9baf6f1dada39",
+          "url": "https://github.com/comunica/comunica/commit/08c85a81711274b0c71ba6aebf5ec49abf8e9a51"
+        },
+        "date": 1793530315559,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 339,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25882,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 64,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 151,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1070,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 17377,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 311120,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 176771,
             "unit": "ms"
           }
         ]
