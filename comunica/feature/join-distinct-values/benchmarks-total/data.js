@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793408166360,
+  "lastUpdate": 1793529644273,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -58,6 +58,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 148051,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "committer": {
+            "email": "noreply@anthropic.com",
+            "name": "Claude",
+            "username": "claude"
+          },
+          "distinct": true,
+          "id": "d18ef9f32a3270b5e371409f8609be64bbb13417",
+          "message": "Count distinct subjects in RDF/JS sources and keep distinct values through joins\n\nQuerySourceRdfJs now also counts the distinct subjects of a pattern with a\nfixed predicate, cached per query execution, and caps distinct value counts\nat the pattern's cardinality. Join results keep the distinct values of their\nvariables instead of dropping them, so that join cardinalities further up in\na plan can still be estimated from them.\n\nWithout distinct subject counts, a subject variable was assumed to take a\ndifferent value in every binding, so one-to-many joins such as forums with\ntheir members or posts with their tags were estimated to not multiply their\ninput. This made LDBC SNB BI7 time out, and BI9 run out of memory.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_012cgUi7SRsskNRaXEatKfnw",
+          "timestamp": "2026-11-01T10:00:34Z",
+          "tree_id": "31e1036f40f51560d5668b71de935498acbe4f34",
+          "url": "https://github.com/comunica/comunica/commit/d18ef9f32a3270b5e371409f8609be64bbb13417"
+        },
+        "date": 1793529643200,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 378,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23895,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 40,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 149,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1491,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 21256,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 270562,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 194340,
             "unit": "ms"
           }
         ]
