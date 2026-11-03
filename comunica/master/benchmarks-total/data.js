@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793528521650,
+  "lastUpdate": 1793715842474,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16400,6 +16400,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 62446,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "43ea53e9bb3e9b3acea89d9274813daa820c6282",
+          "message": "Serialize SPARQL XML results in larger chunks (#1946)\n\nBindings are now chunked in at most 64 KiB to improve serialization performance.",
+          "timestamp": "2026-11-03T14:39:07+01:00",
+          "tree_id": "2c829d9b83c330812af7884831f35acb36515b36",
+          "url": "https://github.com/comunica/comunica/commit/43ea53e9bb3e9b3acea89d9274813daa820c6282"
+        },
+        "date": 1793715841332,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 242,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 13051,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 51,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 154,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1637,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 28409,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 320245,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 145401,
             "unit": "ms"
           }
         ]
