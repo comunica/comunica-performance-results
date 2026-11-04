@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793806039521,
+  "lastUpdate": 1793822445760,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16592,6 +16592,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 93258,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "55a70ad782bd107d6e1fecfef620cd5cd265ec54",
+          "message": "Skip skolemization for patterns over sources without blank nodes (#1940)\n\nThis can improve performance 10-20% on WatDiv and BSBM.",
+          "timestamp": "2026-11-04T20:18:57+01:00",
+          "tree_id": "14b8d0ab3f3167d23181c1841c02feda2fd29a9c",
+          "url": "https://github.com/comunica/comunica/commit/55a70ad782bd107d6e1fecfef620cd5cd265ec54"
+        },
+        "date": 1793822444518,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 213,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 13169,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 37,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 106,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1138,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 20148,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 359501,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 87305,
             "unit": "ms"
           }
         ]
