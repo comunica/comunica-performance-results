@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793779922190,
+  "lastUpdate": 1793806039521,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16528,6 +16528,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 177328,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "483dc3cfad79d24b6f6eb081e0113b0092658bba",
+          "message": "Time out queries in the SPARQL endpoint worker instead of the main process (#1941)\n\nThe communication with the main process caused unnecessary performance overhead.",
+          "timestamp": "2026-11-04T14:29:58+01:00",
+          "tree_id": "ca0c0e5c1f6b01016987f48a37363a8211816099",
+          "url": "https://github.com/comunica/comunica/commit/483dc3cfad79d24b6f6eb081e0113b0092658bba"
+        },
+        "date": 1793806038314,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 203,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 12801,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 40,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 123,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1693,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 22118,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 357302,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 93258,
             "unit": "ms"
           }
         ]
