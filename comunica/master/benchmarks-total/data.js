@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793822445760,
+  "lastUpdate": 1793865605970,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16656,6 +16656,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 87305,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b5eb94bb3b3736b6ce246d101e1ac61daaaa57e",
+          "message": "Run union annotation optimizer after path rewriter (#1949)\n\nThis ensures that alt property paths can benefit from union optimizations.",
+          "timestamp": "2026-11-05T08:43:20+01:00",
+          "tree_id": "639c8d45e6232c891d4e9cc2017d84b18cd98e3f",
+          "url": "https://github.com/comunica/comunica/commit/6b5eb94bb3b3736b6ce246d101e1ac61daaaa57e"
+        },
+        "date": 1793865604931,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 232,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22825,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 38,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 76,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1756,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 20502,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 265258,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 121398,
             "unit": "ms"
           }
         ]
