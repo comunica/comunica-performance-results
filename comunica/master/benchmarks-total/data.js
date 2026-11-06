@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793987100555,
+  "lastUpdate": 1793989888519,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16912,6 +16912,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 165467,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f551df387e72166d924ecd07df1442fcb9056822",
+          "message": "Add a warmup method, bus, and queries-sampled actor (#1942)\n\nSince JavaScript engines usually are JIT-based, they become more\nefficient after running the same code for a while.\nThis commit introduces a mechanism that allows the query engine\nto be warmed up by running a number of dummy queries.",
+          "timestamp": "2026-11-06T19:15:29+01:00",
+          "tree_id": "9cebd5a88d5f83f3bba1941b5c454937efa55865",
+          "url": "https://github.com/comunica/comunica/commit/f551df387e72166d924ecd07df1442fcb9056822"
+        },
+        "date": 1793989887343,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 191,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23585,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 34,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 80,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1479,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 18867,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 314681,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 151453,
             "unit": "ms"
           }
         ]
