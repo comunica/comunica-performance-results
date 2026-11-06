@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793885039352,
+  "lastUpdate": 1793981170521,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16784,6 +16784,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 125439,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a857ebed2264bb22ef318aaa59aebcf221c80d22",
+          "message": "Use native Map in Bindings instead of immutable.js\n\nAs most Bindings are usually small, copying a native Map is usually cheaper.\nFurthermore, lookups are more efficient.\nAcross WatDiv and LDBC, this leads to a 10% performance increase.\nThis also allows us to drop immutable.js as dependency, which leads to lower\nbundle sizes.",
+          "timestamp": "2026-11-06T16:36:58+01:00",
+          "tree_id": "ee28a05d03c1578aef710724d78591f144200e4f",
+          "url": "https://github.com/comunica/comunica/commit/a857ebed2264bb22ef318aaa59aebcf221c80d22"
+        },
+        "date": 1793981169113,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 198,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 21895,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 41,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 101,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1153,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 12745,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 327185,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 198336,
             "unit": "ms"
           }
         ]
