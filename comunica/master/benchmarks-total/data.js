@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793981170521,
+  "lastUpdate": 1793987100555,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -16848,6 +16848,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 198336,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e6f9d532965eb4d7b57792da4ff5360a8b0ab0b",
+          "message": "Use native Map in ActionContext instead of immutable.js (#1953)\n\nThis removes our last dependency on immutable.js.",
+          "timestamp": "2026-11-06T18:30:21+01:00",
+          "tree_id": "a93b587f7b1bb01246412af50f198365b0493123",
+          "url": "https://github.com/comunica/comunica/commit/0e6f9d532965eb4d7b57792da4ff5360a8b0ab0b"
+        },
+        "date": 1793987099478,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 201,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 13397,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 27,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 76,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1229,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 17463,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 245186,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 165467,
             "unit": "ms"
           }
         ]
