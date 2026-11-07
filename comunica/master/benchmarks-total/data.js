@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794081762005,
+  "lastUpdate": 1794084139392,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17296,6 +17296,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 145174,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "77a43a329aa4c510e2d8c190d24706ed08be3833",
+          "message": "Track ingestion time and memory usage in CI benchmarks (#1957)",
+          "timestamp": "2026-11-07T21:25:45+01:00",
+          "tree_id": "e1e9124df767ed7719d533dc7ffcdf0f86799b6d",
+          "url": "https://github.com/comunica/comunica/commit/77a43a329aa4c510e2d8c190d24706ed08be3833"
+        },
+        "date": 1794084138303,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 216.99999999999994,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22520.33333333334,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 37.487,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 82.28800000000001,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1200.025,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 10109.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 248473,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 199865.99999999994,
             "unit": "ms"
           }
         ]
