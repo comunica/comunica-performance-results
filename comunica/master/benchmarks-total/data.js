@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794067108736,
+  "lastUpdate": 1794078643335,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17168,6 +17168,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 223318.3333333334,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b3d0128a1148f6e55baf1d8a0cacf75a9c3d0519",
+          "message": "Track browser bundle sizes in CI (#1954)",
+          "timestamp": "2026-11-07T19:54:38+01:00",
+          "tree_id": "f9260271906b2de53293f9a42aa9bba602d5f73d",
+          "url": "https://github.com/comunica/comunica/commit/b3d0128a1148f6e55baf1d8a0cacf75a9c3d0519"
+        },
+        "date": 1794078642362,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 197.2,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23947.66666666666,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 43.685,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 93.377,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1573.2799999999997,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 11152.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 231911,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 166927.33333333337,
             "unit": "ms"
           }
         ]
