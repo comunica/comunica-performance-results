@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793994572288,
+  "lastUpdate": 1794040120039,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17040,6 +17040,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 237043,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "94f91eda5a87e6cbff7a1b2a0712d00ef7b8a809",
+          "message": "Update rdf-stores to 2.9.1 (#1956)",
+          "timestamp": "2026-11-07T09:09:47+01:00",
+          "tree_id": "6f3d865541561e9ca98827561e6a63e440e83a93",
+          "url": "https://github.com/comunica/comunica/commit/94f91eda5a87e6cbff7a1b2a0712d00ef7b8a809"
+        },
+        "date": 1794040118907,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 150.2,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 18036.000000000004,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 44.120000000000005,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 85.385,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 916.937,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 14805.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 285071,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 225279.3333333333,
             "unit": "ms"
           }
         ]
