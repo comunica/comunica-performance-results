@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794326837646,
+  "lastUpdate": 1794336764480,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17488,6 +17488,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 148373.66666666666,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b91acc3e41c26152401db6c2a0d4c6041d0bdff",
+          "message": "Skip metadata extraction for forced file sources (#1965)\n\nThis avoids buffering, which leads to significantly faster ingestion\nand lower memory requirements during file source loading.",
+          "timestamp": "2026-11-10T19:37:16+01:00",
+          "tree_id": "3a545ea59d190f75db026124b2432d74864fb3ee",
+          "url": "https://github.com/comunica/comunica/commit/2b91acc3e41c26152401db6c2a0d4c6041d0bdff"
+        },
+        "date": 1794336763372,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 227.2,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 25139.666666666664,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 45.14,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 98.25199999999998,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 943.649,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 15573,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 229304,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 183915.66666666666,
             "unit": "ms"
           }
         ]
