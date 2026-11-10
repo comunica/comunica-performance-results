@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794160535043,
+  "lastUpdate": 1794326837646,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17424,6 +17424,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 214584.33333333334,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "55c690b2ce5e48e44daa184e0aa6b34cbd133108",
+          "message": "Fix one-or-more paths with equal variables not considering multi-hops (#1963)\n\nThey would only consider single predicates if subject and object were equal,\nbut not if they would be connected by multiple predicates.\n\nCloses #1961",
+          "timestamp": "2026-11-10T16:45:57+01:00",
+          "tree_id": "8f04b12c766ad762ac1075695c7a2ae1ddbe63c6",
+          "url": "https://github.com/comunica/comunica/commit/55c690b2ce5e48e44daa184e0aa6b34cbd133108"
+        },
+        "date": 1794326836145,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 232.79999999999995,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 19419,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 60.42,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 57.53699999999999,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1478.234,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 18031,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 205115,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 148373.66666666666,
             "unit": "ms"
           }
         ]
