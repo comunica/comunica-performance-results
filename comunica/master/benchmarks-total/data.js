@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794416523171,
+  "lastUpdate": 1794481349827,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17616,6 +17616,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 142427.66666666666,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9f6369dc8cdccea4780e9c1a5691e334ddba645e",
+          "message": "Also discover SPARQL service descriptions via service-desc Link headers (#1970)\n\nThis is a new feature in SPARQL 1.2.",
+          "timestamp": "2026-11-12T11:44:59+01:00",
+          "tree_id": "1d38c03cd838064ae6fe5c99dd4593c3ed7ae72e",
+          "url": "https://github.com/comunica/comunica/commit/9f6369dc8cdccea4780e9c1a5691e334ddba645e"
+        },
+        "date": 1794481348613,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 132.39999999999998,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 18053.333333333332,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 36.132999999999996,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 93.65199999999999,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1177.9750000000001,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 13383,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 238961,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 140881.00000000003,
             "unit": "ms"
           }
         ]
