@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794546796125,
+  "lastUpdate": 1794554312406,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17744,6 +17744,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 142267,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f752c58624df1233de616fa0f35a37e29c4cc204",
+          "message": "Add Node.js versions badge to READMEs (#1972)\n\nCloses #1969",
+          "timestamp": "2026-11-13T08:05:16+01:00",
+          "tree_id": "d703e8e7861ca3e9a26ed595c357ca5e1a3b0735",
+          "url": "https://github.com/comunica/comunica/commit/f752c58624df1233de616fa0f35a37e29c4cc204"
+        },
+        "date": 1794554311515,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 216.6,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 12947.999999999998,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 50.035,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 65.742,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1495.0420000000001,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 9973,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 209394,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 170636,
             "unit": "ms"
           }
         ]
