@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794481349827,
+  "lastUpdate": 1794546796125,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17680,6 +17680,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 140881.00000000003,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6680b1d3dd3676716b1f0c403501c3f70400fb0d",
+          "message": "Improve planner accuracy of bind over local sources (#1971)\n\nThe new `localCost` is now used instead of `subQueryCost`\nfor local sources, which resolves performance regressions over HDT.",
+          "timestamp": "2026-11-13T05:51:27+01:00",
+          "tree_id": "fc8b695d4ce6746ff4402f9dda1a6c6b3be32018",
+          "url": "https://github.com/comunica/comunica/commit/6680b1d3dd3676716b1f0c403501c3f70400fb0d"
+        },
+        "date": 1794546795186,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 153.80000000000004,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23002.33333333333,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 44.071000000000005,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 94.314,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1523.019,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 12535,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 216401,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 142267,
             "unit": "ms"
           }
         ]
