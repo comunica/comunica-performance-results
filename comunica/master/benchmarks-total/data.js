@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794554312406,
+  "lastUpdate": 1794652316213,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17808,6 +17808,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 170636,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "84657dfaa90f4eec4777879ced1270680d922bd6",
+          "message": "Fix crash when HTTP invalidating non-URLs (#1977)",
+          "timestamp": "2026-11-14T11:01:55+01:00",
+          "tree_id": "486c9e668d3b0ecc20d700fa491e6ccb33899f46",
+          "url": "https://github.com/comunica/comunica/commit/84657dfaa90f4eec4777879ced1270680d922bd6"
+        },
+        "date": 1794652315276,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 139.40000000000003,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 24542.666666666668,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 48.12799999999999,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 87.661,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1167.7290000000003,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 12745,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 212481,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 205331.3333333334,
             "unit": "ms"
           }
         ]
