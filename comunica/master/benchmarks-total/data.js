@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794652316213,
+  "lastUpdate": 1794749117257,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17872,6 +17872,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 205331.3333333334,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6be20b6d64fc8c8d0c8398847c2f802efc710737",
+          "message": "Only fetch distinct objects from sources that efficiently support them (#1981)",
+          "timestamp": "2026-11-15T13:56:32+01:00",
+          "tree_id": "fd5b88d8a9666d37dbe459cd56fdce8fc8e44bcd",
+          "url": "https://github.com/comunica/comunica/commit/6be20b6d64fc8c8d0c8398847c2f802efc710737"
+        },
+        "date": 1794749116445,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 136.6,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 26063.333333333332,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 29.869,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 114.434,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1479.957,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 15208.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 276023,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 185105.3333333333,
             "unit": "ms"
           }
         ]
