@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794650822767,
+  "lastUpdate": 1794747529777,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Bundle sizes": [
@@ -1735,6 +1735,130 @@ window.BENCHMARK_DATA = {
           {
             "name": "query-sparql-rdfjs-lite (vite) - gzipped",
             "value": 235503,
+            "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6be20b6d64fc8c8d0c8398847c2f802efc710737",
+          "message": "Only fetch distinct objects from sources that efficiently support them (#1981)",
+          "timestamp": "2026-11-15T13:56:32+01:00",
+          "tree_id": "fd5b88d8a9666d37dbe459cd56fdce8fc8e44bcd",
+          "url": "https://github.com/comunica/comunica/commit/6be20b6d64fc8c8d0c8398847c2f802efc710737"
+        },
+        "date": 1794747528930,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "expressions-sparql (webpack) - minified",
+            "value": 809555,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (webpack) - gzipped",
+            "value": 168814,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (vite) - minified",
+            "value": 789222,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (vite) - gzipped",
+            "value": 169813,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (webpack) - minified",
+            "value": 2304702,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (webpack) - gzipped",
+            "value": 529835,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (vite) - minified",
+            "value": 2247761,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (vite) - gzipped",
+            "value": 535110,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (webpack) - minified",
+            "value": 2304702,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (webpack) - gzipped",
+            "value": 529832,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (vite) - minified",
+            "value": 2247761,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (vite) - gzipped",
+            "value": 535110,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (webpack) - minified",
+            "value": 1659432,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (webpack) - gzipped",
+            "value": 354226,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (vite) - minified",
+            "value": 1616246,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (vite) - gzipped",
+            "value": 356890,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (webpack) - minified",
+            "value": 1169335,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (webpack) - gzipped",
+            "value": 234657,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (vite) - minified",
+            "value": 1136319,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (vite) - gzipped",
+            "value": 235514,
             "unit": "bytes"
           }
         ]
