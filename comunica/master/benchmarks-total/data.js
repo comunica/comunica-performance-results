@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794749117257,
+  "lastUpdate": 1794824197613,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -17936,6 +17936,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 185105.3333333333,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b1f161e6150ef1234fb99b462349916a7240315f",
+          "message": "Update rdf-stores to 2.10.3 (#2013)\n\nThis allows larger datasets to be stored in memory.\nThis slightly reduces storage sizes and improves execution times.",
+          "timestamp": "2026-11-16T10:55:42+01:00",
+          "tree_id": "6f4e8ba64e7897e818d81b88244c8e6f842daaf5",
+          "url": "https://github.com/comunica/comunica/commit/b1f161e6150ef1234fb99b462349916a7240315f"
+        },
+        "date": 1794824196712,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 216.19999999999996,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23871.666666666675,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 33.208,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 65.354,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1034.8629999999998,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 18011.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 290508,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 235193,
             "unit": "ms"
           }
         ]
