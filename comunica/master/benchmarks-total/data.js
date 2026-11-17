@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794824197613,
+  "lastUpdate": 1794928132910,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -18000,6 +18000,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 235193,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3b80bbc0451fb2fadac9f82ddb1bce85261e1b2e",
+          "message": "Fix adding yearMonthDurations not considering proper month ends (#1974)\n\nRelated to #1973",
+          "timestamp": "2026-11-17T15:53:34+01:00",
+          "tree_id": "a4b937707604eabb5f49e8b7b0e4e90bdf614ee8",
+          "url": "https://github.com/comunica/comunica/commit/3b80bbc0451fb2fadac9f82ddb1bce85261e1b2e"
+        },
+        "date": 1794928131943,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 137.20000000000002,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23658.666666666664,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 36.145,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 101.17,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1077.891,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 19040.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 220566,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 143271.6666666666,
             "unit": "ms"
           }
         ]
