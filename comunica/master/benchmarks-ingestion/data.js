@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794928139661,
+  "lastUpdate": 1794930369328,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks ingestion results": [
@@ -1128,6 +1128,102 @@ window.BENCHMARK_DATA = {
             "value": 100,
             "unit": "MiB",
             "extra": "Triples: 1093014; Per triple: 96 bytes; Runs: [100,103,103,100,100]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "57c668c39143e135c3c5cd077ec12804590ca649",
+          "message": "Fix string = and < not using codepoint collation (#1975)\n\nRelated to #1973",
+          "timestamp": "2026-11-17T16:22:48+01:00",
+          "tree_id": "416f574c95c539c3976cf80c9d1f2fbe6b307881",
+          "url": "https://github.com/comunica/comunica/commit/57c668c39143e135c3c5cd077ec12804590ca649"
+        },
+        "date": 1794930368010,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "bsbm-file-10k - ingestion time",
+            "value": 9719,
+            "unit": "ms",
+            "extra": "Triples: 3564773; Throughput: 366784 triples/s; Runs: [9719,9851,9646,9747,9700]"
+          },
+          {
+            "name": "bsbm-file-10k - memory after ingestion",
+            "value": 785,
+            "unit": "MiB",
+            "extra": "Triples: 3564773; Per triple: 231 bytes; Runs: [785,781,784,785,785]; Heap used: [351,351,351,351,351]; External: [248,248,248,248,248]"
+          },
+          {
+            "name": "bsbm-file-10k - store size after ingestion",
+            "value": 558,
+            "unit": "MiB",
+            "extra": "Triples: 3564773; Per triple: 164 bytes; Runs: [558,558,558,558,558]"
+          },
+          {
+            "name": "bsbm-file - ingestion time",
+            "value": 831,
+            "unit": "ms",
+            "extra": "Triples: 374911; Throughput: 451156 triples/s; Runs: [822,878,830,831,833]"
+          },
+          {
+            "name": "bsbm-file - memory after ingestion",
+            "value": 240,
+            "unit": "MiB",
+            "extra": "Triples: 374911; Per triple: 671 bytes; Runs: [240,245,236,238,245]; Heap used: [73,73,73,73,73]; External: [32,32,32,32,32]"
+          },
+          {
+            "name": "bsbm-file - store size after ingestion",
+            "value": 64,
+            "unit": "MiB",
+            "extra": "Triples: 374911; Per triple: 179 bytes; Runs: [64,64,64,64,64]"
+          },
+          {
+            "name": "ldbc-snb-file - ingestion time",
+            "value": 14898,
+            "unit": "ms",
+            "extra": "Triples: 4028513; Throughput: 270406 triples/s; Runs: [14903,14898,14870,14924,14855]"
+          },
+          {
+            "name": "ldbc-snb-file - memory after ingestion",
+            "value": 791,
+            "unit": "MiB",
+            "extra": "Triples: 4028513; Per triple: 206 bytes; Runs: [802,786,791,786,818]; Heap used: [330,330,330,330,330]; External: [284,284,284,284,284]"
+          },
+          {
+            "name": "ldbc-snb-file - store size after ingestion",
+            "value": 573,
+            "unit": "MiB",
+            "extra": "Triples: 4028513; Per triple: 149 bytes; Runs: [573,573,573,573,573]"
+          },
+          {
+            "name": "watdiv-file - ingestion time",
+            "value": 2107,
+            "unit": "ms",
+            "extra": "Triples: 1093014; Throughput: 518754 triples/s; Runs: [2116,2118,2089,2088,2107]"
+          },
+          {
+            "name": "watdiv-file - memory after ingestion",
+            "value": 268,
+            "unit": "MiB",
+            "extra": "Triples: 1093014; Per triple: 257 bytes; Runs: [265,268,269,263,268]; Heap used: [53,53,53,53,56]; External: [88,88,88,88,88]"
+          },
+          {
+            "name": "watdiv-file - store size after ingestion",
+            "value": 100,
+            "unit": "MiB",
+            "extra": "Triples: 1093014; Per triple: 96 bytes; Runs: [100,100,100,100,103]"
           }
         ]
       }
