@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795243741898,
+  "lastUpdate": 1795258258417,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Bundle sizes": [
@@ -2255,6 +2255,130 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/comunica/comunica/commit/5397d161c6ae97534df527af21b54a997c8e3d0b"
         },
         "date": 1795243740901,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "expressions-sparql (webpack) - minified",
+            "value": 809929,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (webpack) - gzipped",
+            "value": 168969,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (vite) - minified",
+            "value": 789582,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (vite) - gzipped",
+            "value": 169990,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (webpack) - minified",
+            "value": 2308798,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (webpack) - gzipped",
+            "value": 530619,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (vite) - minified",
+            "value": 2251750,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (vite) - gzipped",
+            "value": 536219,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (webpack) - minified",
+            "value": 2308798,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (webpack) - gzipped",
+            "value": 530617,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (vite) - minified",
+            "value": 2251750,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (vite) - gzipped",
+            "value": 536219,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (webpack) - minified",
+            "value": 1659806,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (webpack) - gzipped",
+            "value": 354370,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (vite) - minified",
+            "value": 1616606,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (vite) - gzipped",
+            "value": 357049,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (webpack) - minified",
+            "value": 1169709,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (webpack) - gzipped",
+            "value": 234815,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (vite) - minified",
+            "value": 1136679,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (vite) - gzipped",
+            "value": 235680,
+            "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aef4a4c12e287935ac4c0870bc236f155fec3758",
+          "message": "Build and deploy web clients for development branches and releases (#2023)",
+          "timestamp": "2026-11-21T11:47:54+01:00",
+          "tree_id": "9bd08cb740b64f546d55edd0e0ba47b345a8cf87",
+          "url": "https://github.com/comunica/comunica/commit/aef4a4c12e287935ac4c0870bc236f155fec3758"
+        },
+        "date": 1795258257324,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
