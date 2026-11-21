@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795259277857,
+  "lastUpdate": 1795264851796,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -18256,6 +18256,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 209726.33333333328,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5dac5bca42aa481e7a5a63088b536db0707a296e",
+          "message": "Replace uuid with a minimal UUID v4 implementation (#2026)\n\nThe uuid package contained many things we did not need,\nwhich made our bundle size unnecessarily large.",
+          "timestamp": "2026-11-21T13:16:30+01:00",
+          "tree_id": "167ced7738d13d485c4e9d7996417cf9d9fd87e7",
+          "url": "https://github.com/comunica/comunica/commit/5dac5bca42aa481e7a5a63088b536db0707a296e"
+        },
+        "date": 1795264850810,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 197.2,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23978.999999999996,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 27.12,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 65.72899999999998,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1174.456,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 16755,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 214489,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 142535.3333333333,
             "unit": "ms"
           }
         ]
