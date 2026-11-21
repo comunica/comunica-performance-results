@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1794930365221,
+  "lastUpdate": 1795244759798,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -18128,6 +18128,70 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 181058.33333333334,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5397d161c6ae97534df527af21b54a997c8e3d0b",
+          "message": "Fix release builds and images not being deployed anymore (#2022)",
+          "timestamp": "2026-11-21T07:46:35+01:00",
+          "tree_id": "df0498b7917dcfdc8e37e47da336e7b40831e8cf",
+          "url": "https://github.com/comunica/comunica/commit/5397d161c6ae97534df527af21b54a997c8e3d0b"
+        },
+        "date": 1795244758818,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 150,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 15602.66666666667,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 37.82599999999999,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 98.055,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1078.126,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 16379.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 208362,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 185410.33333333328,
             "unit": "ms"
           }
         ]
