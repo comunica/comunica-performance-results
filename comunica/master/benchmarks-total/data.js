@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795303653442,
+  "lastUpdate": 1795331699222,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -18517,6 +18517,75 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 209579.99999999997,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b58d5faed2396b698c801e3fb59fe9976ec89e12",
+          "message": "Fix SPARQL XML serializer not escaping all illegal characters (#1985)\n\nCharacters such as U+0003 and U+0019 are now replaced by U+FFFD.",
+          "timestamp": "2026-11-22T07:55:44+01:00",
+          "tree_id": "beb92191ea84c236d7e3232de631dbff5f64d9e9",
+          "url": "https://github.com/comunica/comunica/commit/b58d5faed2396b698c801e3fb59fe9976ec89e12"
+        },
+        "date": 1795331698213,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 187.79999999999998,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 15101.000000000004,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 43.603,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 94.901,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1498.3999999999999,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 17066.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 209474,
+            "unit": "ms"
+          },
+          {
+            "name": "LargeRDFBench-File",
+            "value": 68508,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 222559.00000000003,
             "unit": "ms"
           }
         ]
