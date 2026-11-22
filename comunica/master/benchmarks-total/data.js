@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795331699222,
+  "lastUpdate": 1795338309573,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -18586,6 +18586,75 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 222559.00000000003,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cc775f18fa045adc5c291c5dbea43ecff80bdcc4",
+          "message": "Prefer SPARQL JSON results over our custom JSON format in content negotiation (#1986)",
+          "timestamp": "2026-11-22T09:39:12+01:00",
+          "tree_id": "b75b7e9ccd24146aca9759957d8893af9d354a91",
+          "url": "https://github.com/comunica/comunica/commit/cc775f18fa045adc5c291c5dbea43ecff80bdcc4"
+        },
+        "date": 1795338308762,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 173.39999999999998,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 22873.666666666668,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 35.24399999999999,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 89.881,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1457.5260000000003,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 10910.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 304982,
+            "unit": "ms"
+          },
+          {
+            "name": "LargeRDFBench-File",
+            "value": 104169,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 148753.99999999997,
             "unit": "ms"
           }
         ]
