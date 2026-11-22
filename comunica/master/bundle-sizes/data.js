@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795294465792,
+  "lastUpdate": 1795330654267,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Bundle sizes": [
@@ -3079,6 +3079,130 @@ window.BENCHMARK_DATA = {
           {
             "name": "query-sparql-rdfjs (vite) - gzipped",
             "value": 353884,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (webpack) - minified",
+            "value": 1156602,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (webpack) - gzipped",
+            "value": 231445,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (vite) - minified",
+            "value": 1124025,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (vite) - gzipped",
+            "value": 232497,
+            "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b58d5faed2396b698c801e3fb59fe9976ec89e12",
+          "message": "Fix SPARQL XML serializer not escaping all illegal characters (#1985)\n\nCharacters such as U+0003 and U+0019 are now replaced by U+FFFD.",
+          "timestamp": "2026-11-22T07:55:44+01:00",
+          "tree_id": "beb92191ea84c236d7e3232de631dbff5f64d9e9",
+          "url": "https://github.com/comunica/comunica/commit/b58d5faed2396b698c801e3fb59fe9976ec89e12"
+        },
+        "date": 1795330653230,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "expressions-sparql (webpack) - minified",
+            "value": 796822,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (webpack) - gzipped",
+            "value": 165754,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (vite) - minified",
+            "value": 776927,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (vite) - gzipped",
+            "value": 166978,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (webpack) - minified",
+            "value": 2173911,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (webpack) - gzipped",
+            "value": 499662,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (vite) - minified",
+            "value": 2119817,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (vite) - gzipped",
+            "value": 504870,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (webpack) - minified",
+            "value": 2173911,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (webpack) - gzipped",
+            "value": 499661,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (vite) - minified",
+            "value": 2119817,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (vite) - gzipped",
+            "value": 504870,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (webpack) - minified",
+            "value": 1646817,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (webpack) - gzipped",
+            "value": 351185,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (vite) - minified",
+            "value": 1604096,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (vite) - gzipped",
+            "value": 353937,
             "unit": "bytes"
           },
           {
