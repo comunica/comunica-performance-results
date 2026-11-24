@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795530028347,
+  "lastUpdate": 1795532805534,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks detailed results": [
@@ -225898,6 +225898,1044 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web - other/rubens-articles",
             "value": 9714.333333333334,
+            "unit": "ms",
+            "extra": "Results: [111]; Error: [false]; HTTP Requests: [58]"
+          },
+          {
+            "name": "Web - failed queries",
+            "value": 2,
+            "unit": "failed instantiations",
+            "extra": "heterogeneous/lindas-rhea-identifiers: 1/1 failed; heterogeneous/wikidata-dbpedia-cats: 1/1 failed"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "3a258e018a9c5f0b03f531b30ee1cdc659b5b7c9",
+          "message": "Bump to release version v5.5.0",
+          "timestamp": "2026-11-24T15:44:07+01:00",
+          "tree_id": "b4afd4ccd90802f4f93bb626cab510e98cd04a0e",
+          "url": "https://github.com/comunica/comunica/commit/3a258e018a9c5f0b03f531b30ee1cdc659b5b7c9"
+        },
+        "date": 1795532804423,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File - C1",
+            "value": 3.8,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - C2",
+            "value": 12.8,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - C3",
+            "value": 95.6,
+            "unit": "ms",
+            "extra": "Results: [48802,48802,48802,48802,48802]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - F1",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - F2",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [0,0,1,1,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - F3",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [2,2,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - F4",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [0,0,12,12,12]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - F5",
+            "value": 4,
+            "unit": "ms",
+            "extra": "Results: [32,32,40,56,22]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - L1",
+            "value": 2.8,
+            "unit": "ms",
+            "extra": "Results: [1,5,5,1,5]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - L2",
+            "value": 2.8,
+            "unit": "ms",
+            "extra": "Results: [3,3,3,40,3]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - L3",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [69,33,12,12,69]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - L4",
+            "value": 2.4,
+            "unit": "ms",
+            "extra": "Results: [6,7,6,6,6]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - L5",
+            "value": 2.8,
+            "unit": "ms",
+            "extra": "Results: [1,4,4,22,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S1",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [4,0,7,4,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S2",
+            "value": 2.6,
+            "unit": "ms",
+            "extra": "Results: [2,1,1,2,1]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S3",
+            "value": 2.8,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S4",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S5",
+            "value": 2.2,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S6",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [1,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - S7",
+            "value": 2,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [0,0,0,0,0]"
+          },
+          {
+            "name": "WatDiv-File - failed queries",
+            "value": 0,
+            "unit": "failed instantiations",
+            "extra": "None"
+          },
+          {
+            "name": "WatDiv-TPF - C1",
+            "value": 1079.3333333333333,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [940,940,940,940,940]"
+          },
+          {
+            "name": "WatDiv-TPF - C2",
+            "value": 3102.6666666666665,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [2191,2191,2191,2191,2191]"
+          },
+          {
+            "name": "WatDiv-TPF - C3",
+            "value": 17032,
+            "unit": "ms",
+            "extra": "Results: [48802,48802,48802,48802,48802]; Error: [false,false,false,false,false]; HTTP Requests: [20454,20454,20454,20454,20454]"
+          },
+          {
+            "name": "WatDiv-TPF - F1",
+            "value": 67.66666666666667,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [43,43,43,43,43]"
+          },
+          {
+            "name": "WatDiv-TPF - F2",
+            "value": 356.6666666666667,
+            "unit": "ms",
+            "extra": "Results: [0,0,1,1,1]; Error: [false,false,false,false,false]; HTTP Requests: [444,84,381,381,381]"
+          },
+          {
+            "name": "WatDiv-TPF - F3",
+            "value": 241.33333333333334,
+            "unit": "ms",
+            "extra": "Results: [2,2,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [274,274,19,229,190]"
+          },
+          {
+            "name": "WatDiv-TPF - F4",
+            "value": 283.6666666666667,
+            "unit": "ms",
+            "extra": "Results: [0,0,12,12,12]; Error: [false,false,false,false,false]; HTTP Requests: [305,305,296,296,296]"
+          },
+          {
+            "name": "WatDiv-TPF - F5",
+            "value": 440.6666666666667,
+            "unit": "ms",
+            "extra": "Results: [32,32,40,56,22]; Error: [false,false,false,false,false]; HTTP Requests: [338,338,400,594,189]"
+          },
+          {
+            "name": "WatDiv-TPF - L1",
+            "value": 78.66666666666667,
+            "unit": "ms",
+            "extra": "Results: [1,5,5,1,5]; Error: [false,false,false,false,false]; HTTP Requests: [42,44,56,40,56]"
+          },
+          {
+            "name": "WatDiv-TPF - L2",
+            "value": 33.333333333333336,
+            "unit": "ms",
+            "extra": "Results: [3,3,3,40,3]; Error: [false,false,false,false,false]; HTTP Requests: [10,10,10,15,10]"
+          },
+          {
+            "name": "WatDiv-TPF - L3",
+            "value": 55.666666666666664,
+            "unit": "ms",
+            "extra": "Results: [69,33,12,12,69]; Error: [false,false,false,false,false]; HTTP Requests: [35,34,48,48,35]"
+          },
+          {
+            "name": "WatDiv-TPF - L4",
+            "value": 19.333333333333332,
+            "unit": "ms",
+            "extra": "Results: [6,7,6,6,6]; Error: [false,false,false,false,false]; HTTP Requests: [5,5,5,5,5]"
+          },
+          {
+            "name": "WatDiv-TPF - L5",
+            "value": 36,
+            "unit": "ms",
+            "extra": "Results: [1,4,4,22,1]; Error: [false,false,false,false,false]; HTTP Requests: [10,10,10,15,10]"
+          },
+          {
+            "name": "WatDiv-TPF - S1",
+            "value": 352.6666666666667,
+            "unit": "ms",
+            "extra": "Results: [4,0,7,4,0]; Error: [false,false,false,false,false]; HTTP Requests: [410,346,1003,410,794]"
+          },
+          {
+            "name": "WatDiv-TPF - S2",
+            "value": 77.33333333333333,
+            "unit": "ms",
+            "extra": "Results: [2,1,1,2,1]; Error: [false,false,false,false,false]; HTTP Requests: [155,80,80,155,80]"
+          },
+          {
+            "name": "WatDiv-TPF - S3",
+            "value": 21.333333333333332,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [7,7,7,7,7]"
+          },
+          {
+            "name": "WatDiv-TPF - S4",
+            "value": 278.3333333333333,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [90,90,9,90,90]"
+          },
+          {
+            "name": "WatDiv-TPF - S5",
+            "value": 21.666666666666668,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [7,7,7,7,7]"
+          },
+          {
+            "name": "WatDiv-TPF - S6",
+            "value": 22.666666666666668,
+            "unit": "ms",
+            "extra": "Results: [1,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [96,4,18,14,6]"
+          },
+          {
+            "name": "WatDiv-TPF - S7",
+            "value": 11.666666666666666,
+            "unit": "ms",
+            "extra": "Results: [0,0,0,0,0]; Error: [false,false,false,false,false]; HTTP Requests: [4,4,4,4,10]"
+          },
+          {
+            "name": "WatDiv-TPF - failed queries",
+            "value": 0,
+            "unit": "failed instantiations",
+            "extra": "None"
+          },
+          {
+            "name": "BSBM-File - 1",
+            "value": 2.765,
+            "unit": "ms",
+            "extra": "Results: [0.4]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 2",
+            "value": 5.01,
+            "unit": "ms",
+            "extra": "Results: [19.93]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 3",
+            "value": 3.847,
+            "unit": "ms",
+            "extra": "Results: [0.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 4",
+            "value": 3.93,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 5",
+            "value": 9.886000000000001,
+            "unit": "ms",
+            "extra": "Results: [2.97]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 6",
+            "value": 0,
+            "unit": "ms",
+            "extra": "Results: [undefined]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 7",
+            "value": 4.34,
+            "unit": "ms",
+            "extra": "Results: [9.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 8",
+            "value": 4.585999999999999,
+            "unit": "ms",
+            "extra": "Results: [4.67]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 9",
+            "value": 1.782,
+            "unit": "ms",
+            "extra": "Results: [629.72]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 10",
+            "value": 3.427,
+            "unit": "ms",
+            "extra": "Results: [2.43]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 11",
+            "value": 1.538,
+            "unit": "ms",
+            "extra": "Results: [10]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - 12",
+            "value": 2.186,
+            "unit": "ms",
+            "extra": "Results: [1123.93]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File - failed queries",
+            "value": 0,
+            "unit": "failed instantiations",
+            "extra": "None"
+          },
+          {
+            "name": "BSBM-File-10k - 1",
+            "value": 2.34,
+            "unit": "ms",
+            "extra": "Results: [1.3]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 2",
+            "value": 4.267,
+            "unit": "ms",
+            "extra": "Results: [21]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 3",
+            "value": 4.385,
+            "unit": "ms",
+            "extra": "Results: [0.8]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 4",
+            "value": 3.438,
+            "unit": "ms",
+            "extra": "Results: [0.9]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 5",
+            "value": 44.89,
+            "unit": "ms",
+            "extra": "Results: [4.85]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 6",
+            "value": 0,
+            "unit": "ms",
+            "extra": "Results: [undefined]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 7",
+            "value": 4.473000000000001,
+            "unit": "ms",
+            "extra": "Results: [15.28]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 8",
+            "value": 3.771,
+            "unit": "ms",
+            "extra": "Results: [3.95]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 9",
+            "value": 1.488,
+            "unit": "ms",
+            "extra": "Results: [630.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 10",
+            "value": 2.932,
+            "unit": "ms",
+            "extra": "Results: [2.05]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 11",
+            "value": 1.3699999999999999,
+            "unit": "ms",
+            "extra": "Results: [10]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - 12",
+            "value": 1.879,
+            "unit": "ms",
+            "extra": "Results: [1142]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-File-10k - failed queries",
+            "value": 0,
+            "unit": "failed instantiations",
+            "extra": "None"
+          },
+          {
+            "name": "BSBM-TPF - 1",
+            "value": 21.732000000000003,
+            "unit": "ms",
+            "extra": "Results: [0.4]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 2",
+            "value": 56.47,
+            "unit": "ms",
+            "extra": "Results: [19.93]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 3",
+            "value": 33.987,
+            "unit": "ms",
+            "extra": "Results: [0.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 4",
+            "value": 42.457,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 5",
+            "value": 520.889,
+            "unit": "ms",
+            "extra": "Results: [2.97]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 6",
+            "value": 0,
+            "unit": "ms",
+            "extra": "Results: [undefined]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 7",
+            "value": 155.384,
+            "unit": "ms",
+            "extra": "Results: [9.2]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 8",
+            "value": 133.947,
+            "unit": "ms",
+            "extra": "Results: [4.67]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 9",
+            "value": 10.855,
+            "unit": "ms",
+            "extra": "Results: [629.72]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 10",
+            "value": 133.322,
+            "unit": "ms",
+            "extra": "Results: [2.43]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 11",
+            "value": 8.48,
+            "unit": "ms",
+            "extra": "Results: [10]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - 12",
+            "value": 22.525,
+            "unit": "ms",
+            "extra": "Results: [1123.93]; Error: []; HTTP Requests: []"
+          },
+          {
+            "name": "BSBM-TPF - failed queries",
+            "value": 0,
+            "unit": "failed instantiations",
+            "extra": "None"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-1",
+            "value": 1186,
+            "unit": "ms",
+            "extra": "Results: [0,4]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-10",
+            "value": 4296,
+            "unit": "ms",
+            "extra": "Results: [10,10]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-11",
+            "value": 47,
+            "unit": "ms",
+            "extra": "Results: [0,0]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-12",
+            "value": 70.5,
+            "unit": "ms",
+            "extra": "Results: [1,1]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-13",
+            "value": 281.5,
+            "unit": "ms",
+            "extra": "Results: [1,1]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-2",
+            "value": 306,
+            "unit": "ms",
+            "extra": "Results: [20,20]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-4",
+            "value": 197,
+            "unit": "ms",
+            "extra": "Results: [3,3]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-5",
+            "value": 2625,
+            "unit": "ms",
+            "extra": "Results: [0,20]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-6",
+            "value": 53,
+            "unit": "ms",
+            "extra": "Results: [10,10]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-7",
+            "value": 1640,
+            "unit": "ms",
+            "extra": "Results: [20,20]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-complex-8",
+            "value": 639,
+            "unit": "ms",
+            "extra": "Results: [20,20]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-short-1",
+            "value": 4.5,
+            "unit": "ms",
+            "extra": "Results: [1,1]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-short-2",
+            "value": 102,
+            "unit": "ms",
+            "extra": "Results: [6,10]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-short-3",
+            "value": 7.5,
+            "unit": "ms",
+            "extra": "Results: [10,10]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-short-4",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [1,1]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-short-5",
+            "value": 3,
+            "unit": "ms",
+            "extra": "Results: [1,1]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-short-6",
+            "value": 5,
+            "unit": "ms",
+            "extra": "Results: [1,1]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - interactive-short-7",
+            "value": 4.5,
+            "unit": "ms",
+            "extra": "Results: [0,0]; Error: [false,false]; HTTP Requests: [0,0]"
+          },
+          {
+            "name": "LDBC-SNB-File - failed queries",
+            "value": 0,
+            "unit": "failed instantiations",
+            "extra": "None"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-1",
+            "value": 10419,
+            "unit": "ms",
+            "extra": "Results: [18]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-10",
+            "value": 45,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-11",
+            "value": 2399,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-12",
+            "value": 103858,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-13",
+            "value": 2137,
+            "unit": "ms",
+            "extra": "Results: [29]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-15",
+            "value": 99,
+            "unit": "ms",
+            "extra": "Results: [4]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-17",
+            "value": 1822,
+            "unit": "ms",
+            "extra": "Results: [1]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-2",
+            "value": 18374,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-20",
+            "value": 37246,
+            "unit": "ms",
+            "extra": "Results: [6]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-21",
+            "value": 214,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-23",
+            "value": 6128,
+            "unit": "ms",
+            "extra": "Results: [31]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-24",
+            "value": 11697,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-3",
+            "value": 17570,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-4",
+            "value": 311,
+            "unit": "ms",
+            "extra": "Results: [8]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-6",
+            "value": 3371,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-7",
+            "value": 5009,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - bi-8",
+            "value": 969,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [0]"
+          },
+          {
+            "name": "LDBC-SNB-BI-File - failed queries",
+            "value": 3,
+            "unit": "failed instantiations",
+            "extra": "bi-14: 1/1 failed; bi-18: 1/1 failed; bi-22: 1/1 failed"
+          },
+          {
+            "name": "LargeRDFBench-File - C1",
+            "value": 6959,
+            "unit": "ms",
+            "extra": "Results: [1000]; Error: [false]; HTTP Requests: [7269]"
+          },
+          {
+            "name": "LargeRDFBench-File - C3",
+            "value": 6475,
+            "unit": "ms",
+            "extra": "Results: [9]; Error: [false]; HTTP Requests: [438]"
+          },
+          {
+            "name": "LargeRDFBench-File - C4",
+            "value": 5594,
+            "unit": "ms",
+            "extra": "Results: [50]; Error: [false]; HTTP Requests: [151]"
+          },
+          {
+            "name": "LargeRDFBench-File - C5",
+            "value": 10107,
+            "unit": "ms",
+            "extra": "Results: [500]; Error: [false]; HTTP Requests: [3213]"
+          },
+          {
+            "name": "LargeRDFBench-File - C7",
+            "value": 3554,
+            "unit": "ms",
+            "extra": "Results: [134]; Error: [false]; HTTP Requests: [957]"
+          },
+          {
+            "name": "LargeRDFBench-File - C8",
+            "value": 6237,
+            "unit": "ms",
+            "extra": "Results: [3073]; Error: [false]; HTTP Requests: [787]"
+          },
+          {
+            "name": "LargeRDFBench-File - C9",
+            "value": 18308,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [17059]"
+          },
+          {
+            "name": "LargeRDFBench-File - S10",
+            "value": 6812,
+            "unit": "ms",
+            "extra": "Results: [9054]; Error: [false]; HTTP Requests: [7537]"
+          },
+          {
+            "name": "LargeRDFBench-File - S11",
+            "value": 748,
+            "unit": "ms",
+            "extra": "Results: [3]; Error: [false]; HTTP Requests: [77]"
+          },
+          {
+            "name": "LargeRDFBench-File - S12",
+            "value": 14511,
+            "unit": "ms",
+            "extra": "Results: [393]; Error: [false]; HTTP Requests: [15079]"
+          },
+          {
+            "name": "LargeRDFBench-File - S13",
+            "value": 2451,
+            "unit": "ms",
+            "extra": "Results: [28]; Error: [false]; HTTP Requests: [1643]"
+          },
+          {
+            "name": "LargeRDFBench-File - S14",
+            "value": 4177,
+            "unit": "ms",
+            "extra": "Results: [1620]; Error: [false]; HTTP Requests: [3039]"
+          },
+          {
+            "name": "LargeRDFBench-File - S2",
+            "value": 270,
+            "unit": "ms",
+            "extra": "Results: [1]; Error: [false]; HTTP Requests: [39]"
+          },
+          {
+            "name": "LargeRDFBench-File - S3",
+            "value": 684,
+            "unit": "ms",
+            "extra": "Results: [2]; Error: [false]; HTTP Requests: [93]"
+          },
+          {
+            "name": "LargeRDFBench-File - S4",
+            "value": 1284,
+            "unit": "ms",
+            "extra": "Results: [1]; Error: [false]; HTTP Requests: [171]"
+          },
+          {
+            "name": "LargeRDFBench-File - S5",
+            "value": 630,
+            "unit": "ms",
+            "extra": "Results: [2]; Error: [false]; HTTP Requests: [84]"
+          },
+          {
+            "name": "LargeRDFBench-File - S6",
+            "value": 1504,
+            "unit": "ms",
+            "extra": "Results: [11]; Error: [false]; HTTP Requests: [195]"
+          },
+          {
+            "name": "LargeRDFBench-File - S7",
+            "value": 1529,
+            "unit": "ms",
+            "extra": "Results: [2]; Error: [false]; HTTP Requests: [219]"
+          },
+          {
+            "name": "LargeRDFBench-File - S8",
+            "value": 229,
+            "unit": "ms",
+            "extra": "Results: [1159]; Error: [false]; HTTP Requests: [29]"
+          },
+          {
+            "name": "LargeRDFBench-File - failed queries",
+            "value": 0,
+            "unit": "failed instantiations",
+            "extra": "None"
+          },
+          {
+            "name": "Web - dbpedia/airports-italy",
+            "value": 1088.3333333333333,
+            "unit": "ms",
+            "extra": "Results: [19]; Error: [false]; HTTP Requests: [22]"
+          },
+          {
+            "name": "Web - dbpedia/artists-york-filter",
+            "value": 8917.666666666666,
+            "unit": "ms",
+            "extra": "Results: [32]; Error: [false]; HTTP Requests: [516]"
+          },
+          {
+            "name": "Web - dbpedia/artists-york",
+            "value": 9284.333333333334,
+            "unit": "ms",
+            "extra": "Results: [32]; Error: [false]; HTTP Requests: [516]"
+          },
+          {
+            "name": "Web - dbpedia/authors-books",
+            "value": 554.6666666666666,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [8.333333333333334]"
+          },
+          {
+            "name": "Web - dbpedia/bands-queen",
+            "value": 692,
+            "unit": "ms",
+            "extra": "Results: [9]; Error: [false]; HTTP Requests: [17]"
+          },
+          {
+            "name": "Web - dbpedia/belgian-software",
+            "value": 5169,
+            "unit": "ms",
+            "extra": "Results: [13]; Error: [false]; HTTP Requests: [142]"
+          },
+          {
+            "name": "Web - dbpedia/brad-pitt-inlaws-pp",
+            "value": 683,
+            "unit": "ms",
+            "extra": "Results: [8]; Error: [false]; HTTP Requests: [9]"
+          },
+          {
+            "name": "Web - dbpedia/brad-pitt-pp",
+            "value": 3161.6666666666665,
+            "unit": "ms",
+            "extra": "Results: [633]; Error: [false]; HTTP Requests: [81]"
+          },
+          {
+            "name": "Web - dbpedia/brad-pitt-service",
+            "value": 3528.6666666666665,
+            "unit": "ms",
+            "extra": "Results: [43]; Error: [false]; HTTP Requests: [123]"
+          },
+          {
+            "name": "Web - dbpedia/brad-pitt",
+            "value": 3158.6666666666665,
+            "unit": "ms",
+            "extra": "Results: [43]; Error: [false]; HTTP Requests: [122]"
+          },
+          {
+            "name": "Web - dbpedia/bruce-willis-pp",
+            "value": 547.3333333333334,
+            "unit": "ms",
+            "extra": "Results: [3]; Error: [false]; HTTP Requests: [8]"
+          },
+          {
+            "name": "Web - dbpedia/carpenters-crucifixion",
+            "value": 274.3333333333333,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: [false]; HTTP Requests: [3]"
+          },
+          {
+            "name": "Web - dbpedia/common-jesus",
+            "value": 38448.333333333336,
+            "unit": "ms",
+            "extra": "Results: [1000]; Error: [false]; HTTP Requests: [1851.3333333333333]"
+          },
+          {
+            "name": "Web - dbpedia/desserts-plants",
+            "value": 25596.333333333332,
+            "unit": "ms",
+            "extra": "Results: [168]; Error: [false]; HTTP Requests: [732]"
+          },
+          {
+            "name": "Web - dbpedia/events-trentino",
+            "value": 41261.333333333336,
+            "unit": "ms",
+            "extra": "Results: [29]; Error: [false]; HTTP Requests: [1839]"
+          },
+          {
+            "name": "Web - dbpedia/indian-dishes",
+            "value": 4029,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: [false]; HTTP Requests: [201]"
+          },
+          {
+            "name": "Web - dbpedia/michael-jackson",
+            "value": 3311,
+            "unit": "ms",
+            "extra": "Results: [26]; Error: [false]; HTTP Requests: [118]"
+          },
+          {
+            "name": "Web - dbpedia/natalie-portman",
+            "value": 1382.3333333333333,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: [false]; HTTP Requests: [34]"
+          },
+          {
+            "name": "Web - dbpedia/os-raspberrypi",
+            "value": 551.6666666666666,
+            "unit": "ms",
+            "extra": "Results: [0]; Error: [false]; HTTP Requests: [8]"
+          },
+          {
+            "name": "Web - dbpedia/people-cambridge-pairs-orderby-nolimit",
+            "value": 1545.6666666666667,
+            "unit": "ms",
+            "extra": "Results: [86142]; Error: [false]; HTTP Requests: [4]"
+          },
+          {
+            "name": "Web - dbpedia/people-cambridge-pairs-orderby",
+            "value": 1126.3333333333333,
+            "unit": "ms",
+            "extra": "Results: [10]; Error: [false]; HTTP Requests: [4]"
+          },
+          {
+            "name": "Web - dbpedia/women-mythology",
+            "value": 9818,
+            "unit": "ms",
+            "extra": "Results: [102]; Error: [false]; HTTP Requests: [712]"
+          },
+          {
+            "name": "Web - heterogeneous/harvard-san-francisco-limit-filter",
+            "value": 8332.333333333334,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [349.3333333333333]"
+          },
+          {
+            "name": "Web - heterogeneous/harvard-san-francisco-limit-service",
+            "value": 8191.333333333333,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [238.33333333333334]"
+          },
+          {
+            "name": "Web - heterogeneous/harvard-san-francisco-limit",
+            "value": 8180.333333333333,
+            "unit": "ms",
+            "extra": "Results: [100]; Error: [false]; HTTP Requests: [348.3333333333333]"
+          },
+          {
+            "name": "Web - other/bruce-willis-pp-cartesian",
+            "value": 915,
+            "unit": "ms",
+            "extra": "Results: [57]; Error: [false]; HTTP Requests: [13.333333333333334]"
+          },
+          {
+            "name": "Web - other/ruben-knows-zero-or-more",
+            "value": 664.3333333333334,
+            "unit": "ms",
+            "extra": "Results: [434]; Error: [false]; HTTP Requests: [3]"
+          },
+          {
+            "name": "Web - other/ruben-knows-zero-or-one",
+            "value": 225.33333333333334,
+            "unit": "ms",
+            "extra": "Results: [434]; Error: [false]; HTTP Requests: [3]"
+          },
+          {
+            "name": "Web - other/ruben-predicates",
+            "value": 208.66666666666666,
+            "unit": "ms",
+            "extra": "Results: [44]; Error: [false]; HTTP Requests: [3]"
+          },
+          {
+            "name": "Web - other/rubens-articles",
+            "value": 11082.333333333334,
             "unit": "ms",
             "extra": "Results: [111]; Error: [false]; HTTP Requests: [58]"
           },
