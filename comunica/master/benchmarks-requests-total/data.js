@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795338316891,
+  "lastUpdate": 1795530038986,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks HTTP request total results": [
@@ -34,6 +34,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "LargeRDFBench-File",
             "value": 58075,
+            "unit": "requests",
+            "extra": "Queries: 19; Excluded: []"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "636002a5734943d222fb63f21eecf68f735b7cdc",
+          "message": "Add support for extension aggregators (#1889)\n\nThese can be passed using the `extensionAggregators` context key.\n\nCloses #1584",
+          "timestamp": "2026-11-24T15:00:40+01:00",
+          "tree_id": "468782e663dc81f67c40a7fd6b56f9652f8f9831",
+          "url": "https://github.com/comunica/comunica/commit/636002a5734943d222fb63f21eecf68f735b7cdc"
+        },
+        "date": 1795530037875,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-TPF",
+            "value": 128843,
+            "unit": "requests",
+            "extra": "Queries: 20; Excluded: []"
+          },
+          {
+            "name": "LargeRDFBench-File",
+            "value": 58103,
             "unit": "requests",
             "extra": "Queries: 19; Excluded: []"
           }
