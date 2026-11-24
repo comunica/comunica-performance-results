@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795530041514,
+  "lastUpdate": 1795532822944,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks HTTP request detailed results": [
@@ -510,6 +510,264 @@ window.BENCHMARK_DATA = {
             "value": 221,
             "unit": "requests",
             "extra": "Failed: 0/1; Requests: [221]"
+          },
+          {
+            "name": "LargeRDFBench-File - S8",
+            "value": 29,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [29]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "ruben.taelman@ugent.be",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "distinct": true,
+          "id": "3a258e018a9c5f0b03f531b30ee1cdc659b5b7c9",
+          "message": "Bump to release version v5.5.0",
+          "timestamp": "2026-11-24T15:44:07+01:00",
+          "tree_id": "b4afd4ccd90802f4f93bb626cab510e98cd04a0e",
+          "url": "https://github.com/comunica/comunica/commit/3a258e018a9c5f0b03f531b30ee1cdc659b5b7c9"
+        },
+        "date": 1795532821766,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-TPF - C1",
+            "value": 4700,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [940,940,940,940,940]"
+          },
+          {
+            "name": "WatDiv-TPF - C2",
+            "value": 10955,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [2191,2191,2191,2191,2191]"
+          },
+          {
+            "name": "WatDiv-TPF - C3",
+            "value": 102270,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [20454,20454,20454,20454,20454]"
+          },
+          {
+            "name": "WatDiv-TPF - F1",
+            "value": 215,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [43,43,43,43,43]"
+          },
+          {
+            "name": "WatDiv-TPF - F2",
+            "value": 1671,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [444,84,381,381,381]"
+          },
+          {
+            "name": "WatDiv-TPF - F3",
+            "value": 986,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [274,274,19,229,190]"
+          },
+          {
+            "name": "WatDiv-TPF - F4",
+            "value": 1498,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [305,305,296,296,296]"
+          },
+          {
+            "name": "WatDiv-TPF - F5",
+            "value": 1859,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [338,338,400,594,189]"
+          },
+          {
+            "name": "WatDiv-TPF - L1",
+            "value": 238,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [42,44,56,40,56]"
+          },
+          {
+            "name": "WatDiv-TPF - L2",
+            "value": 55,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [10,10,10,15,10]"
+          },
+          {
+            "name": "WatDiv-TPF - L3",
+            "value": 200,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [35,34,48,48,35]"
+          },
+          {
+            "name": "WatDiv-TPF - L4",
+            "value": 25,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [5,5,5,5,5]"
+          },
+          {
+            "name": "WatDiv-TPF - L5",
+            "value": 55,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [10,10,10,15,10]"
+          },
+          {
+            "name": "WatDiv-TPF - S1",
+            "value": 2963,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [410,346,1003,410,794]"
+          },
+          {
+            "name": "WatDiv-TPF - S2",
+            "value": 550,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [155,80,80,155,80]"
+          },
+          {
+            "name": "WatDiv-TPF - S3",
+            "value": 35,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [7,7,7,7,7]"
+          },
+          {
+            "name": "WatDiv-TPF - S4",
+            "value": 369,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [90,90,9,90,90]"
+          },
+          {
+            "name": "WatDiv-TPF - S5",
+            "value": 35,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [7,7,7,7,7]"
+          },
+          {
+            "name": "WatDiv-TPF - S6",
+            "value": 138,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [96,4,18,14,6]"
+          },
+          {
+            "name": "WatDiv-TPF - S7",
+            "value": 26,
+            "unit": "requests",
+            "extra": "Failed: 0/5; Requests: [4,4,4,4,10]"
+          },
+          {
+            "name": "LargeRDFBench-File - C1",
+            "value": 7269,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [7269]"
+          },
+          {
+            "name": "LargeRDFBench-File - C3",
+            "value": 438,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [438]"
+          },
+          {
+            "name": "LargeRDFBench-File - C4",
+            "value": 151,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [151]"
+          },
+          {
+            "name": "LargeRDFBench-File - C5",
+            "value": 3213,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [3213]"
+          },
+          {
+            "name": "LargeRDFBench-File - C7",
+            "value": 957,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [957]"
+          },
+          {
+            "name": "LargeRDFBench-File - C8",
+            "value": 787,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [787]"
+          },
+          {
+            "name": "LargeRDFBench-File - C9",
+            "value": 17059,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [17059]"
+          },
+          {
+            "name": "LargeRDFBench-File - S10",
+            "value": 7537,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [7537]"
+          },
+          {
+            "name": "LargeRDFBench-File - S11",
+            "value": 77,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [77]"
+          },
+          {
+            "name": "LargeRDFBench-File - S12",
+            "value": 15079,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [15079]"
+          },
+          {
+            "name": "LargeRDFBench-File - S13",
+            "value": 1643,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [1643]"
+          },
+          {
+            "name": "LargeRDFBench-File - S14",
+            "value": 3039,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [3039]"
+          },
+          {
+            "name": "LargeRDFBench-File - S2",
+            "value": 39,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [39]"
+          },
+          {
+            "name": "LargeRDFBench-File - S3",
+            "value": 93,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [93]"
+          },
+          {
+            "name": "LargeRDFBench-File - S4",
+            "value": 171,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [171]"
+          },
+          {
+            "name": "LargeRDFBench-File - S5",
+            "value": 84,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [84]"
+          },
+          {
+            "name": "LargeRDFBench-File - S6",
+            "value": 195,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [195]"
+          },
+          {
+            "name": "LargeRDFBench-File - S7",
+            "value": 219,
+            "unit": "requests",
+            "extra": "Failed: 0/1; Requests: [219]"
           },
           {
             "name": "LargeRDFBench-File - S8",
