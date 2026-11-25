@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795532815100,
+  "lastUpdate": 1795615254499,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks ingestion results": [
@@ -2184,6 +2184,102 @@ window.BENCHMARK_DATA = {
             "value": 106,
             "unit": "MiB",
             "extra": "Triples: 1093014; Per triple: 102 bytes; Runs: [106,100,106,106,106]"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ef1acd7ea9c0046ba328cc3083027536a144014",
+          "message": "Enable spec tests fixed by Traqula 1.5.0 (#2044)\n\nTraqula 1.5.0 fixes the parser bugs for which these spec tests were\nskipped, so they now pass:\n\n- SPARQL 1.1: bindings#values-group-by-(projection|select-expression)\n  and syntax-query#test_group_by_values_scope_0[123]\n- SPARQL 1.2: syntax#duplicated-values-variable and\n  syntax#group-by-scope-bad-[123] (reverts #1898)\n\nThe remaining skips concern query evaluation, not parsing, and still fail.",
+          "timestamp": "2026-11-25T14:41:32+01:00",
+          "tree_id": "040d4cbca9a344f9cfbd3a37dde82070fc17a54a",
+          "url": "https://github.com/comunica/comunica/commit/2ef1acd7ea9c0046ba328cc3083027536a144014"
+        },
+        "date": 1795615253607,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "bsbm-file-10k - ingestion time",
+            "value": 12403,
+            "unit": "ms",
+            "extra": "Triples: 3564773; Throughput: 287412 triples/s; Runs: [12490,12403,12370,12512,12392]"
+          },
+          {
+            "name": "bsbm-file-10k - memory after ingestion",
+            "value": 785,
+            "unit": "MiB",
+            "extra": "Triples: 3564773; Per triple: 231 bytes; Runs: [794,785,767,786,782]; Heap used: [350,350,350,350,350]; External: [248,248,248,248,248]"
+          },
+          {
+            "name": "bsbm-file-10k - store size after ingestion",
+            "value": 558,
+            "unit": "MiB",
+            "extra": "Triples: 3564773; Per triple: 164 bytes; Runs: [558,558,558,558,558]"
+          },
+          {
+            "name": "bsbm-file - ingestion time",
+            "value": 1039,
+            "unit": "ms",
+            "extra": "Triples: 374911; Throughput: 360838 triples/s; Runs: [1048,1039,1030,1035,1049]"
+          },
+          {
+            "name": "bsbm-file - memory after ingestion",
+            "value": 242,
+            "unit": "MiB",
+            "extra": "Triples: 374911; Per triple: 677 bytes; Runs: [245,239,242,244,240]; Heap used: [73,73,73,73,73]; External: [32,32,32,32,32]"
+          },
+          {
+            "name": "bsbm-file - store size after ingestion",
+            "value": 64,
+            "unit": "MiB",
+            "extra": "Triples: 374911; Per triple: 179 bytes; Runs: [64,64,64,64,64]"
+          },
+          {
+            "name": "ldbc-snb-file - ingestion time",
+            "value": 15350,
+            "unit": "ms",
+            "extra": "Triples: 4028513; Throughput: 262444 triples/s; Runs: [15350,15275,15356,15274,15492]"
+          },
+          {
+            "name": "ldbc-snb-file - memory after ingestion",
+            "value": 788,
+            "unit": "MiB",
+            "extra": "Triples: 4028513; Per triple: 205 bytes; Runs: [783,798,790,781,788]; Heap used: [330,330,330,330,330]; External: [284,284,284,284,284]"
+          },
+          {
+            "name": "ldbc-snb-file - store size after ingestion",
+            "value": 573,
+            "unit": "MiB",
+            "extra": "Triples: 4028513; Per triple: 149 bytes; Runs: [573,573,573,573,573]"
+          },
+          {
+            "name": "watdiv-file - ingestion time",
+            "value": 2089,
+            "unit": "ms",
+            "extra": "Triples: 1093014; Throughput: 523224 triples/s; Runs: [2060,2089,2102,2091,2077]"
+          },
+          {
+            "name": "watdiv-file - memory after ingestion",
+            "value": 267,
+            "unit": "MiB",
+            "extra": "Triples: 1093014; Per triple: 256 bytes; Runs: [267,267,269,268,267]; Heap used: [55,53,53,55,53]; External: [88,88,88,88,88]"
+          },
+          {
+            "name": "watdiv-file - store size after ingestion",
+            "value": 100,
+            "unit": "MiB",
+            "extra": "Triples: 1093014; Per triple: 96 bytes; Runs: [103,100,100,103,100]"
           }
         ]
       }
