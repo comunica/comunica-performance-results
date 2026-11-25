@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795531657814,
+  "lastUpdate": 1795614256447,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Bundle sizes": [
@@ -3867,6 +3867,130 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/comunica/comunica/commit/3a258e018a9c5f0b03f531b30ee1cdc659b5b7c9"
         },
         "date": 1795531656729,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "expressions-sparql (webpack) - minified",
+            "value": 816488,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (webpack) - gzipped",
+            "value": 172068,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (vite) - minified",
+            "value": 796240,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (vite) - gzipped",
+            "value": 173032,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (webpack) - minified",
+            "value": 2197608,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (webpack) - gzipped",
+            "value": 507362,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (vite) - minified",
+            "value": 2143031,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (vite) - gzipped",
+            "value": 511060,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (webpack) - minified",
+            "value": 2197608,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (webpack) - gzipped",
+            "value": 507361,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (vite) - minified",
+            "value": 2143031,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (vite) - gzipped",
+            "value": 511060,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (webpack) - minified",
+            "value": 1670482,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (webpack) - gzipped",
+            "value": 358210,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (vite) - minified",
+            "value": 1627251,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (vite) - gzipped",
+            "value": 360776,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (webpack) - minified",
+            "value": 1180206,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (webpack) - gzipped",
+            "value": 238501,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (vite) - minified",
+            "value": 1147134,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (vite) - gzipped",
+            "value": 239304,
+            "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ef1acd7ea9c0046ba328cc3083027536a144014",
+          "message": "Enable spec tests fixed by Traqula 1.5.0 (#2044)\n\nTraqula 1.5.0 fixes the parser bugs for which these spec tests were\nskipped, so they now pass:\n\n- SPARQL 1.1: bindings#values-group-by-(projection|select-expression)\n  and syntax-query#test_group_by_values_scope_0[123]\n- SPARQL 1.2: syntax#duplicated-values-variable and\n  syntax#group-by-scope-bad-[123] (reverts #1898)\n\nThe remaining skips concern query evaluation, not parsing, and still fail.",
+          "timestamp": "2026-11-25T14:41:32+01:00",
+          "tree_id": "040d4cbca9a344f9cfbd3a37dde82070fc17a54a",
+          "url": "https://github.com/comunica/comunica/commit/2ef1acd7ea9c0046ba328cc3083027536a144014"
+        },
+        "date": 1795614255052,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
