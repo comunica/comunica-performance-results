@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1793163259135,
+  "lastUpdate": 1795594831551,
   "repoUrl": "https://github.com/comunica/comunica-feature-hdt",
   "entries": {
     "Benchmarks total results": [
@@ -3007,6 +3007,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "BSBM-HDT-10k",
             "value": 816,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "29139614+renovate[bot]@users.noreply.github.com",
+            "name": "renovate[bot]",
+            "username": "renovate[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "bc7451ad3280baf03a3b51fa38f6e0aaa7289a5f",
+          "message": "Update Comunica monorepo packages to ^5.5.0",
+          "timestamp": "2026-11-25T00:42:53Z",
+          "tree_id": "c183c5b34246141a5a37e565b090b780e5804e27",
+          "url": "https://github.com/comunica/comunica-feature-hdt/commit/bc7451ad3280baf03a3b51fa38f6e0aaa7289a5f"
+        },
+        "date": 1795594830561,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-HDT",
+            "value": 1326.666666666667,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-HDT-100",
+            "value": 7801.666666666665,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT",
+            "value": 219.07800000000003,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-HDT-10k",
+            "value": 1257.692,
             "unit": "ms"
           }
         ]
