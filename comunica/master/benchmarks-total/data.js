@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795532810145,
+  "lastUpdate": 1795615250762,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -18793,6 +18793,75 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 201929.33333333337,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ef1acd7ea9c0046ba328cc3083027536a144014",
+          "message": "Enable spec tests fixed by Traqula 1.5.0 (#2044)\n\nTraqula 1.5.0 fixes the parser bugs for which these spec tests were\nskipped, so they now pass:\n\n- SPARQL 1.1: bindings#values-group-by-(projection|select-expression)\n  and syntax-query#test_group_by_values_scope_0[123]\n- SPARQL 1.2: syntax#duplicated-values-variable and\n  syntax#group-by-scope-bad-[123] (reverts #1898)\n\nThe remaining skips concern query evaluation, not parsing, and still fail.",
+          "timestamp": "2026-11-25T14:41:32+01:00",
+          "tree_id": "040d4cbca9a344f9cfbd3a37dde82070fc17a54a",
+          "url": "https://github.com/comunica/comunica/commit/2ef1acd7ea9c0046ba328cc3083027536a144014"
+        },
+        "date": 1795615249845,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 179.20000000000002,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 18031.000000000007,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 31.981,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 96.12200000000001,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1114.599,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 16918.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 259024,
+            "unit": "ms"
+          },
+          {
+            "name": "LargeRDFBench-File",
+            "value": 85464,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 223085.99999999997,
             "unit": "ms"
           }
         ]
