@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795532819892,
+  "lastUpdate": 1795615259445,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks HTTP request total results": [
@@ -106,6 +106,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "LargeRDFBench-File",
             "value": 58079,
+            "unit": "requests",
+            "extra": "Queries: 19; Excluded: []"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ef1acd7ea9c0046ba328cc3083027536a144014",
+          "message": "Enable spec tests fixed by Traqula 1.5.0 (#2044)\n\nTraqula 1.5.0 fixes the parser bugs for which these spec tests were\nskipped, so they now pass:\n\n- SPARQL 1.1: bindings#values-group-by-(projection|select-expression)\n  and syntax-query#test_group_by_values_scope_0[123]\n- SPARQL 1.2: syntax#duplicated-values-variable and\n  syntax#group-by-scope-bad-[123] (reverts #1898)\n\nThe remaining skips concern query evaluation, not parsing, and still fail.",
+          "timestamp": "2026-11-25T14:41:32+01:00",
+          "tree_id": "040d4cbca9a344f9cfbd3a37dde82070fc17a54a",
+          "url": "https://github.com/comunica/comunica/commit/2ef1acd7ea9c0046ba328cc3083027536a144014"
+        },
+        "date": 1795615258539,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-TPF",
+            "value": 128843,
+            "unit": "requests",
+            "extra": "Queries: 20; Excluded: []"
+          },
+          {
+            "name": "LargeRDFBench-File",
+            "value": 58066,
             "unit": "requests",
             "extra": "Queries: 19; Excluded: []"
           }
