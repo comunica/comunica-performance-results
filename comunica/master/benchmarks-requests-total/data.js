@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795615259445,
+  "lastUpdate": 1795618438833,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks HTTP request total results": [
@@ -142,6 +142,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "LargeRDFBench-File",
             "value": 58066,
+            "unit": "requests",
+            "extra": "Queries: 19; Excluded: []"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "02d4ceba8cd9482ca7ae3906c65efeaca39ea4a5",
+          "message": "Fix missing support for extension aggregates in the standalone expression engine (#2043)",
+          "timestamp": "2026-11-25T15:32:36+01:00",
+          "tree_id": "2b9262bb31b4ffa5ebc5bd3457e805f6077facad",
+          "url": "https://github.com/comunica/comunica/commit/02d4ceba8cd9482ca7ae3906c65efeaca39ea4a5"
+        },
+        "date": 1795618437607,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-TPF",
+            "value": 128843,
+            "unit": "requests",
+            "extra": "Queries: 20; Excluded: []"
+          },
+          {
+            "name": "LargeRDFBench-File",
+            "value": 58082,
             "unit": "requests",
             "extra": "Queries: 19; Excluded: []"
           }
