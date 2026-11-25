@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795615250762,
+  "lastUpdate": 1795618429447,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -18862,6 +18862,75 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 223085.99999999997,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "02d4ceba8cd9482ca7ae3906c65efeaca39ea4a5",
+          "message": "Fix missing support for extension aggregates in the standalone expression engine (#2043)",
+          "timestamp": "2026-11-25T15:32:36+01:00",
+          "tree_id": "2b9262bb31b4ffa5ebc5bd3457e805f6077facad",
+          "url": "https://github.com/comunica/comunica/commit/02d4ceba8cd9482ca7ae3906c65efeaca39ea4a5"
+        },
+        "date": 1795618428079,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 236.4,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 23473,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 44.99,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 105.54899999999999,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1476.587,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 15586,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 319514,
+            "unit": "ms"
+          },
+          {
+            "name": "LargeRDFBench-File",
+            "value": 97525,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 233376.99999999997,
             "unit": "ms"
           }
         ]
