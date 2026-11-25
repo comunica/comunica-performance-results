@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795614256447,
+  "lastUpdate": 1795617277195,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Bundle sizes": [
@@ -4011,6 +4011,130 @@ window.BENCHMARK_DATA = {
           {
             "name": "expressions-sparql (vite) - gzipped",
             "value": 173032,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (webpack) - minified",
+            "value": 2197608,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (webpack) - gzipped",
+            "value": 507362,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (vite) - minified",
+            "value": 2143031,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql (vite) - gzipped",
+            "value": 511060,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (webpack) - minified",
+            "value": 2197608,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (webpack) - gzipped",
+            "value": 507361,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (vite) - minified",
+            "value": 2143031,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-file (vite) - gzipped",
+            "value": 511060,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (webpack) - minified",
+            "value": 1670482,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (webpack) - gzipped",
+            "value": 358210,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (vite) - minified",
+            "value": 1627251,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs (vite) - gzipped",
+            "value": 360776,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (webpack) - minified",
+            "value": 1180206,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (webpack) - gzipped",
+            "value": 238501,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (vite) - minified",
+            "value": 1147134,
+            "unit": "bytes"
+          },
+          {
+            "name": "query-sparql-rdfjs-lite (vite) - gzipped",
+            "value": 239304,
+            "unit": "bytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "35114273+jitsedesmet@users.noreply.github.com",
+            "name": "Jitse De Smet",
+            "username": "jitsedesmet"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "02d4ceba8cd9482ca7ae3906c65efeaca39ea4a5",
+          "message": "Fix missing support for extension aggregates in the standalone expression engine (#2043)",
+          "timestamp": "2026-11-25T15:32:36+01:00",
+          "tree_id": "2b9262bb31b4ffa5ebc5bd3457e805f6077facad",
+          "url": "https://github.com/comunica/comunica/commit/02d4ceba8cd9482ca7ae3906c65efeaca39ea4a5"
+        },
+        "date": 1795617276097,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "expressions-sparql (webpack) - minified",
+            "value": 819436,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (webpack) - gzipped",
+            "value": 172606,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (vite) - minified",
+            "value": 799046,
+            "unit": "bytes"
+          },
+          {
+            "name": "expressions-sparql (vite) - gzipped",
+            "value": 173623,
             "unit": "bytes"
           },
           {
