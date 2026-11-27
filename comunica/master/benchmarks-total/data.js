@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795783621367,
+  "lastUpdate": 1795795396639,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks total results": [
@@ -19069,6 +19069,75 @@ window.BENCHMARK_DATA = {
           {
             "name": "Web",
             "value": 216488.00000000003,
+            "unit": "ms"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "417ff3eb23f970cb97427d2e1c5d4939e31d26ef",
+          "message": "Fix failing stageRelease test on Windows (#2054)",
+          "timestamp": "2026-11-27T15:17:11+01:00",
+          "tree_id": "1f0f20a2eaec3f0c8fe5ec512210abf50c020977",
+          "url": "https://github.com/comunica/comunica/commit/417ff3eb23f970cb97427d2e1c5d4939e31d26ef"
+        },
+        "date": 1795795395705,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-File",
+            "value": 179.79999999999998,
+            "unit": "ms"
+          },
+          {
+            "name": "WatDiv-TPF",
+            "value": 17513,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File",
+            "value": 46.626,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-File-10k",
+            "value": 104.082,
+            "unit": "ms"
+          },
+          {
+            "name": "BSBM-TPF",
+            "value": 1107.3460000000002,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-File",
+            "value": 17768.5,
+            "unit": "ms"
+          },
+          {
+            "name": "LDBC-SNB-BI-File",
+            "value": 274772,
+            "unit": "ms"
+          },
+          {
+            "name": "LargeRDFBench-File",
+            "value": 107097,
+            "unit": "ms"
+          },
+          {
+            "name": "Web",
+            "value": 201657.99999999997,
             "unit": "ms"
           }
         ]
