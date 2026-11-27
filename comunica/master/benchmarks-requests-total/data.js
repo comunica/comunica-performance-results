@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1795618438833,
+  "lastUpdate": 1795778654151,
   "repoUrl": "https://github.com/comunica/comunica",
   "entries": {
     "Benchmarks HTTP request total results": [
@@ -178,6 +178,42 @@ window.BENCHMARK_DATA = {
           {
             "name": "LargeRDFBench-File",
             "value": 58082,
+            "unit": "requests",
+            "extra": "Queries: 19; Excluded: []"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "rubensworks@users.noreply.github.com",
+            "name": "Ruben Taelman",
+            "username": "rubensworks"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7327c03d113733a69887b9b3c094bc5bb4b4fd9d",
+          "message": "Replace deprecated url.parse in SPARQL endpoint (#2050)",
+          "timestamp": "2026-11-27T11:57:06+01:00",
+          "tree_id": "dbc52a339e9cbc69b727a2c0819df373ed56a571",
+          "url": "https://github.com/comunica/comunica/commit/7327c03d113733a69887b9b3c094bc5bb4b4fd9d"
+        },
+        "date": 1795778653141,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "WatDiv-TPF",
+            "value": 128843,
+            "unit": "requests",
+            "extra": "Queries: 20; Excluded: []"
+          },
+          {
+            "name": "LargeRDFBench-File",
+            "value": 58062,
             "unit": "requests",
             "extra": "Queries: 19; Excluded: []"
           }
